@@ -1,0 +1,62 @@
+{
+  "name": "@getclave/locales",
+  "description": "Clave locales",
+  "version": "1.0.0",
+  "author": "getclave.io",
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "4.2.0",
+    "@typescript-eslint/eslint-plugin": "7.5.0",
+    "@typescript-eslint/parser": "7.5.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "prettier": "2.8.8",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "16.0.0",
+    "ts-jest": "29.1.1",
+    "ts-node": "10.9.1"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".*\\.test\\.ts$",
+    "transform": {
+      ".+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "clave",
+    "locales",
+    "zksync"
+  ],
+  "license": "MIT",
+  "main": "src/index.ts",
+  "maintainers": [
+    {
+      "name": "Farhad Asgarov",
+      "email": "farhad@clave.team"
+    }
+  ],
+  "private": false,
+  "publisher": "getclave.io",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "dev": "tsc --watch",
+    "format": "prettier --write \"./**/*.ts\"",
+    "lint": "eslint \"./**/*.ts\" --fix",
+    "lint-check": "eslint \"./**/*.ts\"",
+    "release": "npm run build && npm publish",
+    "test": "exit 0"
+  },
+  "types": "src/index.ts"
+}
