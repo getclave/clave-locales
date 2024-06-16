@@ -6,11 +6,11 @@ Welcome to the Clave! We're thrilled you're considering contributing to our proj
 
 1. **Fork the Repository**
 
-    - Create your own fork of the repo. This allows you to work freely without affecting the main project.
+    - Create your own fork of the repository. This allows you to work freely without affecting the main project.
 
 2. **Create a Branch**
 
-    - Create a branch in your forked repo for your contribution. Preferably, use a clear and descriptive name.
+    - Create a branch in your forked repository for your contribution. Preferably, use a clear and descriptive name.
 
 3. **Make Your Changes**
 
