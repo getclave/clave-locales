@@ -1,8 +1,8 @@
-<img style="width:100%" src="https://getclave.io/logo-small.png">
+<img style="width: 100%" src="./docs/thumbnail.png">
 
 ## Clave Locales
 
-This
+This package is created to accept contributions from public for Clave App translations. Please check contribution documentation to open your pull requests to support various languages in Clave.
 
 ## One-Click Onboarding to Future of Finance
 
