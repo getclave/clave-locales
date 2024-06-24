@@ -3,7 +3,9 @@
  * Unauthorized copying of this file, via any medium is strictly prohibited
  * Proprietary and confidential
  */
-export const en = {
+import { type Locale } from './types';
+
+export const en: Locale = {
     locale: 'en',
     general: {
         identifiers: {
