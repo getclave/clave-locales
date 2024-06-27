@@ -92,7 +92,8 @@ export const en = {
             subtext:
                 'Your friends on Clave or any addresses on zkSync Era can be assigned as guardians.',
             'subtext-link': 'Tap to learn more',
-            'subtext-link-url': 'https://blog.getclave.io/',
+            'subtext-link-url':
+                'https://blog.getclave.io/recovery-for-everyone-cloud-and-guardians',
             cancel: 'Cancel Backup',
             add_new_guardian: 'Add New Guardians',
             add_guardian_max: 'Maximum Guardians Limit Reached',
@@ -1257,7 +1258,8 @@ export const en = {
     invest: {
         __description: 'Earn page related translations',
         completed: {
-            __description: 'When the earn position is started',
+            __description:
+                'Earn page showing the results of Earn-related transactions',
             title: {
                 invest: '{{amount}} {{symbol}} Deposited',
                 withdraw: '{{amount}} {{symbol}} Withdrawn',
@@ -1274,97 +1276,124 @@ export const en = {
         },
         options: {
             title: 'Earn',
-            banner: {
-                earnings: 'Total Collectable Earnings',
-                info: 'You can earn up to ${{earn}} with $1000',
-                learn: 'Tap here to learn more',
-            },
             positions: 'Positions',
             options: 'Available Options',
-            deposited: 'Amount',
+        },
+        option: {
+            manage: 'On {{protocol}}',
+            soon: 'Soon',
+            stake: 'Stake now',
         },
         position: {
             details: {
-                amount: 'Withdrawable Amount',
-                apr: 'Annual Percentage Rate (APR)',
-                title: 'Position Details',
-                banner: {
-                    earnings: 'My earnings',
+                amount: {
+                    withdrawable: 'Withdrawable Amount',
+                    compounded: 'Compounded Amount',
+                    deposited: 'Deposited Amount',
                 },
+                apr: 'Annual Percentage Rate (APR)',
+                apy: 'Annual Percentage Yield (APY)',
+                earnings: {
+                    compounded: 'Compounded Earnings',
+                    collectable: 'Collectable Earnings',
+                },
+                title: 'Position Details',
                 increase: 'Increase position',
                 withdraw: 'Withdraw',
                 collect: 'Collect',
-                bottom_sheet: {
+                advanced: {
                     managed: 'Managed by',
                     liquidity: 'Liquidity',
+                    token: 'Token',
                     tokens: 'Underlying tokens',
                     pool: 'Pool URL',
                     title: 'Position Details',
                     done: 'Done',
                 },
             },
+            information: {
+                collectible: {
+                    first: 'There is single type of yield in this position: Collectible.',
+                    second: 'Tap to learn more',
+                },
+                compounded: {
+                    first: 'There is single type of yield in this position: Compounded.',
+                    second: 'Tap to learn more',
+                },
+                both: {
+                    first: 'There are two types of yield earnings in this position: Compounded and Collectible.',
+                    second: 'Tap to learn more',
+                },
+            },
         },
-        amount: {
+        deposit: {
             title: 'Earn',
-            estimate: 'Estimated value: {{value}}',
-            position: 'Position details',
-            continue: 'Proceed',
             available: '{{balance}} {{symbol}} available',
+            min_amount: 'Minimum amount is {{amount}}',
+            max_staking: 'Amount exceeds limit',
+            continue: 'Proceed',
             insufficient: 'Insufficient Balance',
+            max_staking_alert: 'Remaining limit for fair usage: {{amount}}',
+            position: 'Position details',
         },
         withdraw: {
-            amount: {
-                title: 'Withdraw',
-                estimate: 'Estimated value: {{value}}',
-                continue: 'Proceed',
-            },
-            token: {
-                available: '{{amount}} {{symbol}} available',
-            },
+            title: 'Withdraw',
+            estimate: 'Estimated value: {{value}}',
+            available: '{{amount}} {{symbol}} available',
+            continue: 'Proceed',
         },
         before: {
-            __description:
-                'The information bottom sheet that pops up when user tries to initiate an earn position',
-            title: 'Before Proceeding',
-            subtext:
-                'Before you begin the staking process, carefully reviewing this information will guide you in your decision-making process.',
-            continue: 'I understand',
-            market: {
-                title: 'Unregulated Markets',
-                text: 'Earn utilizes Defi, which has potential risks that may lead to asset loss. Clave is an unhosted non-custodial wallet. Invest at your own risk.',
+            deposit: {
+                __description:
+                    'The information bottom sheet that pops up when user tries to initiate an earn position',
+                title: 'Before Proceeding',
+                subtext:
+                    'Before you begin the staking process, carefully reviewing this information will guide you in your decision-making process.',
+                continue: 'I understand',
+                market: {
+                    title: 'Unregulated Markets',
+                    text: 'Earn utilizes Defi, which has potential risks that may lead to asset loss. Clave is an unhosted non-custodial wallet. Invest at your own risk.',
+                },
+                yield: {
+                    title: 'Earning Every Minute',
+                    text: 'Yields depend on the activity of the pool and may change daily. Rate is and estimation of annualized return calculated from last 24hr.',
+                },
+                withdraw: {
+                    title: 'Flexible Withdraw',
+                    text: 'Your earnings will be calculated continously and you can collect and withdraw any time you want.',
+                },
             },
-            yield: {
-                title: 'Earning Every Minute',
-                text: 'Yields depend on the activity of the pool and may change daily. Rate is and estimation of annualized return calculated from last 24hr.',
+        },
+        active: {
+            position: {
+                amount: 'Amount',
             },
-            withdraw: {
-                title: 'Flexible Withdraw',
-                text: 'Your earnings will be calculated continously and you can collect and withdraw any time you want.',
-            },
+        },
+        banner: {
+            info: 'You can earn up to ${{earn}} with $1000',
+            learn: 'Tap here to learn more',
         },
         collect: {
             earnings: {
                 title: 'Collect Earnings',
                 subtext:
                     'You have earned {{earningAmount}} {{symbol}} so far. Do you want to collect your reward while withdrawing your funds?',
-                total: 'Total',
+                withdrawal: 'Withdrawal Amount',
+                earnings: 'Earnings',
                 withdraw: {
                     both: 'Collect & Withdraw',
                     only: 'Only Withdraw',
                 },
-                collect: {
-                    continue: 'Collect',
-                    back: 'Back',
-                },
+                back: 'Back',
             },
         },
-        work: {
-            __description:
-                'The info bottom sheet when earn page is visited for the first time',
+        counter: {
+            title: 'Estimated Earnings',
+        },
+        how_it_works: {
             title: 'How Earn Works?',
             subtext:
                 'Clave is a self-custodial wallet that provides easy access to yield opportunities in DeFi, ensuring that your money remains in your control when you utilize Earn options.',
-            continue: 'Ready to Earn',
             defi: {
                 title: 'Utilizing DeFi Protocols',
                 text: 'You can earn yields while keeping your money in your custody.',
@@ -1377,6 +1406,7 @@ export const en = {
                 title: 'Dynamic APR',
                 text: "The yield comes from the underlying pool's commissions and changes dynamically based on usage.",
             },
+            continue: 'Ready to Earn',
         },
         insufficient: {
             balance: {
@@ -1386,6 +1416,20 @@ export const en = {
                 swap: 'Swap to {{token}}',
                 deposit: 'Deposit {{token}}',
                 buy: 'Buy {{token}} (soon)',
+            },
+        },
+        yield: {
+            information: {
+                title: 'How you earn?',
+                compound: {
+                    title: 'Compounded Yield',
+                    text: 'This yield comes from rewards of {{token}} and is directly added to the deposited amount.',
+                },
+                collectible: {
+                    title: 'Collectible Yield',
+                    text: 'These are rewards provided by the underlying platform and need to be collected manually upon withdrawal.',
+                },
+                continue: 'Ready to Earn',
             },
         },
     },
