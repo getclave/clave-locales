@@ -729,10 +729,12 @@ export const en = {
             fetch_error: 'An error occurred while fetching transaction history',
         },
     },
-    dappstore: {
+    browser: {
         title: 'Browser',
         search: 'Search for a Dapp',
-        visit: 'Visit Website',
+        empty_state_favorites: 'Add dapps to favourites to access them quickly',
+        favorites: 'Favorites',
+        search_placeholder: 'Search or enter website',
     },
     recover: {
         __description:
