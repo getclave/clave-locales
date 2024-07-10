@@ -1474,4 +1474,11 @@ export const en = {
         approval: 'I understand',
         never_show: 'Do not show again',
     },
+    no_backup_bottom_sheet: {
+        title: 'Improve Account Security',
+        subtext:
+            "You are advised to add backups for your accounts in case you lose access to your current device. If not, you won't be able to access your account.",
+        approval: 'I understand',
+        cancel: 'I take the risk',
+    },
 };
