@@ -732,7 +732,7 @@ export const en = {
     browser: {
         title: 'Browser',
         search: 'Search Results',
-        empty_state_favorites: 'Add dapps to favourites to access them quickly',
+        empty_state_favorites: 'Add dapps to favorites to access them quickly',
         favorites: 'Favorites',
         search_placeholder: 'Search or enter website',
     },
