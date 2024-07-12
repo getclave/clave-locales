@@ -1486,10 +1486,10 @@ export const en = {
         never_show: 'Do not show again',
     },
     no_backup_bottom_sheet: {
-        title: 'Improve Account Security',
+        title: 'Add a Guardian for Backup',
         subtext:
-            "You are advised to add backups for your accounts in case you lose access to your current device. If not, you won't be able to access your account.",
-        approval: 'I understand',
-        cancel: 'I take the risk',
+            'To protect your account, please add a backup guardian. This ensures you can regain access if you lose your current device. Without a guardian, you may not be able to access your account.',
+        approval: 'Add Guardian',
+        cancel: 'Remind Me Later',
     },
 };
