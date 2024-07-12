@@ -1123,23 +1123,25 @@ export const en = {
         network: {
             __description: 'Deposit options page where networs are listed',
             option: {
-                cost: 'Cost',
-                speed: 'Speed',
-                time: '{{time}} min',
+                no_fee: 'No fee',
+                fee: 'Fee: ${{fee}}',
+                bridge_speed: 'Speed: {{time}} min',
+                recommended: 'Recommended',
             },
             warning: {
-                subtext: {
-                    first: 'You need to transfer',
-                    third: 'from another wallet or centralized exchange to the address below on the',
-                    fifth: 'network.',
-                },
                 continue: 'I understood, proceed',
+                info: 'To transfer funds, you need to send them from another wallet or an exchange to the address copied on the {{network}} network.',
+                amount: {
+                    min: 'Minimum amount',
+                    max: 'Maximum amount',
+                },
             },
         },
         option: {
             __description:
                 'Subtitle of the boxes on initial deposit page where user chooses zksync or other networks',
-            networks: 'Networks',
+            wallets: 'Wallets',
+            exchanges: 'Exchanges',
         },
         status: {
             title: 'Deposit Status',
@@ -1154,7 +1156,15 @@ export const en = {
                     user: 'Pending user transfer',
                     popup: 'Pending',
                 },
+                deposit_address: 'Deposit address',
                 learn: 'Tap to learn more',
+                remove: {
+                    title: 'Delete Deposit Request',
+                    subtext:
+                        'If you delete the deposit request you should not send funds to given address. You can always initiate new deposits.',
+                    continue: 'Continue to Deposit',
+                    delete: 'Yes, delete',
+                },
             },
         },
         support: {
@@ -1194,16 +1204,8 @@ export const en = {
             },
         },
         choose: {
-            asset: {
-                min: 'Min amount is {{min}} {{token}}',
-                max: 'Max amount is {{max}} {{token}}',
-                title: 'Deposit on {{network}}',
-                limit: 'Min: {{min}}, Max: {{max}}',
-                receive: 'You will receive',
-                fee: 'Fee',
-                time: 'Time',
-                minute: 'min',
-                continue: 'Continue',
+            token: {
+                title: 'Choose Token',
             },
             network: {
                 title: 'Choose Network',
@@ -1213,26 +1215,35 @@ export const en = {
         new: {
             title: 'New Deposit',
             option: {
-                zksync: 'Deposit crypto on zkSync Era',
-                others: 'Deposit crypto from other networks',
+                wallets: 'Deposit crypto from a wallet',
+                exchanges: 'Deposit from an exchange',
             },
             pending: 'Pending deposits',
             initiate: 'Initiate New Deposit',
         },
         summary: {
             title: 'Transfer Funds',
-            info: 'When you complete the transfer on selected network, your funds will be transferred to your Clave account automatically by Layerswap.',
+            info: {
+                first: 'Transfer {{token}} from your favorite exchange on {{network}} network.',
+                second: 'Tap to see how to transfer from an exchange.',
+            },
+            selected: 'Selected Token',
             deposit: {
                 address: 'Deposit Address',
-                amount: 'Deposit Amount',
             },
-            amount: 'Amount',
+            amount: {
+                min: 'Minimum amount',
+                max: 'Maximum amount',
+            },
             receive: 'You will receive',
             time: {
                 name: 'Estimated time',
             },
             min: 'min',
             continue: 'View Deposit Status',
+            network: {
+                token: '{{token}} on {{network}}',
+            },
         },
         work: {
             __description:
