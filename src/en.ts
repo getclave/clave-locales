@@ -813,6 +813,7 @@ export const en = {
             insufficient_balance: 'Insufficient balance',
             free: 'Free',
             approve_token: 'Approve Token',
+            delegate: 'Delegate to',
         },
         fee: {
             title: 'Transaction Fee',
@@ -881,6 +882,11 @@ export const en = {
             send: 'Send',
             request: 'Request',
             swap: 'Swap',
+            delegated: 'Delegated',
+            delegate: 'Delegate',
+            notify: {
+                delegated: 'Delegated to Clave successfully',
+            },
         },
     },
     empty_state: {
