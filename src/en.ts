@@ -85,7 +85,7 @@ export const en = {
                 title: 'Guardian Successfully Removed',
                 subtext: 'You can always add new guardians in the Backup menu.',
             },
-            home: 'Home',
+            done: 'Done',
         },
         social: {
             title: 'Social Backup',
