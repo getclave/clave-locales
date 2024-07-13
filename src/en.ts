@@ -1500,4 +1500,11 @@ export const en = {
         approval: 'Add Guardian',
         cancel: 'Remind Me Later',
     },
+    privacy_policy_bottom_sheet: {
+        title: 'Privacy Policy Changed',
+        subtext:
+            'We have updated the privacy policy of our application. You may want to have a look at the latest version to continue using Clave.',
+        read: 'Read privacy policy',
+        approval: 'I acknowledge',
+    },
 };
