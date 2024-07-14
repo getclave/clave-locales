@@ -690,6 +690,7 @@ export const en = {
             earnWithdrawSubtitle: '{{tokenSymbol}} on {{protocol}}',
             earnClaim: 'Claim from Earn',
             earnClaimSubtitle: '{{tokenSymbol}} on {{protocol}}',
+            delegated_zk_tokens: 'Delegated ZK Tokens',
             details: {
                 me: 'me',
                 tx_type: 'Tx Type',
@@ -712,6 +713,7 @@ export const en = {
                     deposit_title: 'Deposit {{amount}}',
                     claim_title: 'Claim {{amount}}',
                 },
+                delegated_to_clave: 'Delegated ZK to Clave',
             },
             pending: {
                 timeout: 'Something went wrong',
@@ -813,6 +815,7 @@ export const en = {
             insufficient_balance: 'Insufficient balance',
             free: 'Free',
             approve_token: 'Approve Token',
+            delegate: 'Delegate to',
         },
         fee: {
             title: 'Transaction Fee',
@@ -881,6 +884,11 @@ export const en = {
             send: 'Send',
             request: 'Request',
             swap: 'Swap',
+            delegated: 'Delegated',
+            delegate: 'Delegate',
+            notify: {
+                delegated: 'Delegated to Clave successfully',
+            },
         },
     },
     empty_state: {
