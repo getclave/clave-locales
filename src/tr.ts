@@ -187,6 +187,17 @@ export const tr: Locale = {
             step3_text2:
                 "Diğer zincirlerdeki kripto paralar için, varlıkları hesabınıza hızlıca aktarmak için 'Para Yatırma'ya dokunun.",
         },
+        tourv2: {
+            skip: 'Atla',
+            back: 'Geri',
+            save: 'Kaydet',
+            step1_title: 'Kullancı ismini belirle',
+            step1_text1:
+                'Kullanıcı adınızı belirleyerek ve zkSync Erada Clave hesabınıza para yatırarak başlayın.',
+            step2_title: 'Bildirimleri Etkinleştir',
+            step2_text1:
+                'Gerçek zamanlı güncellemelerden haberdar olun. Gelen paralar, tamamlanan işlemler ve güvenlik güncellemeleri hakkında uyarı almak için bildirimleri etkinleştirin.',
+        },
         creation: {
             account_creation_done: {
                 title: 'Bu kadar!',
