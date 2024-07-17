@@ -1157,7 +1157,7 @@ export const en = {
             add: 'New Deposit',
             back: 'I need help with my deposit',
             item: {
-                title: '{{amount}} {{symbol}} on {{network}}',
+                title: '{{symbol}} on {{network}}',
                 completed: 'Completed',
                 pending: {
                     layerswap: 'Pending bridge transfer',
