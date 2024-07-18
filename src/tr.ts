@@ -1516,4 +1516,11 @@ export const tr: Locale = {
         approval: 'Koruyucu Ekle',
         cancel: 'Sonra hatırlat',
     },
+    claim_link_bottom_sheet: {
+        badge: 'Ödeme Al',
+        sender: 'Gönderen',
+        home: 'Ana Sayfa',
+        claim: 'Ödeme Almak İçin Tıkla',
+        already_claimed: 'Bu link daha\nönce alındı',
+    },
 };

@@ -1511,4 +1511,25 @@ export const en = {
         approval: 'Add Guardian',
         cancel: 'Remind Me Later',
     },
+    claim_link_bottom_sheet: {
+        badge: 'Claim Payment',
+        sender: 'Sender',
+        home: 'Home',
+        claim: 'Click to Claim',
+        already_claimed: 'This link is\nalready claimed',
+    },
+    landing: {
+        first: "Clave'e Hoş Geldiniz",
+        firstSubtitle:
+            'Kullanıcı adları ve ödeme bağlantıları kullanarak, herhangi birine, herhangi bir zamanda mesajlaşma kadar basit şekilde gönderin.',
+        second: 'Anında, Ücretsiz,\n Global Transferler',
+        secondSubtitle:
+            'Kullanıcı adları ve ödeme bağlantıları kullanarak, herhangi birine, herhangi bir zamanda mesajlaşma kadar basit şekilde gönderin.',
+        third: 'Paranızı Sahiplenin',
+        thirdSubtitle:
+            'Biyometrik verilerle  korunan güvenli bir akıllı hesap.',
+        fourth: 'Tek tıkla Yatırım Yapın ve Kazanın',
+        fourthSubtitle:
+            'Biyometrik verilerle  korunan güvenli bir akıllı hesap.',
+    },
 };
