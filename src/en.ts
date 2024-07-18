@@ -185,6 +185,17 @@ export const en = {
             step3_text2:
                 "For crypto on other chains, tap to 'Deposit' to quickly transfer assets to your account.",
         },
+        tourv2: {
+            skip: 'Skip',
+            back: 'Back',
+            save: 'Save',
+            step1_title: 'Set Your Username',
+            step1_text1:
+                'Begin by setting your username and funding your Clave account on zkSync Era.',
+            step2_title: 'Enable Notifications',
+            step2_text1:
+                'Stay informed with real-time updates. Enable notifications to get alerts on incoming funds, completed transactions, and security updates.',
+        },
         creation: {
             account_creation_done: {
                 title: "That's it!",
