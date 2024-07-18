@@ -1519,17 +1519,17 @@ export const en = {
         already_claimed: 'This link is\nalready claimed',
     },
     landing: {
-        first: "Clave'e Hoş Geldiniz",
+        first: 'Welcome to Clave',
         firstSubtitle:
-            'Kullanıcı adları ve ödeme bağlantıları kullanarak, herhangi birine, herhangi bir zamanda mesajlaşma kadar basit şekilde gönderin.',
-        second: 'Anında, Ücretsiz,\n Global Transferler',
+            'Send to anyone, anytime as simple as messaging, using usernames and payment links.',
+        second: 'Instant, Free,\n Global Transfers',
         secondSubtitle:
-            'Kullanıcı adları ve ödeme bağlantıları kullanarak, herhangi birine, herhangi bir zamanda mesajlaşma kadar basit şekilde gönderin.',
-        third: 'Paranızı Sahiplenin',
+            'Send to anyone, anytime as simple as messaging, using usernames and payment links.',
+        third: 'Own Your Money',
         thirdSubtitle:
-            'Biyometrik verilerle  korunan güvenli bir akıllı hesap.',
-        fourth: 'Tek tıkla Yatırım Yapın ve Kazanın',
+            'A secure smart account, safeguarded by your biometrics, with no seed phrases needed.',
+        fourth: 'Invest and Earn,\n in one-click',
         fourthSubtitle:
-            'Biyometrik verilerle  korunan güvenli bir akıllı hesap.',
+            'A secure smart account, safeguarded by your biometrics, with no seed phrases needed.',
     },
 };

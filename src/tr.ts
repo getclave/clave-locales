@@ -1523,4 +1523,18 @@ export const tr: Locale = {
         claim: 'Ödeme Almak İçin Tıkla',
         already_claimed: 'Bu link daha\nönce alındı',
     },
+    landing: {
+        first: "Clave'e Hoş Geldiniz",
+        firstSubtitle:
+            'Kullanıcı adları ve ödeme bağlantıları kullanarak, herhangi birine, herhangi bir zamanda mesajlaşma kadar basit şekilde gönderin.',
+        second: 'Anında, Ücretsiz,\n Global Transferler',
+        secondSubtitle:
+            'Kullanıcı adları ve ödeme bağlantıları kullanarak, herhangi birine, herhangi bir zamanda mesajlaşma kadar basit şekilde gönderin.',
+        third: 'Paranızı Sahiplenin',
+        thirdSubtitle:
+            'Biyometrik verilerle  korunan güvenli bir akıllı hesap.',
+        fourth: 'Tek tıkla Yatırım Yapın ve Kazanın',
+        fourthSubtitle:
+            'Biyometrik verilerle  korunan güvenli bir akıllı hesap.',
+    },
 };
