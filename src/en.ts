@@ -701,7 +701,8 @@ export const en = {
             earnWithdrawSubtitle: '{{tokenSymbol}} on {{protocol}}',
             earnClaim: 'Claim from Earn',
             earnClaimSubtitle: '{{tokenSymbol}} on {{protocol}}',
-            delegated_zk_tokens: 'Delegated ZK Tokens',
+            delegated_zk_tokens: 'Delegated ZK',
+            deposit: 'Deposit',
             details: {
                 me: 'me',
                 tx_type: 'Tx Type',
@@ -725,6 +726,10 @@ export const en = {
                     claim_title: 'Claim {{amount}}',
                 },
                 delegated_to_clave: 'Delegated ZK to Clave',
+                delegation: 'Delegation',
+                deposit_details: {
+                    title: 'Deposited {{amount}}',
+                },
             },
             pending: {
                 timeout: 'Something went wrong',
