@@ -1519,6 +1519,7 @@ export const en = {
         home: 'Home',
         claim: 'Click to Claim',
         already_claimed: 'This link is\nalready claimed',
+        failed_to_claim: 'Failed to claim\nthe payment link',
     },
     landing: {
         first: 'Welcome to Clave',
