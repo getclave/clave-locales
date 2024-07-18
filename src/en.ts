@@ -1295,6 +1295,8 @@ export const en = {
             title: {
                 invest: '{{amount}} {{symbol}} Deposited',
                 withdraw: '{{amount}} {{symbol}} Withdrawn',
+                withdraw_and_reward:
+                    '{{tokenAAmount}} {{tokenASymbol}} and {{rewardTokenAAmount}} {{rewardTokenASymbol}} Withdrawn',
             },
             subtext: {
                 withdraw: 'You can always deposit and start earning yields!',
