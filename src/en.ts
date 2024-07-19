@@ -900,6 +900,7 @@ export const en = {
             notify: {
                 delegated: 'Delegated to Clave successfully',
             },
+            earn: 'You can earn %{{apr}} APR with your {{symbol}}',
         },
     },
     empty_state: {

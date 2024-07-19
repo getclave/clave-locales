@@ -903,6 +903,7 @@ export const tr: Locale = {
             notify: {
                 delegated: "Clave'e başarıyla delege edildi",
             },
+            earn: '%{{apr}} APR ile {{symbol}} kazanabilirsiniz',
         },
     },
     empty_state: {
