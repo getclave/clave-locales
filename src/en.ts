@@ -1297,6 +1297,12 @@ export const en = {
             },
             home: 'Home',
         },
+        migrate: {
+            migrate: 'Migrate',
+            title: 'Migrate Your Funds',
+            subtitle:
+                'The new Ether pool is live with {{apy}}% APY. Please migrate your funds to the new pool in one-click.',
+        },
         options: {
             title: 'Earn',
             positions: 'Positions',
