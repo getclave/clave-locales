@@ -705,6 +705,7 @@ export const tr: Locale = {
             earnClaim: 'Kazançtan Talep Et',
             earnClaimSubtitle: '{{tokenSymbol}} {{protocol}} üzerinde',
             delegated_zk_tokens: 'ZK Delege Edildi',
+            deposit: 'Yatırma',
             details: {
                 me: 'ben',
                 tx_type: 'İşlem Türü',
@@ -728,6 +729,10 @@ export const tr: Locale = {
                     claim_title: '{{amount}} talep et',
                 },
                 delegated_to_clave: "Clave'e delege edildi",
+                delegation: 'Delegasyon',
+                deposit_details: {
+                    title: '{{amount}} Yatırıldı',
+                },
             },
             pending: {
                 timeout: 'Bir şeyler ters gitti',
