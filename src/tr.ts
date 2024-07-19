@@ -1298,6 +1298,8 @@ export const tr: Locale = {
             title: {
                 invest: '{{amount}} {{symbol}} Yatırıldı',
                 withdraw: '{{amount}} {{symbol}} Çekildi',
+                withdraw_and_reward:
+                    '{{tokenAAmount}} {{tokenASymbol}} ve {{rewardTokenAAmount}} {{rewardTokenASymbol}} Çekildi',
             },
             subtext: {
                 withdraw:
