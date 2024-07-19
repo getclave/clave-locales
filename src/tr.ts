@@ -903,6 +903,7 @@ export const tr: Locale = {
             notify: {
                 delegated: "Clave'e başarıyla delege edildi",
             },
+            earn: '%{{apr}} APR ile {{symbol}} kazanabilirsiniz',
         },
     },
     empty_state: {
@@ -1298,6 +1299,8 @@ export const tr: Locale = {
             title: {
                 invest: '{{amount}} {{symbol}} Yatırıldı',
                 withdraw: '{{amount}} {{symbol}} Çekildi',
+                withdraw_and_reward:
+                    '{{tokenAAmount}} {{tokenASymbol}} ve {{rewardTokenAAmount}} {{rewardTokenASymbol}} Çekildi',
             },
             subtext: {
                 withdraw:
