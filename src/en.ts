@@ -1300,6 +1300,8 @@ export const en = {
             title: {
                 invest: '{{amount}} {{symbol}} Deposited',
                 withdraw: '{{amount}} {{symbol}} Withdrawn',
+                withdraw_and_reward:
+                    '{{tokenAAmount}} {{tokenASymbol}} and {{rewardTokenAAmount}} {{rewardTokenASymbol}} Withdrawn',
             },
             subtext: {
                 withdraw: 'You can always deposit and start earning yields!',
@@ -1522,6 +1524,7 @@ export const en = {
         home: 'Home',
         claim: 'Click to Claim',
         already_claimed: 'This link is\nalready claimed',
+        failed_to_claim: 'Failed to claim\nthe payment link',
     },
     landing: {
         first: 'Welcome to Clave',

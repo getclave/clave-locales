@@ -1298,6 +1298,8 @@ export const tr: Locale = {
             title: {
                 invest: '{{amount}} {{symbol}} Yatırıldı',
                 withdraw: '{{amount}} {{symbol}} Çekildi',
+                withdraw_and_reward:
+                    '{{tokenAAmount}} {{tokenASymbol}} ve {{rewardTokenAAmount}} {{rewardTokenASymbol}} Çekildi',
             },
             subtext: {
                 withdraw:
@@ -1522,6 +1524,7 @@ export const tr: Locale = {
         home: 'Ana Sayfa',
         claim: 'Ödeme Almak İçin Tıkla',
         already_claimed: 'Bu link daha\nönce alındı',
+        failed_to_claim: 'Link ile ödeme\nalınamadı',
     },
     landing: {
         first: "Clave'e Hoş Geldiniz",
