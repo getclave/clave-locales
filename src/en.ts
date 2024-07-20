@@ -1299,9 +1299,9 @@ export const en = {
         },
         migrate: {
             migrate: 'Migrate',
-            title: 'Migrate Your Funds',
+            title: 'Earn {{apy}}% APR',
             subtitle:
-                'The new Ether pool is live with {{apy}}% APY. Please migrate your funds to the new pool in one-click.',
+                'The new Ether pool is live with {{apy}}% APR. Please migrate your funds to the new pool in one-click.',
         },
         options: {
             title: 'Earn',
