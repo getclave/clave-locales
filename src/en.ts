@@ -690,6 +690,8 @@ export const en = {
             earnWithdrawSubtitle: '{{tokenSymbol}} on {{protocol}}',
             earnClaim: 'Claim from Earn',
             earnClaimSubtitle: '{{tokenSymbol}} on {{protocol}}',
+            earnMigrate: 'Migrate Funds',
+            earnMigrateSubtitle: '{{protocol}}',
             delegated_zk_tokens: 'Delegated ZK Tokens',
             details: {
                 me: 'me',
@@ -712,6 +714,7 @@ export const en = {
                     withdraw_title: 'Withdraw {{amount}}',
                     deposit_title: 'Deposit {{amount}}',
                     claim_title: 'Claim {{amount}}',
+                    migrate_title: 'Migrate Funds',
                 },
                 delegated_to_clave: 'Delegated ZK to Clave',
             },
