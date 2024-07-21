@@ -704,6 +704,8 @@ export const tr: Locale = {
             earnWithdrawSubtitle: '{{tokenSymbol}} {{protocol}} üzerinde',
             earnClaim: 'Kazançtan Talep Et',
             earnClaimSubtitle: '{{tokenSymbol}} {{protocol}} üzerinde',
+            earnMigrate: 'Fonları Taşı',
+            earnMigrateSubtitle: '{{protocol}}',
             delegated_zk_tokens: 'ZK Delege Edildi',
             details: {
                 me: 'ben',
@@ -726,6 +728,7 @@ export const tr: Locale = {
                     withdraw_title: '{{amount}} çek',
                     deposit_title: '{{amount}} yatır',
                     claim_title: '{{amount}} talep et',
+                    migrate_title: 'Fonarlı Taşı',
                 },
                 delegated_to_clave: "Clave'e delege edildi",
             },
@@ -1322,6 +1325,12 @@ export const tr: Locale = {
             manage: '{{protocol}} üzerinde',
             soon: 'Yakında',
             stake: 'Şimdi stake et',
+        },
+        migrate: {
+            migrate: 'Taşı',
+            title: '{{apy}}% APR Kazanç',
+            subtitle:
+                'Yeni Ether havuzu {{apy}}% APR kazan ile canlı. Lütfen fonlarınızı tek tıkla yeni havuza taşıyınız.',
         },
         position: {
             details: {

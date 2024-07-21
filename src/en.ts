@@ -1312,12 +1312,6 @@ export const en = {
             },
             home: 'Home',
         },
-        migrate: {
-            migrate: 'Migrate',
-            title: 'Earn {{apy}}% APR',
-            subtitle:
-                'The new Ether pool is live with {{apy}}% APR. Please migrate your funds to the new pool in one-click.',
-        },
         options: {
             title: 'Earn',
             positions: 'Positions',
@@ -1327,6 +1321,12 @@ export const en = {
             manage: 'On {{protocol}}',
             soon: 'Soon',
             stake: 'Stake now',
+        },
+        migrate: {
+            migrate: 'Migrate',
+            title: 'Earn {{apy}}% APR',
+            subtitle:
+                'The new Ether pool is live with {{apy}}% APR. Please migrate your funds to the new pool in one-click.',
         },
         position: {
             details: {
