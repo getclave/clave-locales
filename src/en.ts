@@ -85,7 +85,7 @@ export const en = {
                 title: 'Guardian Successfully Removed',
                 subtext: 'You can always add new guardians in the Backup menu.',
             },
-            home: 'Home',
+            done: 'Done',
         },
         social: {
             title: 'Social Backup',
@@ -184,6 +184,17 @@ export const en = {
                 'The simplest way is transferring crypto from another wallet or an exchange on zkSync Era. You can copy your account address in the Profile.',
             step3_text2:
                 "For crypto on other chains, tap to 'Deposit' to quickly transfer assets to your account.",
+        },
+        tourv2: {
+            skip: 'Skip',
+            back: 'Back',
+            save: 'Save',
+            step1_title: 'Set Your Username',
+            step1_text1:
+                'Begin by setting your username and funding your Clave account on zkSync Era.',
+            step2_title: 'Enable Notifications',
+            step2_text1:
+                'Stay informed with real-time updates. Enable notifications to get alerts on incoming funds, completed transactions, and security updates.',
         },
         creation: {
             account_creation_done: {
@@ -892,6 +903,7 @@ export const en = {
             notify: {
                 delegated: 'Delegated to Clave successfully',
             },
+            earn: 'You can earn %{{apr}} APR with your {{symbol}}',
         },
     },
     empty_state: {
@@ -1510,5 +1522,27 @@ export const en = {
             'To protect your account, please add a backup guardian. This ensures you can regain access if you lose your current device. Without a guardian, you may not be able to access your account.',
         approval: 'Add Guardian',
         cancel: 'Remind Me Later',
+    },
+    claim_link_bottom_sheet: {
+        badge: 'Claim Payment',
+        sender: 'Sender',
+        home: 'Home',
+        claim: 'Click to Claim',
+        already_claimed: 'This link is\nalready claimed',
+        failed_to_claim: 'Failed to claim\nthe payment link',
+    },
+    landing: {
+        first: 'Welcome to Clave',
+        firstSubtitle:
+            'Send to anyone, anytime as simple as messaging, using usernames and payment links.',
+        second: 'Instant, Free,\n Global Transfers',
+        secondSubtitle:
+            'Send to anyone, anytime as simple as messaging, using usernames and payment links.',
+        third: 'Own Your Money',
+        thirdSubtitle:
+            'A secure smart account, safeguarded by your biometrics, with no seed phrases needed.',
+        fourth: 'Invest and Earn,\n in one-click',
+        fourthSubtitle:
+            'A secure smart account, safeguarded by your biometrics, with no seed phrases needed.',
     },
 };
