@@ -704,6 +704,8 @@ export const tr: Locale = {
             earnWithdrawSubtitle: '{{tokenSymbol}} {{protocol}} üzerinde',
             earnClaim: 'Kazançtan Talep Et',
             earnClaimSubtitle: '{{tokenSymbol}} {{protocol}} üzerinde',
+            earnMigrate: 'Fonları Taşı',
+            earnMigrateSubtitle: '{{protocol}}',
             delegated_zk_tokens: 'ZK Delege Edildi',
             deposit: 'Yatırma',
             details: {
@@ -727,6 +729,7 @@ export const tr: Locale = {
                     withdraw_title: '{{amount}} çek',
                     deposit_title: '{{amount}} yatır',
                     claim_title: '{{amount}} talep et',
+                    migrate_title: 'Fonarlı Taşı',
                 },
                 delegated_to_clave: "Clave'e delege edildi",
                 delegation: 'Delegasyon',
@@ -908,6 +911,7 @@ export const tr: Locale = {
             notify: {
                 delegated: "Clave'e başarıyla delege edildi",
             },
+            earn: '%{{apr}} APR ile {{symbol}} kazanabilirsiniz',
         },
     },
     empty_state: {
@@ -1327,6 +1331,12 @@ export const tr: Locale = {
             soon: 'Yakında',
             stake: 'Şimdi stake et',
         },
+        migrate: {
+            migrate: 'Taşı',
+            title: '{{apy}}% APR Kazanç',
+            subtitle:
+                'Yeni Ether havuzu {{apy}}% APR kazan ile canlı. Lütfen fonlarınızı tek tıkla yeni havuza taşıyınız.',
+        },
         position: {
             details: {
                 amount: {
@@ -1544,5 +1554,12 @@ export const tr: Locale = {
         fourth: 'Tek tıkla Yatırım Yapın ve Kazanın',
         fourthSubtitle:
             'Biyometrik verilerle  korunan güvenli bir akıllı hesap.',
+    },
+    privacy_policy_bottom_sheet: {
+        title: 'Gizlilik politikasını değişti',
+        subtext:
+            'Uygulamamızın gizlilik politikasını güncelledik. Clave kullanmaya devam etmek için en son sürüme göz atmak isteyebilirsiniz.',
+        read: 'Gizlilik politikasını oku',
+        approval: 'Onaylıyorum',
     },
 };
