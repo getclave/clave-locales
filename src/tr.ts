@@ -1550,4 +1550,11 @@ export const tr: Locale = {
         fourthSubtitle:
             'Biyometrik verilerle  korunan güvenli bir akıllı hesap.',
     },
+    privacy_policy_bottom_sheet: {
+        title: 'Gizlilik politikasını değişti',
+        subtext:
+            'Uygulamamızın gizlilik politikasını güncelledik. Clave kullanmaya devam etmek için en son sürüme göz atmak isteyebilirsiniz.',
+        read: 'Gizlilik politikasını oku',
+        approval: 'Onaylıyorum',
+    },
 };
