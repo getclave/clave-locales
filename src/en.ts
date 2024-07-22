@@ -701,7 +701,10 @@ export const en = {
             earnWithdrawSubtitle: '{{tokenSymbol}} on {{protocol}}',
             earnClaim: 'Claim from Earn',
             earnClaimSubtitle: '{{tokenSymbol}} on {{protocol}}',
-            delegated_zk_tokens: 'Delegated ZK Tokens',
+            delegated_zk_tokens: 'Delegated ZK',
+            deposit: 'Deposit',
+            earnMigrate: 'Migrate Funds',
+            earnMigrateSubtitle: '{{protocol}}',
             details: {
                 me: 'me',
                 tx_type: 'Tx Type',
@@ -723,8 +726,13 @@ export const en = {
                     withdraw_title: 'Withdraw {{amount}}',
                     deposit_title: 'Deposit {{amount}}',
                     claim_title: 'Claim {{amount}}',
+                    migrate_title: 'Migrate Funds',
                 },
                 delegated_to_clave: 'Delegated ZK to Clave',
+                delegation: 'Delegation',
+                deposit_details: {
+                    title: 'Deposited {{amount}}',
+                },
             },
             pending: {
                 timeout: 'Something went wrong',
@@ -1319,6 +1327,12 @@ export const en = {
             soon: 'Soon',
             stake: 'Stake now',
         },
+        migrate: {
+            migrate: 'Migrate',
+            title: 'Earn {{apy}}% APR',
+            subtitle:
+                'The new Ether pool is live with {{apy}}% APR. Please migrate your funds to the new pool in one-click.',
+        },
         position: {
             details: {
                 amount: {
@@ -1535,5 +1549,12 @@ export const en = {
         fourth: 'Invest and Earn,\n in one-click',
         fourthSubtitle:
             'A secure smart account, safeguarded by your biometrics, with no seed phrases needed.',
+    },
+    privacy_policy_bottom_sheet: {
+        title: 'Privacy Policy Changed',
+        subtext:
+            'We have updated the privacy policy of our application. You may want to have a look at the latest version to continue using Clave.',
+        read: 'Read privacy policy',
+        approval: 'I acknowledge',
     },
 };
