@@ -1321,6 +1321,10 @@ export const en = {
             title: 'Earn',
             positions: 'Positions',
             options: 'Available Options',
+            banner: {
+                learn: 'Tap here to learn more',
+                info: 'You can earn up to ${{ earn }} with $1000',
+            },
         },
         option: {
             manage: 'On {{protocol}}',
@@ -1504,6 +1508,8 @@ export const en = {
             buy: 'Buy',
             invest: 'Invest',
             get_started: 'Get started',
+            benefits: 'Your Clave Benefits',
+            benefits_text: 'Review your benefits',
         },
     },
     recovery_notice: {
@@ -1556,5 +1562,15 @@ export const en = {
             'We have updated the privacy policy of our application. You may want to have a look at the latest version to continue using Clave.',
         read: 'Read privacy policy',
         approval: 'I acknowledge',
+    },
+    share_address_bottom_sheet: {
+        title: 'Your Address on ZKsync',
+        qrCode: 'Show or Scan this QR code to receive tokens on ZKsync only',
+        done: 'Done',
+        share: {
+            title: 'Important: Send tokens only on ZKsync',
+            subtext:
+                'Use your address to receive tokens from other wallets or exchanges on ZKsync',
+        },
     },
 };

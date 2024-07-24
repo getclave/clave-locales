@@ -4,3 +4,4 @@
  * Proprietary and confidential
  */
 export * from './en';
+export * from './tr';

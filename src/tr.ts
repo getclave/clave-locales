@@ -1325,11 +1325,15 @@ export const tr: Locale = {
             title: 'Kazanç',
             positions: 'Pozisyonlar',
             options: 'Mevcut Seçenekler',
+            banner: {
+                info: '$1000 ile {{earn}}$-a kadar kazanabilirsin',
+                learn: 'Daha fazla öğrenmek için buraya dokunun',
+            },
         },
         option: {
             manage: '{{protocol}} üzerinde',
             soon: 'Yakında',
-            stake: 'Şimdi stake et',
+            stake: 'Yatır',
         },
         migrate: {
             migrate: 'Taşı',
@@ -1509,6 +1513,8 @@ export const tr: Locale = {
             buy: 'Satın Al',
             invest: 'Yatırım Yap',
             get_started: 'Başlayın',
+            benefits: 'Clave-in sana faydaları',
+            benefits_text: 'Faydaları incele',
         },
     },
     recovery_notice: {
@@ -1561,5 +1567,15 @@ export const tr: Locale = {
             'Uygulamamızın gizlilik politikasını güncelledik. Clave kullanmaya devam etmek için en son sürüme göz atmak isteyebilirsiniz.',
         read: 'Gizlilik politikasını oku',
         approval: 'Onaylıyorum',
+    },
+    share_address_bottom_sheet: {
+        title: 'ZKsync Adresiniz',
+        qrCode: 'ZKsync üzerinde token almak için bu QR kodunu gösterin veya taratın',
+        done: 'Tamam',
+        share: {
+            title: 'Önemli: Tokenleri sadece ZKsync üzerinde gönderin',
+            subtext:
+                'Diğer cüzdanlardan veya borsalardan ZKsync üzerinde token almak için adresinizi kullanın',
+        },
     },
 };
