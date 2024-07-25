@@ -1541,11 +1541,13 @@ export const tr: Locale = {
     },
     claim_link_bottom_sheet: {
         badge: 'Ödeme Al',
+        badge_loading: 'Ödeme Alınıyor',
         sender: 'Gönderen',
         home: 'Ana Sayfa',
         claim: 'Ödeme Almak İçin Tıkla',
         already_claimed: 'Bu link daha\nönce alındı',
         failed_to_claim: 'Link ile ödeme\nalınamadı',
+        claimed: 'Ödeme Alındı',
     },
     landing: {
         first: "Clave'e Hoş Geldiniz",

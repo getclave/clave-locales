@@ -1536,9 +1536,11 @@ export const en = {
     },
     claim_link_bottom_sheet: {
         badge: 'Claim Payment',
+        badge_loading: 'Claiming',
         sender: 'Sender',
         home: 'Home',
         claim: 'Click to Claim',
+        claimed: 'Payment Claimed',
         already_claimed: 'This link is\nalready claimed',
         failed_to_claim: 'Failed to claim\nthe payment link',
     },
