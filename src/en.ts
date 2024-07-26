@@ -1545,18 +1545,18 @@ export const en = {
         failed_to_claim: 'Failed to claim\nthe payment link',
     },
     landing: {
-        first: 'Welcome to Clave',
+        first: 'Welcome to Clave\nWallet',
         firstSubtitle:
-            'Send to anyone, anytime as simple as messaging, using usernames and payment links.',
+            'Manage your crypto with the simplicity you expect from everyday apps',
         second: 'Instant, Free,\n Global Transfers',
         secondSubtitle:
             'Send to anyone, anytime as simple as messaging, using usernames and payment links.',
-        third: 'Own Your Money',
+        third: 'Own Your Money\nSecurely',
         thirdSubtitle:
-            'A secure smart account, safeguarded by your biometrics, with no seed phrases needed.',
-        fourth: 'Invest and Earn,\n in one-click',
+            'A secure smart account, safeguarded by your biometrics, with no seed phrases',
+        fourth: 'Invest and Earn,\n in One-click',
         fourthSubtitle:
-            'A secure smart account, safeguarded by your biometrics, with no seed phrases needed.',
+            'Make the most out of your crypto investment with buy, sell, and earn features.',
     },
     privacy_policy_bottom_sheet: {
         title: 'Privacy Policy Changed',
