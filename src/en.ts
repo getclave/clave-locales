@@ -1329,7 +1329,6 @@ export const en = {
         option: {
             manage: 'On {{protocol}}',
             soon: 'Soon',
-            stake: 'Stake now',
         },
         migrate: {
             migrate: 'Migrate',
