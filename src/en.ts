@@ -90,7 +90,7 @@ export const en = {
         social: {
             title: 'Social Backup',
             subtext:
-                'Your friends on Clave or any addresses on zkSync Era can be assigned as guardians.',
+                'Your friends on Clave or any addresses on ZKsync Era can be assigned as guardians.',
             'subtext-link': 'Tap to learn more',
             'subtext-link-url':
                 'https://blog.getclave.io/recovery-for-everyone-cloud-and-guardians',
@@ -181,24 +181,24 @@ export const en = {
             step2_text1: 'Usernames are all you need in Clave.',
             step3_title: 'Fund Your Wallet',
             step3_text1:
-                'The simplest way is transferring crypto from another wallet or an exchange on zkSync Era. You can copy your account address in the Profile.',
+                'The simplest way is transferring crypto from another wallet or an exchange on ZKsync Era. You can copy your account address in the Profile.',
             step3_text2:
                 "For crypto on other chains, tap to 'Deposit' to quickly transfer assets to your account.",
         },
         tourv2: {
             skip: 'Skip',
             back: 'Back',
-            save: 'Save',
+            save: 'Continue',
             step1_title: 'Set Your Username',
             step1_text1:
-                'Begin by setting your username and funding your Clave account on zkSync Era.',
+                'You can use your username to send and request money in Clave.',
             step2_title: 'Enable Notifications',
             step2_text1:
-                'Stay informed with real-time updates. Enable notifications to get alerts on incoming funds, completed transactions, and security updates.',
+                'Stay informed with real-time updates. Get alerts on incoming funds, completed transactions, and security notifications.',
         },
         creation: {
             account_creation_done: {
-                title: "That's it!",
+                title: "That's It!",
                 subtext: 'Welcome to your Clave account.',
             },
         },
@@ -207,20 +207,17 @@ export const en = {
                 invalid_email: 'Please enter a valid email',
                 title: 'Forgot Username',
                 subtext:
-                    'Clave will send you an email reminding you of your username',
-                label: 'Email address',
+                    'Clave will send you an email reminding you of your username.',
+                label: 'Email Address',
                 placeholder: 'example@gmail.com',
-                continue: 'Continue',
+                continue: 'Return',
             },
             forgot_username_status: {
-                success_title: 'Check your mail for your nickname',
-                fail_title: 'This email address does not exist in Clave',
+                success_title: 'Check Your Mail for Your Username',
                 success_subtext:
-                    'We sent you an email to remind you of your username. After checking the email, you can access your account again.',
-                fail_subtext:
-                    'An error occurred while sending the email. Please try again.',
-                continue: 'Go to login',
-                try_again: 'Try again',
+                    'If this email address is associated with a username, you will receive an email with your username shortly.',
+                continue: 'Continue',
+                try_again: 'Try Again',
             },
         },
         recovery: {
@@ -307,7 +304,7 @@ export const en = {
                     'Send & Receive money instantly with nicknames and links',
                 option2: 'Pay gas with any token',
                 option3: 'Add your friends as a guardian for recovery',
-                option4: 'Powered by zkSync',
+                option4: 'Powered by ZKsync',
             },
         },
     },
@@ -409,7 +406,7 @@ export const en = {
             description:
                 'You will create a link with money embedded in it. Anyone with a Clave account can claim this money. You can check your payment links in Home and cancel them if you want.',
             button: 'I understand, continue',
-            never_show: 'Do not show again',
+            never_show: 'Do not show it again',
         },
     },
     dashboard: {
@@ -449,10 +446,10 @@ export const en = {
             saved_with_clave: {
                 title: 'Thanks for being a Clave user{{name}}',
                 tx_title: 'Transactions',
-                tx_text: 'Clave sponsored {{txCount}} transactions',
-                earn_title: 'Earn Positions',
-                earn_text: 'Your total yield earnings',
-                earn_cta: 'Start earning',
+                tx_text: 'Clave sponsored {{txCount}} transactions.',
+                earn_title: 'Earn',
+                earn_text: 'Your total yield earnings.',
+                earn_cta: 'Start Earning',
                 button: 'Share on X',
             },
             card: {
@@ -642,7 +639,7 @@ export const en = {
             disconnect: 'Disconnect',
         },
         empty_state: {
-            title: 'No connected Dapps',
+            title: 'No Connected Dapps',
             subtext: '',
         },
         title: '{{name}} wants to connect',
@@ -753,9 +750,10 @@ export const en = {
     browser: {
         title: 'Browser',
         search: 'Search Results',
-        empty_state_favorites: 'Add dapps to favorites to access them quickly',
+        empty_state_favorites:
+            'Add websites to favorites to access them quickly.',
         favorites: 'Favorites',
-        search_placeholder: 'Search or enter website',
+        search_placeholder: 'Search',
     },
     recover: {
         __description:
@@ -1137,8 +1135,8 @@ export const en = {
     },
     share_bottom_sheet: {
         __description:
-            'The bottom sheet that pops up when address button is clicked on dashboard, or zksync is selected on deposit',
-        title: 'Your Account on zkSync Era',
+            'The bottom sheet that pops up when address button is clicked on dashboard, or ZKsync is selected on deposit',
+        title: 'Your Account on ZKsync Era',
         share: {
             subtext:
                 'Use this address to deposit or request. Do not send to this address on Ethereum or other networks.',
@@ -1167,7 +1165,7 @@ export const en = {
         },
         option: {
             __description:
-                'Subtitle of the boxes on initial deposit page where user chooses zksync or other networks',
+                'Subtitle of the boxes on initial deposit page where user chooses ZKsync or other networks',
             wallets: 'Wallets',
             exchanges: 'Exchanges',
         },
@@ -1212,7 +1210,7 @@ export const en = {
         start: {
             __description:
                 'The bottom sheet that is opened when balance is 0 on Earn page',
-            zksync: 'If you have crypto on zksync Era you can directly send to Clave account.',
+            zksync: 'If you have crypto on ZKsync Era you can directly send to Clave account.',
             networks: {
                 title: 'Other Networks',
                 text: 'You can transfer your crypto on other networks to Clave with Deposit function.',
@@ -1278,13 +1276,13 @@ export const en = {
                 'The bottom sheet that is opened for the first time when deposit page is visited',
             title: 'How Deposit works?',
             subtext: {
-                first: 'Your Clave account is ONLY on zkSync Era.',
-                second: 'To deposit funds, you can either transfer from another zkSync account or use a bridge to transfer from other networks. Please follow the steps carefully.',
+                first: 'Your Clave account is ONLY on ZKsync Era.',
+                second: 'To deposit funds, you can either transfer from another ZKsync account or use a bridge to transfer from other networks. Please follow the steps carefully.',
             },
             continue: 'Get Started',
             zksync: {
-                title: 'zkSync Era',
-                text: 'If you have crypto on zksync Era, you can directly send to Clave account address.',
+                title: 'ZKsync Era',
+                text: 'If you have crypto on ZKsync Era, you can directly send to Clave account address.',
             },
             other: {
                 title: 'Other Networks',
@@ -1497,19 +1495,19 @@ export const en = {
         },
         actions: {
             deposit: 'Deposit',
-            deposit_text: 'Fund your wallet with crypto on zkSync Era',
+            deposit_text: 'Fund your wallet with crypto on ZKsync Era.',
             earn: 'Earn',
-            earn_text: 'Start earning with your crypto on zkSync Era',
+            earn_text: 'Start earning with your crypto on ZKsync.',
             guardians: 'Manage Guardians',
-            guardians_text: 'Add your friends and trusted ones as guardians',
+            guardians_text: 'Add your friends and trusted ones as guardians.',
             browser: 'Browser',
             links: 'Payment Links',
             split: 'Split',
             buy: 'Buy',
             invest: 'Invest',
-            get_started: 'Get started',
+            get_started: 'Get Started',
             benefits: 'Your Clave Benefits',
-            benefits_text: 'Review your benefits',
+            benefits_text: 'Review your benefits.',
         },
     },
     recovery_notice: {
@@ -1521,11 +1519,11 @@ export const en = {
         approval: 'I understand',
     },
     zksync_notice_bottom_sheet: {
-        title: 'zkSync Era {{network}}',
+        title: 'ZKsync Era {{network}}',
         subtext:
-            'Deposit only on zkSync Era {{network}}. If you send money to this account on Ethereum or any other chain, you will lose those funds.',
+            'Deposit only on ZKsync Era {{network}}. If you send money to this account on Ethereum or any other chain, you will lose those funds.',
         approval: 'I understand',
-        never_show: 'Do not show again',
+        never_show: 'Do not show it again',
     },
     no_backup_bottom_sheet: {
         title: 'Add a Guardian for Backup',
@@ -1547,14 +1545,14 @@ export const en = {
     landing: {
         first: 'Welcome to Clave\nWallet',
         firstSubtitle:
-            'Manage your crypto with the simplicity you expect from everyday apps',
+            'Manage your crypto with the simplicity you expect from everyday apps.',
         second: 'Instant, Free,\n Global Transfers',
         secondSubtitle:
             'Send to anyone, anytime as simple as messaging, using usernames and payment links.',
         third: 'Own Your Money\nSecurely',
         thirdSubtitle:
-            'A secure smart account, safeguarded by your biometrics, with no seed phrases',
-        fourth: 'Invest and Earn,\n in One-click',
+            'A secure smart account, safeguarded by your biometrics, with no seed phrases.',
+        fourth: 'Invest and Earn,\n in One-Click',
         fourthSubtitle:
             'Make the most out of your crypto investment with buy, sell, and earn features.',
     },
@@ -1567,12 +1565,12 @@ export const en = {
     },
     share_address_bottom_sheet: {
         title: 'Your Address on ZKsync',
-        qrCode: 'Show or Scan this QR code to receive tokens on ZKsync only',
+        qrCode: 'Use this QR code to receive tokens only on ZKsync.',
         done: 'Done',
         share: {
             title: 'Important: Send tokens only on ZKsync',
             subtext:
-                'Use your address to receive tokens from other wallets or exchanges on ZKsync',
+                'Use your address to receive tokens from other wallets or exchanges.',
         },
     },
 };
