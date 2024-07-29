@@ -1333,7 +1333,6 @@ export const tr: Locale = {
         option: {
             manage: '{{protocol}} üzerinde',
             soon: 'Yakında',
-            stake: 'Yatır',
         },
         migrate: {
             migrate: 'Taşı',
