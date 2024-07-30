@@ -1323,7 +1323,7 @@ export const en = {
             options: 'Available Options',
             banner: {
                 learn: 'Tap here to learn more',
-                info: 'You can earn up to ${{ earn }} with $1000',
+                info: 'You can earn up to\n ${{ earn }} with $1000',
             },
         },
         option: {
