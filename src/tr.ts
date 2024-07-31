@@ -1329,6 +1329,11 @@ export const tr: Locale = {
                 info: '$1000 ile {{earn}}$-a kadar kazanabilirsin',
                 learn: 'Daha fazla öğrenmek için buraya dokunun',
             },
+            category: {
+                all: 'Tümü',
+                featured: 'Öne Çıkan',
+                stables: 'Stabil Coinler',
+            },
         },
         option: {
             manage: '{{protocol}} üzerinde',

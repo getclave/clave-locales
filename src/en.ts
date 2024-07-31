@@ -1325,6 +1325,11 @@ export const en = {
                 learn: 'Tap here to learn more',
                 info: 'You can earn up to\n ${{ earn }} with $1000',
             },
+            category: {
+                all: 'All',
+                featured: 'Featured',
+                stables: 'Stables',
+            },
         },
         option: {
             manage: 'On {{protocol}}',
