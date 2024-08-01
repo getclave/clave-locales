@@ -1345,15 +1345,10 @@ export const en = {
             details: {
                 amount: {
                     withdrawable: 'Withdrawable Amount',
-                    compounded: 'Compounded Amount',
-                    deposited: 'Deposited Amount',
+                    zk_rewards: 'ZK Rewards',
                 },
                 apr: 'Annual Percentage Rate (APR)',
                 apy: 'Annual Percentage Yield (APY)',
-                earnings: {
-                    compounded: 'Compounded Earnings',
-                    collectable: 'Collectable Earnings',
-                },
                 title: 'Position Details',
                 increase: 'Increase position',
                 withdraw: 'Withdraw',
@@ -1367,6 +1362,9 @@ export const en = {
                     title: 'Position Details',
                     done: 'Done',
                 },
+                earning_disclaimer:
+                    '{{from}} rewards converted into equivalent amount of {{to}}',
+                reward_disclaimer: 'All rewards included',
             },
             information: {
                 collectible: {
