@@ -1390,7 +1390,6 @@ export const tr: Locale = {
         deposit: {
             title: 'Kazanç',
             available: '{{balance}} {{symbol}} mevcut',
-            min_amount: 'Minimum tutar {{amount}}',
             max_staking: 'Tutar sınırı aşıyor',
             continue: 'Devam Et',
             insufficient: 'Yetersiz Bakiye',
@@ -1471,9 +1470,9 @@ export const tr: Locale = {
         },
         insufficient: {
             balance: {
-                title: 'Yetersiz {{token}}',
+                title: 'Yetersiz {{token}} Bakiyesi',
                 subtext:
-                    'Kazanmaya başlamak için en az {{min}} {{token}} ihtiyacınız var. {{token}} ile takas, depozito veya satın alabilirsiniz.',
+                    'Bu pozisyon hesabınızda {{token}} gerektirir. Tokenlarınızı Swap yoluyla {{token}} dönüştürebilir veya hesabınıza doğrudan {{token}} yatırabilir veya {{token}} satın alabilirsiniz.',
                 swap: '{{token}} ile takas',
                 deposit: '{{token}} yatır',
                 buy: '{{token}} satın al (yakında)',

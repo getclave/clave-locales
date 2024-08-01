@@ -1385,8 +1385,10 @@ export const en = {
         },
         deposit: {
             title: 'Earn',
+            amount: 'Deposit Amount',
+            apr_notice: 'APR may change depending on market condition',
+            weekly_earnings: 'Weekly Expected Earnings',
             available: '{{balance}} {{symbol}} available',
-            min_amount: 'Minimum amount is {{amount}}',
             max_staking: 'Amount exceeds limit',
             continue: 'Proceed',
             insufficient: 'Insufficient Balance',
@@ -1467,9 +1469,9 @@ export const en = {
         },
         insufficient: {
             balance: {
-                title: 'Insufficient {{token}}',
+                title: 'Insufficient {{token}} Balance',
                 subtext:
-                    'You need at least {{min}} {{token}} to start earning. You can swap, deposit, or buy {{token}}.',
+                    'This position requires {{token}} in your account. You can convert your tokens into {{token}} via Swap or directly deposit or buy {{token}} to your account.',
                 swap: 'Swap to {{token}}',
                 deposit: 'Deposit {{token}}',
                 buy: 'Buy {{token}} (soon)',
