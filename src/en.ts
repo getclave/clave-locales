@@ -1386,6 +1386,9 @@ export const en = {
         deposit: {
             title: 'Earn',
             amount: 'Deposit Amount',
+            reward_tokens: 'Reward Tokens',
+            underlying_tokens: 'Underlying Tokens',
+            protocol_fee: 'Protocol Fee',
             apr_notice: 'APR may change depending on market condition',
             weekly_earnings: 'Weekly Expected Earnings',
             available: '{{balance}} {{symbol}} available',

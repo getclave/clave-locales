@@ -1389,7 +1389,13 @@ export const tr: Locale = {
         },
         deposit: {
             title: 'Kazanç',
+            amount: 'Miktar',
+            reward_tokens: 'Ödül Tokenleri',
+            underlying_tokens: 'Bağlı Tokenler',
+            protocol_fee: 'Protokol Komisyonu',
+            apr_notice: 'APR market koşullarına bağlı olarak değişebilir',
             available: '{{balance}} {{symbol}} mevcut',
+            weekly_earnings: 'Haftalık Beklenen Kazanç',
             max_staking: 'Tutar sınırı aşıyor',
             continue: 'Devam Et',
             insufficient: 'Yetersiz Bakiye',
