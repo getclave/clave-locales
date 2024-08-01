@@ -1305,21 +1305,22 @@ export const tr: Locale = {
             __description:
                 'Kazançla ilgili işlemlerin sonuçlarını gösteren kazanç sayfası',
             title: {
-                invest: '{{amount}} {{symbol}} Yatırıldı',
-                withdraw: '{{amount}} {{symbol}} Çekildi',
-                withdraw_and_reward:
-                    '{{tokenAAmount}} {{tokenASymbol}} ve {{rewardTokenAAmount}} {{rewardTokenASymbol}} Çekildi',
+                invest: 'Başarıyla Yatırıldı',
+                withdraw: 'Başarıyla Çekildi',
+                claim: 'Ödüller Çekildi',
             },
             subtext: {
                 withdraw:
                     'Kazanç elde etmeye başlamak için her zaman para yatırabilirsiniz!',
                 invest: 'Bu pozisyon için {{apy}}% APR kazanmaktasınız.',
             },
-            earn: {
-                invest: 'Kazançlarınızı Kontrol Edin',
-                withdraw: 'Kazanç',
-            },
+            check: 'Kazançlarını incele',
+            earn: 'Kazan',
             home: 'Ana Sayfa',
+            deposited_amount: 'Yatırılan Miktar',
+            withdraw_amount: 'Çekilen Miktar',
+            weekly_earnings: 'Haftalık Beklenen Kazanç',
+            reward_amount: 'Ödül Miktarı',
         },
         options: {
             title: 'Kazanç',

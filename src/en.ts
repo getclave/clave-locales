@@ -1302,20 +1302,23 @@ export const en = {
             __description:
                 'Earn page showing the results of Earn-related transactions',
             title: {
-                invest: '{{amount}} {{symbol}} Deposited',
-                withdraw: '{{amount}} {{symbol}} Withdrawn',
-                withdraw_and_reward:
-                    '{{tokenAAmount}} {{tokenASymbol}} and {{rewardTokenAAmount}} {{rewardTokenASymbol}} Withdrawn',
+                invest: 'Deposit Successful',
+                withdraw: 'Withdraw Successful',
+                claim: 'Earnings Collected',
             },
             subtext: {
-                withdraw: 'You can always deposit and start earning yields!',
-                invest: 'You are now earning {{apy}}% APR for this position.',
+                withdraw:
+                    'Your tokens have been withdrawn.\nYou can always deposit again to start earning more.',
+                invest: 'Fantastic! Your tokens are now earning{{apr}}%\nAPR for you.',
+                claim: 'Great job! Your earnings have been collected\nand added to your balance.',
             },
-            earn: {
-                invest: 'Check Your Earnings',
-                withdraw: 'Earn',
-            },
+            check: 'Check Your Earnings',
+            earn: 'Earn',
             home: 'Home',
+            deposited_amount: 'Deposited Amount',
+            withdraw_amount: 'Withdraw Amount',
+            weekly_earnings: 'Est. Weekly Earnings',
+            reward_amount: 'Reward Amount',
         },
         options: {
             title: 'Earn',
