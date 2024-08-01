@@ -1301,7 +1301,7 @@ export const tr: Locale = {
     },
     invest: {
         __description: 'Kazanç sayfasına ait çeviriler',
-        completed: {
+        completedv2: {
             __description:
                 'Kazançla ilgili işlemlerin sonuçlarını gösteren kazanç sayfası',
             title: {
@@ -1313,6 +1313,7 @@ export const tr: Locale = {
                 withdraw:
                     'Kazanç elde etmeye başlamak için her zaman para yatırabilirsiniz!',
                 invest: 'Bu pozisyon için {{apy}}% APR kazanmaktasınız.',
+                claim: 'Kazançlarınız toplandı\nve bakiyenize eklendi.',
             },
             check: 'Kazançlarını incele',
             earn: 'Kazan',

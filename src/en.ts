@@ -1298,7 +1298,7 @@ export const en = {
     },
     invest: {
         __description: 'Earn page related translations',
-        completed: {
+        completedv2: {
             __description:
                 'Earn page showing the results of Earn-related transactions',
             title: {
