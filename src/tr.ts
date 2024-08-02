@@ -1346,15 +1346,10 @@ export const tr: Locale = {
             details: {
                 amount: {
                     withdrawable: 'Çekilebilir Miktar',
-                    compounded: 'Bileşik Miktar',
-                    deposited: 'Yatırılan Miktar',
+                    zk_rewards: 'ZK Ödülleri',
                 },
                 apr: 'Yıllık Yüzde Oranı (APR)',
                 apy: 'Yıllık Yüzde Getirisi (APY)',
-                earnings: {
-                    compounded: 'Bileşik Kazançlar',
-                    collectable: 'Toplanabilir Kazançlar',
-                },
                 title: 'Pozisyon Detayları',
                 increase: 'Pozisyonu Artır',
                 withdraw: 'Çek',
@@ -1368,6 +1363,9 @@ export const tr: Locale = {
                     title: 'Pozisyon Detayları',
                     done: 'Tamamlandı',
                 },
+                earning_disclaimer:
+                    '{{from}} ödül eşdeğer miktarda {{to}}-ya dönüştürüldü',
+                reward_disclaimer: 'Tüm ödüller dahil',
             },
             information: {
                 collectible: {
