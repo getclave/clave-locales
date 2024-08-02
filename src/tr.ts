@@ -1326,6 +1326,11 @@ export const tr: Locale = {
                 info: '$1000 ile {{earn}}$-a kadar kazanabilirsin',
                 learn: 'Daha fazla öğrenmek için buraya dokunun',
             },
+            category: {
+                all: 'Tümü',
+                featured: 'Öne Çıkan',
+                stables: 'Stabil Coinler',
+            },
         },
         option: {
             manage: '{{protocol}} üzerinde',
@@ -1381,8 +1386,13 @@ export const tr: Locale = {
         },
         deposit: {
             title: 'Kazanç',
+            amount: 'Miktar',
+            reward_tokens: 'Ödül Tokenleri',
+            underlying_tokens: 'Bağlı Tokenler',
+            protocol_fee: 'Protokol Komisyonu',
+            apr_notice: 'APR market koşullarına bağlı olarak değişebilir',
             available: '{{balance}} {{symbol}} mevcut',
-            min_amount: 'Minimum tutar {{amount}}',
+            weekly_earnings: 'Haftalık Beklenen Kazanç',
             max_staking: 'Tutar sınırı aşıyor',
             continue: 'Devam Et',
             insufficient: 'Yetersiz Bakiye',
@@ -1463,9 +1473,9 @@ export const tr: Locale = {
         },
         insufficient: {
             balance: {
-                title: 'Yetersiz {{token}}',
+                title: 'Yetersiz {{token}} Bakiyesi',
                 subtext:
-                    'Kazanmaya başlamak için en az {{min}} {{token}} ihtiyacınız var. {{token}} ile takas, depozito veya satın alabilirsiniz.',
+                    'Bu pozisyon hesabınızda {{token}} gerektirir. Tokenlarınızı Swap yoluyla {{token}} dönüştürebilir veya hesabınıza doğrudan {{token}} yatırabilir veya {{token}} satın alabilirsiniz.',
                 swap: '{{token}} ile takas',
                 deposit: '{{token}} yatır',
                 buy: '{{token}} satın al (yakında)',
