@@ -216,11 +216,8 @@ export const tr: Locale = {
             },
             forgot_username_status: {
                 success_title: 'Kullanıcı adınız için e-postanızı kontrol edin',
-                fail_title: 'Bu e-posta adresi Clave’de bulunmuyor',
                 success_subtext:
                     'Kullanıcı adınızı hatırlatmak için size bir e-posta gönderdik. E-postayı kontrol ettikten sonra hesabınıza tekrar erişebilirsiniz.',
-                fail_subtext:
-                    'E-posta gönderilirken bir hata oluştu. Lütfen tekrar deneyin.',
                 continue: 'Girişe git',
                 try_again: 'Tekrar deneyin',
             },
