@@ -1401,6 +1401,7 @@ export const tr: Locale = {
             insufficient: 'Yetersiz Bakiye',
             max_staking_alert: 'Adil kullanım için kalan limit: {{amount}}',
             position: 'Pozisyon detayları',
+            set_amount: 'Miktar Belirle',
         },
         withdraw: {
             title: 'Çek',

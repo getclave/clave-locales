@@ -1398,6 +1398,7 @@ export const en = {
             insufficient: 'Insufficient Balance',
             max_staking_alert: 'Remaining limit for fair usage: {{amount}}',
             position: 'Position details',
+            set_amount: 'Set Amount',
         },
         withdraw: {
             title: 'Withdraw',
