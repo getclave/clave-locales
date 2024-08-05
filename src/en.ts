@@ -1303,12 +1303,15 @@ export const en = {
                 invest: 'Deposit Successful',
                 withdraw: 'Withdraw Successful',
                 claim: 'Earnings Collected',
+                requestWithdraw: 'Withdrawal Request Sent',
             },
             subtext: {
                 withdraw:
                     'Your tokens have been withdrawn.\nYou can always deposit again to start earning more.',
                 invest: 'Fantastic! Your tokens are now earning{{apr}}%\nAPR for you.',
                 claim: 'Great job! Your earnings have been collected\nand added to your balance.',
+                requestWithdraw:
+                    'The request submitted successfully.\nYou will be able to withdraw your funds after 10 days.',
             },
             check: 'Check Your Earnings',
             earn: 'Earn',
@@ -1317,6 +1320,8 @@ export const en = {
             withdraw_amount: 'Withdraw Amount',
             weekly_earnings: 'Est. Weekly Earnings',
             reward_amount: 'Reward Amount',
+            lockup_time: 'Withdrawal Date',
+            ten_days: '10 Days',
         },
         options: {
             title: 'Earn',
@@ -1437,7 +1442,7 @@ export const en = {
         },
         collect: {
             earnings: {
-                title: 'Collect Earnings',
+                title: 'Withdraw',
                 subtext:
                     'You have earned {{earningAmount}} {{symbol}} so far. Do you want to collect your reward while withdrawing your funds?',
                 withdrawal: 'Withdrawal Amount',
@@ -1445,7 +1450,11 @@ export const en = {
                 withdraw: {
                     both: 'Collect & Withdraw',
                     only: 'Only Withdraw',
+                    bothRequest: 'Collect & Request Withdraw',
+                    onlyRequest: 'Request Withdraw',
                 },
+                ten_days: '10 days',
+                waiting_time: 'Waiting Time',
                 back: 'Back',
             },
         },
@@ -1493,6 +1502,20 @@ export const en = {
                 },
                 continue: 'Ready to Earn',
             },
+        },
+        lockup_invest_bottom_sheet: {
+            title: 'You can only withdraw on request',
+            subtext:
+                'You can only withdraw your money on request with this type of coin.',
+            button: 'Get Started',
+        },
+        info_bottom_sheet: {
+            title: '{{amount}} {{token}} will be ready to be withdrawn on {{date}}',
+            subtext:
+                'You can only withdraw your money on request with this type of coin.',
+            notice: 'If you create new request, previous one will be cancelled and 10 days counter restarts',
+            new_withdraw: 'New Withdrawal Request',
+            continue: 'Continue to Earn',
         },
     },
     hub: {
