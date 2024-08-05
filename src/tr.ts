@@ -1305,12 +1305,15 @@ export const tr: Locale = {
                 invest: 'Başarıyla Yatırıldı',
                 withdraw: 'Başarıyla Çekildi',
                 claim: 'Ödüller Çekildi',
+                requestWithdraw: 'Çekme talebiniz alındı.',
             },
             subtext: {
                 withdraw:
                     'Kazanç elde etmeye başlamak için her zaman para yatırabilirsiniz!',
                 invest: 'Bu pozisyon için {{apy}}% APR kazanmaktasınız.',
                 claim: 'Kazançlarınız toplandı\nve bakiyenize eklendi.',
+                requestWithdraw:
+                    'İstek başarıyla gönderildi.\nParanızı 10 gün sonra çekebileceksiniz.',
             },
             check: 'Kazançlarını incele',
             earn: 'Kazan',
@@ -1319,6 +1322,8 @@ export const tr: Locale = {
             withdraw_amount: 'Çekilen Miktar',
             weekly_earnings: 'Haftalık Beklenen Kazanç',
             reward_amount: 'Ödül Miktarı',
+            lockup_time: 'Kilit Süresi',
+            ten_days: '10 Gün',
         },
         options: {
             title: 'Kazanç',
@@ -1447,7 +1452,11 @@ export const tr: Locale = {
                 withdraw: {
                     both: 'Topla ve Çek',
                     only: 'Sadece Çek',
+                    bothRequest: 'Topla ve Çekim Talep Et',
+                    onlyRequest: 'Çekim Talep Et',
                 },
+                ten_days: '10 Gün',
+                waiting_time: 'Bekleme Süresi',
                 back: 'Geri',
             },
         },
@@ -1495,6 +1504,18 @@ export const tr: Locale = {
                 },
                 continue: 'Kazanmaya Hazır',
             },
+        },
+        lockup_invest_bottom_sheet: {
+            title: 'Sadece çekme talebi ile para çekebilirsiniz',
+            subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz',
+            button: 'Başla',
+        },
+        info_bottom_sheet: {
+            title: '{{amount}} {{token}} {{date}} tarihinde çekmeye hazır olacak.',
+            subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz',
+            notice: 'Yeni talep oluşturduğunuzda önceki talep iptal edilecek ve 10 günlük sayaç yeniden başlayacaktır.',
+            new_withdraw: 'Yeni Çekme Talebi',
+            continue: 'Kazanmaya Devam Et',
         },
     },
     hub: {

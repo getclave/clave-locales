@@ -1444,7 +1444,7 @@ export const en = {
             earnings: {
                 title: 'Withdraw',
                 subtext:
-                    'You have earned {{earningAmount}} {{symbol}} so far. Do you want to collect your reward while withdrawing your funds?',
+                    'You have earned {{earningAmount}} so far. Do you want to collect your reward while withdrawing your funds?',
                 withdrawal: 'Withdrawal Amount',
                 earnings: 'Earnings',
                 withdraw: {
