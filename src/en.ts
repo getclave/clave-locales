@@ -1405,6 +1405,7 @@ export const en = {
         },
         withdraw: {
             title: 'Withdraw',
+            title_lockup: 'Request Withdraw',
             estimate: 'Estimated value: {{value}}',
             available: '{{amount}} {{symbol}} available',
             continue: 'Proceed',
@@ -1450,8 +1451,8 @@ export const en = {
                 withdraw: {
                     both: 'Collect & Withdraw',
                     only: 'Only Withdraw',
-                    bothRequest: 'Collect & Request Withdraw',
-                    onlyRequest: 'Request Withdraw',
+                    raw: 'Withdraw',
+                    request: 'Request Withdraw',
                 },
                 ten_days: '10 days',
                 waiting_time: 'Waiting Time',
@@ -1511,6 +1512,8 @@ export const en = {
         },
         info_bottom_sheet: {
             title: '{{amount}} {{token}} will be ready to be withdrawn on {{date}}',
+            title_ready:
+                'Your pending withdraw request is ready to be processed',
             subtext:
                 'You can only withdraw your money on request with this type of coin.',
             notice: 'If you create new request, previous one will be cancelled and 10 days counter restarts',

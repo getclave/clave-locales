@@ -1407,6 +1407,7 @@ export const tr: Locale = {
         },
         withdraw: {
             title: 'Çek',
+            title_lockup: 'Çekme Talebi',
             estimate: 'Tahmini değer: {{value}}',
             available: '{{amount}} {{symbol}} mevcut',
             continue: 'Devam Et',
@@ -1452,8 +1453,8 @@ export const tr: Locale = {
                 withdraw: {
                     both: 'Topla ve Çek',
                     only: 'Sadece Çek',
-                    bothRequest: 'Topla ve Çekim Talep Et',
-                    onlyRequest: 'Çekim Talep Et',
+                    raw: 'Çek',
+                    request: 'Çekim Talep Et',
                 },
                 ten_days: '10 Gün',
                 waiting_time: 'Bekleme Süresi',
@@ -1512,6 +1513,8 @@ export const tr: Locale = {
         },
         info_bottom_sheet: {
             title: '{{amount}} {{token}} {{date}} tarihinde çekmeye hazır olacak.',
+            title_ready:
+                'Your pending withdraw request is ready to be processed',
             subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz',
             notice: 'Yeni talep oluşturduğunuzda önceki talep iptal edilecek ve 10 günlük sayaç yeniden başlayacaktır.',
             new_withdraw: 'Yeni Çekme Talebi',
