@@ -1611,4 +1611,11 @@ export const tr: Locale = {
                 'Diğer cüzdanlardan veya borsalardan ZKsync üzerinde token almak için adresinizi kullanın',
         },
     },
+    send_on_zksync_bottom_sheet: {
+        title: 'ZKSync ağında para gönder',
+        description:
+            'Para gönderdiğiniz adresin ZKsync ağında erişilebilir olduğundan emin olunuz. Aksi taktirde, gönderdiğiniz paranızı kaybedebilirsiniz.',
+        accept: 'Gönderdiğim adres ZKsync destekliyor',
+        button: 'Devam Et',
+    },
 };

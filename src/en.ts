@@ -1610,4 +1610,11 @@ export const en = {
                 'Use your address to receive tokens from other wallets or exchanges.',
         },
     },
+    send_on_zksync_bottom_sheet: {
+        title: 'You’re sending on ZKsync',
+        description:
+            'Make sure the address you’re sending to is accessible on ZKsync. Otherwise, you may lose the funds you’re sending.',
+        accept: 'The address I’m sending supports ZKSync',
+        button: 'Continue to Send',
+    },
 };
