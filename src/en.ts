@@ -1308,7 +1308,7 @@ export const en = {
             subtext: {
                 withdraw:
                     'Your tokens have been withdrawn.\nYou can always deposit again to start earning more.',
-                invest: 'Fantastic! Your tokens are now earning{{apr}}%\nAPR for you.',
+                invest: 'Fantastic! Your tokens are now earning {{apr}}%\nAPR for you.',
                 claim: 'Great job! Your earnings have been collected\nand added to your balance.',
                 requestWithdraw:
                     'The request submitted successfully.\nYou will be able to withdraw your funds after 10 days.',
