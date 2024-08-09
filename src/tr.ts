@@ -1370,9 +1370,12 @@ export const tr: Locale = {
                     title: 'Pozisyon Detayları',
                     done: 'Tamamlandı',
                 },
-                earning_disclaimer:
-                    '{{from}} ödül eşdeğer miktarda {{to}}-ya dönüştürüldü',
-                reward_disclaimer: 'Tüm ödüller dahil',
+                earnings_disclaimer: '$ZK token cinsinden tahmini ödüller',
+                earnings_disclaimer_compounded:
+                    'Ödüller pozisyonlara dönüştürülür',
+                rewards_disclaimer_both:
+                    'Bileşik ve toplanabilir ödüller dahildir',
+                rewards_disclaimer: 'Tüm ödüller dahil',
             },
             information: {
                 collectible: {

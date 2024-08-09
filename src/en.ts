@@ -1368,9 +1368,12 @@ export const en = {
                     title: 'Position Details',
                     done: 'Done',
                 },
-                earning_disclaimer:
-                    '{{from}} rewards converted into equivalent amount of {{to}}',
-                reward_disclaimer: 'All rewards included',
+                earnings_disclaimer: 'Estimated rewards in $ZK tokens',
+                earnings_disclaimer_compounded:
+                    'Rewards are compounded into positions',
+                rewards_disclaimer: 'Rewards are included',
+                rewards_disclaimer_both:
+                    'Compounded and collectible rewards are included',
             },
             information: {
                 collectible: {
