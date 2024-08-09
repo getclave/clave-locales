@@ -705,6 +705,7 @@ export const tr: Locale = {
             earnMigrateSubtitle: '{{protocol}}',
             delegated_zk_tokens: 'ZK Delege Edildi',
             deposit: 'Yatırma',
+            earnWithdrawRequest: 'Çekme Talebi',
             details: {
                 me: 'ben',
                 tx_type: 'İşlem Türü',
@@ -725,8 +726,9 @@ export const tr: Locale = {
                 earn_details: {
                     withdraw_title: '{{amount}} çek',
                     deposit_title: '{{amount}} yatır',
-                    claim_title: '{{amount}} talep et',
-                    migrate_title: 'Fonarlı Taşı',
+                    claim_title: '{{amount}} ödül toplandı',
+                    migrate_title: 'Fonları Taşı',
+                    withdraw_request_title: '{{amount}} çekme talebi',
                 },
                 delegated_to_clave: "Clave'e delege edildi",
                 delegation: 'Delegasyon',
