@@ -1344,7 +1344,7 @@ export const en = {
         migrate: {
             migrate: 'Migrate',
             title: 'Earn {{apy}}% APR',
-            title_rewards: 'Claim rewards',
+            title_rewards: 'Claim Rewards',
             subtitle:
                 'The new Ether pool is live with {{apy}}% APR. Please migrate your funds to the new pool in one-click.',
         },
