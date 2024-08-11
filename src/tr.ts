@@ -1379,6 +1379,9 @@ export const tr: Locale = {
                 rewards_disclaimer_both:
                     'Bileşik ve toplanabilir ödüller dahildir',
                 rewards_disclaimer: 'Tüm ödüller dahil',
+                lockup_ready: '{{amount}} çekime hazır',
+                lockup_pending:
+                    '{{amount}} {{date}} tarihinde çekime hazır olacak',
             },
             information: {
                 collectible: {

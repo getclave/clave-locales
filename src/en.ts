@@ -1378,6 +1378,9 @@ export const en = {
                 rewards_disclaimer: 'Rewards are included',
                 rewards_disclaimer_both:
                     'Compounded and collectible rewards are included',
+                lockup_ready: '{{amount}} is ready to withdraw',
+                lockup_pending:
+                    '{{amount}} will be ready to withdraw on {{date}}',
             },
             information: {
                 collectible: {
