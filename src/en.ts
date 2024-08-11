@@ -1460,8 +1460,9 @@ export const en = {
                 earnings: 'Earnings',
                 withdraw: {
                     both: 'Collect & Withdraw',
+                    bothRequest: 'Collect & Request',
                     only: 'Only Withdraw',
-                    raw: 'Withdraw',
+                    onlyRequest: 'Only Request',
                     request: 'Request Withdraw',
                 },
                 ten_days: '10 days',
@@ -1521,7 +1522,7 @@ export const en = {
             button: 'Get Started',
         },
         info_bottom_sheet: {
-            title: '{{amount}} {{token}} will be ready to be withdrawn on {{date}}',
+            title: '{{amount}} will be ready to withdraw on {{date}}',
             title_ready:
                 'Your pending withdraw request is ready to be processed',
             subtext:

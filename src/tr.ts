@@ -1462,8 +1462,9 @@ export const tr: Locale = {
                 withdraw: {
                     both: 'Topla ve Çek',
                     only: 'Sadece Çek',
-                    raw: 'Çek',
+                    bothRequest: 'Topla ve Talep Et',
                     request: 'Çekim Talep Et',
+                    onlyRequest: 'Sadece Talep Et',
                 },
                 ten_days: '10 Gün',
                 waiting_time: 'Bekleme Süresi',
@@ -1521,7 +1522,7 @@ export const tr: Locale = {
             button: 'Başla',
         },
         info_bottom_sheet: {
-            title: '{{amount}} {{token}} {{date}} tarihinde çekmeye hazır olacak.',
+            title: '{{amount}} {{date}} tarihinde çekmeye hazır olacak.',
             title_ready:
                 'Your pending withdraw request is ready to be processed',
             subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz',
