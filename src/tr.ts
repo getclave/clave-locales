@@ -1382,6 +1382,7 @@ export const tr: Locale = {
                 lockup_ready: '{{amount}} çekime hazır',
                 lockup_pending:
                     '{{amount}} {{date}} tarihinde çekime hazır olacak',
+                share: `X'the Paylaş`,
             },
             information: {
                 collectible: {

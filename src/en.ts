@@ -1381,6 +1381,7 @@ export const en = {
                 lockup_ready: '{{amount}} is ready to withdraw',
                 lockup_pending:
                     '{{amount}} will be ready to withdraw on {{date}}',
+                share: 'Share on X',
             },
             information: {
                 collectible: {
