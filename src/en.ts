@@ -1456,13 +1456,15 @@ export const en = {
                 title: 'Withdraw',
                 subtext:
                     'You have earned {{earningAmount}} so far. Do you want to collect your reward while withdrawing your funds?',
+                subtext_lockup:
+                    'You can only withdraw your money on request with this earn option.',
                 withdrawal: 'Withdrawal Amount',
                 earnings: 'Earnings',
                 withdraw: {
                     both: 'Collect & Withdraw',
                     bothRequest: 'Collect & Request',
                     only: 'Only Withdraw',
-                    onlyRequest: 'Only Request',
+                    onlyRequest: 'Request',
                     request: 'Request Withdraw',
                 },
                 ten_days: '10 days',
@@ -1518,7 +1520,7 @@ export const en = {
         lockup_invest_bottom_sheet: {
             title: 'You can only withdraw on request',
             subtext:
-                'You can only withdraw your money on request with this type of coin.',
+                'You can only withdraw your money on request with this type of earn option.',
             button: 'Get Started',
         },
         info_bottom_sheet: {
@@ -1526,7 +1528,7 @@ export const en = {
             title_ready:
                 'Your pending withdraw request is ready to be processed',
             subtext:
-                'You can only withdraw your money on request with this type of coin.',
+                'You can only withdraw your money on request with this type of earn option.',
             notice: 'If you create new request, previous one will be cancelled and 10 days counter restarts',
             new_withdraw: 'New Withdrawal Request',
             continue: 'Continue to Earn',

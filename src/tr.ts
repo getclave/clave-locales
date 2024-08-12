@@ -1457,6 +1457,8 @@ export const tr: Locale = {
                 title: 'Kazançları Topla',
                 subtext:
                     'Şu ana kadar {{earningAmount}} {{symbol}} kazandınız. Fonlarınızı çekerken ödülünüzü toplamak ister misiniz?',
+                subtext_lockup:
+                    'Bu havuzda sadece talep oluşturarak para çekebilirsiniz.',
                 withdrawal: 'Çekim Miktarı',
                 earnings: 'Kazançlar',
                 withdraw: {
@@ -1518,14 +1520,14 @@ export const tr: Locale = {
         },
         lockup_invest_bottom_sheet: {
             title: 'Sadece çekme talebi ile para çekebilirsiniz',
-            subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz',
+            subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz.',
             button: 'Başla',
         },
         info_bottom_sheet: {
             title: '{{amount}} {{date}} tarihinde çekmeye hazır olacak.',
             title_ready:
                 'Your pending withdraw request is ready to be processed',
-            subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz',
+            subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz.',
             notice: 'Yeni talep oluşturduğunuzda önceki talep iptal edilecek ve 10 günlük sayaç yeniden başlayacaktır.',
             new_withdraw: 'Yeni Çekme Talebi',
             continue: 'Kazanmaya Devam Et',
