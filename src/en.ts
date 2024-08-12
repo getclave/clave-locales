@@ -1530,7 +1530,7 @@ export const en = {
                 'Your pending withdraw request is ready to be processed',
             subtext:
                 'You can only withdraw your money on request with this type of earn option.',
-            notice: 'If you create new request, previous one will be cancelled and 10 days counter restarts',
+            notice: 'If you create new request, previous one will be accumulated, and 10 days counter restarts',
             new_withdraw: 'New Withdrawal Request',
             continue: 'Continue to Earn',
         },

@@ -1529,7 +1529,7 @@ export const tr: Locale = {
             title_ready:
                 'Your pending withdraw request is ready to be processed',
             subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz.',
-            notice: 'Yeni talep oluşturduğunuzda önceki talep iptal edilecek ve 10 günlük sayaç yeniden başlayacaktır.',
+            notice: 'Yeni talep oluşturduğunuzda, bu talep öncekinin üstüne eklenecek ve 10 günlük sayaç yeniden başlayacaktır.',
             new_withdraw: 'Yeni Çekme Talebi',
             continue: 'Kazanmaya Devam Et',
         },
