@@ -548,6 +548,9 @@ export const tr: Locale = {
         about: {
             title: 'Clave Hakkında',
             subtext: 'Şartlar, gizlilik ve kanallar',
+            policy: {
+                title: 'Politikalar',
+            },
             terms_and_conditions: {
                 title: 'Şartlar ve Koşullar',
                 subtext: '',
