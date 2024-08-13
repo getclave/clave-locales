@@ -1522,7 +1522,9 @@ export const tr: Locale = {
         lockup_invest_bottom_sheet: {
             title: 'Sadece çekme talebi ile para çekebilirsiniz',
             subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz.',
-            button: 'Başla',
+            text_1: 'Çekim bekleme süresi 10 gündür.',
+            text_2: 'Çekilen paranın miktarını değiştirmeniz durumunda bekleme süresi yeniden başlayacaktır.',
+            button: 'İlerle',
         },
         info_bottom_sheet: {
             title: '{{amount}} {{date}} tarihinde çekmeye hazır olacak.',
