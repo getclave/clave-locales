@@ -1339,6 +1339,7 @@ export const tr: Locale = {
                 all: 'Tümü',
                 featured: 'Öne Çıkan',
                 stables: 'Stabil Coinler',
+                zksummer: 'ZK Yazı',
             },
         },
         option: {
