@@ -693,17 +693,14 @@ export const en = {
             swap: 'Swap',
             fail: 'Failed',
             earnDeposit: 'Deposit',
-            earnDepositSubtitle: 'Earn',
             earnWithdraw: 'Withdraw',
-            earnWithdrawSubtitle: 'Earn',
             earnClaim: 'Collect',
-            earnClaimSubtitle: 'Earnings on {{protocol}}',
             earnWithdrawRequest: 'Withdraw Request',
             delegated_zk_tokens: 'Delegated to Clave',
             deposit: 'Deposit',
             earnMigrate: 'Migrate Funds',
-            earnMigrateSubtitle: '{{protocol}}',
             details: {
+                payment_link: 'Payment Link',
                 me: 'me',
                 tx_type: 'Tx Type',
                 token_sent: 'Token Sent',
@@ -723,6 +720,7 @@ export const en = {
                 earn_details: {
                     withdraw_title: 'Withdraw {{amount}}',
                     deposit_title: 'Deposit {{amount}}',
+                    earn_subtitle: '{{tokenSymbol}} on {{protocol}}',
                     claim_title: 'Claim {{amount}}',
                     migrate_title: 'Migrate Funds',
                     withdraw_request_title:
