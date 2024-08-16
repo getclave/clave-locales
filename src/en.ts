@@ -1336,6 +1336,7 @@ export const en = {
                 all: 'All',
                 featured: 'Featured',
                 stables: 'Stables',
+                zksummer: 'ZK Summer',
             },
         },
         option: {
