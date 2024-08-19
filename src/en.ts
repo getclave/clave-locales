@@ -188,13 +188,19 @@ export const en = {
         tourv2: {
             skip: 'Skip',
             back: 'Back',
-            save: 'Continue',
+            save: 'Save',
+            continue: 'Continue',
             step1_title: 'Set Your Username',
             step1_text1:
                 'You can use your username to send and request money in Clave.',
             step2_title: 'Enable Notifications',
             step2_text1:
                 'Stay informed with real-time updates. Get alerts on incoming funds, completed transactions, and security notifications.',
+            stepreferral_title: 'Who helped you find us?',
+            referral_button_title: 'Got a referral code?',
+            referral_button_subtitle: 'Chance to earn 5$ and cryptobacks',
+            referral_input_placeholder: 'Username of your referee',
+            referral_input_label: 'Referral Code',
         },
         creation: {
             account_creation_done: {
