@@ -201,6 +201,8 @@ export const en = {
             referral_button_subtitle: 'Chance to earn 5$ and cryptobacks',
             referral_input_placeholder: 'Username of your referee',
             referral_input_label: 'Referral Code',
+            referral_activated: 'Your perks are activated',
+            referred_by: 'Referred by {{username}}',
         },
         creation: {
             account_creation_done: {

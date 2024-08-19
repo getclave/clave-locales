@@ -191,6 +191,15 @@ export const tr: Locale = {
             skip: 'Atla',
             back: 'Geri',
             save: 'Kaydet',
+            continue: 'Devam et',
+            referral_activated: 'Referans aktive edildi',
+            referral_button_title: 'Referans kodunuz var mı?',
+            referral_button_subtitle:
+                '5$ ve daha fazlasını kazanma şansı elde edin',
+            referral_input_label: 'Referans Kodu',
+            referral_input_placeholder: 'Kullanıcı adı',
+            referred_by: 'Referans Kodu: {{username}}',
+            stepreferral_title: 'Referans Kodu',
             step1_title: 'Kullancı ismini belirle',
             step1_text1:
                 'Kullanıcı adınızı belirleyerek ve zkSync Erada Clave hesabınıza para yatırarak başlayın.',
