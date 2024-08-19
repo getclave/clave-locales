@@ -711,6 +711,8 @@ export const tr: Locale = {
             delegated_zk_tokens: 'ZK Delege Edildi',
             deposit: 'Yatırma',
             earnWithdrawRequest: 'Çekme Talebi',
+            referral: 'Referans',
+            cashback: 'Kripto İade',
             details: {
                 me: 'ben',
                 tx_type: 'İşlem Türü',
@@ -729,6 +731,7 @@ export const tr: Locale = {
                 reclaim_in_time: '{{time}} içinde geri al',
                 gas_fee: 'Ağ Ücreti',
                 payment_link: 'Ödeme Linki',
+                referral: 'Referans',
                 earn_details: {
                     earn_subtitle: '{{protocol}}de {{tokenSymbol}}',
                     withdraw_title: '{{amount}} çek',
