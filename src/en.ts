@@ -707,6 +707,8 @@ export const en = {
             delegated_zk_tokens: 'Delegated to Clave',
             deposit: 'Deposit',
             earnMigrate: 'Migrate Funds',
+            cashback: 'Cryptoback',
+            referral: 'Referral Commission',
             details: {
                 payment_link: 'Payment Link',
                 me: 'me',
@@ -739,6 +741,7 @@ export const en = {
                 deposit_details: {
                     title: 'Deposited {{amount}}',
                 },
+                referral: 'Referral',
             },
             pending: {
                 timeout: 'Something went wrong',
