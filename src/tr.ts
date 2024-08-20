@@ -198,7 +198,7 @@ export const tr: Locale = {
                 '5$ ve daha fazlasını kazanma şansı elde edin',
             referral_input_label: 'Referans Kodu',
             referral_input_placeholder: 'Kullanıcı adı',
-            referred_by: 'Referans Kodu: {{username}}',
+            referred_by: 'Referans Kodu: *{{username}}',
             stepreferral_title: 'Referans Kodu',
             step1_title: 'Kullancı ismini belirle',
             step1_text1:
@@ -206,6 +206,11 @@ export const tr: Locale = {
             step2_title: 'Bildirimleri Etkinleştir',
             step2_text1:
                 'Gerçek zamanlı güncellemelerden haberdar olun. Gelen paralar, tamamlanan işlemler ve güvenlik güncellemeleri hakkında uyarı almak için bildirimleri etkinleştirin.',
+            referral_item_1:
+                'Kazanca ilk *{{deposit_amount}} yatırımına *{{reward_amount}} hediye',
+            referral_item_2: 'Harcamalarından *{{reward_amount}} crypto iadesi',
+            user_not_registered: 'Kullanıcı bilgileri tamamlanmadı',
+            referral_valid: 'Referans kodu geçerli',
         },
         creation: {
             account_creation_done: {

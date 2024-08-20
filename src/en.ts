@@ -202,7 +202,12 @@ export const en = {
             referral_input_placeholder: 'Username of your referee',
             referral_input_label: 'Referral Code',
             referral_activated: 'Your perks are activated',
-            referred_by: 'Referred by {{username}}',
+            referred_by: 'Referred by *{{username}}',
+            referral_item_1:
+                '*{{reward_amount}} for the first *{{deposit_amount}} you deposit to Earn',
+            referral_item_2: '*{{reward_amount}} cryptoback on fees you pay',
+            user_not_registered: 'User is not fully registered',
+            referral_valid: 'Referral code is valid',
         },
         creation: {
             account_creation_done: {
