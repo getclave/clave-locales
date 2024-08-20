@@ -191,6 +191,15 @@ export const tr: Locale = {
             skip: 'Atla',
             back: 'Geri',
             save: 'Kaydet',
+            continue: 'Devam et',
+            referral_activated: 'Referans aktive edildi',
+            referral_button_title: 'Referans kodunuz var mı?',
+            referral_button_subtitle:
+                '5$ ve daha fazlasını kazanma şansı elde edin',
+            referral_input_label: 'Referans Kodu',
+            referral_input_placeholder: 'Kullanıcı adı',
+            referred_by: 'Referans Kodu: {{username}}',
+            stepreferral_title: 'Referans Kodu',
             step1_title: 'Kullancı ismini belirle',
             step1_text1:
                 'Kullanıcı adınızı belirleyerek ve zkSync Erada Clave hesabınıza para yatırarak başlayın.',
@@ -699,15 +708,14 @@ export const tr: Locale = {
             swap: 'Takas',
             fail: 'Başarısız',
             earnDeposit: 'Kazanca Yatır',
-            earnDepositSubtitle: '{{tokenSymbol}} {{protocol}} üzerinde',
             earnWithdraw: 'Kazançtan Çek',
-            earnWithdrawSubtitle: '{{tokenSymbol}} {{protocol}} üzerinde',
             earnClaim: 'Kazançtan Talep Et',
-            earnClaimSubtitle: '{{tokenSymbol}} {{protocol}} üzerinde',
             earnMigrate: 'Fonları Taşı',
-            earnMigrateSubtitle: '{{protocol}}',
             delegated_zk_tokens: 'ZK Delege Edildi',
             deposit: 'Yatırma',
+            earnWithdrawRequest: 'Çekme Talebi',
+            referral: 'Referans',
+            cashback: 'Kripto İade',
             details: {
                 me: 'ben',
                 tx_type: 'İşlem Türü',
@@ -725,11 +733,15 @@ export const tr: Locale = {
                 reclaim_funds: 'Fonları Geri Al',
                 reclaim_in_time: '{{time}} içinde geri al',
                 gas_fee: 'Ağ Ücreti',
+                payment_link: 'Ödeme Linki',
+                referral: 'Referans',
                 earn_details: {
+                    earn_subtitle: '{{protocol}}de {{tokenSymbol}}',
                     withdraw_title: '{{amount}} çek',
                     deposit_title: '{{amount}} yatır',
-                    claim_title: '{{amount}} talep et',
-                    migrate_title: 'Fonarlı Taşı',
+                    claim_title: '{{amount}} ödül toplandı',
+                    migrate_title: 'Fonları Taşı',
+                    withdraw_request_title: '{{amount}} çekme talebi',
                 },
                 delegated_to_clave: "Clave'e delege edildi",
                 delegation: 'Delegasyon',
@@ -1502,6 +1514,7 @@ export const tr: Locale = {
                 all: 'Tümü',
                 featured: 'Öne Çıkan',
                 stables: 'Stabil Coinler',
+                zksummer: 'ZK Yazı',
             },
         },
         option: {
@@ -1511,6 +1524,7 @@ export const tr: Locale = {
         migrate: {
             migrate: 'Taşı',
             title: '{{apy}}% APR Kazanç',
+            title_rewards: 'Ödülleri Topla',
             subtitle:
                 'Yeni Ether havuzu {{apy}}% APR kazan ile canlı. Lütfen fonlarınızı tek tıkla yeni havuza taşıyınız.',
         },
@@ -1535,9 +1549,16 @@ export const tr: Locale = {
                     title: 'Pozisyon Detayları',
                     done: 'Tamamlandı',
                 },
-                earning_disclaimer:
-                    '{{from}} ödül eşdeğer miktarda {{to}}-ya dönüştürüldü',
-                reward_disclaimer: 'Tüm ödüller dahil',
+                earnings_disclaimer: '$ZK token cinsinden tahmini ödüller',
+                earnings_disclaimer_compounded:
+                    'Ödüller pozisyonlara dönüştürülür',
+                rewards_disclaimer_both:
+                    'Bileşik ve toplanabilir ödüller dahildir',
+                rewards_disclaimer: 'Tüm ödüller dahil',
+                lockup_ready: '{{amount}} çekime hazır',
+                lockup_pending:
+                    '{{amount}} {{date}} tarihinde çekime hazır olacak',
+                share: `X'the Paylaş`,
             },
             information: {
                 collectible: {
@@ -1613,13 +1634,16 @@ export const tr: Locale = {
                 title: 'Kazançları Topla',
                 subtext:
                     'Şu ana kadar {{earningAmount}} {{symbol}} kazandınız. Fonlarınızı çekerken ödülünüzü toplamak ister misiniz?',
+                subtext_lockup:
+                    'Bu havuzda sadece talep oluşturarak para çekebilirsiniz.',
                 withdrawal: 'Çekim Miktarı',
                 earnings: 'Kazançlar',
                 withdraw: {
                     both: 'Topla ve Çek',
                     only: 'Sadece Çek',
-                    raw: 'Çek',
+                    bothRequest: 'Topla ve Talep Et',
                     request: 'Çekim Talep Et',
+                    onlyRequest: 'Sadece Talep Et',
                 },
                 ten_days: '10 Gün',
                 waiting_time: 'Bekleme Süresi',
@@ -1673,15 +1697,17 @@ export const tr: Locale = {
         },
         lockup_invest_bottom_sheet: {
             title: 'Sadece çekme talebi ile para çekebilirsiniz',
-            subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz',
-            button: 'Başla',
+            subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz.',
+            text_1: 'Çekim bekleme süresi 10 gündür.',
+            text_2: 'Çekilen paranın miktarını değiştirmeniz durumunda bekleme süresi yeniden başlayacaktır.',
+            button: 'İlerle',
         },
         info_bottom_sheet: {
-            title: '{{amount}} {{token}} {{date}} tarihinde çekmeye hazır olacak.',
+            title: '{{amount}} {{date}} tarihinde çekmeye hazır olacak.',
             title_ready:
                 'Your pending withdraw request is ready to be processed',
-            subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz',
-            notice: 'Yeni talep oluşturduğunuzda önceki talep iptal edilecek ve 10 günlük sayaç yeniden başlayacaktır.',
+            subtext: 'Bu havuzda sadece talep oluşturarak para çekebilirsiniz.',
+            notice: 'Yeni talep oluşturduğunuzda, bu talep öncekinin üstüne eklenecek ve 10 günlük sayaç yeniden başlayacaktır.',
             new_withdraw: 'Yeni Çekme Talebi',
             continue: 'Kazanmaya Devam Et',
         },
@@ -1775,5 +1801,12 @@ export const tr: Locale = {
             subtext:
                 'Diğer cüzdanlardan veya borsalardan ZKsync üzerinde token almak için adresinizi kullanın',
         },
+    },
+    send_on_zksync_bottom_sheet: {
+        title: 'ZKSync ağında para gönder',
+        description:
+            'Para gönderdiğiniz adresin ZKsync ağında erişilebilir olduğundan emin olunuz. Aksi taktirde, gönderdiğiniz paranızı kaybedebilirsiniz.',
+        accept: 'Gönderdiğim adres ZKsync destekliyor',
+        button: 'Devam Et',
     },
 };

@@ -188,13 +188,21 @@ export const en = {
         tourv2: {
             skip: 'Skip',
             back: 'Back',
-            save: 'Continue',
+            save: 'Save',
+            continue: 'Continue',
             step1_title: 'Set Your Username',
             step1_text1:
                 'You can use your username to send and request money in Clave.',
             step2_title: 'Enable Notifications',
             step2_text1:
                 'Stay informed with real-time updates. Get alerts on incoming funds, completed transactions, and security notifications.',
+            stepreferral_title: 'Who helped you find us?',
+            referral_button_title: 'Got a referral code?',
+            referral_button_subtitle: 'Chance to earn 5$ and cryptobacks',
+            referral_input_placeholder: 'Username of your referee',
+            referral_input_label: 'Referral Code',
+            referral_activated: 'Your perks are activated',
+            referred_by: 'Referred by {{username}}',
         },
         creation: {
             account_creation_done: {
@@ -695,17 +703,17 @@ export const en = {
             created_by_user: 'Created by {{user}}',
             swap: 'Swap',
             fail: 'Failed',
-            earnDeposit: 'Deposit to Earn',
-            earnDepositSubtitle: '{{tokenSymbol}} on {{protocol}}',
-            earnWithdraw: 'Withdraw from Earn',
-            earnWithdrawSubtitle: '{{tokenSymbol}} on {{protocol}}',
-            earnClaim: 'Claim from Earn',
-            earnClaimSubtitle: '{{tokenSymbol}} on {{protocol}}',
-            delegated_zk_tokens: 'Delegated ZK',
+            earnDeposit: 'Deposit',
+            earnWithdraw: 'Withdraw',
+            earnClaim: 'Collect',
+            earnWithdrawRequest: 'Withdraw Request',
+            delegated_zk_tokens: 'Delegated to Clave',
             deposit: 'Deposit',
             earnMigrate: 'Migrate Funds',
-            earnMigrateSubtitle: '{{protocol}}',
+            cashback: 'Cryptoback',
+            referral: 'Referral Commission',
             details: {
+                payment_link: 'Payment Link',
                 me: 'me',
                 tx_type: 'Tx Type',
                 token_sent: 'Token Sent',
@@ -725,14 +733,18 @@ export const en = {
                 earn_details: {
                     withdraw_title: 'Withdraw {{amount}}',
                     deposit_title: 'Deposit {{amount}}',
+                    earn_subtitle: '{{tokenSymbol}} on {{protocol}}',
                     claim_title: 'Claim {{amount}}',
                     migrate_title: 'Migrate Funds',
+                    withdraw_request_title:
+                        'Requested Withdrawal for {{amount}}',
                 },
                 delegated_to_clave: 'Delegated ZK to Clave',
                 delegation: 'Delegation',
                 deposit_details: {
                     title: 'Deposited {{amount}}',
                 },
+                referral: 'Referral',
             },
             pending: {
                 timeout: 'Something went wrong',
@@ -1474,7 +1486,7 @@ export const en = {
             subtext: {
                 withdraw:
                     'Your tokens have been withdrawn.\nYou can always deposit again to start earning more.',
-                invest: 'Fantastic! Your tokens are now earning{{apr}}%\nAPR for you.',
+                invest: 'Fantastic! Your tokens are now earning {{apr}}%\nAPR for you.',
                 claim: 'Great job! Your earnings have been collected\nand added to your balance.',
                 requestWithdraw:
                     'The request submitted successfully.\nYou will be able to withdraw your funds after 10 days.',
@@ -1501,6 +1513,7 @@ export const en = {
                 all: 'All',
                 featured: 'Featured',
                 stables: 'Stables',
+                zksummer: 'ZK Summer',
             },
         },
         option: {
@@ -1510,6 +1523,7 @@ export const en = {
         migrate: {
             migrate: 'Migrate',
             title: 'Earn {{apy}}% APR',
+            title_rewards: 'Claim Rewards',
             subtitle:
                 'The new Ether pool is live with {{apy}}% APR. Please migrate your funds to the new pool in one-click.',
         },
@@ -1534,9 +1548,16 @@ export const en = {
                     title: 'Position Details',
                     done: 'Done',
                 },
-                earning_disclaimer:
-                    '{{from}} rewards converted into equivalent amount of {{to}}',
-                reward_disclaimer: 'All rewards included',
+                earnings_disclaimer: 'Estimated rewards in $ZK tokens',
+                earnings_disclaimer_compounded:
+                    'Rewards are compounded into positions',
+                rewards_disclaimer: 'Rewards are included',
+                rewards_disclaimer_both:
+                    'Compounded and collectible rewards are included',
+                lockup_ready: '{{amount}} is ready to withdraw',
+                lockup_pending:
+                    '{{amount}} will be ready to withdraw on {{date}}',
+                share: 'Share on X',
             },
             information: {
                 collectible: {
@@ -1612,12 +1633,15 @@ export const en = {
                 title: 'Withdraw',
                 subtext:
                     'You have earned {{earningAmount}} so far. Do you want to collect your reward while withdrawing your funds?',
+                subtext_lockup:
+                    'You can only withdraw your money on request with this earn option.',
                 withdrawal: 'Withdrawal Amount',
                 earnings: 'Earnings',
                 withdraw: {
                     both: 'Collect & Withdraw',
+                    bothRequest: 'Collect & Request',
                     only: 'Only Withdraw',
-                    raw: 'Withdraw',
+                    onlyRequest: 'Request',
                     request: 'Request Withdraw',
                 },
                 ten_days: '10 days',
@@ -1671,18 +1695,20 @@ export const en = {
             },
         },
         lockup_invest_bottom_sheet: {
-            title: 'You can only withdraw on request',
+            title: 'Withdrawal has timelock',
             subtext:
-                'You can only withdraw your money on request with this type of coin.',
-            button: 'Get Started',
+                'You can only withdraw your money on request with this earn option.',
+            text_1: 'Withdrawal waiting time is 10 days.',
+            text_2: 'If you change the amount of withdrawn money, the waiting time will restart',
+            button: 'Proceed',
         },
         info_bottom_sheet: {
-            title: '{{amount}} {{token}} will be ready to be withdrawn on {{date}}',
+            title: '{{amount}} will be ready to withdraw on {{date}}',
             title_ready:
                 'Your pending withdraw request is ready to be processed',
             subtext:
-                'You can only withdraw your money on request with this type of coin.',
-            notice: 'If you create new request, previous one will be cancelled and 10 days counter restarts',
+                'You can only withdraw your money on request with this type of earn option.',
+            notice: 'If you create new request, previous one will be accumulated, and 10 days counter restarts',
             new_withdraw: 'New Withdrawal Request',
             continue: 'Continue to Earn',
         },
@@ -1775,5 +1801,12 @@ export const en = {
             subtext:
                 'Use your address to receive tokens from other wallets or exchanges.',
         },
+    },
+    send_on_zksync_bottom_sheet: {
+        title: 'Sending on ZKsync',
+        description:
+            'Make sure the address you’re sending to is accessible on ZKsync. Otherwise, you may lose the funds.',
+        accept: 'The address I’m sending supports ZKsync',
+        button: 'Continue to Send',
     },
 };
