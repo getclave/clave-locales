@@ -823,6 +823,12 @@ export const en = {
         send: 'Select token',
         request: 'Select token',
     },
+    complete_account: {
+        title: 'Complete Your Account',
+        subtitle:
+            'You need to complete following steps to get access to invite your friends',
+        back: 'Back',
+    },
     transaction: {
         __description:
             'The translations related to flow when transaction is sent',
