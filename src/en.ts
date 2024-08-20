@@ -455,6 +455,10 @@ export const en = {
             main: {
                 title: 'Profile',
                 account_settings: 'Account Settings',
+                banner: {
+                    first_banner: 'Clave Benefits',
+                    second_banner: 'Invite & Earn',
+                },
             },
             saved_with_clave: {
                 title: 'Thanks for being a Clave user{{name}}',
