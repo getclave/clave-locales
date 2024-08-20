@@ -821,6 +821,15 @@ export const tr: Locale = {
         continue: 'Kullanıcı Adını Belirle',
         later: 'Daha Sonra Hatırlat',
     },
+    complete_account: {
+        title: 'Hesap Bilgilerini Tamamla',
+        subtitle:
+            'Arkadaşlarınızı davet edebilmek için hesap bilgilerinizi tamamlamanız gerekmektedir',
+        back: 'Geri',
+        select_username: 'Kullanıcı adı seçin',
+        profile_pic: 'Profile fotoğrafı ekleyin',
+        guardian: 'Koruyucu ekleyin',
+    },
     token_selection: {
         __description: 'Gönder & talep işlemlerinde token seçimi sayfası',
         send: 'Token seçin',

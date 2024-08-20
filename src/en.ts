@@ -828,6 +828,9 @@ export const en = {
         subtitle:
             'You need to complete following steps to get access to invite your friends',
         back: 'Back',
+        select_username: 'Select your username',
+        profile_pic: 'Add a profile picture',
+        guardian: 'Add a guardian',
     },
     transaction: {
         __description:
