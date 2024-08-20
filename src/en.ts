@@ -466,9 +466,10 @@ export const en = {
                 invite_earn: 'Invite & Earn',
                 ref_code: 'Your Referral Code',
                 what_you_get: 'What you get:',
+                what_they_get: 'What they get:',
                 first_benefit: '*{{amount}} Crypto back from fees paid by them',
                 second_behefit:
-                    '*{{amount1}} for the first {{amount2}} they deposit to Earn',
+                    '*{{amount1}} for the first *{{amount2}} they deposit to Earn',
                 third_benefit: '*{{amount}} Crypto back from fees they pay',
                 best_way_refer: 'Best way to refer:',
                 send_them_dollar:

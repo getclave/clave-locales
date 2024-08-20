@@ -459,6 +459,25 @@ export const tr: Locale = {
             main: {
                 title: 'Profil',
                 account_settings: 'Hesap Ayarları',
+                banner: {
+                    first_banner: 'Clave-in sana faydaları',
+                    second_banner: 'Davet et ve kazan',
+                },
+            },
+            invite: {
+                total_earned: 'Toplam Kazanç',
+                total_referees: 'Toplam Referanslar',
+                invite_earn: 'Davet et ve kazan',
+                ref_code: 'Referans Kodu',
+                what_you_get: 'Ne Kazanırsın',
+                what_they_get: 'Ne Kazanırlar',
+                first_benefit:
+                    'Onların ödediği feelerden *{{amount}} kripto kazan',
+                second_behefit:
+                    'Kazanca yatırdıkları ilk *{{amount2}} için *{{amount1}} kazan',
+                third_benefit: 'Ödedikleri feelerden *{{amount}} kripto kazan',
+                best_way_refer: 'Referans olmanın en iyi yolu:',
+                send_them_dollar: 'Onlara para gönderme linki yolla',
             },
             saved_with_clave: {
                 title: 'Clave kullanıcısı olduğunuz için teşekkürler{{name}}',
