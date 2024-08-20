@@ -460,6 +460,20 @@ export const en = {
                     second_banner: 'Invite & Earn',
                 },
             },
+            invite: {
+                total_earned: 'Total Earned',
+                total_referees: 'Total Referees',
+                invite_earn: 'Invite & Earn',
+                ref_code: 'Your Referral Code',
+                what_you_get: 'What you get:',
+                first_benefit: '*{{amount}} Crypto back from fees paid by them',
+                second_behefit:
+                    '*{{amount1}} for the first {{amount2}} they deposit to Earn',
+                third_benefit: '*{{amount}} Crypto back from fees they pay',
+                best_way_refer: 'Best way to refer:',
+                send_them_dollar:
+                    'Send them a dollar as a link contains your invite code',
+            },
             saved_with_clave: {
                 title: 'Thanks for being a Clave user{{name}}',
                 tx_title: 'Transactions',
