@@ -733,6 +733,7 @@ export const en = {
             earnMigrate: 'Migrate Funds',
             cashback: 'Cryptoback',
             referral: 'Referral Commission',
+            reward: 'Reward',
             details: {
                 payment_link: 'Payment Link',
                 me: 'me',
