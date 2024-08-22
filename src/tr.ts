@@ -715,6 +715,7 @@ export const tr: Locale = {
         },
         transaction: {
             from: '{{user}} gönderdi',
+            reward: 'Ödül',
             to: '{{user}} aldı',
             self: 'Ben',
             failed: 'Başarısız',
