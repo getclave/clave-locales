@@ -738,7 +738,6 @@ export const tr: Locale = {
             earnWithdrawRequest: 'Çekme Talebi',
             referral: 'Referans',
             cashback: 'Kripto İade',
-            reward: 'Ödül',
             details: {
                 me: 'ben',
                 tx_type: 'İşlem Türü',
