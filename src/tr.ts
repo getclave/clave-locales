@@ -1338,6 +1338,7 @@ export const tr: Locale = {
             title: 'Gönder',
             subtext: 'Belirtilen IBAN numarasına tutarı gönderin',
             paid: '{{symbol}}{{amount}} ödedim',
+            copied: 'Panoya kopyalandı!',
             continue: 'Devam Et',
         },
         exchange: {

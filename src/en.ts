@@ -1337,6 +1337,7 @@ export const en = {
             title: 'Send',
             subtext: 'Send the amount of money to mentioned IBAN',
             paid: 'I have paid {{symbol}}{{amount}}',
+            copied: 'Copied to clipboard',
             continue: 'Continue',
         },
         exchange: {
