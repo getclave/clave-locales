@@ -189,6 +189,7 @@ export const en = {
             skip: 'Skip',
             back: 'Back',
             save: 'Save',
+            get_started: 'Get Started',
             continue: 'Continue',
             step1_title: 'Set Your Username',
             step1_text1:
@@ -197,6 +198,7 @@ export const en = {
             step2_text1:
                 'Stay informed with real-time updates. Get alerts on incoming funds, completed transactions, and security notifications.',
             stepreferral_title: 'Who helped you find us?',
+            stepreferral_subtext: 'What you get',
             referral_button_title: 'Got a referral code?',
             referral_button_subtitle: 'Chance to earn 5$ and cryptobacks',
             referral_input_placeholder: 'Username of your referee',
