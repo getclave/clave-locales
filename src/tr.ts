@@ -192,6 +192,8 @@ export const tr: Locale = {
             back: 'Geri',
             save: 'Kaydet',
             continue: 'Devam et',
+            get_started: 'Başlayın',
+            stepreferral_subtext: 'Kazançlarınız',
             referral_activated: 'Referans aktive edildi',
             referral_button_title: 'Referans kodunuz var mı?',
             referral_button_subtitle:
