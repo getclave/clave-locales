@@ -1810,4 +1810,9 @@ export const en = {
         accept: 'The address I’m sending supports ZKsync',
         button: 'Continue to Send',
     },
+    progress: {
+        bar: {
+            step: 'Step {{currentStep}}/{{stepCount}}',
+        },
+    },
 };

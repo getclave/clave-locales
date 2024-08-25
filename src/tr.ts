@@ -1810,4 +1810,9 @@ export const tr: Locale = {
         accept: 'Gönderdiğim adres ZKsync destekliyor',
         button: 'Devam Et',
     },
+    progress: {
+        bar: {
+            step: '{{currentStep}}/{{stepCount}} Adım',
+        },
+    },
 };
