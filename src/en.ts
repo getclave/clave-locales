@@ -1396,6 +1396,15 @@ export const en = {
             subtitle:
                 'The new Ether pool is live with {{apy}}% APR. Please migrate your funds to the new pool in one-click.',
         },
+        migratev2: {
+            title: 'Earn Even Better APR!',
+            subtext:
+                'There are better options for your tokens, select which tokens to migrate.',
+            migrate: 'Migrate',
+            back: 'Back',
+            current: 'Current',
+            new: 'New Pool',
+        },
         position: {
             details: {
                 amount: {
