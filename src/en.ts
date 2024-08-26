@@ -1472,6 +1472,12 @@ export const en = {
             processing: 'Processing',
             completed: 'Completed',
         },
+        camera: {
+            selfie: 'Take a selfie of your face',
+            description: 'Take a picture of {{side}} side of your document',
+            front: 'Front side',
+            back: 'Back side',
+        },
     },
     invest: {
         __description: 'Earn page related translations',

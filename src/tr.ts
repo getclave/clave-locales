@@ -1473,6 +1473,12 @@ export const tr: Locale = {
             processing: 'İşleniyor',
             completed: 'Tamamlandı',
         },
+        camera: {
+            selfie: 'Yüzünüzün fotoğrafını çekin',
+            description: 'Belgenizin {{side}} tarafının fotoğrafını çekin',
+            front: 'Ön taraf',
+            back: 'Arka taraf',
+        },
     },
     invest: {
         __description: 'Kazanç sayfasına ait çeviriler',
