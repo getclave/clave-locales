@@ -1395,7 +1395,6 @@ export const tr: Locale = {
         migrate: {
             migrate: 'Taşı',
             title: '{{apy}}% APR Kazanç',
-            title_rewards: 'Ödülleri Topla',
             subtitle:
                 'Yeni Ether havuzu {{apy}}% APR kazan ile canlı. Lütfen fonlarınızı tek tıkla yeni havuza taşıyınız.',
         },
