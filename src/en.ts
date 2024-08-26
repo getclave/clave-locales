@@ -1477,6 +1477,7 @@ export const en = {
             description: 'Take a picture of {{side}} side of your document',
             front: 'Front side',
             back: 'Back side',
+            error: 'The photo could not be uploaded, please try again',
         },
     },
     invest: {

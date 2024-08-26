@@ -1478,6 +1478,7 @@ export const tr: Locale = {
             description: 'Belgenizin {{side}} tarafının fotoğrafını çekin',
             front: 'Ön taraf',
             back: 'Arka taraf',
+            error: 'Fotoğraf yüklenemedi. Lütfen tekrar deneyin.',
         },
     },
     invest: {
