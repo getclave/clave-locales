@@ -225,7 +225,7 @@ export const en = {
                     'Clave will send you an email reminding you of your username.',
                 label: 'Email Address',
                 placeholder: 'example@gmail.com',
-                continue: 'Return',
+                continue: 'Continue',
             },
             forgot_username_status: {
                 success_title: 'Check Your Mail for Your Username',
