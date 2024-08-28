@@ -200,10 +200,10 @@ export const en = {
             stepreferral_title: 'Who helped you find us?',
             stepreferral_subtext: 'What you get',
             referral_button_title: 'Got a referral code?',
-            referral_button_subtitle: 'Chance to earn 5$ and cryptobacks',
+            referral_button_subtitle: 'Chance to earn $5 and cryptobacks',
             referral_input_placeholder: 'Username of your referee',
             referral_input_label: 'Referral Code',
-            referral_activated: 'Your perks are activated',
+            referral_activated: 'View your perks',
             referred_by: 'Referred by *{{username}}',
             referral_item_1:
                 '*{{reward_amount}} for the first *{{deposit_amount}} you deposit to Earn',
@@ -464,7 +464,7 @@ export const en = {
             },
             invite: {
                 total_earned: 'Total Earned',
-                total_referees: 'Total Referees',
+                total_referees: 'Total Referred',
                 invite_earn: 'Invite & Earn',
                 ref_code: 'Your Referral Code',
                 what_you_get: 'What you get:',
@@ -475,7 +475,7 @@ export const en = {
                 third_benefit: '*{{amount}} Crypto back from fees they pay',
                 best_way_refer: 'Best way to refer:',
                 send_them_dollar:
-                    'Send them a dollar as a link contains your invite code',
+                    'Send them a payment link containing your invite code',
             },
             saved_with_clave: {
                 title: 'Thanks for being a Clave user{{name}}',
