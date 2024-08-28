@@ -1399,7 +1399,7 @@ export const en = {
         migratev2: {
             title: 'Earn Even Better APR!',
             subtext:
-                'There are better options for your tokens, select which tokens to migrate.',
+                'Migrate your current positions for the better APR options.',
             migrate: 'Migrate',
             back: 'Back',
             current: 'Current',
