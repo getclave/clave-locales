@@ -579,6 +579,9 @@ export const en = {
         about: {
             title: 'About Clave',
             subtext: 'Terms, privacy, and channels',
+            policy: {
+                title: 'Policies',
+            },
             terms_and_conditions: {
                 title: 'Terms and Conditions',
                 subtext: '',
