@@ -189,6 +189,7 @@ export const en = {
             skip: 'Skip',
             back: 'Back',
             save: 'Save',
+            get_started: 'Get Started',
             continue: 'Continue',
             step1_title: 'Set Your Username',
             step1_text1:
@@ -197,12 +198,18 @@ export const en = {
             step2_text1:
                 'Stay informed with real-time updates. Get alerts on incoming funds, completed transactions, and security notifications.',
             stepreferral_title: 'Who helped you find us?',
+            stepreferral_subtext: 'What you get',
             referral_button_title: 'Got a referral code?',
             referral_button_subtitle: 'Chance to earn 5$ and cryptobacks',
             referral_input_placeholder: 'Username of your referee',
             referral_input_label: 'Referral Code',
             referral_activated: 'Your perks are activated',
-            referred_by: 'Referred by {{username}}',
+            referred_by: 'Referred by *{{username}}',
+            referral_item_1:
+                '*{{reward_amount}} for the first *{{deposit_amount}} you deposit to Earn',
+            referral_item_2: '*{{reward_amount}} cryptoback on fees you pay',
+            user_not_registered: 'User is not fully registered',
+            referral_valid: 'Referral code is valid',
         },
         creation: {
             account_creation_done: {
@@ -450,6 +457,25 @@ export const en = {
             main: {
                 title: 'Profile',
                 account_settings: 'Account Settings',
+                banner: {
+                    first_banner: 'Clave Benefits',
+                    second_banner: 'Invite & Earn',
+                },
+            },
+            invite: {
+                total_earned: 'Total Earned',
+                total_referees: 'Total Referees',
+                invite_earn: 'Invite & Earn',
+                ref_code: 'Your Referral Code',
+                what_you_get: 'What you get:',
+                what_they_get: 'What they get:',
+                first_benefit: '*{{amount}} Crypto back from fees paid by them',
+                second_behefit:
+                    '*{{amount1}} for the first *{{amount2}} they deposit to Earn',
+                third_benefit: '*{{amount}} Crypto back from fees they pay',
+                best_way_refer: 'Best way to refer:',
+                send_them_dollar:
+                    'Send them a dollar as a link contains your invite code',
             },
             saved_with_clave: {
                 title: 'Thanks for being a Clave user{{name}}',
@@ -712,6 +738,7 @@ export const en = {
             earnMigrate: 'Migrate Funds',
             cashback: 'Cryptoback',
             referral: 'Referral Commission',
+            reward: 'Reward',
             details: {
                 payment_link: 'Payment Link',
                 me: 'me',
@@ -825,6 +852,15 @@ export const en = {
         __description: 'Page to select token on send & request',
         send: 'Select token',
         request: 'Select token',
+    },
+    complete_account: {
+        title: 'Complete Your Account',
+        subtitle:
+            'You need to complete following steps to get access to invite your friends',
+        back: 'Back',
+        select_username: 'Select your username',
+        profile_pic: 'Add a profile picture',
+        guardian: 'Add a guardian',
     },
     transaction: {
         __description:

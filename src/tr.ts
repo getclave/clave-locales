@@ -192,13 +192,15 @@ export const tr: Locale = {
             back: 'Geri',
             save: 'Kaydet',
             continue: 'Devam et',
+            get_started: 'Başlayın',
+            stepreferral_subtext: 'Kazançlarınız',
             referral_activated: 'Referans aktive edildi',
             referral_button_title: 'Referans kodunuz var mı?',
             referral_button_subtitle:
                 '5$ ve daha fazlasını kazanma şansı elde edin',
             referral_input_label: 'Referans Kodu',
             referral_input_placeholder: 'Kullanıcı adı',
-            referred_by: 'Referans Kodu: {{username}}',
+            referred_by: 'Referans Kodu: *{{username}}',
             stepreferral_title: 'Referans Kodu',
             step1_title: 'Kullancı ismini belirle',
             step1_text1:
@@ -206,6 +208,11 @@ export const tr: Locale = {
             step2_title: 'Bildirimleri Etkinleştir',
             step2_text1:
                 'Gerçek zamanlı güncellemelerden haberdar olun. Gelen paralar, tamamlanan işlemler ve güvenlik güncellemeleri hakkında uyarı almak için bildirimleri etkinleştirin.',
+            referral_item_1:
+                'Kazanca ilk *{{deposit_amount}} yatırımına *{{reward_amount}} hediye',
+            referral_item_2: 'Harcamalarından *{{reward_amount}} crypto iadesi',
+            user_not_registered: 'Kullanıcı bilgileri tamamlanmadı',
+            referral_valid: 'Referans kodu geçerli',
         },
         creation: {
             account_creation_done: {
@@ -454,6 +461,25 @@ export const tr: Locale = {
             main: {
                 title: 'Profil',
                 account_settings: 'Hesap Ayarları',
+                banner: {
+                    first_banner: 'Clave-in sana faydaları',
+                    second_banner: 'Davet et ve kazan',
+                },
+            },
+            invite: {
+                total_earned: 'Toplam Kazanç',
+                total_referees: 'Toplam Referanslar',
+                invite_earn: 'Davet et ve kazan',
+                ref_code: 'Referans Kodu',
+                what_you_get: 'Ne Kazanırsın',
+                what_they_get: 'Ne Kazanırlar',
+                first_benefit:
+                    'Onların ödediği feelerden *{{amount}} kripto kazan',
+                second_behefit:
+                    'Kazanca yatırdıkları ilk *{{amount2}} için *{{amount1}} kazan',
+                third_benefit: 'Ödedikleri feelerden *{{amount}} kripto kazan',
+                best_way_refer: 'Referans olmanın en iyi yolu:',
+                send_them_dollar: 'Onlara para gönderme linki yolla',
             },
             saved_with_clave: {
                 title: 'Clave kullanıcısı olduğunuz için teşekkürler{{name}}',
@@ -694,6 +720,7 @@ export const tr: Locale = {
         },
         transaction: {
             from: '{{user}} gönderdi',
+            reward: 'Ödül',
             to: '{{user}} aldı',
             self: 'Ben',
             failed: 'Başarısız',
@@ -823,6 +850,15 @@ export const tr: Locale = {
         label: 'Kullanıcı Adı',
         continue: 'Kullanıcı Adını Belirle',
         later: 'Daha Sonra Hatırlat',
+    },
+    complete_account: {
+        title: 'Hesap Bilgilerini Tamamla',
+        subtitle:
+            'Arkadaşlarınızı davet edebilmek için hesap bilgilerinizi tamamlamanız gerekmektedir',
+        back: 'Geri',
+        select_username: 'Kullanıcı adı seçin',
+        profile_pic: 'Profile fotoğrafı ekleyin',
+        guardian: 'Koruyucu ekleyin',
     },
     token_selection: {
         __description: 'Gönder & talep işlemlerinde token seçimi sayfası',
