@@ -1345,6 +1345,169 @@ export const en = {
             },
         },
     },
+    addMoney: {
+        title: 'Add Money',
+        subtext:
+            'Select whichever way you want to deposit money into your wallet',
+        onramp: {
+            title: 'Buy with bank transfer',
+            subtext: 'Deposit from your bank',
+            example: 'Countries',
+        },
+        deposit: {
+            title: 'Deposit from another network',
+            subtext: 'Get token from another network',
+            example: 'Networks',
+        },
+        wallet: {
+            title: 'Deposit from another wallet',
+            subtext: 'Get token from another wallet',
+        },
+        request: {
+            title: 'Create a payment request link',
+            subtext: 'Get money from link',
+        },
+    },
+    onramp: {
+        bank: {
+            title: 'Send',
+            subtext: 'Send the amount of money to mentioned IBAN',
+            paid: 'I have paid {{symbol}}{{amount}}',
+            continue: 'Continue',
+        },
+        exchange: {
+            title: 'Exchange',
+            rate: 'Rate',
+            fee: {
+                processing: 'Processing Fee',
+                free: 'Free',
+                network: 'Network Fee',
+                continue: 'Continue',
+            },
+            box: {
+                pay: 'I want to pay',
+                get: 'I want to get',
+                min: 'min {{sign}} {{amount}}',
+            },
+        },
+        history: {
+            title: 'Buy History',
+            fail: 'Payment Failed',
+            buying: 'Buying token',
+            success: 'Success',
+            finding: 'Finding Payment',
+            paid: 'You paid: {{sign}}{{amount}}',
+            rate: '{{sign}}{{rate}} / {{symbol}}',
+            get: 'You got: {{amount}} {{symbol}}',
+        },
+        kyc: {
+            details: {
+                name: {
+                    title: 'Complete details',
+                    subtext:
+                        'Complete the KYC information to start the onramp process',
+                    name: 'Name',
+                    surname: 'Surname',
+                    choose: 'Choose Gender',
+                    gender: 'Gender',
+                    male: 'Male',
+                    female: 'Female',
+                    continue: 'Continue',
+                },
+                birthday: {
+                    title: 'Complete details',
+                    subtext:
+                        'Complete the KYC information to start the onramp process',
+                    birthday: 'Birthday',
+                    date_example: 'MM / BB / YYYY',
+                    continue: 'Continue',
+                },
+                identity: {
+                    title: 'Complete details',
+                    subtext:
+                        'Complete the KYC information to start the onramp process',
+                    identity: 'Identity Number',
+                    occupation: 'Occupation',
+                    address: 'Address',
+                    city: 'City',
+                    postal_code: 'Postal Code',
+                    continue: 'Continue',
+                },
+            },
+            document: {
+                title: 'Select Your ID Type',
+                subtext:
+                    'Select the type of document you will use to complete KYC',
+                national_id: 'National ID',
+                passport: 'Passport',
+                driving_license: 'Driving License',
+            },
+            files: {
+                title: 'Submit KYC Files',
+                subtext:
+                    'We need to ask the user for a photo of their card for KYC. For now, we assume that these documents have been received.',
+                camera_permission: 'Camera Permission',
+                camera_permission_message:
+                    'Please enable camera permission in your settings to take a picture.',
+                cancel: 'Cancel',
+                open_settings: 'Open Settings',
+            },
+            phone: {
+                title: 'Enter phone number',
+                subtext: 'Enter your phone number',
+                phone: 'Phone number',
+                continue: 'Continue',
+            },
+            funds: {
+                title: 'What’s your primary source of funds?',
+                subtext: 'Where does the money for your onramp come from?',
+                salary: 'Salary',
+                savings: 'Savings',
+                investments: 'Investments',
+                inheritance: 'Inheritance',
+                credit: 'Credit',
+                continue: 'Continue',
+            },
+        },
+        transaction: {
+            status: {
+                title: 'Verifying transcation',
+                subtext: 'Your money will be sent to you after these steps',
+                payment: {
+                    title: 'Accepting payment',
+                    subtext: 'This may take 1-2 minutes',
+                },
+                purchase: {
+                    title: 'Purchasing USDC',
+                    subtext: 'We verified your transaction',
+                },
+                transfer: {
+                    title: 'Transferring USDC',
+                    subtext: 'Expected waiting time = 30 seconds',
+                },
+                continue: 'Continue',
+            },
+        },
+        verification: {
+            title: 'Verification Pending',
+            subtext:
+                'This process takes 3-10 minutes. Wait or check back later',
+            done: 'Done',
+        },
+        choose: {
+            fiat: {
+                title: 'Choose Location',
+                label: 'Search',
+                countries: 'Countries',
+                no_option: 'Your fiat options will be accessible in here',
+            },
+        },
+        progress: {
+            pending: 'Pending',
+            processing: 'Processing',
+            completed: 'Completed',
+        },
+    },
     invest: {
         __description: 'Earn page related translations',
         completedv2: {

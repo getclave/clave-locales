@@ -1347,6 +1347,168 @@ export const tr: Locale = {
             },
         },
     },
+    addMoney: {
+        title: 'Para Ekle',
+        subtext: 'Cüzdanınıza para yatırmak için istediğiniz yöntemi seçin',
+        onramp: {
+            title: 'Banka transferi ile satın al',
+            subtext: 'Bankanızdan para yatırın',
+            example: 'Ülkeler',
+        },
+        deposit: {
+            title: 'Başka bir ağdan para yatır',
+            subtext: 'Başka bir ağdan token al',
+            example: 'Ağlar',
+        },
+        wallet: {
+            title: 'Başka bir cüzdandan para yatır',
+            subtext: 'Başka bir cüzdandan token al',
+        },
+        request: {
+            title: 'Bir ödeme talep linki oluştur',
+            subtext: 'Link ile para al',
+        },
+    },
+    onramp: {
+        bank: {
+            title: 'Gönder',
+            subtext: 'Belirtilen IBAN numarasına tutarı gönderin',
+            paid: '{{symbol}}{{amount}} ödedim',
+            continue: 'Devam Et',
+        },
+        exchange: {
+            title: 'Dönüştür',
+            rate: 'Kur',
+            fee: {
+                processing: 'İşlem Ücreti',
+                free: 'Ücretsiz',
+                network: 'Ağ Ücreti',
+                continue: 'Devam Et',
+            },
+            box: {
+                pay: 'Ödemek İstiyorum',
+                get: 'Almak İstiyorum',
+                min: 'min {{sign}} {{amount}}',
+            },
+        },
+        history: {
+            title: 'Satın Alma Geçmişi',
+            fail: 'Ödeme Başarısız',
+            buying: 'Token Satın Alınıyor',
+            success: 'Başarılı',
+            finding: 'Ödeme Bulunuyor',
+            paid: 'Ödediğiniz: {{sign}}{{amount}}',
+            rate: '{{sign}}{{rate}} / {{symbol}}',
+            get: 'Aldığınız: {{amount}} {{symbol}}',
+        },
+        kyc: {
+            details: {
+                name: {
+                    title: 'Detayları Tamamla',
+                    subtext:
+                        'Onramp işlemini başlatmak için KYC bilgilerini tamamlayın',
+                    name: 'İsim',
+                    surname: 'Soyisim',
+                    choose: 'Cinsiyet Seçiniz',
+                    gender: 'Cinsiyet',
+                    male: 'Erkek',
+                    female: 'Kadın',
+                    continue: 'Devam Et',
+                },
+                birthday: {
+                    title: 'Detayları Tamamla',
+                    subtext:
+                        'Onramp işlemini başlatmak için KYC bilgilerini tamamlayın',
+                    birthday: 'Doğum Günü',
+                    date_example: 'AA / GG / YYYY',
+                    continue: 'Devam Et',
+                },
+                identity: {
+                    title: 'Detayları Tamamla',
+                    subtext:
+                        'Onramp işlemini başlatmak için KYC bilgilerini tamamlayın',
+                    identity: 'Kimlik Numarası',
+                    occupation: 'Meslek',
+                    address: 'Adres',
+                    city: 'Şehir',
+                    postal_code: 'Posta Kodu',
+                    continue: 'Devam Et',
+                },
+            },
+            document: {
+                title: 'Kimlik Türünüzü Seçin',
+                subtext:
+                    'KYC işlemini tamamlamak için kullanacağınız belge türünü seçin',
+                national_id: 'Kimlik Kartı',
+                passport: 'Pasaport',
+                driving_license: 'Sürücü Belgesi',
+            },
+            files: {
+                title: 'KYC Dosyalarını Yükle',
+                subtext:
+                    'KYC için kullanıcıdan kimlik fotoğrafı istememiz gerekiyor. Şu anda bu belgelerin alındığını varsayıyoruz.',
+                camera_permission: 'Kamera İzni',
+                camera_permission_message:
+                    'Fotoğraf çekmek için ayarlarınızdan kamera iznini açın.',
+                cancel: 'İptal',
+                open_settings: 'Ayarları Aç',
+            },
+            phone: {
+                title: 'Telefon numarasını girin',
+                subtext: 'Telefon numaranızı girin',
+                phone: 'Telefon numarası',
+                continue: 'Devam Et',
+            },
+            funds: {
+                title: 'Birincil gelir kaynağınız nedir?',
+                subtext: 'Onramp işlemi için para kaynağınız nereden geliyor?',
+                salary: 'Maaş',
+                savings: 'Birikimler',
+                investments: 'Yatırımlar',
+                inheritance: 'Miras',
+                credit: 'Kredi',
+                continue: 'Devam Et',
+            },
+        },
+        transaction: {
+            status: {
+                title: 'İşlem Doğrulanıyor',
+                subtext: 'Bu adımlardan sonra paranız size gönderilecektir',
+                payment: {
+                    title: 'Ödeme Kabul Ediliyor',
+                    subtext: 'Bu işlem 1-2 dakika sürebilir',
+                },
+                purchase: {
+                    title: 'USDC Satın Alınıyor',
+                    subtext: 'İşleminizi doğruladık',
+                },
+                transfer: {
+                    title: 'USDC Aktarılıyor',
+                    subtext: 'Tahmini bekleme süresi = 30 saniye',
+                },
+                continue: 'Devam Et',
+            },
+        },
+        verification: {
+            title: 'Doğrulama Bekleniyor',
+            subtext:
+                'Bu işlem 3-10 dakika sürebilir. Bekleyin veya daha sonra tekrar kontrol edin',
+            done: 'Tamamlandı',
+        },
+        choose: {
+            fiat: {
+                title: 'Konum Seçin',
+                label: 'Arama',
+                countries: 'Ülkeler',
+                no_option: 'Fiat seçenekleriniz burada erişilebilir olacak',
+            },
+        },
+        progress: {
+            pending: 'Beklemede',
+            processing: 'İşleniyor',
+            completed: 'Tamamlandı',
+        },
+    },
     invest: {
         __description: 'Kazanç sayfasına ait çeviriler',
         completedv2: {
