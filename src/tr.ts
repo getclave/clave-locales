@@ -1568,9 +1568,17 @@ export const tr: Locale = {
         migrate: {
             migrate: 'Taşı',
             title: '{{apy}}% APR Kazanç',
-            title_rewards: 'Ödülleri Topla',
             subtitle:
                 'Yeni Ether havuzu {{apy}}% APR kazan ile canlı. Lütfen fonlarınızı tek tıkla yeni havuza taşıyınız.',
+        },
+        migratev2: {
+            title: 'Daha iyi APR fırsatı!',
+            subtext:
+                'Bu tokenlerin için daha iyi opsiyonlar mevcut. Tek tıkla taşımak taşıma fırsatını kaçırma.',
+            migrate: 'Taşı',
+            back: 'Geri',
+            current: 'Şu anki',
+            new: 'Yeni',
         },
         position: {
             details: {
