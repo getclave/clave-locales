@@ -1433,6 +1433,8 @@ export const en = {
                     city: 'City',
                     postal_code: 'Postal Code',
                     continue: 'Continue',
+                    invalid_identity_range:
+                        'The T.C. Identity Number must be between 10000000000 and 89999999999.',
                 },
             },
             document: {

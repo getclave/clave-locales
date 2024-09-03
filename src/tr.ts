@@ -1434,6 +1434,8 @@ export const tr: Locale = {
                     city: 'Şehir',
                     postal_code: 'Posta Kodu',
                     continue: 'Devam Et',
+                    invalid_identity_range:
+                        'T.C. Kimlik No, 10000000000 ile 89999999999 arasında olmalıdır.',
                 },
             },
             document: {
