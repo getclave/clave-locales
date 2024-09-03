@@ -956,6 +956,7 @@ export const tr: Locale = {
             swap: 'Takas',
             delegated: 'Delete edildi',
             delegate: 'Delege et',
+            buy: 'Satın Al',
             notify: {
                 delegated: "Clave'e başarıyla delege edildi",
             },

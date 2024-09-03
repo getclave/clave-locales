@@ -954,6 +954,7 @@ export const en = {
             swap: 'Swap',
             delegated: 'Delegated',
             delegate: 'Delegate',
+            buy: 'Buy',
             notify: {
                 delegated: 'Delegated to Clave successfully',
             },
