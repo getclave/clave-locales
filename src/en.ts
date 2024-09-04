@@ -1391,6 +1391,7 @@ export const en = {
                 get: 'I want to get',
                 min: 'min {{sign}} {{amount}}',
             },
+            continue: 'Continue',
         },
         history: {
             title: 'Buy History',

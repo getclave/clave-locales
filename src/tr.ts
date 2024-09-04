@@ -1392,6 +1392,7 @@ export const tr: Locale = {
                 get: 'Almak İstiyorum',
                 min: 'min {{sign}} {{amount}}',
             },
+            continue: 'Devam Et',
         },
         history: {
             title: 'Satın Alma Geçmişi',
