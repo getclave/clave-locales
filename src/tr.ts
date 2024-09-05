@@ -1392,6 +1392,7 @@ export const tr: Locale = {
                 get: 'Almak İstiyorum',
                 min: 'min {{sign}} {{amount}}',
             },
+            max_limit: 'Maksimum onramp limiti {{limit}} {{currency}}',
             continue: 'Devam Et',
         },
         history: {

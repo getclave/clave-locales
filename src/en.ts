@@ -1391,6 +1391,7 @@ export const en = {
                 get: 'I want to get',
                 min: 'min {{sign}} {{amount}}',
             },
+            max_limit: 'Maximum onramp limit is {{limit}} {{currency}}',
             continue: 'Continue',
         },
         history: {
