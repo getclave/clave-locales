@@ -1392,6 +1392,10 @@ export const tr: Locale = {
                 get: 'Almak İstiyorum',
                 min: 'min {{sign}} {{amount}}',
             },
+            review: {
+                title: 'İşlemi Gözden Geçir',
+            },
+            rate_dif: '%{{percentage}} banklardan daha iyi',
             max_limit: 'Maksimum onramp limiti {{limit}} {{currency}}',
             continue: 'Devam Et',
         },

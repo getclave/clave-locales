@@ -1391,6 +1391,10 @@ export const en = {
                 get: 'I want to get',
                 min: 'min {{sign}} {{amount}}',
             },
+            review: {
+                title: 'Review',
+            },
+            rate_dif: '%{{percentage}} better than banks',
             max_limit: 'Maximum onramp limit is {{limit}} {{currency}}',
             continue: 'Continue',
         },
