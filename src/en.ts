@@ -865,6 +865,16 @@ export const en = {
     transaction: {
         __description:
             'The translations related to flow when transaction is sent',
+        context: {
+            transfer: {
+                sending_to: 'Sending to',
+                estimated: 'Estimated Value',
+                first_time: 'First Time Making Payment',
+                note: 'Note',
+            },
+            network_fee: 'Network Fee',
+            swipe: 'Swipe to Proceed',
+        },
         approve: {
             title: 'Summary',
             back: 'Back',
