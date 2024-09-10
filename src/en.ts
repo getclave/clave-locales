@@ -868,6 +868,7 @@ export const en = {
         context: {
             transfer: {
                 sending_to: 'Sending to',
+                creating_link: 'Creating Link',
                 estimated: 'Estimated Value',
                 first_time: 'First Time Making Payment',
                 note: 'Note',
