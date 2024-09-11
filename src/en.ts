@@ -1372,7 +1372,8 @@ export const en = {
     onramp: {
         bank: {
             title: 'Send',
-            subtext: 'Send the amount of money to mentioned IBAN',
+            subtext:
+                'You will receive *{{toAmount}} *{{toCurrency}} at a rate of *{{rate}}',
             paid: 'I have paid {{symbol}}{{amount}}',
             copied: 'Copied to clipboard',
             continue: 'Continue',
@@ -1397,6 +1398,7 @@ export const en = {
             rate_dif: '%{{percentage}} better than banks',
             max_limit: 'Maximum onramp limit is {{limit}} {{currency}}',
             continue: 'Continue',
+            back: 'Go back',
         },
         history: {
             title: 'Buy History',

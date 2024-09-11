@@ -1373,7 +1373,8 @@ export const tr: Locale = {
     onramp: {
         bank: {
             title: 'Gönder',
-            subtext: 'Belirtilen IBAN numarasına tutarı gönderin',
+            subtext:
+                '*{{rate}} kuru üzerinden *{{toAmount}} *{{toCurrency}} alacaksınız',
             paid: '{{symbol}}{{amount}} ödedim',
             copied: 'Panoya kopyalandı!',
             continue: 'Devam Et',
@@ -1398,6 +1399,7 @@ export const tr: Locale = {
             rate_dif: '%{{percentage}} banklardan daha iyi',
             max_limit: 'Maksimum onramp limiti {{limit}} {{currency}}',
             continue: 'Devam Et',
+            back: 'Geri',
         },
         history: {
             title: 'Satın Alma Geçmişi',
