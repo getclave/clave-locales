@@ -783,6 +783,7 @@ export const tr: Locale = {
                 claiming_funds: 'Fonlar talep ediliyor',
                 swapping_tokens: 'Tokenlar takas ediliyor',
                 sending_transaction: 'İşlem gönderiliyor',
+                onramping: 'Onramping işlemi devam ediyor',
             },
         },
         no_transaction: {

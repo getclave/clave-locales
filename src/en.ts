@@ -780,6 +780,7 @@ export const en = {
                 claiming_funds: 'Claiming funds',
                 swapping_tokens: 'Swapping',
                 sending_transaction: 'Sending transaction',
+                onramping: 'Onramping in progress',
             },
         },
         no_transaction: {
