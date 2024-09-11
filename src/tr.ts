@@ -881,6 +881,11 @@ export const tr: Locale = {
                 description:
                     'Hesabınıza erişimi kaybederseniz, koruyucular hesabınızı kurtarmanıza yardımcı olabilecektir.',
             },
+            remove_guardian: {
+                title: 'Koruyucu Kaldırılıyor',
+                description:
+                    'Kaldırılan koruyucu artık hesabınızı kurtaramayacak',
+            },
             swap: {
                 sent: 'Gönderilen',
                 received: 'Alınan',

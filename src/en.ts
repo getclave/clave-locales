@@ -866,6 +866,11 @@ export const en = {
                 description:
                     'Guardians will be able to help you recover your account if you lose access to it.',
             },
+            remove_guardian: {
+                title: 'Removing Guardians',
+                description:
+                    'Removed guardians will no longer be able to recover your account.',
+            },
             swap: {
                 sent: 'Sent',
                 received: 'Received',
