@@ -1483,7 +1483,7 @@ export const en = {
         },
         transaction: {
             status: {
-                title: 'Verifying transcation',
+                title: 'Verifying transaction',
                 subtext: 'Your money will be sent to you after these steps',
                 payment: {
                     title: 'Accepting payment',
@@ -1496,6 +1496,9 @@ export const en = {
                 transfer: {
                     title: 'Transferring USDC',
                     subtext: 'Expected waiting time = 30 seconds',
+                },
+                bank: {
+                    show: 'Show bank details',
                 },
                 continue: 'Continue',
             },

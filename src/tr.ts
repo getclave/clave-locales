@@ -1498,6 +1498,9 @@ export const tr: Locale = {
                     title: 'USDC Aktarılıyor',
                     subtext: 'Tahmini bekleme süresi = 30 saniye',
                 },
+                bank: {
+                    show: 'Banka detaylarını göster',
+                },
                 continue: 'Devam Et',
             },
         },
