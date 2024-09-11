@@ -875,6 +875,11 @@ export const tr: Locale = {
                 first_time: 'İlk Kez Ödeme Yapılıyor',
                 note: 'Not',
             },
+            swap: {
+                sent: 'Gönderilen',
+                received: 'Alınan',
+                fee: 'Takas Ücreti',
+            },
             network_fee: 'Ağ Ücreti',
             swipe: 'Kaydır',
         },
