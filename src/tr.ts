@@ -875,6 +875,12 @@ export const tr: Locale = {
                 first_time: 'İlk Kez Ödeme Yapılıyor',
                 note: 'Not',
             },
+            add_guardian: {
+                title: 'Koruyucu Ekleniyor',
+                title_multiple: 'Koruyucular Ekleniyor',
+                description:
+                    'Hesabınıza erişimi kaybederseniz, koruyucular hesabınızı kurtarmanıza yardımcı olabilecektir.',
+            },
             swap: {
                 sent: 'Gönderilen',
                 received: 'Alınan',
