@@ -860,6 +860,12 @@ export const en = {
                 first_time: 'First Time Making Payment',
                 note: 'Note',
             },
+            add_guardian: {
+                title: 'Adding Guardian',
+                title_multiple: 'Adding Multiple Guardians',
+                description:
+                    'Guardians will be able to help you recover your account if you lose access to it.',
+            },
             swap: {
                 sent: 'Sent',
                 received: 'Received',
