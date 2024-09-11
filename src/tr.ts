@@ -1377,6 +1377,7 @@ export const tr: Locale = {
                 '*{{rate}} kuru üzerinden *{{toAmount}} *{{toCurrency}} alacaksınız',
             paid: '{{symbol}}{{amount}} ödedim',
             copied: 'Panoya kopyalandı!',
+            back: 'Geri',
             continue: 'Devam Et',
         },
         exchange: {
@@ -1502,6 +1503,7 @@ export const tr: Locale = {
                     show: 'Banka detaylarını göster',
                 },
                 continue: 'Devam Et',
+                home: 'Ana Sayfa',
             },
         },
         verification: {

@@ -1376,6 +1376,7 @@ export const en = {
                 'You will receive *{{toAmount}} *{{toCurrency}} at a rate of *{{rate}}',
             paid: 'I have paid {{symbol}}{{amount}}',
             copied: 'Copied to clipboard',
+            back: 'Go back',
             continue: 'Continue',
         },
         exchange: {
@@ -1501,6 +1502,7 @@ export const en = {
                     show: 'Show bank details',
                 },
                 continue: 'Continue',
+                home: 'Home',
             },
         },
         verification: {
