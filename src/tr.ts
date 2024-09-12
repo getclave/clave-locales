@@ -855,6 +855,9 @@ export const tr: Locale = {
     transaction: {
         __description: 'İşlem gönderildiğinde izlenen akışa ait çeviriler',
         context: {
+            generic: {
+                contract_interaction: 'Kontrat Etkileşimi',
+            },
             transfer: {
                 sending_to: 'Para Gönderme',
                 creating_link: 'Ödeme liinki oluşturma',

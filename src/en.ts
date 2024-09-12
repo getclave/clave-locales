@@ -853,6 +853,9 @@ export const en = {
         __description:
             'The translations related to flow when transaction is sent',
         context: {
+            generic: {
+                contract_interaction: 'Contract Interaction',
+            },
             transfer: {
                 sending_to: 'Sending to',
                 creating_link: 'Creating Link',
