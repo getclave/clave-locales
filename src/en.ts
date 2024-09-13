@@ -999,7 +999,7 @@ export const en = {
     },
     sign: {
         title: 'Signature Request',
-        swipe: 'Swipe to Confirm',
+        release: 'Release',
         reject: 'Reject',
     },
     split: {

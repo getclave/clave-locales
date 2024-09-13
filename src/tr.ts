@@ -1001,7 +1001,7 @@ export const tr: Locale = {
     },
     sign: {
         title: 'İmza Talebi',
-        swipe: 'Onaylamak için kaydırın',
+        release: 'Onayla',
         reject: 'Reddet',
     },
     split: {
