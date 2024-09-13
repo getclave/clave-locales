@@ -767,6 +767,7 @@ export const en = {
                 claiming_funds: 'Claiming funds',
                 swapping_tokens: 'Swapping',
                 sending_transaction: 'Sending transaction',
+                onramping: 'Onramping in progress',
             },
         },
         no_transaction: {
@@ -1375,9 +1376,11 @@ export const en = {
     onramp: {
         bank: {
             title: 'Send',
-            subtext: 'Send the amount of money to mentioned IBAN',
+            subtext:
+                'You will receive *{{toAmount}} *{{toCurrency}} at a rate of *{{rate}}',
             paid: 'I have paid {{symbol}}{{amount}}',
             copied: 'Copied to clipboard',
+            back: 'Go back',
             continue: 'Continue',
         },
         exchange: {
@@ -1394,8 +1397,13 @@ export const en = {
                 get: 'I want to get',
                 min: 'min {{sign}} {{amount}}',
             },
+            review: {
+                title: 'Review',
+            },
+            rate_dif: '%{{percentage}} better than banks',
             max_limit: 'Maximum onramp limit is {{limit}} {{currency}}',
             continue: 'Continue',
+            back: 'Go back',
         },
         history: {
             title: 'Buy History',
@@ -1480,7 +1488,7 @@ export const en = {
         },
         transaction: {
             status: {
-                title: 'Verifying transcation',
+                title: 'Verifying transaction',
                 subtext: 'Your money will be sent to you after these steps',
                 payment: {
                     title: 'Accepting payment',
@@ -1494,7 +1502,11 @@ export const en = {
                     title: 'Transferring USDC',
                     subtext: 'Expected waiting time = 30 seconds',
                 },
+                bank: {
+                    show: 'Show bank details',
+                },
                 continue: 'Continue',
+                home: 'Home',
             },
         },
         verification: {

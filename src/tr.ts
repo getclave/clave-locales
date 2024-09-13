@@ -770,6 +770,7 @@ export const tr: Locale = {
                 claiming_funds: 'Fonlar talep ediliyor',
                 swapping_tokens: 'Tokenlar takas ediliyor',
                 sending_transaction: 'İşlem gönderiliyor',
+                onramping: 'Onramping işlemi devam ediyor',
             },
         },
         no_transaction: {
@@ -1376,9 +1377,11 @@ export const tr: Locale = {
     onramp: {
         bank: {
             title: 'Gönder',
-            subtext: 'Belirtilen IBAN numarasına tutarı gönderin',
+            subtext:
+                '*{{rate}} kuru üzerinden *{{toAmount}} *{{toCurrency}} alacaksınız',
             paid: '{{symbol}}{{amount}} ödedim',
             copied: 'Panoya kopyalandı!',
+            back: 'Geri',
             continue: 'Devam Et',
         },
         exchange: {
@@ -1395,8 +1398,13 @@ export const tr: Locale = {
                 get: 'Almak İstiyorum',
                 min: 'min {{sign}} {{amount}}',
             },
+            review: {
+                title: 'İşlemi Gözden Geçir',
+            },
+            rate_dif: '%{{percentage}} banklardan daha iyi',
             max_limit: 'Maksimum onramp limiti {{limit}} {{currency}}',
             continue: 'Devam Et',
+            back: 'Geri',
         },
         history: {
             title: 'Satın Alma Geçmişi',
@@ -1495,7 +1503,11 @@ export const tr: Locale = {
                     title: 'USDC Aktarılıyor',
                     subtext: 'Tahmini bekleme süresi = 30 saniye',
                 },
+                bank: {
+                    show: 'Banka detaylarını göster',
+                },
                 continue: 'Devam Et',
+                home: 'Ana Sayfa',
             },
         },
         verification: {
