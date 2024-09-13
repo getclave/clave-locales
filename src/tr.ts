@@ -870,7 +870,8 @@ export const tr: Locale = {
         __description: 'İşlem gönderildiğinde izlenen akışa ait çeviriler',
         context: {
             transfer: {
-                sending_to: 'Para gönderiliyor',
+                sending_to: 'Para Gönderme',
+                creating_link: 'Ödeme liinki oluşturma',
                 estimated: 'Tahmini',
                 first_time: 'İlk Kez Ödeme Yapılıyor',
                 note: 'Not',
