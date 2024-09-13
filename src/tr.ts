@@ -868,6 +868,16 @@ export const tr: Locale = {
     },
     transaction: {
         __description: 'İşlem gönderildiğinde izlenen akışa ait çeviriler',
+        context: {
+            transfer: {
+                sending_to: 'Para gönderiliyor',
+                estimated: 'Tahmini',
+                first_time: 'İlk Kez Ödeme Yapılıyor',
+                note: 'Not',
+            },
+            network_fee: 'Ağ Ücreti',
+            swipe: 'Kaydır',
+        },
         approve: {
             title: 'Özet',
             back: 'Geri',
