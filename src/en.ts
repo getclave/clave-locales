@@ -876,6 +876,7 @@ export const en = {
                 sent: 'Sent',
                 received: 'Received',
                 fee: 'Swap Fee',
+                rate: 'Rate',
             },
             network_fee: 'Network Fee',
             swipe: 'Swipe to Proceed',

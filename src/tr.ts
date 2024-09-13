@@ -878,6 +878,7 @@ export const tr: Locale = {
                 sent: 'Gönderilen',
                 received: 'Alınan',
                 fee: 'Takas Ücreti',
+                rate: 'Oran',
             },
             network_fee: 'Ağ Ücreti',
             swipe: 'Kaydır',
