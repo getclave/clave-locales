@@ -880,6 +880,20 @@ export const tr: Locale = {
                 fee: 'Takas Ücreti',
                 rate: 'Oran',
             },
+            earn_collect: {
+                title: 'Kazanç Toplanıyor',
+            },
+            earn_withdraw: {
+                title: 'Yatırım Çekiliyor',
+                earnings: 'Kazanç',
+                protocol_fee: 'Protokol Ücreti',
+            },
+            earn_deposit: {
+                title: 'Yatırım Yapılıyor',
+                apr: 'APR',
+                protocol_fee: 'Protokol Ücreti',
+                estimated_earnings: 'Tahmini Haftalık Kazanç',
+            },
             network_fee: 'Ağ Ücreti',
             swipe: 'Kaydır',
         },

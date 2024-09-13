@@ -878,6 +878,20 @@ export const en = {
                 fee: 'Swap Fee',
                 rate: 'Rate',
             },
+            earn_collect: {
+                title: 'Collecting Rewards',
+            },
+            earn_withdraw: {
+                title: 'Withdrawing Tokens',
+                earnings: 'Earnings',
+                protocol_fee: 'Protocol Fee',
+            },
+            earn_deposit: {
+                title: 'Depositing Tokens',
+                apr: 'APR',
+                protocol_fee: 'Protocol Fee',
+                estimated_earnings: 'Estimated Weekly Earnings',
+            },
             network_fee: 'Network Fee',
             swipe: 'Swipe to Proceed',
         },
