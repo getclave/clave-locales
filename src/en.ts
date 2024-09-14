@@ -353,6 +353,7 @@ export const en = {
             sending_with_link: 'Sending with Link',
             create_payment_link: 'Create Payment Link',
             set_amount: 'Set Amount',
+            add_note: 'Add Note',
             available: '{{amount}} {{symbol}} Available',
         },
         link_created: {
