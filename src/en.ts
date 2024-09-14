@@ -412,6 +412,7 @@ export const en = {
             search_results: 'Search Results',
             recently_sended: 'Recently Sent',
             send_with_link: 'Send with Link',
+            allow_contacts: 'Allow Contacts',
         },
         qr_scan: {
             invalid_qr: 'Invalid QR code',

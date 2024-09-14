@@ -416,6 +416,7 @@ export const tr: Locale = {
             search_results: 'Arama Sonuçları',
             recently_sended: 'Son Gönderilenler',
             send_with_link: 'Bağlantı ile Gönder',
+            allow_contacts: 'Kişilere erişim izni verin',
         },
         qr_scan: {
             invalid_qr: 'Geçersiz QR kodu',
