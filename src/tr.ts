@@ -905,6 +905,9 @@ export const tr: Locale = {
             },
             network_fee: 'Ağ Ücreti',
             swipe: 'Kaydır',
+            simulating: 'Simülasyon yapılıyor',
+            simulated_success: 'Simülasyon başarılı oldu',
+            simulated_failure: 'Simülasyon başarısız oldu',
         },
         approve: {
             title: 'Özet',

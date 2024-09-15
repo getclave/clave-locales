@@ -903,6 +903,9 @@ export const en = {
             },
             network_fee: 'Network Fee',
             swipe: 'Swipe to Proceed',
+            simulating: 'Checking security details...',
+            simulated_success: 'Transaction is verified by simulation',
+            simulated_failure: 'Transaction simulation failed',
         },
         approve: {
             title: 'Summary',
