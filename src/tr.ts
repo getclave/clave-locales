@@ -1477,9 +1477,13 @@ export const tr: Locale = {
                     city: 'Şehir',
                     postal_code: 'Posta Kodu',
                     continue: 'Devam Et',
-                    invalid_identity_range:
-                        'T.C. Kimlik No, 10000000000 ile {{max}} arasında olmalıdır.',
                 },
+            },
+            validation: {
+                invalid_identity_range:
+                    'T.C. Kimlik No, 10000000000 ile {{max}} arasında olmalıdır.',
+                invalid_phone_number:
+                    'Lütfen geçerli bir telefon numarası girin',
             },
             document: {
                 title: 'Kimlik Türünüzü Seçin',

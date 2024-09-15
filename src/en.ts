@@ -1476,9 +1476,12 @@ export const en = {
                     city: 'City',
                     postal_code: 'Postal Code',
                     continue: 'Continue',
-                    invalid_identity_range:
-                        'The T.C. Identity Number must be between 10000000000 and {{max}}.',
                 },
+            },
+            validation: {
+                invalid_identity_range:
+                    'The T.C. Identity Number must be between 10000000000 and {{max}}.',
+                invalid_phone_number: 'Please enter a valid phone number',
             },
             document: {
                 title: 'Select Your ID Type',
