@@ -869,6 +869,7 @@ export const en = {
                 estimated: 'Estimated Value',
                 first_time: 'First Time Making Payment',
                 note: 'Note',
+                first_time_sending: 'First time making payment',
             },
             add_guardian: {
                 title: 'Adding Guardian',
