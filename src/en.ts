@@ -905,7 +905,7 @@ export const en = {
             swipe: 'Swipe to Proceed',
             simulating: 'Checking security details...',
             simulated_success: 'Transaction is verified by simulation',
-            simulated_failure: 'Transaction simulation failed',
+            simulated_failure: 'Transaction is scanned as malicious',
         },
         approve: {
             title: 'Summary',
