@@ -872,6 +872,7 @@ export const tr: Locale = {
                 estimated: 'Tahmini',
                 first_time: 'İlk Kez Ödeme Yapılıyor',
                 note: 'Not',
+                first_time_sending: 'İlk Kez Para Gönderiyorsun',
             },
             add_guardian: {
                 title: 'Koruyucu Ekleniyor',
