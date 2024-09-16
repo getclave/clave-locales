@@ -1443,6 +1443,8 @@ export const en = {
             paid: 'You paid: {{sign}}{{amount}}',
             rate: '{{sign}}{{rate}} / {{symbol}}',
             get: 'You got: {{amount}} {{symbol}}',
+            no_transaction:
+                'Your onramp transactions will be accessible in here',
         },
         kyc: {
             details: {
@@ -1566,6 +1568,10 @@ export const en = {
             front: 'Front side',
             back: 'Back side',
             error: 'The photo could not be uploaded, please try again',
+        },
+        support: {
+            title: 'Support',
+            no_ticket: 'Your support tickets will be accessible in here',
         },
     },
     invest: {

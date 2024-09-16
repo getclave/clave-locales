@@ -1444,6 +1444,7 @@ export const tr: Locale = {
             paid: 'Ödediğiniz: {{sign}}{{amount}}',
             rate: '{{sign}}{{rate}} / {{symbol}}',
             get: 'Aldığınız: {{amount}} {{symbol}}',
+            no_transaction: 'Onramp işlemleriniz burada görünecek',
         },
         kyc: {
             details: {
@@ -1568,6 +1569,10 @@ export const tr: Locale = {
             front: 'Ön taraf',
             back: 'Arka taraf',
             error: 'Fotoğraf yüklenemedi. Lütfen tekrar deneyin.',
+        },
+        support: {
+            title: 'Destek',
+            no_ticket: 'Destek biletleriniz burada görünecek',
         },
     },
     invest: {
