@@ -1572,6 +1572,14 @@ export const en = {
         support: {
             title: 'Support',
             no_ticket: 'Your support tickets will be accessible in here',
+            closed: 'Closed',
+            error: 'Unsuccessful support request',
+            success: 'Success',
+            pending: 'Waiting response',
+            date: 'Ticket Id: {{id}} - {{date}}',
+            header: {
+                onramp: 'Onramp Support',
+            },
         },
     },
     invest: {

@@ -1573,6 +1573,14 @@ export const tr: Locale = {
         support: {
             title: 'Destek',
             no_ticket: 'Destek biletleriniz burada görünecek',
+            closed: 'Kapatıldı',
+            error: 'Destek isteği başarısız',
+            success: 'Tamamlandı',
+            pending: 'Cevap bekleniyor',
+            date: 'Bilet İd: {{id}} - {{date}}',
+            header: {
+                onramp: 'Onramp Destek',
+            },
         },
     },
     invest: {
