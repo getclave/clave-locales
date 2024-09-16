@@ -353,6 +353,7 @@ export const en = {
             sending_with_link: 'Sending with Link',
             create_payment_link: 'Create Payment Link',
             set_amount: 'Set Amount',
+            add_note: 'Add Note',
             available: '{{amount}} {{symbol}} Available',
         },
         link_created: {
@@ -413,6 +414,10 @@ export const en = {
             recently_sended: 'Recently Sent',
             send_with_link: 'Send with Link',
             allow_contacts: 'Allow Contacts',
+            Recents: 'Recents',
+            All: 'All',
+            Friends: 'Friends',
+            Contacts: 'Contacts',
         },
         qr_scan: {
             invalid_qr: 'Invalid QR code',
@@ -1933,5 +1938,12 @@ export const en = {
         bar: {
             step: 'Step {{currentStep}}/{{stepCount}}',
         },
+    },
+    address_book_bottom_sheet: {
+        title: 'Add user to friends',
+        subtext:
+            'Add your friend to your address book to easily send them money in the future.',
+        label: 'Custom Name',
+        button: 'Add to Friends',
     },
 };

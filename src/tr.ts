@@ -358,6 +358,7 @@ export const tr: Locale = {
             create_payment_link: 'Ödeme Bağlantısı Oluştur',
             set_amount: 'Miktarı Belirle',
             available: '{{amount}} {{symbol}} Mevcut',
+            add_note: 'Not Ekle',
         },
         link_created: {
             title: 'Ödeme Bağlantısı Hazır',
@@ -417,6 +418,10 @@ export const tr: Locale = {
             recently_sended: 'Son Gönderilenler',
             send_with_link: 'Bağlantı ile Gönder',
             allow_contacts: 'Kişilere erişim izni verin',
+            Recents: 'Son Gönderilen',
+            All: 'Hepsi',
+            Friends: 'Arkadaşlar',
+            Contacts: 'Rehber',
         },
         qr_scan: {
             invalid_qr: 'Geçersiz QR kodu',
@@ -1933,5 +1938,11 @@ export const tr: Locale = {
         bar: {
             step: '{{currentStep}}/{{stepCount}} Adım',
         },
+    },
+    address_book_bottom_sheet: {
+        title: 'Arkadaş Ekle',
+        subtext: 'Arkadaşlarınızı ekleyin ve onlara kolayca para gönderin.',
+        label: 'Özel İsim',
+        button: 'Arkadaş Ekle',
     },
 };
