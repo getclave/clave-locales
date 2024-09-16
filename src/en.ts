@@ -434,6 +434,7 @@ export const en = {
             request: 'Request',
             send: 'Send',
             swap: 'Swap',
+            addMoney: 'Add money',
         },
         recovery_alert_item: {
             social: "A social recovery has begun for your account. If not canceled within 48 hours, you'll lose access. Tap here to cancel.",

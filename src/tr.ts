@@ -438,6 +438,7 @@ export const tr: Locale = {
             request: 'İstek',
             send: 'Gönder',
             swap: 'Takas',
+            addMoney: 'Para ekle',
         },
         recovery_alert_item: {
             social: 'Hesabınız için sosyal kurtarma başlatıldı. 48 saat içinde iptal edilmezse erişiminizi kaybedeceksiniz. İptal etmek için buraya dokunun.',
