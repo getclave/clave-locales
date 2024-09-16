@@ -1390,8 +1390,8 @@ export const en = {
             example: 'Countries',
         },
         deposit: {
-            title: 'Deposit from another network',
-            subtext: 'Get token from another network',
+            title: 'Deposit crypto',
+            subtext: 'Get token from wallet or exchange',
             example: 'Networks',
         },
         wallet: {
