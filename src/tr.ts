@@ -408,6 +408,8 @@ export const tr: Locale = {
             label: 'Clave Kullanıcı Adı / ENS / Adres',
             continue: 'Devam Et',
             contacts: 'Kişiler',
+            address_book: 'Arkadaşlar',
+            clave_users: 'Clave Kullanıcıları',
             clear: 'Temizle',
             clear_history: 'Geçmişi Temizle',
             clear_history_message: 'Emin misiniz?',

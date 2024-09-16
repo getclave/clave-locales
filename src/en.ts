@@ -404,6 +404,8 @@ export const en = {
             label: 'Clave Username / ENS / Address',
             continue: 'Continue',
             contacts: 'Contacts',
+            address_book: 'Friends',
+            clave_users: 'Clave Users',
             clear: 'Clear',
             clear_history: 'Clear History',
             clear_history_message: 'Are you sure?',
