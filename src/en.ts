@@ -440,6 +440,7 @@ export const en = {
             request: 'Request',
             send: 'Send',
             swap: 'Swap',
+            addMoney: 'Add money',
         },
         recovery_alert_item: {
             social: "A social recovery has begun for your account. If not canceled within 48 hours, you'll lose access. Tap here to cancel.",
@@ -1398,8 +1399,8 @@ export const en = {
             example: 'Countries',
         },
         deposit: {
-            title: 'Deposit from another network',
-            subtext: 'Get token from another network',
+            title: 'Deposit crypto',
+            subtext: 'Get token from wallet or exchange',
             example: 'Networks',
         },
         wallet: {
@@ -1452,6 +1453,8 @@ export const en = {
             paid: 'You paid: {{sign}}{{amount}}',
             rate: '{{sign}}{{rate}} / {{symbol}}',
             get: 'You got: {{amount}} {{symbol}}',
+            no_transaction:
+                'Your onramp transactions will be accessible in here',
         },
         kyc: {
             details: {
@@ -1485,9 +1488,12 @@ export const en = {
                     city: 'City',
                     postal_code: 'Postal Code',
                     continue: 'Continue',
-                    invalid_identity_range:
-                        'The T.C. Identity Number must be between 10000000000 and {{max}}.',
                 },
+            },
+            validation: {
+                invalid_identity_range:
+                    'The T.C. Identity Number must be between 10000000000 and {{max}}.',
+                invalid_phone_number: 'Please enter a valid phone number',
             },
             document: {
                 title: 'Select Your ID Type',
@@ -1572,6 +1578,18 @@ export const en = {
             front: 'Front side',
             back: 'Back side',
             error: 'The photo could not be uploaded, please try again',
+        },
+        support: {
+            title: 'Support',
+            no_ticket: 'Your support tickets will be accessible in here',
+            closed: 'Closed',
+            error: 'Unsuccessful support request',
+            success: 'Success',
+            pending: 'Waiting response',
+            date: 'Ticket Id: {{id}} - {{date}}',
+            header: {
+                onramp: 'Onramp Support',
+            },
         },
     },
     invest: {

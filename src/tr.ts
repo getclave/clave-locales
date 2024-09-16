@@ -444,6 +444,7 @@ export const tr: Locale = {
             request: 'İstek',
             send: 'Gönder',
             swap: 'Takas',
+            addMoney: 'Para ekle',
         },
         recovery_alert_item: {
             social: 'Hesabınız için sosyal kurtarma başlatıldı. 48 saat içinde iptal edilmezse erişiminizi kaybedeceksiniz. İptal etmek için buraya dokunun.',
@@ -1453,6 +1454,7 @@ export const tr: Locale = {
             paid: 'Ödediğiniz: {{sign}}{{amount}}',
             rate: '{{sign}}{{rate}} / {{symbol}}',
             get: 'Aldığınız: {{amount}} {{symbol}}',
+            no_transaction: 'Onramp işlemleriniz burada görünecek',
         },
         kyc: {
             details: {
@@ -1486,9 +1488,13 @@ export const tr: Locale = {
                     city: 'Şehir',
                     postal_code: 'Posta Kodu',
                     continue: 'Devam Et',
-                    invalid_identity_range:
-                        'T.C. Kimlik No, 10000000000 ile {{max}} arasında olmalıdır.',
                 },
+            },
+            validation: {
+                invalid_identity_range:
+                    'T.C. Kimlik No, 10000000000 ile {{max}} arasında olmalıdır.',
+                invalid_phone_number:
+                    'Lütfen geçerli bir telefon numarası girin',
             },
             document: {
                 title: 'Kimlik Türünüzü Seçin',
@@ -1573,6 +1579,18 @@ export const tr: Locale = {
             front: 'Ön taraf',
             back: 'Arka taraf',
             error: 'Fotoğraf yüklenemedi. Lütfen tekrar deneyin.',
+        },
+        support: {
+            title: 'Destek',
+            no_ticket: 'Destek biletleriniz burada görünecek',
+            closed: 'Kapatıldı',
+            error: 'Destek isteği başarısız',
+            success: 'Tamamlandı',
+            pending: 'Cevap bekleniyor',
+            date: 'Bilet İd: {{id}} - {{date}}',
+            header: {
+                onramp: 'Onramp Destek',
+            },
         },
     },
     invest: {
