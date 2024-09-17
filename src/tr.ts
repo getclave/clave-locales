@@ -1443,6 +1443,8 @@ export const tr: Locale = {
             review: {
                 title: 'İşlemi Gözden Geçir',
             },
+            phone: { title: 'Hesap:' },
+            change: 'Değiştir',
             rate_dif: '%{{percentage}} banklardan daha iyi',
             max_limit: 'Maksimum onramp limiti {{limit}} {{currency}}',
             continue: 'Devam Et',

@@ -1442,6 +1442,8 @@ export const en = {
             review: {
                 title: 'Review',
             },
+            phone: { title: 'Account:' },
+            change: 'Change',
             rate_dif: '%{{percentage}} better than banks',
             max_limit: 'Maximum onramp limit is {{limit}} {{currency}}',
             continue: 'Continue',
