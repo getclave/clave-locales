@@ -1947,10 +1947,12 @@ export const en = {
     },
     address_book_bottom_sheet: {
         title: 'Add user to friends',
+        title_edit: 'Edit friend name',
         subtext:
             'Add your friend to your address book to easily send them money in the future.',
         label: 'Custom Name',
         button: 'Add to Friends',
+        button_edit: 'Edit',
     },
     user_profile: {
         title: 'Profile',
