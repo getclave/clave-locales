@@ -1415,6 +1415,7 @@ export const tr: Locale = {
             title: 'Bir ödeme talep linki oluştur',
             subtext: 'Link ile para al',
         },
+        close: 'Kapat',
     },
     onramp: {
         bank: {
@@ -1426,6 +1427,21 @@ export const tr: Locale = {
             back: 'Geri',
             continue: 'Devam Et',
             cancel: 'İptal',
+            notes: {
+                individual_account:
+                    'Yalnızca KYC (Müşterini Tanı) sürecini tamamladığınız, adınıza kayıtlı kişisel banka hesabınızdan TRY gönderebilirsiniz.',
+                bank_hours: '',
+                name: 'İsim',
+                accountNumber: 'Hesap Numarası',
+                ifsc: 'IFSC',
+                bank: 'Banka',
+                iban: 'IBAN',
+                'Bank Name': 'Banka Adı',
+                country: 'Ülke',
+                address: 'Adres',
+                transferCode: 'Transfer Kodu',
+                virtualAccount: 'Sanal Hesap',
+            },
         },
         exchange: {
             title: 'Dönüştür',
