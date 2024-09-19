@@ -1954,7 +1954,7 @@ export const en = {
             'Add your friend to your address book to easily send them money in the future.',
         label: 'Custom Name',
         button: 'Add to Friends',
-        button_edit: 'Edit',
+        button_edit: 'Save',
     },
     user_profile: {
         title: 'Profile',
