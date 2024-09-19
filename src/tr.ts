@@ -1951,4 +1951,23 @@ export const tr: Locale = {
         label: 'Özel İsim',
         button: 'Arkadaş Ekle',
     },
+    user_profile: {
+        title: 'Profil',
+        send_money: 'Para Gönder',
+        request: 'İstek',
+        add_contact: 'Kişilere Ekle',
+        total_sent: 'Toplam Gönderilen',
+        total_received: 'Toplam Alınan',
+        empty: 'Bu adresle yaptığınız etkileşimler burada görünecektir',
+        tx_title: 'İşlemler',
+        tags: {
+            your_guardian: 'Senin Koruyucun',
+            guardian: 'Koruyucu',
+            frequent_sender: 'Sık Gönderen',
+        },
+        modify: {
+            remove: 'Arkadaşlardan Kaldır',
+            back: 'Geri Dön',
+        },
+    },
 };

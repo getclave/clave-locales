@@ -1952,4 +1952,23 @@ export const en = {
         label: 'Custom Name',
         button: 'Add to Friends',
     },
+    user_profile: {
+        title: 'Profile',
+        send_money: 'Send Money',
+        request: 'Request',
+        add_contact: 'Add to Contacts',
+        total_sent: 'Total Sent',
+        total_received: 'Total Received',
+        empty: 'Your interactions with this address will appear here',
+        tx_title: 'Transactions',
+        tags: {
+            your_guardian: 'Your Guardian',
+            guardian: 'Guardian',
+            frequent_sender: 'Frequent Sender',
+        },
+        modify: {
+            remove: 'Remove from Friends',
+            back: 'Go Back',
+        },
+    },
 };
