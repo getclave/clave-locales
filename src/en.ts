@@ -753,6 +753,7 @@ export const en = {
                 reclaim_funds: 'Reclaim Funds',
                 reclaim_in_time: 'Reclaim in {{time}}',
                 gas_fee: 'Network Fee',
+                note: 'Note',
                 earn_details: {
                     withdraw_title: 'Withdraw {{amount}}',
                     deposit_title: 'Deposit {{amount}}',

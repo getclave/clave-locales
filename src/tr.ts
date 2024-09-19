@@ -758,6 +758,7 @@ export const tr: Locale = {
                 gas_fee: 'Ağ Ücreti',
                 payment_link: 'Ödeme Linki',
                 referral: 'Referans',
+                note: 'Not',
                 earn_details: {
                     earn_subtitle: '{{protocol}}de {{tokenSymbol}}',
                     withdraw_title: '{{amount}} çek',
