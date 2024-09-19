@@ -442,7 +442,7 @@ export const en = {
             request: 'Request',
             send: 'Send',
             swap: 'Swap',
-            addMoney: 'Add money',
+            addMoney: 'Add Money',
         },
         recovery_alert_item: {
             social: "A social recovery has begun for your account. If not canceled within 48 hours, you'll lose access. Tap here to cancel.",
@@ -1394,33 +1394,32 @@ export const en = {
     },
     addMoney: {
         title: 'Add Money',
-        subtext:
-            'Select whichever way you want to deposit money into your wallet',
+        subtext: 'Select a way to add money into your wallet.',
         onramp: {
-            title: 'Buy with bank transfer',
-            subtext: 'Deposit from your bank',
+            title: 'Bank Transfer',
+            subtext: 'Buy USDC via bank deposits.',
             example: 'Countries',
         },
         deposit: {
-            title: 'Deposit crypto',
-            subtext: 'Get token from wallet or exchange',
+            title: 'Deposit Crypto',
+            subtext: 'Receive from wallets or exchanges.',
             example: 'Networks',
         },
         wallet: {
-            title: 'Deposit from another wallet',
-            subtext: 'Get token from another wallet',
+            title: 'Deposit from Another Wallets',
+            subtext: 'Receive from another wallets.',
         },
         request: {
-            title: 'Create a payment request link',
-            subtext: 'Get money from link',
+            title: 'Request from Friends',
+            subtext: 'Create a payment request link.',
         },
     },
     onramp: {
         bank: {
             title: 'Send',
             subtext:
-                'You will receive *{{toAmount}} *{{toCurrency}} at a rate of *{{rate}}',
-            paid: 'I have paid {{symbol}}{{amount}}',
+                'You will receive *{{toAmount}} *{{toCurrency}} at the rate of *{{rate}}.',
+            paid: 'I have paid {{symbol}}{{amount}}.',
             copied: 'Copied to clipboard',
             back: 'Go back',
             continue: 'Continue',
@@ -1436,8 +1435,8 @@ export const en = {
                 continue: 'Continue',
             },
             box: {
-                pay: 'I want to pay',
-                get: 'I want to get',
+                pay: 'Deposit',
+                get: 'Receive',
                 min: 'min {{sign}} {{amount}}',
             },
             review: {
@@ -1445,7 +1444,7 @@ export const en = {
             },
             phone: { title: 'Account:' },
             change: 'Change',
-            rate_dif: '%{{percentage}} better than banks',
+            rate_dif: '{{percentage}}% better than banks.',
             max_limit: 'Maximum onramp limit is {{limit}} {{currency}}',
             continue: 'Continue',
             back: 'Go back',
@@ -1455,12 +1454,11 @@ export const en = {
             fail: 'Payment Failed',
             buying: 'Buying token',
             success: 'Success',
-            finding: 'Finding Payment',
-            paid: 'You paid: {{sign}}{{amount}}',
+            finding: 'Waiting Payment',
+            paid: 'Paid: {{sign}}{{amount}}',
             rate: '{{sign}}{{rate}} / {{symbol}}',
-            get: 'You got: {{amount}} {{symbol}}',
-            no_transaction:
-                'Your onramp transactions will be accessible in here',
+            get: 'Received: {{amount}} {{symbol}}',
+            no_transaction: 'Your onramp transactions will be showed here.',
         },
         kyc: {
             details: {
@@ -1521,14 +1519,14 @@ export const en = {
                 open_settings: 'Open Settings',
             },
             phone: {
-                title: 'Enter phone number',
-                subtext: 'Enter your phone number',
+                title: 'Phone Number',
+                subtext: 'Enter your phone number to complete your deposit.',
                 phone: 'Phone number',
                 continue: 'Continue',
             },
             funds: {
-                title: 'What’s your primary source of funds?',
-                subtext: 'Where does the money for your onramp come from?',
+                title: 'Primary Source of Funds',
+                subtext: 'What is the source of the money you will deposit?',
                 salary: 'Salary',
                 savings: 'Savings',
                 investments: 'Investments',
@@ -1539,22 +1537,22 @@ export const en = {
         },
         transaction: {
             status: {
-                title: 'Verifying transaction',
+                title: 'Verifying Transaction',
                 subtext: 'Your money will be sent to you after these steps',
                 payment: {
                     title: 'Accepting payment',
-                    subtext: 'This may take 1-2 minutes',
+                    subtext: 'This may take up to 2 minutes.',
                 },
                 purchase: {
                     title: 'Purchasing USDC',
-                    subtext: 'We verified your transaction',
+                    subtext: 'We verified your transaction.',
                 },
                 transfer: {
                     title: 'Transferring USDC',
-                    subtext: 'Expected waiting time = 30 seconds',
+                    subtext: 'Expected waiting time is 30 seconds.',
                 },
                 bank: {
-                    show: 'Show bank details',
+                    show: 'Show Bank Details',
                 },
                 continue: 'Continue',
                 home: 'Home',
@@ -1600,10 +1598,10 @@ export const en = {
         },
         notify: {
             alert: {
-                title: 'One last reminder',
+                title: 'Last Reminder',
                 subtext:
                     'Do you confirm that you have read and understood all alerts before sending money?',
-                read: 'I have read all the alerts',
+                read: 'I have read all of the alerts.',
                 continue: 'Continue',
             },
         },
