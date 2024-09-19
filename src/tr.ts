@@ -1947,9 +1947,11 @@ export const tr: Locale = {
     },
     address_book_bottom_sheet: {
         title: 'Arkadaş Ekle',
+        title_edit: 'Arkadaş ismini düzenle',
         subtext: 'Arkadaşlarınızı ekleyin ve onlara kolayca para gönderin.',
         label: 'Özel İsim',
         button: 'Arkadaş Ekle',
+        button_edit: 'Kaydet',
     },
     user_profile: {
         title: 'Profil',
