@@ -711,8 +711,8 @@ export const en = {
             preparing_transactions: 'Preparing Your Transaction History',
         },
         transaction: {
-            from: 'From {{user}}',
-            to: 'To {{user}}',
+            from: '{{user}}',
+            to: '{{user}}',
             self: 'Me',
             failed: 'Failed',
             transfer: 'Transfer',

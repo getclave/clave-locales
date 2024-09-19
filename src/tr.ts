@@ -715,9 +715,9 @@ export const tr: Locale = {
             preparing_transactions: 'İşlem Geçmişiniz Hazırlanıyor',
         },
         transaction: {
-            from: '{{user}} gönderdi',
+            from: '{{user}}',
             reward: 'Ödül',
-            to: '{{user}} aldı',
+            to: '{{user}}',
             self: 'Ben',
             failed: 'Başarısız',
             transfer: 'Transfer',
