@@ -1425,6 +1425,7 @@ export const tr: Locale = {
             copied: 'Panoya kopyalandı!',
             back: 'Geri',
             continue: 'Devam Et',
+            cancel: 'İptal',
         },
         exchange: {
             title: 'Dönüştür',
@@ -1493,6 +1494,7 @@ export const tr: Locale = {
                     city: 'Şehir',
                     postal_code: 'Posta Kodu',
                     continue: 'Devam Et',
+                    check: 'KYC bilgileri kontrol ediliyor...',
                 },
             },
             validation: {
@@ -1595,6 +1597,15 @@ export const tr: Locale = {
             date: 'Bilet İd: {{id}} - {{date}}',
             header: {
                 onramp: 'Onramp Destek',
+            },
+        },
+        notify: {
+            alert: {
+                title: 'Son bir hatırlatma',
+                subtext:
+                    'Para göndermeden önce tüm uyarıları okuduğunuzu ve anladığınızı teyit ediyor musunuz?',
+                read: 'Tüm uyarıları okudum',
+                continue: 'Devam Et',
             },
         },
     },

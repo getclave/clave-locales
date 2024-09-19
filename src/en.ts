@@ -1424,6 +1424,7 @@ export const en = {
             copied: 'Copied to clipboard',
             back: 'Go back',
             continue: 'Continue',
+            cancel: 'Cancel',
         },
         exchange: {
             title: 'Exchange',
@@ -1493,6 +1494,7 @@ export const en = {
                     city: 'City',
                     postal_code: 'Postal Code',
                     continue: 'Continue',
+                    check: 'Checking KYC details...',
                 },
             },
             validation: {
@@ -1594,6 +1596,15 @@ export const en = {
             date: 'Ticket Id: {{id}} - {{date}}',
             header: {
                 onramp: 'Onramp Support',
+            },
+        },
+        notify: {
+            alert: {
+                title: 'One last reminder',
+                subtext:
+                    'Do you confirm that you have read and understood all alerts before sending money?',
+                read: 'I have read all the alerts',
+                continue: 'Continue',
             },
         },
     },
