@@ -1509,6 +1509,7 @@ export const en = {
                         'Complete the KYC information to start the onramp process',
                     identity: 'Identity Number',
                     occupation: 'Occupation',
+                    occupation_example: 'Engineer, teacher',
                     address: 'Address',
                     city: 'City',
                     postal_code: 'Postal Code',

@@ -1509,6 +1509,7 @@ export const tr: Locale = {
                         'Onramp işlemini başlatmak için KYC bilgilerini tamamlayın',
                     identity: 'Kimlik Numarası',
                     occupation: 'Meslek',
+                    occupation_example: 'Mühendis, öğretmen',
                     address: 'Adres',
                     city: 'Şehir',
                     postal_code: 'Posta Kodu',
