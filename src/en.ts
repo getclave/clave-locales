@@ -735,6 +735,7 @@ export const en = {
             cashback: 'Cryptoback',
             referral: 'Referral Commission',
             reward: 'Reward',
+            onramp: 'Bank Transfer',
             details: {
                 payment_link: 'Payment Link',
                 me: 'me',
@@ -754,6 +755,7 @@ export const en = {
                 reclaim_in_time: 'Reclaim in {{time}}',
                 gas_fee: 'Network Fee',
                 note: 'Note',
+                onramp_title: 'Bank Transfer for {{amount}}',
                 earn_details: {
                     withdraw_title: 'Withdraw {{amount}}',
                     deposit_title: 'Deposit {{amount}}',

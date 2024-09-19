@@ -739,6 +739,7 @@ export const tr: Locale = {
             earnWithdrawRequest: 'Çekme Talebi',
             referral: 'Referans',
             cashback: 'Kripto İade',
+            onramp: 'Banka Transferi',
             details: {
                 me: 'ben',
                 tx_type: 'İşlem Türü',
@@ -759,6 +760,7 @@ export const tr: Locale = {
                 payment_link: 'Ödeme Linki',
                 referral: 'Referans',
                 note: 'Not',
+                onramp_title: '{{amount}} tutarında Banka Transferi',
                 earn_details: {
                     earn_subtitle: '{{protocol}}de {{tokenSymbol}}',
                     withdraw_title: '{{amount}} çek',
