@@ -1417,6 +1417,7 @@ export const en = {
             title: 'Create a payment request link',
             subtext: 'Get money from link',
         },
+        close: 'Close',
     },
     onramp: {
         bank: {
@@ -1428,6 +1429,21 @@ export const en = {
             back: 'Go back',
             continue: 'Continue',
             cancel: 'Cancel',
+            notes: {
+                individual_account:
+                    'You can only send TRY from your personal bank account registered in your name for which you have completed KYC.',
+                bank_hours: '',
+                name: 'Name',
+                accountNumber: 'Account Number',
+                ifsc: 'IFSC',
+                bank: 'Bank',
+                iban: 'IBAN',
+                'Bank Name': 'Bank Name',
+                country: 'Country',
+                address: 'Address',
+                transferCode: 'Transfer Code',
+                virtualAccount: 'Virtual Account',
+            },
         },
         exchange: {
             title: 'Exchange',
