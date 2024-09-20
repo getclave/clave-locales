@@ -52,10 +52,10 @@ export const en = {
         '1034': 'Error deleting cloud storage data',
         '1035': 'Could not sign-in with Google, please try again later',
         '1036': 'Minimum 8 characters required',
-        '1037': 'Include an uppercase letter.',
-        '1038': 'Include a lowercase letter.',
-        '1039': 'Include a number.',
-        '1040': 'Include a special character.',
+        '1037': 'Include an uppercase letter',
+        '1038': 'Include a lowercase letter',
+        '1039': 'Include a number',
+        '1040': 'Include a special character',
         '1041': 'Signing data is corrupted, please try again later',
         '1042': 'Error deleting public key',
         '1043': 'You are already in split group',
@@ -113,7 +113,7 @@ export const en = {
                 own_address: 'You cannot add yourself as a guardian.',
                 already_exists: 'This address is already a guardian.',
                 label: 'Clave Username / ENS / 0x Address',
-                invalid_ens_address: 'Invalid ENS address',
+                invalid_ens_address: 'Invalid ENS name',
                 invalid_address: 'Invalid address',
                 invalid_username: 'Invalid username',
                 resolved: 'Address: {{address}}',
@@ -208,7 +208,7 @@ export const en = {
             referral_item_1:
                 '*{{reward_amount}} for the first *{{deposit_amount}} you deposit to Earn',
             referral_item_2: '*{{reward_amount}} cryptoback on fees you pay',
-            user_not_registered: 'User is not fully registered',
+            user_not_registered: 'User has not completed registration',
             referral_valid: 'Referral code is valid',
         },
         creation: {
@@ -263,7 +263,7 @@ export const en = {
                     'Type Clave username, ENS or address of your guardian.',
                 fetch_guardians_error: 'Could not get your guardians',
                 enter_valid_address: 'Please enter a valid address',
-                registration_error: 'Could not create new passkey',
+                registration_error: 'Could not create a new Passkey',
                 continue: 'Continue',
                 not_guardian: 'This Address is not Your Guardian',
             },
@@ -317,7 +317,7 @@ export const en = {
             last: {
                 option1:
                     'Send & Receive money instantly with nicknames and links',
-                option2: 'Pay gas with any token',
+                option2: 'Pay network fees with any token',
                 option3: 'Add your friends as a guardian for recovery',
                 option4: 'Powered by ZKsync',
             },
@@ -427,7 +427,7 @@ export const en = {
         send_with_link_bottomsheet: {
             title: 'Sending with link',
             description:
-                'You will create a link with money embedded in it. Anyone with a Clave account can claim this money. You can check your payment links in Home and cancel them if you want.',
+                'You can create links that include money and ensure that people with the link receive money. You can check or cancel the payment links you create from the Home.',
             button: 'I understand, continue',
             never_show: 'Do not show it again',
         },
@@ -476,13 +476,13 @@ export const en = {
                 total_referees: 'Total Referred',
                 invite_earn: 'Invite & Earn',
                 ref_code: 'Your Referral Code',
-                what_you_get: 'What you get:',
-                what_they_get: 'What they get:',
-                first_benefit: '*{{amount}} Crypto back from fees paid by them',
+                what_you_get: 'What you get?',
+                what_they_get: 'What they get?',
+                first_benefit: '*{{amount}} Cryptoback from fees paid by them',
                 second_behefit:
                     '*{{amount1}} for the first *{{amount2}} they deposit to Earn',
                 third_benefit: '*{{amount}} Crypto back from fees they pay',
-                best_way_refer: 'Best way to refer:',
+                best_way_refer: 'Best way to refer',
                 send_them_dollar:
                     'Send them a payment link containing your invite code',
             },
@@ -583,7 +583,7 @@ export const en = {
         },
         twitter: {
             title: 'Follow us',
-            subtext: 'Follow us on Twitter (X)',
+            subtext: 'Follow us on X',
         },
         about: {
             title: 'About Clave',
@@ -667,8 +667,7 @@ export const en = {
     walletconnect: {
         connected_dapps: {
             title: 'Connected Dapps',
-            subtext:
-                'Your connected decentralized applications are shown below',
+            subtext: 'Connected decentralized applications are shown below.',
             disconnect: 'Disconnect',
         },
         empty_state: {
@@ -738,7 +737,7 @@ export const en = {
             details: {
                 payment_link: 'Payment Link',
                 me: 'me',
-                tx_type: 'Tx Type',
+                tx_type: 'Type',
                 token_sent: 'Token Sent',
                 token_received: 'Token Received',
                 recipient: 'Recipient',
@@ -853,7 +852,7 @@ export const en = {
     complete_account: {
         title: 'Complete Your Account',
         subtitle:
-            'You need to complete following steps to get access to invite your friends',
+            'You need to complete following steps to get access to invite your friends.',
         back: 'Back',
         select_username: 'Select your username',
         profile_pic: 'Add a profile picture',
@@ -950,7 +949,7 @@ export const en = {
             },
             link_left: 'To see your transaction details, open',
             link_right: 'in explorer.',
-            tx_link: 'TX link',
+            tx_link: 'Tranasction link',
             time: 'Time',
             token_amount: 'Token Amount',
             gas_fee: 'Network Fee',
@@ -958,7 +957,7 @@ export const en = {
         estimating_gas_fee: 'Estimating Network Fee',
         reject: 'Reject',
         release: 'Release',
-        estimate_gas_failed: 'The transaction is expected to fail',
+        estimate_gas_failed: 'The transaction is expected to fail.',
         notification: 'Transaction sent successfully.',
     },
     navbar: {
@@ -979,6 +978,9 @@ export const en = {
         search: 'Search token',
         add_manually: 'Add Manually',
     },
+
+    // TBC
+
     portfolio: {
         __description: 'Portfolio page and token details',
         available: 'Available',
@@ -1421,7 +1423,7 @@ export const en = {
                 'You will receive *{{toAmount}} *{{toCurrency}} at the rate of *{{rate}}.',
             paid: 'I have paid {{symbol}}{{amount}}.',
             copied: 'Copied to clipboard',
-            back: 'Go back',
+            back: 'Go Back',
             continue: 'Continue',
             cancel: 'Cancel',
         },
@@ -1447,7 +1449,7 @@ export const en = {
             rate_dif: '{{percentage}}% better than banks.',
             max_limit: 'Maximum onramp limit is {{limit}} {{currency}}',
             continue: 'Continue',
-            back: 'Go back',
+            back: 'Go Back',
         },
         history: {
             title: 'Buy History',
