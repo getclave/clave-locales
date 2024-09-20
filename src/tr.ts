@@ -1516,6 +1516,8 @@ export const tr: Locale = {
                     postal_code: 'Posta Kodu',
                     continue: 'Devam Et',
                     check: 'KYC bilgileri kontrol ediliyor...',
+                    kyc_error:
+                        'Lütfen KYC bilgilerinizi kontrol edin ve tekrar deneyin',
                 },
             },
             validation: {

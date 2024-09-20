@@ -1516,6 +1516,7 @@ export const en = {
                     postal_code: 'Postal Code',
                     continue: 'Continue',
                     check: 'Checking KYC details...',
+                    kyc_error: 'Please check your KYC details, and try again',
                 },
             },
             validation: {
