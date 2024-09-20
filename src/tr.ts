@@ -1983,6 +1983,7 @@ export const tr: Locale = {
         title_edit: 'Arkadaş ismini düzenle',
         subtext: 'Arkadaşlarınızı ekleyin ve onlara kolayca para gönderin.',
         label: 'Özel İsim',
+        placeholder: 'Arkadaşının adı',
         button: 'Arkadaş Ekle',
         button_edit: 'Kaydet',
     },
