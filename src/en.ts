@@ -925,7 +925,6 @@ export const en = {
             simulating: 'Checking security details...',
             simulated_success: 'Transaction is verified by simulation',
             simulated_failure: 'Transaction is scanned as malicious',
-            free: 'Free',
         },
         approve: {
             title: 'Summary',
@@ -2004,7 +2003,7 @@ export const en = {
             'Add your friend to your address book to easily send them money in the future.',
         label: 'Custom Name',
         button: 'Add',
-        placeholder: "Your friends name",
+        placeholder: 'Your friends name',
         button_edit: 'Save',
     },
     user_profile: {

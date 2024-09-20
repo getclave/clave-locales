@@ -750,10 +750,7 @@ export const tr: Locale = {
             deposit: 'Yatır',
             cashback: 'Geri ödeme',
             referral: 'Davet Komisyonu',
-            reward: 'Ödül',
             earnMigrate: 'Fonları Taşı',
-            referral: 'Referans',
-            cashback: 'Geri Ödeme',
             onramp: 'Banka Transferi',
             details: {
                 title: 'İşlem Detayları',
@@ -774,7 +771,6 @@ export const tr: Locale = {
                 reclaim_funds: 'Tokenleri Geri Al',
                 reclaim_in_time: '{{time}} içinde geri al',
                 gas_fee: 'Ağ Ücreti',
-                payment_link: 'Ödeme Linki',
                 note: 'Not',
                 onramp_title: '{{amount}} Tutarında Banka Transferi',
                 earn_details: {
@@ -936,7 +932,6 @@ export const tr: Locale = {
             simulating: 'Güvenlik detayları kontrol ediliyor...',
             simulated_success: 'İşlem doğrulandı',
             simulated_failure: 'İşlem kötü amaçlı olarak işaretlendi',
-            free: 'Ücretsiz',
         },
         approve: {
             title: 'Özet',
