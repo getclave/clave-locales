@@ -915,6 +915,7 @@ export const tr: Locale = {
             simulating: 'Simülasyon yapılıyor',
             simulated_success: 'Simülasyon başarılı oldu',
             simulated_failure: 'Simülasyon başarısız oldu',
+            free: 'Ücretsiz',
         },
         approve: {
             title: 'Özet',

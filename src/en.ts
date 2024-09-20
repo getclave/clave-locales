@@ -913,6 +913,7 @@ export const en = {
             simulating: 'Checking security details...',
             simulated_success: 'Transaction is verified by simulation',
             simulated_failure: 'Transaction is scanned as malicious',
+            free: 'Free',
         },
         approve: {
             title: 'Summary',
