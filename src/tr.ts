@@ -796,7 +796,7 @@ export const tr: Locale = {
                 claiming_funds: 'Fonlar alınıyor',
                 swapping_tokens: 'Tokenler takas ediliyor',
                 sending_transaction: 'İşlem gönderiliyor',
-                onramping: 'Onramping devam ediyor',
+                onramping: 'İşlem devam ediyor',
             },
         },
         no_transaction: {
@@ -1427,7 +1427,7 @@ export const tr: Locale = {
         title: 'Para Ekle',
         subtext: 'Cüzdanınıza para eklemek için bir yöntem seçin.',
         onramp: {
-            title: 'Banka Havalesi',
+            title: 'Banka Transferi',
             subtext: 'Banka transferleri ile USDC satın alın.',
             example: 'Ülkeler',
         },
@@ -1451,14 +1451,14 @@ export const tr: Locale = {
             title: 'Gönder',
             subtext:
                 '*{{toAmount}} *{{toCurrency}} tutarı *{{rate}} oranı ile alacaksınız.',
-            paid: 'Ödedim: {{symbol}}{{amount}}.',
+            paid: '{{symbol}}{{amount}} tutarlı ödemeyi yaptım.',
             copied: 'Panoya kopyalandı',
             back: 'Geri Dön',
             continue: 'Devam Et',
             cancel: 'İptal Et',
             notes: {
                 individual_account:
-                    'Yalnızca KYC (Müşterini Tanı) sürecini tamamladığınız, adınıza kayıtlı kişisel banka hesabınızdan TRY gönderebilirsiniz.',
+                    'Yalnızca KYC sürecini tamamladığınız, adınıza kayıtlı kişisel banka hesabınızdan TRY gönderebilirsiniz.',
                 bank_hours: '',
                 name: 'İsim',
                 accountNumber: 'Hesap Numarası',
@@ -1512,7 +1512,7 @@ export const tr: Locale = {
                 name: {
                     title: 'Bilgileri tamamlayın',
                     subtext:
-                        'Onramp işlemine başlamak için KYC bilgilerinizi tamamlayın',
+                        'Banka transferi işlemine başlamak için KYC bilgilerinizi tamamlayın',
                     name: 'Ad',
                     surname: 'Soyad',
                     choose: 'Cinsiyetinizi Seçin',
@@ -1531,7 +1531,7 @@ export const tr: Locale = {
                 identity: {
                     title: 'Bilgileri Tamamlayın',
                     subtext:
-                        'Onramp işlemine başlamak için KYC bilgilerini doldurun',
+                        'Banka transferi işlemine başlamak için KYC bilgilerini doldurun',
                     identity: 'Kimlik Numarası',
                     occupation: 'Meslek',
                     occupation_example: 'Mühendis, öğretmen',
@@ -1641,7 +1641,7 @@ export const tr: Locale = {
             pending: 'Yanıt bekleniyor',
             date: 'Talep Id: {{id}} - {{date}}',
             header: {
-                onramp: 'Onramp Desteği',
+                onramp: 'Banka Transferi Desteği',
             },
         },
         notify: {
