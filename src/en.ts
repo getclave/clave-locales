@@ -1983,6 +1983,7 @@ export const en = {
         subtext:
             'Add your friend to your address book to easily send them money in the future.',
         label: 'Custom Name',
+        placeholder: "Your friend's name",
         button: 'Add to Friends',
         button_edit: 'Save',
     },
