@@ -3,8 +3,9 @@
  * Unauthorized copying of this file, via any medium is strictly prohibited
  * Proprietary and confidential
  */
+import type { Locale } from './types';
 
-export const tr = {
+export const tr: Locale = {
     locale: 'tr',
     general: {
         identifiers: {
