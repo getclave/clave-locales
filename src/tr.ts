@@ -280,7 +280,7 @@ export const tr: Locale = {
                     title: 'Kurtarma',
                     button: 'Paylaş',
                 },
-                back: 'Giriş sayfasına dön',
+                back: 'Giriş Sayfasına Dön',
             },
             social_recovery_start: {
                 title: 'Talebi Güvenilir Kişiyle Paylaş',
@@ -290,7 +290,7 @@ export const tr: Locale = {
                     title: 'Kurtarma',
                     button: 'Paylaş',
                 },
-                back: 'Giriş sayfasına dön',
+                back: 'Giriş Sayfasına Dön',
             },
             guardian_input: {
                 label: 'Clave Kullanıcı Adı / ENS / 0x Adresi',
@@ -656,8 +656,8 @@ export const tr: Locale = {
             select_token: 'Token seçin',
         },
         quote_info: {
-            quote: 'Teklif',
-            seconds: 'saniye içinde yenileniyor',
+            quote: 'Teklifin yenilenmesine kalan',
+            seconds: 'saniye',
         },
         review: {
             title: {
@@ -820,7 +820,7 @@ export const tr: Locale = {
         title: 'Kurtarma Talebi',
         subtext: 'Kurtarmak istiyor musunuz?',
         function_name: 'Kurtar',
-        accept: 'Kurtarma Talebini Kabul Et',
+        accept: 'Kabul Et',
         decline: 'Reddet',
         cancel: {
             home: 'Ana Sayfa',
@@ -837,7 +837,7 @@ export const tr: Locale = {
             decline: 'Reddet',
         },
         reject: {
-            title: 'Kurtarma talebini reddettiniz!',
+            title: 'Kurtarma Talebini Reddettiniz!',
             subtext: 'Kurtarma başlatılmayacak.',
             home: 'Ana Sayfa',
         },
@@ -854,6 +854,14 @@ export const tr: Locale = {
                 'Bu mesajı imzalamak, bu hesabı güvenilir kişi olarak kurtarmayı kabul ettiğiniz anlamına gelir. Bu hesap, 48 saatlik bekleme süresi sonunda kurtarma için hazır olacak. Bundan sonra, size gönderilen aynı bağlantı üzerinden kurtarmayı tamamlayabileceksiniz.',
             release: 'Kabul Ediyorum',
             sign: 'İmzala',
+        },
+        success: {
+            user_title: 'Kurtarma Başarıyla Başlatılan Kullanıcı',
+            someone_title: 'Kurtarma Önceden Başlatılan Kullanıcı',
+            user_subtitle:
+                'Kurtarma işlemini başlattınız. Hesap, 48 saat içinde kurtarılacak ve hesap sahibi kurtarma işlemi konusunda bilgilendirilecek.',
+            someone_subtitle:
+                'Bu hesap için kurtarma işlemi zaten başlatıldı. Hesap 48 saat içinde kurtarılacak ve hesap sahibi kurtarma işlemi konusunda bilgilendirilecek.',
         },
     },
     set_username: {
@@ -908,8 +916,8 @@ export const tr: Locale = {
                     'Kaldırılan güvenilir kişiler, artık hesabınızda kurtarma işlemi yapamayacaklar.',
             },
             swap: {
-                sent: 'Gönderildi',
-                received: 'Alındı',
+                sent: 'Gönderilen',
+                received: 'Alınan',
                 fee: 'Takas Ücreti',
                 rate: 'Oran',
             },
@@ -1000,6 +1008,7 @@ export const tr: Locale = {
         token_already_exists: 'Token zaten mevcut',
         search: 'Token ara',
         add_manually: 'Elle Ekle',
+        owned_tokens: 'Sahip olunan tokenler',
     },
     portfolio: {
         __description: 'Portföy sayfası ve token detayları',
@@ -1824,7 +1833,7 @@ export const tr: Locale = {
             earnings: {
                 title: 'Çek',
                 subtext:
-                    'Şimdiye kadar {{earningAmount}} kazandınız. Fonlarınızı çekerken ödülünüzü toplamak ister misiniz?',
+                    'Şimdiye kadar {{earningAmount}} kazandınız. Fonlarınızı çekerken ödülünüzü de toplamak ister misiniz?',
                 subtext_lockup:
                     'Bu getiri seçeneği ile paranızı sadece önden talep oluşturarak çekebilirsiniz.',
                 withdrawal: 'Çekim Tutarı',
@@ -1919,6 +1928,8 @@ export const tr: Locale = {
             earn: 'Yatırım',
             earn_text:
                 'ZKsync ağındaki kripto paralarınız ile getiri elde edin.',
+            links_text:
+                'Ödeme bağlantıları oluşturup arkadaşlarınızla paylaşın.',
             guardians: 'Güvenilir Kişileri Yönet',
             guardians_text: 'Arkadaşlarınızı güvenilir kişi olarak ekleyin.',
             browser: 'Tarayıcı',
@@ -1929,6 +1940,7 @@ export const tr: Locale = {
             get_started: 'Başlayın',
             benefits: 'Clave ile Ayrıcalıklar',
             benefits_text: 'Kazanımlarınızı inceleyin.',
+            soon: '(Yakında)',
         },
     },
     recovery_notice: {
@@ -1966,7 +1978,7 @@ export const tr: Locale = {
     landing: {
         first: "Clave'e\n Hoş Geldiniz",
         firstSubtitle:
-            'kripto paralarınızı günlük uygulamalardan beklediğiniz sadelikle yönetin.',
+            'Kripto paralarınızı günlük uygulamalardan beklediğiniz sadelikle yönetin.',
         second: 'Anında, Ücretsiz,\nGlobal Transferler',
         secondSubtitle:
             'Herhangi birine, herhangi bir zamanda, kullanıcı adları ve ödeme linkleriyle mesajlaşma kadar basit bir şekilde gönderin.',

@@ -849,6 +849,14 @@ export const en = {
             release: 'Accepted',
             sign: 'Sign',
         },
+        success: {
+            user_title: 'Recovery Started Successfully for',
+            someone_title: 'Recovery is Already Started for',
+            user_subtitle:
+                'You have started the recovery process of this account. It will be recovered in 48h and we will be informing the account holder.',
+            someone_subtitle:
+                'Recovery process of this account is already initiated by another guardian. It will be recovered in 48h and we will be informing the account holder',
+        },
     },
     set_username: {
         __description: 'Page to set username from profile or from onboarding',
@@ -993,6 +1001,7 @@ export const en = {
         token_already_exists: 'Token already exists',
         search: 'Search token',
         add_manually: 'Add Manually',
+        owned_tokens: 'Owned tokens',
     },
     portfolio: {
         __description: 'Portfolio page and token details',
@@ -1910,6 +1919,7 @@ export const en = {
             deposit_text: 'Fund your wallet with crypto on ZKsync Era.',
             earn: 'Earn',
             earn_text: 'Start earning with your crypto on ZKsync.',
+            links_text: 'Create and share payment links with your friends.',
             guardians: 'Manage Guardians',
             guardians_text: 'Add your friends and trusted ones as guardians.',
             browser: 'Browser',
@@ -1920,6 +1930,7 @@ export const en = {
             get_started: 'Get Started',
             benefits: 'Your Clave Benefits',
             benefits_text: 'Review your benefits.',
+            soon: '(Soon)',
         },
     },
     recovery_notice: {
