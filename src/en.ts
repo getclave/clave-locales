@@ -721,8 +721,8 @@ export const en = {
             preparing_transactions: 'Preparing Your Transaction History',
         },
         transaction: {
-            from: 'From {{user}}',
-            to: 'To {{user}}',
+            from: '{{user}}',
+            to: '{{user}}',
             self: 'Me',
             failed: 'Failed',
             transfer: 'Transfer',
@@ -745,6 +745,7 @@ export const en = {
             cashback: 'Cryptoback',
             referral: 'Referral Commission',
             reward: 'Reward',
+            onramp: 'Bank Transfer',
             details: {
                 title: 'Transaction Details',
                 payment_link: 'Payment Link',
@@ -764,6 +765,8 @@ export const en = {
                 reclaim_funds: 'Reclaim Funds',
                 reclaim_in_time: 'Reclaim in {{time}}',
                 gas_fee: 'Network Fee',
+                note: 'Note',
+                onramp_title: 'Bank Transfer for {{amount}}',
                 earn_details: {
                     withdraw_title: 'Withdraw {{amount}}',
                     deposit_title: 'Deposit {{amount}}',
@@ -922,6 +925,7 @@ export const en = {
             simulating: 'Checking security details...',
             simulated_success: 'Transaction is verified by simulation',
             simulated_failure: 'Transaction is scanned as malicious',
+            free: 'Free',
         },
         approve: {
             title: 'Summary',
@@ -1432,6 +1436,7 @@ export const en = {
             title: 'Request from Friends',
             subtext: 'Create a payment request link.',
         },
+        close: 'Close',
     },
     onramp: {
         bank: {
@@ -1443,6 +1448,21 @@ export const en = {
             back: 'Go Back',
             continue: 'Continue',
             cancel: 'Cancel',
+            notes: {
+                individual_account:
+                    'You can only send TRY from your personal bank account registered in your name for which you have completed KYC.',
+                bank_hours: '',
+                name: 'Name',
+                accountNumber: 'Account Number',
+                ifsc: 'IFSC',
+                bank: 'Bank',
+                iban: 'IBAN',
+                'Bank Name': 'Bank Name',
+                country: 'Country',
+                address: 'Address',
+                transferCode: 'Transfer Code',
+                virtualAccount: 'Virtual Account',
+            },
         },
         exchange: {
             title: 'Exchange',
@@ -1507,6 +1527,7 @@ export const en = {
                         'Complete the KYC information to start the onramp process',
                     identity: 'Identity Number',
                     occupation: 'Occupation',
+                    occupation_example: 'Engineer, teacher',
                     address: 'Address',
                     city: 'City',
                     postal_code: 'Postal Code',
@@ -1983,6 +2004,7 @@ export const en = {
             'Add your friend to your address book to easily send them money in the future.',
         label: 'Custom Name',
         button: 'Add',
+        placeholder: "Your friends name",
         button_edit: 'Save',
     },
     user_profile: {

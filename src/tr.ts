@@ -729,6 +729,7 @@ export const tr: Locale = {
         transaction: {
             from: '{{user}} tarafından',
             to: '{{user}} kişisine',
+            reward: 'Ödül',
             self: 'Ben',
             failed: 'Başarısız',
             transfer: 'Transfer',
@@ -747,10 +748,13 @@ export const tr: Locale = {
             earnWithdrawRequest: 'Çekim Talebi',
             delegated_zk_tokens: 'Clave’e delege edildi',
             deposit: 'Yatır',
-            earnMigrate: 'Yatırımları Taşı',
             cashback: 'Geri ödeme',
             referral: 'Davet Komisyonu',
             reward: 'Ödül',
+            earnMigrate: 'Fonları Taşı',
+            referral: 'Referans',
+            cashback: 'Geri Ödeme',
+            onramp: 'Banka Transferi',
             details: {
                 title: 'İşlem Detayları',
                 payment_link: 'Ödeme Bağlantısı',
@@ -770,6 +774,9 @@ export const tr: Locale = {
                 reclaim_funds: 'Tokenleri Geri Al',
                 reclaim_in_time: '{{time}} içinde geri al',
                 gas_fee: 'Ağ Ücreti',
+                payment_link: 'Ödeme Linki',
+                note: 'Not',
+                onramp_title: '{{amount}} Tutarında Banka Transferi',
                 earn_details: {
                     withdraw_title: '{{amount}} Çek',
                     deposit_title: '{{amount}} Yatır',
@@ -925,10 +932,11 @@ export const tr: Locale = {
                 estimated_earnings: 'Tahmini Haftalık Getiriler',
             },
             network_fee: 'Ağ Ücreti',
-            swipe: 'Devam Etmek İçin Kaydırın',
+            swipe: 'Kaydırın',
             simulating: 'Güvenlik detayları kontrol ediliyor...',
-            simulated_success: 'İşlem simülasyon ile doğrulandı',
+            simulated_success: 'İşlem doğrulandı',
             simulated_failure: 'İşlem kötü amaçlı olarak işaretlendi',
+            free: 'Ücretsiz',
         },
         approve: {
             title: 'Özet',
@@ -1441,6 +1449,7 @@ export const tr: Locale = {
             title: 'Arkadaşlarınızdan Talep Edin',
             subtext: 'Bir ödeme talep bağlantısı oluşturun.',
         },
+        close: 'Kapat',
     },
     onramp: {
         bank: {
@@ -1452,6 +1461,21 @@ export const tr: Locale = {
             back: 'Geri Dön',
             continue: 'Devam Et',
             cancel: 'İptal Et',
+            notes: {
+                individual_account:
+                    'Yalnızca KYC (Müşterini Tanı) sürecini tamamladığınız, adınıza kayıtlı kişisel banka hesabınızdan TRY gönderebilirsiniz.',
+                bank_hours: '',
+                name: 'İsim',
+                accountNumber: 'Hesap Numarası',
+                ifsc: 'IFSC',
+                bank: 'Banka',
+                iban: 'IBAN',
+                'Bank Name': 'Banka Adı',
+                country: 'Ülke',
+                address: 'Adres',
+                transferCode: 'Transfer Kodu',
+                virtualAccount: 'Sanal Hesap',
+            },
         },
         exchange: {
             title: 'Banka Transferi',
@@ -1515,6 +1539,7 @@ export const tr: Locale = {
                         'Onramp işlemine başlamak için KYC bilgilerini doldurun',
                     identity: 'Kimlik Numarası',
                     occupation: 'Meslek',
+                    occupation_example: 'Mühendis, öğretmen',
                     address: 'Adres',
                     city: 'Şehir',
                     postal_code: 'Posta Kodu',
@@ -1986,7 +2011,8 @@ export const tr: Locale = {
     },
     address_book_bottom_sheet: {
         title: 'Kullanıcıyı Kişilerine Ekle',
-        title_edit: 'Arkadaş adını düzenle',
+        title_edit: 'Kişi adını düzenle',
+        placeholder: 'Kişi adı',
         subtext:
             'Arkadaşınızı kişilerinize ekleyerek onlara gelecekte kolayca para gönderebilirsiniz.',
         label: 'Özel Ad',
