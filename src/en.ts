@@ -52,10 +52,10 @@ export const en = {
         '1034': 'Error deleting cloud storage data',
         '1035': 'Could not sign-in with Google, please try again later',
         '1036': 'Minimum 8 characters required',
-        '1037': 'Include an uppercase letter.',
-        '1038': 'Include a lowercase letter.',
-        '1039': 'Include a number.',
-        '1040': 'Include a special character.',
+        '1037': 'Include an uppercase letter',
+        '1038': 'Include a lowercase letter',
+        '1039': 'Include a number',
+        '1040': 'Include a special character',
         '1041': 'Signing data is corrupted, please try again later',
         '1042': 'Error deleting public key',
         '1043': 'You are already in split group',
@@ -91,12 +91,13 @@ export const en = {
             title: 'Social Backup',
             subtext:
                 'Your friends on Clave or any addresses on ZKsync Era can be assigned as guardians.',
-            'subtext-link': 'Tap to learn more',
+            'subtext-link': 'Tap to learn more.',
             'subtext-link-url':
                 'https://blog.getclave.io/recovery-for-everyone-cloud-and-guardians',
             cancel: 'Cancel Backup',
             add_new_guardian: 'Add New Guardians',
             add_guardian_max: 'Maximum Guardians Limit Reached',
+            your_guardians: 'Your Guardians',
             guardian: {
                 title: 'Add Guardians',
                 subtext:
@@ -113,7 +114,7 @@ export const en = {
                 own_address: 'You cannot add yourself as a guardian.',
                 already_exists: 'This address is already a guardian.',
                 label: 'Clave Username / ENS / 0x Address',
-                invalid_ens_address: 'Invalid ENS address',
+                invalid_ens_address: 'Invalid ENS name',
                 invalid_address: 'Invalid address',
                 invalid_username: 'Invalid username',
                 resolved: 'Address: {{address}}',
@@ -208,7 +209,7 @@ export const en = {
             referral_item_1:
                 '*{{reward_amount}} for the first *{{deposit_amount}} you deposit to Earn',
             referral_item_2: '*{{reward_amount}} cryptoback on fees you pay',
-            user_not_registered: 'User is not fully registered',
+            user_not_registered: 'User has not completed registration',
             referral_valid: 'Referral code is valid',
         },
         creation: {
@@ -263,7 +264,7 @@ export const en = {
                     'Type Clave username, ENS or address of your guardian.',
                 fetch_guardians_error: 'Could not get your guardians',
                 enter_valid_address: 'Please enter a valid address',
-                registration_error: 'Could not create new passkey',
+                registration_error: 'Could not create a new Passkey',
                 continue: 'Continue',
                 not_guardian: 'This Address is not Your Guardian',
             },
@@ -317,7 +318,7 @@ export const en = {
             last: {
                 option1:
                     'Send & Receive money instantly with nicknames and links',
-                option2: 'Pay gas with any token',
+                option2: 'Pay network fees with any token',
                 option3: 'Add your friends as a guardian for recovery',
                 option4: 'Powered by ZKsync',
             },
@@ -395,6 +396,8 @@ export const en = {
             title: 'Payment Links',
             no_links: 'You have no unclaimed links',
             no_link_button: 'Home',
+            manage: 'Manage your payment links: share or cancel to access funds.',
+            tap: 'Tap to learn more.',
         },
         enter_address: {
             title: 'Enter Recipient',
@@ -427,7 +430,7 @@ export const en = {
         send_with_link_bottomsheet: {
             title: 'Sending with link',
             description:
-                'You will create a link with money embedded in it. Anyone with a Clave account can claim this money. You can check your payment links in Home and cancel them if you want.',
+                'You can create links that include money and ensure that people with the link receive money. You can check or cancel the payment links you create from the Home.',
             button: 'I understand, continue',
             never_show: 'Do not show it again',
         },
@@ -442,7 +445,7 @@ export const en = {
             request: 'Request',
             send: 'Send',
             swap: 'Swap',
-            addMoney: 'Add money',
+            addMoney: 'Add Money',
         },
         recovery_alert_item: {
             social: "A social recovery has begun for your account. If not canceled within 48 hours, you'll lose access. Tap here to cancel.",
@@ -455,6 +458,9 @@ export const en = {
             my_tokens: 'Tokens',
             my_positions: 'Positions',
             earning: 'APR: {{apr}}%',
+        },
+        overlay: {
+            add_custom_token: 'Add custom token',
         },
     },
     settings: {
@@ -476,13 +482,13 @@ export const en = {
                 total_referees: 'Total Referred',
                 invite_earn: 'Invite & Earn',
                 ref_code: 'Your Referral Code',
-                what_you_get: 'What you get:',
-                what_they_get: 'What they get:',
-                first_benefit: '*{{amount}} Crypto back from fees paid by them',
+                what_you_get: 'What you get?',
+                what_they_get: 'What they get?',
+                first_benefit: '*{{amount}} Cryptoback from fees paid by them',
                 second_behefit:
                     '*{{amount1}} for the first *{{amount2}} they deposit to Earn',
                 third_benefit: '*{{amount}} Crypto back from fees they pay',
-                best_way_refer: 'Best way to refer:',
+                best_way_refer: 'Best way to refer',
                 send_them_dollar:
                     'Send them a payment link containing your invite code',
             },
@@ -501,6 +507,7 @@ export const en = {
                 set_username: 'Set Username',
                 no_username: 'No username',
                 copy_address: 'Copy Address',
+                username_copied: 'Address copied',
             },
             rewards: {
                 title: 'Badges & Rewards',
@@ -521,6 +528,10 @@ export const en = {
             settings: {
                 title: 'Settings',
                 subtext: 'Access app customizations',
+            },
+            photo_edit: {
+                gallery: 'Choose from the gallery',
+                picture: 'Take a picture',
             },
             logout: 'Log out',
             logout_subtext: 'Sign out from your account',
@@ -583,7 +594,7 @@ export const en = {
         },
         twitter: {
             title: 'Follow us',
-            subtext: 'Follow us on Twitter (X)',
+            subtext: 'Follow us on X',
         },
         about: {
             title: 'About Clave',
@@ -667,8 +678,7 @@ export const en = {
     walletconnect: {
         connected_dapps: {
             title: 'Connected Dapps',
-            subtext:
-                'Your connected decentralized applications are shown below',
+            subtext: 'Connected decentralized applications are shown below.',
             disconnect: 'Disconnect',
         },
         empty_state: {
@@ -737,9 +747,10 @@ export const en = {
             reward: 'Reward',
             onramp: 'Bank Transfer',
             details: {
+                title: 'Transaction Details',
                 payment_link: 'Payment Link',
                 me: 'me',
-                tx_type: 'Tx Type',
+                tx_type: 'Type',
                 token_sent: 'Token Sent',
                 token_received: 'Token Received',
                 recipient: 'Recipient',
@@ -856,7 +867,7 @@ export const en = {
     complete_account: {
         title: 'Complete Your Account',
         subtitle:
-            'You need to complete following steps to get access to invite your friends',
+            'You need to complete following steps to get access to invite your friends.',
         back: 'Back',
         select_username: 'Select your username',
         profile_pic: 'Add a profile picture',
@@ -869,6 +880,7 @@ export const en = {
             generic: {
                 contract_interaction: 'Contract Interaction',
             },
+            free: 'Free',
             transfer: {
                 sending_to: 'Sending to',
                 creating_link: 'Creating Link',
@@ -913,7 +925,6 @@ export const en = {
             simulating: 'Checking security details...',
             simulated_success: 'Transaction is verified by simulation',
             simulated_failure: 'Transaction is scanned as malicious',
-            free: 'Free',
         },
         approve: {
             title: 'Summary',
@@ -954,7 +965,7 @@ export const en = {
             },
             link_left: 'To see your transaction details, open',
             link_right: 'in explorer.',
-            tx_link: 'TX link',
+            tx_link: 'Tranasction link',
             time: 'Time',
             token_amount: 'Token Amount',
             gas_fee: 'Network Fee',
@@ -962,7 +973,7 @@ export const en = {
         estimating_gas_fee: 'Estimating Network Fee',
         reject: 'Reject',
         release: 'Release',
-        estimate_gas_failed: 'The transaction is expected to fail',
+        estimate_gas_failed: 'The transaction is expected to fail.',
         notification: 'Transaction sent successfully.',
     },
     navbar: {
@@ -993,7 +1004,7 @@ export const en = {
         my_tokens: 'Tokens',
         my_positions: 'Positions',
         header: 'My Portfolio',
-        add_custom_token: 'Add Token',
+        add_custom_token: 'Add Custom Token',
         day: '1D',
         week: '1W',
         month: '1M',
@@ -1125,7 +1136,7 @@ export const en = {
         payment: {
             new: {
                 title: 'Add Payment',
-                subtext: 'You can enter payment information',
+                subtext: 'You can enter payment information.',
                 too_long: 'Name is too long, please use a shorter name.',
                 too_small: 'Minimum amount is $0.10',
                 label: {
@@ -1243,7 +1254,7 @@ export const en = {
             subtext:
                 'Use this address to deposit or request. Do not send to this address on Ethereum or other networks.',
             qrCode: 'Show this QR code to deposit or request.',
-            done: 'done',
+            done: 'Done',
         },
     },
     deposit: {
@@ -1378,8 +1389,15 @@ export const en = {
                 'The bottom sheet that is opened for the first time when deposit page is visited',
             title: 'How Deposit works?',
             subtext: {
-                first: 'Your Clave account is ONLY on ZKsync Era.',
-                second: 'To deposit funds, you can either transfer from another ZKsync account or use a bridge to transfer from other networks. Please follow the steps carefully.',
+                info: {
+                    first: 'To deposit funds, you can either transfer from another ZKsync account or use a bridge to transfer from other networks. Please follow the steps carefully.',
+                    second: 'Please follow the steps carefully.',
+                },
+                warning: {
+                    first: 'Your Clave account is',
+                    second: 'ONLY',
+                    third: 'on ZKsync Era',
+                },
             },
             continue: 'Get Started',
             zksync: {
@@ -1398,25 +1416,24 @@ export const en = {
     },
     addMoney: {
         title: 'Add Money',
-        subtext:
-            'Select whichever way you want to deposit money into your wallet',
+        subtext: 'Select a way to add money into your wallet.',
         onramp: {
-            title: 'Buy with bank transfer',
-            subtext: 'Deposit from your bank',
+            title: 'Bank Transfer',
+            subtext: 'Buy USDC via bank deposits.',
             example: 'Countries',
         },
         deposit: {
-            title: 'Deposit crypto',
-            subtext: 'Get token from wallet or exchange',
+            title: 'Deposit Crypto',
+            subtext: 'Receive from wallets or exchanges.',
             example: 'Networks',
         },
         wallet: {
-            title: 'Deposit from another wallet',
-            subtext: 'Get token from another wallet',
+            title: 'Deposit from Another Wallets',
+            subtext: 'Receive from another wallets.',
         },
         request: {
-            title: 'Create a payment request link',
-            subtext: 'Get money from link',
+            title: 'Request from Friends',
+            subtext: 'Create a payment request link.',
         },
         close: 'Close',
     },
@@ -1424,10 +1441,10 @@ export const en = {
         bank: {
             title: 'Send',
             subtext:
-                'You will receive *{{toAmount}} *{{toCurrency}} at a rate of *{{rate}}',
-            paid: 'I have paid {{symbol}}{{amount}}',
+                'You will receive *{{toAmount}} *{{toCurrency}} at the rate of *{{rate}}.',
+            paid: 'I have paid {{symbol}}{{amount}}.',
             copied: 'Copied to clipboard',
-            back: 'Go back',
+            back: 'Go Back',
             continue: 'Continue',
             cancel: 'Cancel',
             notes: {
@@ -1456,31 +1473,30 @@ export const en = {
                 continue: 'Continue',
             },
             box: {
-                pay: 'I want to pay',
-                get: 'I want to get',
-                min: 'min {{sign}} {{amount}}',
+                pay: 'Deposit',
+                get: 'Receive',
+                min: 'Min {{sign}} {{amount}}',
             },
             review: {
                 title: 'Review',
             },
             phone: { title: 'Account:' },
             change: 'Change',
-            rate_dif: '%{{percentage}} better than banks',
-            max_limit: 'Maximum onramp limit is {{limit}} {{currency}}',
+            rate_dif: '{{percentage}}% better than banks.',
+            max_limit: 'Maximum limit is {{limit}} {{currency}}',
             continue: 'Continue',
-            back: 'Go back',
+            back: 'Go Back',
         },
         history: {
             title: 'Buy History',
             fail: 'Payment Failed',
             buying: 'Buying token',
             success: 'Success',
-            finding: 'Finding Payment',
-            paid: 'You paid: {{sign}}{{amount}}',
+            finding: 'Waiting Payment',
+            paid: 'Paid: {{sign}}{{amount}}',
             rate: '{{sign}}{{rate}} / {{symbol}}',
-            get: 'You got: {{amount}} {{symbol}}',
-            no_transaction:
-                'Your onramp transactions will be accessible in here',
+            get: 'Received: {{amount}} {{symbol}}',
+            no_transaction: 'Your bank transfers will be showed here.',
         },
         kyc: {
             details: {
@@ -1499,7 +1515,7 @@ export const en = {
                 birthday: {
                     title: 'Complete details',
                     subtext:
-                        'Complete the KYC information to start the onramp process',
+                        'Complete the KYC information to start the process',
                     birthday: 'Birthday',
                     date_example: 'MM / BB / YYYY',
                     continue: 'Continue',
@@ -1535,7 +1551,7 @@ export const en = {
             files: {
                 title: 'Submit KYC Files',
                 subtext:
-                    'We need to ask the user for a photo of their card for KYC. For now, we assume that these documents have been received.',
+                    'We need to ask for a photo of their documents for the KYC. For now, we assume that these documents have been received.',
                 camera_permission: 'Camera Permission',
                 camera_permission_message:
                     'Please enable camera permission in your settings to take a picture.',
@@ -1543,14 +1559,14 @@ export const en = {
                 open_settings: 'Open Settings',
             },
             phone: {
-                title: 'Enter phone number',
-                subtext: 'Enter your phone number',
+                title: 'Phone Number',
+                subtext: 'Enter your phone number to complete your deposit.',
                 phone: 'Phone number',
                 continue: 'Continue',
             },
             funds: {
-                title: 'What’s your primary source of funds?',
-                subtext: 'Where does the money for your onramp come from?',
+                title: 'Primary Source of Funds',
+                subtext: 'What is the source of the money you will deposit?',
                 salary: 'Salary',
                 savings: 'Savings',
                 investments: 'Investments',
@@ -1561,22 +1577,22 @@ export const en = {
         },
         transaction: {
             status: {
-                title: 'Verifying transaction',
+                title: 'Verifying Transaction',
                 subtext: 'Your money will be sent to you after these steps',
                 payment: {
                     title: 'Accepting payment',
-                    subtext: 'This may take 1-2 minutes',
+                    subtext: 'This may take up to 2 minutes.',
                 },
                 purchase: {
                     title: 'Purchasing USDC',
-                    subtext: 'We verified your transaction',
+                    subtext: 'We verified your transaction.',
                 },
                 transfer: {
                     title: 'Transferring USDC',
-                    subtext: 'Expected waiting time = 30 seconds',
+                    subtext: 'Expected waiting time is 30 seconds.',
                 },
                 bank: {
-                    show: 'Show bank details',
+                    show: 'Show Bank Details',
                 },
                 continue: 'Continue',
                 home: 'Home',
@@ -1585,7 +1601,7 @@ export const en = {
         verification: {
             title: 'Verification Pending',
             subtext:
-                'This process takes 3-10 minutes. Wait or check back later',
+                'This process takes 3-10 minutes. Please wait or check back later',
             done: 'Done',
         },
         choose: {
@@ -1593,7 +1609,7 @@ export const en = {
                 title: 'Choose Location',
                 label: 'Search',
                 countries: 'Countries',
-                no_option: 'Your fiat options will be accessible in here',
+                no_option: 'Your currency options will be accessible in here',
             },
         },
         progress: {
@@ -1602,10 +1618,10 @@ export const en = {
             completed: 'Completed',
         },
         camera: {
-            selfie: 'Take a selfie of your face',
+            selfie: 'Take a selfie',
             description: 'Take a picture of {{side}} side of your document',
-            front: 'Front side',
-            back: 'Back side',
+            front: 'front',
+            back: 'back',
             error: 'The photo could not be uploaded, please try again',
         },
         support: {
@@ -1622,10 +1638,10 @@ export const en = {
         },
         notify: {
             alert: {
-                title: 'One last reminder',
+                title: 'Last Reminder',
                 subtext:
                     'Do you confirm that you have read and understood all alerts before sending money?',
-                read: 'I have read all the alerts',
+                read: 'I have read all of the alerts.',
                 continue: 'Continue',
             },
         },
@@ -1773,7 +1789,7 @@ export const en = {
                 continue: 'I understand',
                 market: {
                     title: 'Unregulated Markets',
-                    text: 'Earn utilizes Defi, which has potential risks that may lead to asset loss. Clave is an unhosted non-custodial wallet. Invest at your own risk.',
+                    text: 'Earn utilizes DeFi, which has potential risks that may lead to asset loss. Clave is an unhosted non-custodial wallet. Invest at your own risk.',
                 },
                 yield: {
                     title: 'Earning Every Minute',
@@ -1865,13 +1881,13 @@ export const en = {
             subtext:
                 'You can only withdraw your money on request with this earn option.',
             text_1: 'Withdrawal waiting time is 10 days.',
-            text_2: 'If you change the amount of withdrawn money, the waiting time will restart',
+            text_2: 'If you change the amount of withdrawn money, the waiting time will restart.',
             button: 'Proceed',
         },
         info_bottom_sheet: {
-            title: '{{amount}} will be ready to withdraw on {{date}}',
+            title: '{{amount}} will be ready to withdraw on {{date}}.',
             title_ready:
-                'Your pending withdraw request is ready to be processed',
+                'Your pending withdraw request is ready to be processed.',
             subtext:
                 'You can only withdraw your money on request with this type of earn option.',
             notice: 'If you create new request, previous one will be accumulated, and 10 days counter restarts',
@@ -1967,12 +1983,13 @@ export const en = {
             subtext:
                 'Use your address to receive tokens from other wallets or exchanges.',
         },
+        username_copied: 'Username copied',
     },
     send_on_zksync_bottom_sheet: {
         title: 'Sending on ZKsync',
         description:
-            'Make sure the address you’re sending to is accessible on ZKsync. Otherwise, you may lose the funds.',
-        accept: 'The address I’m sending supports ZKsync',
+            'Make sure the address you are sending to is accessible on ZKsync. Otherwise, you may lose the funds.',
+        accept: 'The address I am sending supports ZKsync',
         button: 'Continue to Send',
     },
     progress: {
@@ -1981,13 +1998,13 @@ export const en = {
         },
     },
     address_book_bottom_sheet: {
-        title: 'Add user to friends',
+        title: 'Add to the Friends',
         title_edit: 'Edit friend name',
         subtext:
             'Add your friend to your address book to easily send them money in the future.',
         label: 'Custom Name',
-        placeholder: "Your friend's name",
-        button: 'Add to Friends',
+        button: 'Add',
+        placeholder: 'Your friends name',
         button_edit: 'Save',
     },
     user_profile: {
