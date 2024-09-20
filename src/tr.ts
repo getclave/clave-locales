@@ -727,8 +727,8 @@ export const tr: Locale = {
             preparing_transactions: 'İşlem Geçmişiniz Hazırlanıyor',
         },
         transaction: {
-            from: '{{user}} tarafından',
-            to: '{{user}} kişisine',
+            from: '{{user}}',
+            to: '{{user}}',
             reward: 'Ödül',
             self: 'Ben',
             failed: 'Başarısız',
