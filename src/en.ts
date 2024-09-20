@@ -1429,6 +1429,7 @@ export const en = {
             back: 'Go back',
             continue: 'Continue',
             cancel: 'Cancel',
+            delete_error: 'Failed to cancel transaction, try again',
             notes: {
                 individual_account:
                     'You can only send TRY from your personal bank account registered in your name for which you have completed KYC.',

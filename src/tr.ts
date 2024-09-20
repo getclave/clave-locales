@@ -1430,6 +1430,7 @@ export const tr: Locale = {
             back: 'Geri',
             continue: 'Devam Et',
             cancel: 'İptal',
+            delete_error: 'İşlem iptal edilemedi, lütfen tekrar deneyin',
             notes: {
                 individual_account:
                     'Yalnızca KYC (Müşterini Tanı) sürecini tamamladığınız, adınıza kayıtlı kişisel banka hesabınızdan TRY gönderebilirsiniz.',
