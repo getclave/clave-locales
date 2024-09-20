@@ -92,13 +92,14 @@ export const tr: Locale = {
         social: {
             title: 'Sosyal Yedekleme',
             subtext:
-                'Clave üzerindeki arkadaşlarınız veya ZKsync Era üzerindeki herhangi bir adresi güvenilir kişi olarak atayabilirsiniz.',
-            'subtext-link': 'Daha fazla bilgi için dokunun',
+                'Clave üzerindeki arkadaşlarınız veya ZKsync Era ağındaki herhangi bir adresi güvenilir kişi olarak atayabilirsiniz.',
+            'subtext-link': 'Daha fazla bilgi için dokunun.',
             'subtext-link-url':
                 'https://blog.getclave.io/recovery-for-everyone-cloud-and-guardians',
             cancel: 'Yedeklemeyi İptal Et',
             add_new_guardian: 'Yeni Güvenilir Kişiler Ekle',
             add_guardian_max: 'Maksimum Güvenilir Kişi Limiti Aşıldı',
+            your_guardians: 'Güvenilir Kişileriniz',
             guardian: {
                 title: 'Güvenilir Kişiler Ekle',
                 subtext:
@@ -132,7 +133,7 @@ export const tr: Locale = {
                     'Sosyal Yedekleme için en az bir güvenilir kişi eklemelisiniz.',
             },
             remove_guardian_bottom_sheet: {
-                title: 'Güvenilir Kişiyi Kaldır',
+                title: 'Kaldırılan Güvenilir Kişi',
                 subtext:
                     'Her zaman en az bir güvenilir kişiye sahip olduğunuzdan emin olun.',
                 delete: 'Anladım, yine de kaldır',
@@ -184,7 +185,7 @@ export const tr: Locale = {
                 'Clave’de ihtiyacınız olan tek şey kullanıcı adlarıdır.',
             step3_title: 'Cüzdanınıza Fon Ekleyin',
             step3_text1:
-                "En basit yol, ZKsync Era üzerinde başka bir cüzdandan veya borsadan kripto transferi yapmaktır. Hesap adresinizi Profil'den kopyalayabilirsiniz.",
+                "En basit yol, ZKsync Era ağında başka bir cüzdandan veya borsadan kripto transferi yapmaktır. Hesap adresinizi Profil'den kopyalayabilirsiniz.",
             step3_text2:
                 "Diğer zincirlerdeki kripto paralarınız için 'Yatır' düğmesine dokunarak varlıkları hızlıca hesabınıza aktarabilirsiniz.",
         },
@@ -211,7 +212,7 @@ export const tr: Locale = {
             referral_item_1:
                 '*{{deposit_amount}} yatırdığınızda ilk *{{reward_amount}} kazanın',
             referral_item_2:
-                'Ödediğiniz ücretler üzerinden *{{reward_amount}} cryptoback',
+                'Ödediğiniz ücretler üzerinden *{{reward_amount}} geri ödeme',
             user_not_registered: 'Kullanıcı kaydını tamamladı',
             referral_valid: 'Davet kodu geçerli',
         },
@@ -400,6 +401,8 @@ export const tr: Locale = {
             title: 'Ödeme Bağlantıları',
             no_links: 'Alınmamış bağlantınız yok',
             no_link_button: 'Ana Sayfa',
+            manage: 'Ödeme bağlantılarınızı yönetin: Tokenlere erişmek için paylaşın veya iptal edin.',
+            tap: 'Daha fazla bilgi öğrenmek için dokunun.',
         },
         enter_address: {
             title: 'Alıcıyı Girin',
@@ -461,6 +464,9 @@ export const tr: Locale = {
             my_positions: 'Yatırımlar',
             earning: 'APR: {{apr}}%',
         },
+        overlay: {
+            add_custom_token: 'Özel Token Ekle',
+        },
     },
     settings: {
         main: {
@@ -472,7 +478,7 @@ export const tr: Locale = {
                 title: 'Profil',
                 account_settings: 'Hesap Ayarları',
                 banner: {
-                    first_banner: 'Clave ile Kazandıklarınız',
+                    first_banner: 'Clave ile Ayrıcalıklar',
                     second_banner: 'Davet Et ve Kazan',
                 },
             },
@@ -494,7 +500,7 @@ export const tr: Locale = {
             saved_with_clave: {
                 title: 'Clave kullanıcısı olduğunuz için teşekkürler{{name}}',
                 tx_title: 'İşlemler',
-                tx_text: 'Clave, {{txCount}} defa işlem ücreti ödedi.',
+                tx_text: 'Clave, {{txCount}} defa işlem ücretinizi ödedi.',
                 earn_title: 'Yatırım',
                 earn_text: 'Toplam getiri kazancınız.',
                 earn_cta: 'Yatırıma Başla',
@@ -506,6 +512,7 @@ export const tr: Locale = {
                 set_username: 'Kullanıcı Adı Belirle',
                 no_username: 'Kullanıcı adı yok',
                 copy_address: 'Adresi Kopyala',
+                username_copied: 'Kullanıcı adı kopyalandı',
             },
             rewards: {
                 title: 'Rozetler ve Ödüller',
@@ -517,7 +524,7 @@ export const tr: Locale = {
             },
             backup: {
                 title: 'Hesap Yedekleme',
-                subtext: 'Güvenilir kişilerinizi görün ve düzenleyin',
+                subtext: 'Güvenilir Kişileri düzenleyin',
             },
             connected_dapps: {
                 title: 'Bağlı Uygulamalar',
@@ -526,6 +533,10 @@ export const tr: Locale = {
             settings: {
                 title: 'Ayarlar',
                 subtext: 'Uygulama özelleştirmelerine erişin',
+            },
+            photo_edit: {
+                gallery: 'Galeriden seç',
+                picture: 'Fotoğraf çek',
             },
             logout: 'Çıkış Yap',
             logout_subtext: 'Hesabınızdan çıkış yapın',
@@ -567,7 +578,7 @@ export const tr: Locale = {
             notification: 'Bildirimler',
             allow_notifications_title: 'Bildirimlere İzin Ver',
             allow_notifications_subtext: '',
-            notify_guardians_title: 'Güvenilir Kişilere Bildirim Gönder',
+            notify_guardians_title: 'Güvenilir Kişileri Bildir',
             notify_guardians_subtext: '',
             show_balance: 'Bakiye Görünürlüğü',
             show_balance_subtext: 'Ana ekranınızdaki bakiyeleri gizleyin',
@@ -741,6 +752,7 @@ export const tr: Locale = {
             referral: 'Davet Komisyonu',
             reward: 'Ödül',
             details: {
+                title: 'İşlem Detayları',
                 payment_link: 'Ödeme Bağlantısı',
                 me: 'ben',
                 tx_type: 'Tür',
@@ -755,7 +767,7 @@ export const tr: Locale = {
                 sent_to_or_from: '{{sentOrReceived}} {{type}} {{user}}',
                 add_token: 'Token Ekle',
                 token_swapped: 'Tokenler takas edildi',
-                reclaim_funds: 'Fonları Geri Al',
+                reclaim_funds: 'Tokenleri Geri Al',
                 reclaim_in_time: '{{time}} içinde geri al',
                 gas_fee: 'Ağ Ücreti',
                 earn_details: {
@@ -872,6 +884,7 @@ export const tr: Locale = {
             generic: {
                 contract_interaction: 'Uygulama Etkileşimi',
             },
+            free: 'Ücretsiz',
             transfer: {
                 sending_to: 'Gönderiliyor',
                 creating_link: 'Bağlantı Oluşturuluyor',
@@ -987,7 +1000,7 @@ export const tr: Locale = {
     },
     portfolio: {
         __description: 'Portföy sayfası ve token detayları',
-        available: 'Mevcut',
+        available: 'Mevcut Bakiye',
         about_token: '{{token}} Hakkında',
         no_chart_data: 'Grafik verisi yok',
         market_cap: 'Piyasa Değeri',
@@ -995,7 +1008,7 @@ export const tr: Locale = {
         my_tokens: 'Tokenlerim',
         my_positions: 'Yatırımlarım',
         header: 'Portföyüm',
-        add_custom_token: 'Token Ekle',
+        add_custom_token: 'Özel Token Ekle',
         day: '1G',
         week: '1H',
         month: '1A',
@@ -1024,7 +1037,7 @@ export const tr: Locale = {
     split: {
         create_group: {
             create_new: 'Yeni Grup Oluştur',
-            group_name: 'Grup Adı',
+            group_name: 'Grup adı',
             enter_group_name: 'Grup adını girin',
             create: 'Oluştur',
             create_error: 'Grup oluşturulamadı',
@@ -1278,9 +1291,9 @@ export const tr: Locale = {
             title: 'Para Yatırma Durumu',
             no_deposits: 'Para yatırma işlemleriniz burada erişilebilir olacak',
             add: 'Yeni Para Yatırma İşlemi',
-            back: 'Para yatırma işlemimle ilgili yardıma ihtiyacım var',
+            back: 'İşlemimle ilgili yardıma ihtiyacım var',
             item: {
-                title: '{{network}} üzerinde {{symbol}}',
+                title: '{{network}} ağında {{symbol}}',
                 completed: 'Tamamlandı',
                 pending: {
                     layerswap: 'Köprü transferi bekleniyor',
@@ -1315,7 +1328,7 @@ export const tr: Locale = {
         start: {
             __description:
                 'Earn sayfasında bakiye 0 olduğunda açılan alt sayfa',
-            zksync: 'ZKsync Era üzerinde kripto paranız varsa, doğrudan Clave hesabınıza gönderebilirsiniz.',
+            zksync: 'ZKsync Era ağında kripto paranız varsa, doğrudan Clave hesabınıza gönderebilirsiniz.',
             networks: {
                 title: 'Diğer Ağlar',
                 text: 'Diğer ağlardaki kripto paralarınızı Clave’e Para Yatırma işleviyle aktarabilirsiniz.',
@@ -1354,9 +1367,9 @@ export const tr: Locale = {
             initiate: 'Yeni Para Yatırma İşlemi Başlat',
         },
         summary: {
-            title: 'Fonları Transfer Et',
+            title: 'Tokenleri Transfer Et',
             info: {
-                first: '{{token}} tokenini sevdiğiniz bir borsadan {{network}} ağı üzerinde transfer edin.',
+                first: '{{token}} tokenini tercih ettiğiniz bir borsanın {{network}} ağından transfer edin.',
                 second: 'Bir borsadan nasıl transfer yapılacağını görmek için tıklayın.',
             },
             selected: 'Seçilen Token',
@@ -1374,7 +1387,7 @@ export const tr: Locale = {
             min: 'dak',
             continue: 'Para Yatırma İşlemi Durumunu Görüntüle',
             network: {
-                token: '{{token}} {{network}} üzerinde',
+                token: '{{token}} {{network}} ağında',
             },
         },
         work: {
@@ -1382,13 +1395,20 @@ export const tr: Locale = {
                 'Para yatırma sayfası ilk ziyaret edildiğinde açılan alt sayfa',
             title: 'Para Yatırma Nasıl Çalışır?',
             subtext: {
-                first: 'Clave hesabınız YALNIZCA ZKsync Era üzerinde.',
-                second: 'Fon yatırmak için ya başka bir ZKsync hesabından transfer yapabilir ya da diğer ağlardan transfer için bir köprü kullanabilirsiniz. Lütfen adımları dikkatlice izleyin.',
+                info: {
+                    first: 'Fon yatırmak için ya başka bir ZKsync hesabından transfer yapabilir ya da diğer ağlardan transfer için bir köprü kullanabilirsiniz.',
+                    second: 'Lütfen adımları dikkatlice takip edin.',
+                },
+                warning: {
+                    first: 'Clave hesabınız',
+                    second: 'YALNIZCA',
+                    third: 'ZKsync Era ağındadır',
+                },
             },
             continue: 'Başlayın',
             zksync: {
                 title: 'ZKsync Era',
-                text: 'ZKsync Era üzerinde kripto paranız varsa, doğrudan Clave adresinize gönderebilirsiniz.',
+                text: 'ZKsync Era ağında kripto paranız varsa, doğrudan Clave adresinize gönderebilirsiniz.',
             },
             other: {
                 title: 'Diğer Ağlar',
@@ -1434,7 +1454,7 @@ export const tr: Locale = {
             cancel: 'İptal Et',
         },
         exchange: {
-            title: 'Dönüştürme',
+            title: 'Banka Transferi',
             rate: 'Kur',
             fee: {
                 processing: 'İşlem Ücreti',
@@ -1644,7 +1664,7 @@ export const tr: Locale = {
             ten_days: '10 Gün',
         },
         options: {
-            title: 'Kazan',
+            title: 'Yatırımlar',
             positions: 'Pozisyonlar',
             options: 'Mevcut Seçenekler',
             banner: {
@@ -1724,7 +1744,7 @@ export const tr: Locale = {
             },
         },
         deposit: {
-            title: 'Kazan',
+            title: 'Yatırımlar',
             amount: 'Yatırılacak Tutar',
             reward_tokens: 'Ödül Tokenlerı',
             underlying_tokens: 'Kullanılan Tokenler',
@@ -1732,7 +1752,7 @@ export const tr: Locale = {
             apr_notice: 'APR piyasa koşullarına göre değişebilir',
             weekly_earnings: 'Tahmini Haftalık Getiri',
             available: '{{balance}} {{symbol}} mevcut',
-            max_staking: 'Tutar limitin üzerinde',
+            max_staking: 'Tutar limitin üstünde',
             continue: 'Devam Et',
             insufficient: 'Yetersiz Bakiye',
             max_staking_alert: 'Adil kullanım için kalan limit: {{amount}}',
@@ -1875,7 +1895,7 @@ export const tr: Locale = {
             deposit_text: 'ZKsync Era’daki cüzdanınız ile kripto para ekleyin.',
             earn: 'Yatırım',
             earn_text:
-                'ZKsync üzerindeki kripto paralarınız ile getiri elde edin.',
+                'ZKsync ağındaki kripto paralarınız ile getiri elde edin.',
             guardians: 'Güvenilir Kişileri Yönet',
             guardians_text: 'Arkadaşlarınızı güvenilir kişi olarak ekleyin.',
             browser: 'Tarayıcı',
@@ -1884,7 +1904,7 @@ export const tr: Locale = {
             buy: 'Satın Al',
             invest: 'Yatırım Yap',
             get_started: 'Başlayın',
-            benefits: 'Clave ile Kazandıklarınız',
+            benefits: 'Clave ile Ayrıcalıklar',
             benefits_text: 'Kazanımlarınızı inceleyin.',
         },
     },
@@ -1899,7 +1919,7 @@ export const tr: Locale = {
     zksync_notice_bottom_sheet: {
         title: 'ZKsync Era {{network}}',
         subtext:
-            'Sadece ZKsync Era {{network}} üzerine para yatırın. Bu hesaba Ethereum veya başka bir zincir üzerinde para gönderirseniz, fonlarınızı kaybedersiniz.',
+            'Sadece ZKsync Era {{network}} üzerine para yatırın. Bu hesaba Ethereum veya başka bir zincirde para gönderirseniz, fonlarınızı kaybedersiniz.',
         approval: 'Anladım',
         never_show: 'Bir daha gösterme',
     },
@@ -1946,10 +1966,11 @@ export const tr: Locale = {
         qrCode: 'ZKsync ağında token almak için bu QR kodunu kullanın.',
         done: 'Tamam',
         share: {
-            title: 'Önemli: Sadece ZKsync Ağında Token Gönderin',
+            title: "Önemli: Sadece ZKsync'te Token Gönderin",
             subtext:
                 'Diğer cüzdanlardan veya borsalardan token almak için adresinizi kullanın.',
         },
+        username_copied: 'Kullanıcı adı kopyalandı',
     },
     send_on_zksync_bottom_sheet: {
         title: 'ZKsync Ağında Gönderim Yapılıyor',

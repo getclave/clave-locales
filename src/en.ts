@@ -91,12 +91,13 @@ export const en = {
             title: 'Social Backup',
             subtext:
                 'Your friends on Clave or any addresses on ZKsync Era can be assigned as guardians.',
-            'subtext-link': 'Tap to learn more',
+            'subtext-link': 'Tap to learn more.',
             'subtext-link-url':
                 'https://blog.getclave.io/recovery-for-everyone-cloud-and-guardians',
             cancel: 'Cancel Backup',
             add_new_guardian: 'Add New Guardians',
             add_guardian_max: 'Maximum Guardians Limit Reached',
+            your_guardians: 'Your Guardians',
             guardian: {
                 title: 'Add Guardians',
                 subtext:
@@ -395,6 +396,8 @@ export const en = {
             title: 'Payment Links',
             no_links: 'You have no unclaimed links',
             no_link_button: 'Home',
+            manage: 'Manage your payment links: share or cancel to access funds.',
+            tap: 'Tap to learn more.',
         },
         enter_address: {
             title: 'Enter Recipient',
@@ -456,6 +459,9 @@ export const en = {
             my_positions: 'Positions',
             earning: 'APR: {{apr}}%',
         },
+        overlay: {
+            add_custom_token: 'Add custom token',
+        },
     },
     settings: {
         main: {
@@ -501,6 +507,7 @@ export const en = {
                 set_username: 'Set Username',
                 no_username: 'No username',
                 copy_address: 'Copy Address',
+                username_copied: 'Address copied',
             },
             rewards: {
                 title: 'Badges & Rewards',
@@ -521,6 +528,10 @@ export const en = {
             settings: {
                 title: 'Settings',
                 subtext: 'Access app customizations',
+            },
+            photo_edit: {
+                gallery: 'Choose from the gallery',
+                picture: 'Take a picture',
             },
             logout: 'Log out',
             logout_subtext: 'Sign out from your account',
@@ -735,6 +746,7 @@ export const en = {
             referral: 'Referral Commission',
             reward: 'Reward',
             details: {
+                title: 'Transaction Details',
                 payment_link: 'Payment Link',
                 me: 'me',
                 tx_type: 'Type',
@@ -865,6 +877,7 @@ export const en = {
             generic: {
                 contract_interaction: 'Contract Interaction',
             },
+            free: 'Free',
             transfer: {
                 sending_to: 'Sending to',
                 creating_link: 'Creating Link',
@@ -988,7 +1001,7 @@ export const en = {
         my_tokens: 'Tokens',
         my_positions: 'Positions',
         header: 'My Portfolio',
-        add_custom_token: 'Add Token',
+        add_custom_token: 'Add Custom Token',
         day: '1D',
         week: '1W',
         month: '1M',
@@ -1373,8 +1386,15 @@ export const en = {
                 'The bottom sheet that is opened for the first time when deposit page is visited',
             title: 'How Deposit works?',
             subtext: {
-                first: 'Your Clave account is ONLY on ZKsync Era.',
-                second: 'To deposit funds, you can either transfer from another ZKsync account or use a bridge to transfer from other networks. Please follow the steps carefully.',
+                info: {
+                    first: 'To deposit funds, you can either transfer from another ZKsync account or use a bridge to transfer from other networks. Please follow the steps carefully.',
+                    second: 'Please follow the steps carefully.',
+                },
+                warning: {
+                    first: 'Your Clave account is',
+                    second: 'ONLY',
+                    third: 'on ZKsync Era',
+                },
             },
             continue: 'Get Started',
             zksync: {
@@ -1942,6 +1962,7 @@ export const en = {
             subtext:
                 'Use your address to receive tokens from other wallets or exchanges.',
         },
+        username_copied: 'Username copied',
     },
     send_on_zksync_bottom_sheet: {
         title: 'Sending on ZKsync',
