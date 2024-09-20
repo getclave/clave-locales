@@ -179,7 +179,7 @@ export const tr: Locale = {
             step1_text1:
                 'Sadece kullanıcı adları veya bağlantılar kullanarak gönderim, talep etme ve takas işlemleri ağ ücretleri olmadan yapılır.',
             step1_text2:
-                "Ayrıca Clave ile Web3'ün tam potansiyelini keşfetmek için Hub'ı inceleyebilirsiniz!",
+                "Ayrıca Clave ile Web3'ün tam potansiyelini keşfetmek için Merkez'i inceleyebilirsiniz!",
             step2_title: 'Kullanıcı Adınızı Belirleyin',
             step2_text1:
                 'Clave’de ihtiyacınız olan tek şey kullanıcı adlarıdır.',
@@ -1903,7 +1903,7 @@ export const tr: Locale = {
     },
     hub: {
         __description: 'Hub Sayfası ve Dashboard’daki Hızlı işlemler',
-        title: 'Hub',
+        title: 'Merkez',
         all_actions: 'Tüm İşlemler',
         start_with: 'Öne Çıkanlar',
         widget: {
