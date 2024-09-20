@@ -978,9 +978,6 @@ export const en = {
         search: 'Search token',
         add_manually: 'Add Manually',
     },
-
-    // TBC
-
     portfolio: {
         __description: 'Portfolio page and token details',
         available: 'Available',
@@ -1123,7 +1120,7 @@ export const en = {
         payment: {
             new: {
                 title: 'Add Payment',
-                subtext: 'You can enter payment information',
+                subtext: 'You can enter payment information.',
                 too_long: 'Name is too long, please use a shorter name.',
                 too_small: 'Minimum amount is $0.10',
                 label: {
@@ -1241,7 +1238,7 @@ export const en = {
             subtext:
                 'Use this address to deposit or request. Do not send to this address on Ethereum or other networks.',
             qrCode: 'Show this QR code to deposit or request.',
-            done: 'done',
+            done: 'Done',
         },
     },
     deposit: {
@@ -1439,7 +1436,7 @@ export const en = {
             box: {
                 pay: 'Deposit',
                 get: 'Receive',
-                min: 'min {{sign}} {{amount}}',
+                min: 'Min {{sign}} {{amount}}',
             },
             review: {
                 title: 'Review',
@@ -1447,7 +1444,7 @@ export const en = {
             phone: { title: 'Account:' },
             change: 'Change',
             rate_dif: '{{percentage}}% better than banks.',
-            max_limit: 'Maximum onramp limit is {{limit}} {{currency}}',
+            max_limit: 'Maximum limit is {{limit}} {{currency}}',
             continue: 'Continue',
             back: 'Go Back',
         },
@@ -1460,7 +1457,7 @@ export const en = {
             paid: 'Paid: {{sign}}{{amount}}',
             rate: '{{sign}}{{rate}} / {{symbol}}',
             get: 'Received: {{amount}} {{symbol}}',
-            no_transaction: 'Your onramp transactions will be showed here.',
+            no_transaction: 'Your bank transfers will be showed here.',
         },
         kyc: {
             details: {
@@ -1479,7 +1476,7 @@ export const en = {
                 birthday: {
                     title: 'Complete details',
                     subtext:
-                        'Complete the KYC information to start the onramp process',
+                        'Complete the KYC information to start the process',
                     birthday: 'Birthday',
                     date_example: 'MM / BB / YYYY',
                     continue: 'Continue',
@@ -1513,7 +1510,7 @@ export const en = {
             files: {
                 title: 'Submit KYC Files',
                 subtext:
-                    'We need to ask the user for a photo of their card for KYC. For now, we assume that these documents have been received.',
+                    'We need to ask for a photo of their documents for the KYC. For now, we assume that these documents have been received.',
                 camera_permission: 'Camera Permission',
                 camera_permission_message:
                     'Please enable camera permission in your settings to take a picture.',
@@ -1563,7 +1560,7 @@ export const en = {
         verification: {
             title: 'Verification Pending',
             subtext:
-                'This process takes 3-10 minutes. Wait or check back later',
+                'This process takes 3-10 minutes. Please wait or check back later',
             done: 'Done',
         },
         choose: {
@@ -1571,7 +1568,7 @@ export const en = {
                 title: 'Choose Location',
                 label: 'Search',
                 countries: 'Countries',
-                no_option: 'Your fiat options will be accessible in here',
+                no_option: 'Your currency options will be accessible in here',
             },
         },
         progress: {
@@ -1580,10 +1577,10 @@ export const en = {
             completed: 'Completed',
         },
         camera: {
-            selfie: 'Take a selfie of your face',
+            selfie: 'Take a selfie',
             description: 'Take a picture of {{side}} side of your document',
-            front: 'Front side',
-            back: 'Back side',
+            front: 'front',
+            back: 'back',
             error: 'The photo could not be uploaded, please try again',
         },
         support: {
@@ -1751,7 +1748,7 @@ export const en = {
                 continue: 'I understand',
                 market: {
                     title: 'Unregulated Markets',
-                    text: 'Earn utilizes Defi, which has potential risks that may lead to asset loss. Clave is an unhosted non-custodial wallet. Invest at your own risk.',
+                    text: 'Earn utilizes DeFi, which has potential risks that may lead to asset loss. Clave is an unhosted non-custodial wallet. Invest at your own risk.',
                 },
                 yield: {
                     title: 'Earning Every Minute',
@@ -1843,13 +1840,13 @@ export const en = {
             subtext:
                 'You can only withdraw your money on request with this earn option.',
             text_1: 'Withdrawal waiting time is 10 days.',
-            text_2: 'If you change the amount of withdrawn money, the waiting time will restart',
+            text_2: 'If you change the amount of withdrawn money, the waiting time will restart.',
             button: 'Proceed',
         },
         info_bottom_sheet: {
-            title: '{{amount}} will be ready to withdraw on {{date}}',
+            title: '{{amount}} will be ready to withdraw on {{date}}.',
             title_ready:
-                'Your pending withdraw request is ready to be processed',
+                'Your pending withdraw request is ready to be processed.',
             subtext:
                 'You can only withdraw your money on request with this type of earn option.',
             notice: 'If you create new request, previous one will be accumulated, and 10 days counter restarts',
@@ -1949,8 +1946,8 @@ export const en = {
     send_on_zksync_bottom_sheet: {
         title: 'Sending on ZKsync',
         description:
-            'Make sure the address you’re sending to is accessible on ZKsync. Otherwise, you may lose the funds.',
-        accept: 'The address I’m sending supports ZKsync',
+            'Make sure the address you are sending to is accessible on ZKsync. Otherwise, you may lose the funds.',
+        accept: 'The address I am sending supports ZKsync',
         button: 'Continue to Send',
     },
     progress: {
@@ -1959,12 +1956,12 @@ export const en = {
         },
     },
     address_book_bottom_sheet: {
-        title: 'Add user to friends',
+        title: 'Add to the Friends',
         title_edit: 'Edit friend name',
         subtext:
             'Add your friend to your address book to easily send them money in the future.',
         label: 'Custom Name',
-        button: 'Add to Friends',
+        button: 'Add',
         button_edit: 'Save',
     },
     user_profile: {

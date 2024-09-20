@@ -653,7 +653,7 @@ export const tr = {
                 input: 'Sat',
                 output: 'Al',
             },
-            continue: 'Takası İncele',
+            continue: 'Takası Gözden Geçir',
         },
         settings: {
             bottom_sheet: {
@@ -693,9 +693,9 @@ export const tr = {
         no_camera_title: 'Kamera İzni Yok',
         no_camera_subtitle: 'QR kodu taramak için lütfen kameraya izin verin',
         no_camera_button: 'Ayarları aç',
-        swipe: 'Devam etmek için kaydırın',
+        swipe: 'Devam Etmek için kaydırın',
         release: 'Bırakın',
-        proceed: 'Devam etmek için kaydırın',
+        proceed: 'Devam Etmek için kaydırın',
         invalid_qr_code: 'Geçersiz QR Kodu',
         mismatch: 'Alan adı uyuşmazlığı',
         mismatch_subtext:
@@ -753,7 +753,7 @@ export const tr = {
                 guardian_name: 'Güvenilir Kişi Adı',
                 sent_to_or_from: '{{sentOrReceived}} {{type}} {{user}}',
                 add_token: 'Token Ekle',
-                token_swapped: 'Tokenlar takas edildi',
+                token_swapped: 'Tokenler takas edildi',
                 reclaim_funds: 'Fonları Geri Al',
                 reclaim_in_time: '{{time}} içinde geri al',
                 gas_fee: 'Ağ Ücreti',
@@ -778,7 +778,7 @@ export const tr = {
                 pending: 'Bekliyor',
                 sending_funds: 'Fonlar gönderiliyor',
                 claiming_funds: 'Fonlar alınıyor',
-                swapping_tokens: 'Tokenlar takas ediliyor',
+                swapping_tokens: 'Tokenler takas ediliyor',
                 sending_transaction: 'İşlem gönderiliyor',
                 onramping: 'Onramping devam ediyor',
             },
@@ -836,7 +836,7 @@ export const tr = {
             title: 'İmza Talebi',
             description:
                 'Bu mesajı imzalamak, bu hesabı güvenilir kişi olarak kurtarmayı kabul ettiğiniz anlamına gelir. Bu hesap, 48 saatlik bekleme süresi sonunda kurtarma için hazır olacak. Bundan sonra, size gönderilen aynı bağlantı üzerinden kurtarmayı tamamlayabileceksiniz.',
-            release: 'Kabul Edildi',
+            release: 'Kabul Ediyorum',
             sign: 'İmzala',
         },
     },
@@ -900,15 +900,15 @@ export const tr = {
                 title: 'Ödüller Toplanıyor',
             },
             earn_withdraw: {
-                title: 'Tokenlar Çekiliyor',
-                earnings: 'Kazançlar',
+                title: 'Tokenler Çekiliyor',
+                earnings: 'Getiriler',
                 protocol_fee: 'Protokol Ücreti',
             },
             earn_deposit: {
-                title: 'Tokenlar Yatırılıyor',
+                title: 'Tokenler Yatırılıyor',
                 apr: 'APR',
                 protocol_fee: 'Protokol Ücreti',
-                estimated_earnings: 'Tahmini Haftalık Kazançlar',
+                estimated_earnings: 'Tahmini Haftalık Getiriler',
             },
             network_fee: 'Ağ Ücreti',
             swipe: 'Devam Etmek İçin Kaydırın',
@@ -962,7 +962,7 @@ export const tr = {
         },
         estimating_gas_fee: 'Ağ Ücreti Hesaplanıyor',
         reject: 'Reddet',
-        release: 'Serbest Bırak',
+        release: 'Bırakın',
         estimate_gas_failed: 'İşlemin başarısız olacağı tahmin ediliyor.',
         notification: 'İşlem başarıyla gönderildi.',
     },
@@ -984,9 +984,6 @@ export const tr = {
         search: 'Token ara',
         add_manually: 'Elle Ekle',
     },
-
-    // TBC
-
     portfolio: {
         __description: 'Portföy sayfası ve token detayları',
         available: 'Mevcut',
@@ -1006,11 +1003,11 @@ export const tr = {
             send: 'Gönder',
             request: 'Talep Et',
             swap: 'Takas',
-            delegated: 'Devredildi',
+            delegated: 'Delege Edildi',
             delegate: 'Delege Et',
             buy: 'Satın Al',
             notify: {
-                delegated: 'Başarıyla Clave’e devredildi',
+                delegated: 'Başarıyla Clave’e delege edildi',
             },
             earn: '{{symbol}} ile %{{apr}} APR kazanabilirsiniz',
         },
@@ -1020,7 +1017,7 @@ export const tr = {
     },
     sign: {
         title: 'İmza Talebi',
-        release: 'Serbest Bırak',
+        release: 'Bırakın',
         reject: 'Reddet',
     },
     split: {
@@ -1034,7 +1031,7 @@ export const tr = {
         groups: {
             title: 'Harcama Bölüştür',
             subtext:
-                'Arkadaşlarınızla faturaları ve ödemeleri bölüştürmek için bir grup oluşturabilirsiniz.',
+                'Arkadaşlarınızla çeşitli ödemelerinizi bölüştürmek için bir grup oluşturabilirsiniz.',
             no_groups: 'Herhangi bir grubunuz yok',
             add: 'Yeni Grup Oluştur',
             join_error: 'Gruba katılamadınız',
@@ -1129,7 +1126,7 @@ export const tr = {
         payment: {
             new: {
                 title: 'Ödeme Ekle',
-                subtext: 'Ödeme bilgilerini girebilirsiniz',
+                subtext: 'Ödeme bilgilerini girebilirsiniz.',
                 too_long: 'İsim çok uzun, lütfen daha kısa bir isim kullanın.',
                 too_small: 'Minimum miktar $0.10',
                 label: {
@@ -1144,7 +1141,7 @@ export const tr = {
                     more: 've {{count}} kişi daha',
                     title: 'Ödeme Özeti',
                     payer: 'Ödeyen',
-                    equally: 'Eşit olarak bölüştürüldü',
+                    equally: 'Eşit olarak bölüştürülüyor',
                     per: 'kişi başı',
                 },
             },
@@ -1165,7 +1162,7 @@ export const tr = {
         spending: {
             detail: {
                 payer: 'Ödeyen',
-                spenders: 'Eşit olarak bölüştürüldü',
+                spenders: 'Eşit Olarak Bölüştürüldü',
             },
         },
         review: {
@@ -1174,7 +1171,7 @@ export const tr = {
                 subtext: 'Ödemek istediğiniz borçları seçebilirsiniz.',
                 select: 'Tümünü Seç',
                 deselect: 'Seçimi Kaldır',
-                debt_to: 'Borçlu Olduğunuz Kişi',
+                debt_to: 'Borç:',
                 no_debts: 'Henüz borcunuz yok',
                 pay: 'Borçları Öde',
             },
@@ -1233,10 +1230,10 @@ export const tr = {
         },
     },
     qrinfo: {
-        __description: 'QR Kod tarayıcı sayfası',
-        connect: 'Bir Dapp’e Bağlan',
+        __description: 'QR Kod okuyucu sayfası',
+        connect: 'Bir Uygulamaya Bağlan',
         send: 'Bir Adrese Gönder',
-        aim: 'QR Koda Nişan Al',
+        aim: 'QR Kodu Oku',
         you_can_scan: 'Tarayarak şunları yapabilirsiniz',
     },
     share_bottom_sheet: {
@@ -1247,7 +1244,7 @@ export const tr = {
             subtext:
                 'Bu adresi para yatırmak veya talep etmek için kullanın. Bu adrese Ethereum veya diğer ağlardan para göndermeyin.',
             qrCode: 'Para yatırmak veya talep etmek için bu QR kodunu gösterin.',
-            done: 'tamam',
+            done: 'Tamam',
         },
     },
     deposit: {
@@ -1279,17 +1276,17 @@ export const tr = {
         status: {
             title: 'Para Yatırma Durumu',
             no_deposits: 'Para yatırma işlemleriniz burada erişilebilir olacak',
-            add: 'Yeni Para Yatırma',
+            add: 'Yeni Para Yatırma İşlemi',
             back: 'Para yatırma işlemimle ilgili yardıma ihtiyacım var',
             item: {
-                title: '{{symbol}} {{network}} üzerinde',
+                title: '{{network}} üzerinde {{symbol}}',
                 completed: 'Tamamlandı',
                 pending: {
                     layerswap: 'Köprü transferi bekleniyor',
                     user: 'Kullanıcı transferi bekleniyor',
                     popup: 'Beklemede',
                 },
-                deposit_address: 'Para Yatırma Adresi',
+                deposit_address: 'Para yatırma adresi',
                 learn: 'Daha fazla bilgi için tıklayın',
                 remove: {
                     title: 'Para Yatırma Talebini Sil',
@@ -1303,11 +1300,11 @@ export const tr = {
         support: {
             title: 'Destek Alın',
             subtext:
-                'Para yatırma işleminizle ilgili sorun yaşıyorsanız, Layerswap Destek ile iletişime geçin.',
+                'Para yatırma işleminizle ilgili sorun yaşıyorsanız, Layerswap Destek ile iletişime geçebilirsiniz.',
             back: 'Destek Al',
             time: {
                 title: 'Para Yatırma Süreleri',
-                text: 'Diğer ağlardan para yatırma işlemi, token ve ağ türüne bağlı olarak 2 ila 30 dakika sürebilir.',
+                text: 'Diğer ağlardan para yatırma işlemi, token ve ağ türüne bağlı olarak 2 ila 30 dakika arası sürebilir.',
             },
             support: {
                 title: 'Teknik Destek',
@@ -1320,14 +1317,14 @@ export const tr = {
             zksync: 'ZKsync Era üzerinde kripto paranız varsa, doğrudan Clave hesabınıza gönderebilirsiniz.',
             networks: {
                 title: 'Diğer Ağlar',
-                text: 'Diğer ağlardaki kripto paralarınızı Clave’ye Para Yatırma işleviyle aktarabilirsiniz.',
+                text: 'Diğer ağlardaki kripto paralarınızı Clave’e Para Yatırma işleviyle aktarabilirsiniz.',
             },
             cex: {
                 title: 'Merkezi Borsalar',
-                text: 'Borsalarda kripto paranız varsa, bunları da Clave’ye aktarabilirsiniz.',
+                text: 'Borsalardaki kripto paralarınızı da Clave’e aktarabilirsiniz.',
             },
-            title: 'Kazanmak İçin Para Yatırın',
-            subtext: 'Hesabınızı aşağıdaki yöntemlerle finanse edebilirsiniz',
+            title: 'Yatırımlarınıza Başlamak için Para Yatırın',
+            subtext: 'Hesabınızı aşağıdaki yöntemlerle fonlayabilirsiniz',
             deposit: 'Para Yatır',
         },
         token: {
@@ -1347,13 +1344,13 @@ export const tr = {
             },
         },
         new: {
-            title: 'Yeni Para Yatırma',
+            title: 'Yeni Para Yatırma İşlemi',
             option: {
                 wallets: 'Bir cüzdandan kripto para yatırın',
                 exchanges: 'Bir borsadan kripto para yatırın',
             },
-            pending: 'Bekleyen para yatırmalar',
-            initiate: 'Yeni Para Yatırma Başlat',
+            pending: 'Bekleyen para yatırma işlemleri',
+            initiate: 'Yeni Para Yatırma İşlemi Başlat',
         },
         summary: {
             title: 'Fonları Transfer Et',
@@ -1369,12 +1366,12 @@ export const tr = {
                 min: 'Minimum miktar',
                 max: 'Maksimum miktar',
             },
-            receive: 'Alacağınız Miktar',
+            receive: 'Alacağınız miktar',
             time: {
                 name: 'Tahmini süre',
             },
             min: 'dak',
-            continue: 'Para Yatırma Durumunu Görüntüle',
+            continue: 'Para Yatırma İşlemi Durumunu Görüntüle',
             network: {
                 token: '{{token}} {{network}} üzerinde',
             },
@@ -1390,15 +1387,15 @@ export const tr = {
             continue: 'Başlayın',
             zksync: {
                 title: 'ZKsync Era',
-                text: 'ZKsync Era üzerinde kripto paranız varsa, doğrudan Clave hesap adresine gönderebilirsiniz.',
+                text: 'ZKsync Era üzerinde kripto paranız varsa, doğrudan Clave adresinize gönderebilirsiniz.',
             },
             other: {
                 title: 'Diğer Ağlar',
-                text: 'Diğer ağlardan kripto transferi başlatabilirsiniz.',
+                text: 'Diğer ağlardan kripto para transferi başlatabilirsiniz.',
             },
             cex: {
                 title: 'Merkezi Borsalar',
-                text: 'Desteklenen ağlar aracılığıyla merkezi borsalardan kripto transferi başlatabilirsiniz.',
+                text: 'Desteklenen ağlar aracılığıyla merkezi borsalardan kripto para transferi başlatabilirsiniz.',
             },
         },
     },
@@ -1407,7 +1404,7 @@ export const tr = {
         subtext: 'Cüzdanınıza para eklemek için bir yöntem seçin.',
         onramp: {
             title: 'Banka Havalesi',
-            subtext: 'Banka havalesi ile USDC satın alın.',
+            subtext: 'Banka transferleri ile USDC satın alın.',
             example: 'Ülkeler',
         },
         deposit: {
@@ -1420,7 +1417,7 @@ export const tr = {
             subtext: 'Başka cüzdanlardan kripto para alın.',
         },
         request: {
-            title: 'Arkadaşlardan İsteyin',
+            title: 'Arkadaşlarınızdan Talep Edin',
             subtext: 'Bir ödeme talep bağlantısı oluşturun.',
         },
     },
@@ -1428,12 +1425,12 @@ export const tr = {
         bank: {
             title: 'Gönder',
             subtext:
-                'Şu kadar alacaksınız: *{{toAmount}} *{{toCurrency}} oranında *{{rate}}.',
+                '*{{toAmount}} *{{toCurrency}} tutarı *{{rate}} oranı ile alacaksınız.',
             paid: 'Ödedim: {{symbol}}{{amount}}.',
             copied: 'Panoya kopyalandı',
             back: 'Geri Dön',
-            continue: 'Devam et',
-            cancel: 'İptal et',
+            continue: 'Devam Et',
+            cancel: 'İptal Et',
         },
         exchange: {
             title: 'Dönüştürme',
@@ -1442,21 +1439,21 @@ export const tr = {
                 processing: 'İşlem Ücreti',
                 free: 'Ücretsiz',
                 network: 'Ağ Ücreti',
-                continue: 'Devam et',
+                continue: 'Devam Et',
             },
             box: {
                 pay: 'Yatır',
                 get: 'Al',
-                min: 'min {{sign}} {{amount}}',
+                min: 'Min {{sign}} {{amount}}',
             },
             review: {
-                title: 'İncele',
+                title: 'Gözden Geçir',
             },
             phone: { title: 'Hesap:' },
             change: 'Değiştir',
-            rate_dif: 'Bankalardan {{percentage}}% daha iyi.',
-            max_limit: 'Maksimum onramp limiti {{limit}} {{currency}}',
-            continue: 'Devam et',
+            rate_dif: 'Bankalardan %{{percentage}} daha iyi.',
+            max_limit: 'Maksimum limit {{limit}} {{currency}}',
+            continue: 'Devam Et',
             back: 'Geri Dön',
         },
         history: {
@@ -1468,29 +1465,28 @@ export const tr = {
             paid: 'Ödendi: {{sign}}{{amount}}',
             rate: '{{sign}}{{rate}} / {{symbol}}',
             get: 'Alındı: {{amount}} {{symbol}}',
-            no_transaction: 'Onramp işlemleriniz burada gösterilecek.',
+            no_transaction: 'Banka transferi işlemleriniz burada gösterilecek.',
         },
         kyc: {
             details: {
                 name: {
-                    title: 'Bilgileri Tamamlayın',
+                    title: 'Bilgileri tamamlayın',
                     subtext:
-                        'Onramp işlemine başlamak için KYC bilgilerini doldurun',
+                        'Onramp işlemine başlamak için KYC bilgilerinizi tamamlayın',
                     name: 'Ad',
                     surname: 'Soyad',
-                    choose: 'Cinsiyet Seçin',
+                    choose: 'Cinsiyetinizi Seçin',
                     gender: 'Cinsiyet',
                     male: 'Erkek',
                     female: 'Kadın',
-                    continue: 'Devam et',
+                    continue: 'Devam Et',
                 },
                 birthday: {
                     title: 'Bilgileri Tamamlayın',
-                    subtext:
-                        'Onramp işlemine başlamak için KYC bilgilerini doldurun',
+                    subtext: 'İşleme başlamak için KYC bilgilerini doldurun',
                     birthday: 'Doğum Günü',
                     date_example: 'GG / AA / YYYY',
-                    continue: 'Devam et',
+                    continue: 'Devam Et',
                 },
                 identity: {
                     title: 'Bilgileri Tamamlayın',
@@ -1501,7 +1497,7 @@ export const tr = {
                     address: 'Adres',
                     city: 'Şehir',
                     postal_code: 'Posta Kodu',
-                    continue: 'Devam et',
+                    continue: 'Devam Et',
                     check: 'KYC bilgileri kontrol ediliyor...',
                 },
             },
@@ -1522,7 +1518,7 @@ export const tr = {
             files: {
                 title: 'KYC Dosyalarını Gönder',
                 subtext:
-                    'KYC için kartınızın bir fotoğrafını istememiz gerekiyor. Şu anda bu belgelerin alındığını varsayıyoruz.',
+                    'KYC için belgenizin bir fotoğrafını istememiz gerekiyor. Şu anda bu belgelerin alındığını varsayıyoruz.',
                 camera_permission: 'Kamera İzni',
                 camera_permission_message:
                     'Fotoğraf çekmek için ayarlarınızdan kamera iznini etkinleştirin.',
@@ -1531,20 +1527,19 @@ export const tr = {
             },
             phone: {
                 title: 'Telefon Numarası',
-                subtext:
-                    'Yatırımınızı tamamlamak için telefon numaranızı girin.',
+                subtext: 'İşlemi tamamlamak için telefon numaranızı girin.',
                 phone: 'Telefon numarası',
-                continue: 'Devam et',
+                continue: 'Devam Et',
             },
             funds: {
-                title: 'Birincil Fon Kaynağı',
-                subtext: 'Yatıracağınız paranın kaynağı nedir?',
+                title: 'Gelirlerinizin Ana Kaynağı',
+                subtext: 'Yatıracağınız paranın ana kaynağı nedir?',
                 salary: 'Maaş',
                 savings: 'Birikim',
                 investments: 'Yatırımlar',
                 inheritance: 'Miras',
                 credit: 'Kredi',
-                continue: 'Devam et',
+                continue: 'Devam Et',
             },
         },
         transaction: {
@@ -1553,7 +1548,7 @@ export const tr = {
                 subtext: 'Bu adımlardan sonra paranız size gönderilecektir',
                 payment: {
                     title: 'Ödeme kabul ediliyor',
-                    subtext: 'Bu işlem 2 dakika kadar sürebilir.',
+                    subtext: 'Bu işlem 2 dakikaya kadar sürebilir.',
                 },
                 purchase: {
                     title: 'USDC Satın Alınıyor',
@@ -1561,19 +1556,19 @@ export const tr = {
                 },
                 transfer: {
                     title: 'USDC Transfer Ediliyor',
-                    subtext: 'Beklenen süre 30 saniyedir.',
+                    subtext: 'Tahmini bekleme süresi 30 saniyedir.',
                 },
                 bank: {
                     show: 'Banka Detaylarını Göster',
                 },
-                continue: 'Devam et',
+                continue: 'Devam Et',
                 home: 'Ana Sayfa',
             },
         },
         verification: {
             title: 'Doğrulama Beklemede',
             subtext:
-                'Bu işlem 3-10 dakika sürer. Bekleyin veya daha sonra tekrar kontrol edin.',
+                'Bu işlem 3-10 dakika arası sürebilir. Lütfen bekleyin veya daha sonra tekrar kontrol edin.',
             done: 'Tamam',
         },
         choose: {
@@ -1581,7 +1576,7 @@ export const tr = {
                 title: 'Konum Seçin',
                 label: 'Arama',
                 countries: 'Ülkeler',
-                no_option: 'Fiat seçenekleriniz burada görüntülenecek',
+                no_option: 'Kur seçenekleriniz burada görüntülenecek',
             },
         },
         progress: {
@@ -1590,10 +1585,10 @@ export const tr = {
             completed: 'Tamamlandı',
         },
         camera: {
-            selfie: 'Yüzünüzün bir selfie’sini çekin',
-            description: '{{side}} tarafının fotoğrafını çekin',
-            front: 'Ön taraf',
-            back: 'Arka taraf',
+            selfie: 'Yüzünüzün bir fotoğrafını çekin',
+            description: 'Belgenizin {{side}} tarafının fotoğrafını çekin',
+            front: 'ön',
+            back: 'arka',
             error: 'Fotoğraf yüklenemedi, lütfen tekrar deneyin',
         },
         support: {
@@ -1614,7 +1609,7 @@ export const tr = {
                 subtext:
                     'Para göndermeden önce tüm uyarıları okuduğunuzu ve anladığınızı onaylıyor musunuz?',
                 read: 'Tüm uyarıları okudum.',
-                continue: 'Devam et',
+                continue: 'Devam Et',
             },
         },
     },
@@ -1626,23 +1621,23 @@ export const tr = {
             title: {
                 invest: 'Yatırım Başarılı',
                 withdraw: 'Çekim Başarılı',
-                claim: 'Kazançlar Toplandı',
+                claim: 'Getiriler Toplandı',
                 requestWithdraw: 'Çekim İsteği Gönderildi',
             },
             subtext: {
                 withdraw:
-                    'Tokenlarınız çekildi. Daha fazla kazanmak için her zaman yeniden yatırabilirsiniz.',
-                invest: 'Harika! Tokenlarınız şu anda {{apr}}%\nAPR kazandırıyor.',
-                claim: 'Tebrikler! Kazançlarınız toplandı\nve bakiyenize eklendi.',
+                    'Tokenlerınız çekildi.\nKazanmaya devam etmek için her zaman yeniden yatırabilirsiniz.',
+                invest: 'Harika! Tokenlerınız şu anda size %{{apr}}\nAPR kazandırıyor.',
+                claim: 'Tebrikler! Getirileriniz toplandı\nve bakiyenize eklendi.',
                 requestWithdraw:
                     'Talebiniz başarıyla gönderildi.\nFonlarınızı 10 gün sonra çekebileceksiniz.',
             },
-            check: 'Kazançlarınızı Kontrol Edin',
-            earn: 'Kazan',
+            check: 'Getirilerinizi Kontrol Edin',
+            earn: 'Yatırım',
             home: 'Ana Sayfa',
             deposited_amount: 'Yatırılan Tutar',
             withdraw_amount: 'Çekilen Tutar',
-            weekly_earnings: 'Tahmini Haftalık Kazanç',
+            weekly_earnings: 'Tahmini Haftalık Getiri',
             reward_amount: 'Ödül Miktarı',
             lockup_time: 'Çekim Tarihi',
             ten_days: '10 Gün',
@@ -1652,25 +1647,25 @@ export const tr = {
             positions: 'Pozisyonlar',
             options: 'Mevcut Seçenekler',
             banner: {
-                learn: 'Daha fazla bilgi için buraya dokunun',
+                learn: 'Daha fazla bilgi için dokunun',
                 info: '1000$ ile\n {{earn}}$ kadar kazanabilirsiniz',
             },
             category: {
                 all: 'Tümü',
                 featured: 'Öne Çıkanlar',
-                stables: 'Stables',
+                stables: 'Stabiller',
                 zksummer: 'ZK Summer',
             },
         },
         option: {
-            manage: '{{protocol}} üzerinde yönetiliyor',
+            manage: '{{protocol}} üzerinde',
             soon: 'Yakında',
         },
         migrate: {
             migrate: 'Geçiş Yap',
-            title: '{{apy}}% APR ile Kazan',
+            title: '%{{apy}} APR ile Kazan',
             subtitle:
-                'Yeni Ether havuzu {{apy}}% APR ile yayında. Fonlarınızı tek tıkla yeni havuza aktarın.',
+                'Yeni Ether havuzu %{{apy}} APR ile yayında. Fonlarınızı tek tıkla yeni havuza aktarın.',
         },
         migratev2: {
             title: 'Daha İyi APR Kazanın!',
@@ -1687,17 +1682,17 @@ export const tr = {
                     withdrawable: 'Çekilebilir Tutar',
                     zk_rewards: 'ZK Ödülleri',
                 },
-                apr: 'Yıllık Yüzde Oranı (APR)',
-                apy: 'Yıllık Yüzde Getirisi (APY)',
+                apr: 'Yıllık Yüzdelik Oran (APR)',
+                apy: 'Yıllık Yüzdelik Getiri (APY)',
                 title: 'Pozisyon Detayları',
                 increase: 'Pozisyonu Artır',
                 withdraw: 'Çek',
                 collect: 'Topla',
                 advanced: {
-                    managed: 'Yönetici',
+                    managed: 'Yöneten',
                     liquidity: 'Likidite',
                     token: 'Token',
-                    tokens: 'Altta yatan tokenlar',
+                    tokens: 'Altta yatan tokenler',
                     pool: 'Havuz URL’si',
                     title: 'Pozisyon Detayları',
                     done: 'Tamam',
@@ -1709,20 +1704,20 @@ export const tr = {
                     'Eklenen ve toplanabilir ödüller dahil edilmiştir',
                 lockup_ready: '{{amount}} çekime hazır',
                 lockup_pending:
-                    '{{amount}} {{date}} tarihinde çekime hazır olacak',
+                    '{{amount}}, {{date}} tarihinde çekime hazır olacak',
                 share: 'X’te Paylaş',
             },
             information: {
                 collectible: {
-                    first: 'Bu pozisyonda yalnızca toplama türünde kazanç bulunmaktadır.',
+                    first: 'Bu pozisyonda yalnızca elle toplanabilir getiri bulunmaktadır.',
                     second: 'Daha fazla bilgi için dokunun',
                 },
                 compounded: {
-                    first: 'Bu pozisyonda yalnızca eklenen kazanç bulunmaktadır.',
+                    first: 'Bu pozisyonda yalnızca bileşik getiri bulunmaktadır.',
                     second: 'Daha fazla bilgi için dokunun',
                 },
                 both: {
-                    first: 'Bu pozisyonda iki tür kazanç bulunmaktadır: Eklenen ve Toplanabilir.',
+                    first: 'Bu pozisyonda iki tür getiri bulunmaktadır: Bileşik ve Elle Toplanabilir.',
                     second: 'Daha fazla bilgi için dokunun',
                 },
             },
@@ -1730,11 +1725,11 @@ export const tr = {
         deposit: {
             title: 'Kazan',
             amount: 'Yatırılacak Tutar',
-            reward_tokens: 'Ödül Tokenları',
-            underlying_tokens: 'Altta Yatan Tokenlar',
+            reward_tokens: 'Ödül Tokenlerı',
+            underlying_tokens: 'Kullanılan Tokenler',
             protocol_fee: 'Protokol Ücreti',
             apr_notice: 'APR piyasa koşullarına göre değişebilir',
-            weekly_earnings: 'Tahmini Haftalık Kazanç',
+            weekly_earnings: 'Tahmini Haftalık Getiri',
             available: '{{balance}} {{symbol}} mevcut',
             max_staking: 'Tutar limitin üzerinde',
             continue: 'Devam Et',
@@ -1756,19 +1751,19 @@ export const tr = {
                     'Kullanıcı kazanç pozisyonuna başlamadan önce açılan bilgi alt tabakası',
                 title: 'Devam Etmeden Önce',
                 subtext:
-                    'Yatırım sürecine başlamadan önce, bu bilgileri dikkatlice gözden geçirmek karar verme sürecinize rehberlik edecektir.',
+                    'Yatırma sürecine başlamadan önce, bu bilgileri dikkatlice gözden geçirmek karar verme sürecinize rehberlik edecektir.',
                 continue: 'Anladım',
                 market: {
                     title: 'Düzenlenmemiş Piyasalar',
-                    text: 'Earn, varlık kaybına yol açabilecek risklere sahip Defi kullanır. Clave, yönetilmeyen non-custodial bir cüzdandır. Kendi riskinizle yatırım yapın.',
+                    text: "Yatırımlar, varlık kaybına yol açabilecek risklere sahip DeFi'dan faydalanır. Clave, gözetimsiz (non-custodial) bir cüzdandır. Kendi riskinizle yatırım yapın.",
                 },
                 yield: {
-                    title: 'Her Dakika Kazanç',
-                    text: 'Kazançlar havuzun aktivitesine bağlıdır ve günlük olarak değişebilir. Oran, son 24 saatteki yıllık getiri tahminidir.',
+                    title: 'Her Dakika Getiri',
+                    text: 'Getiriler havuzun aktivitesine bağlıdır ve günlük olarak değişebilir. Oran, son 24 saatte dayalı yıllık getiri tahminidir.',
                 },
                 withdraw: {
                     title: 'Esnek Çekim',
-                    text: 'Kazançlarınız sürekli hesaplanacak ve istediğiniz zaman toplayıp çekebileceksiniz.',
+                    text: 'Getirileriniz sürekli hesaplanacak ve istediğiniz zaman toplayıp çekebileceksiniz.',
                 },
             },
         },
@@ -1787,14 +1782,14 @@ export const tr = {
                 subtext:
                     'Şimdiye kadar {{earningAmount}} kazandınız. Fonlarınızı çekerken ödülünüzü toplamak ister misiniz?',
                 subtext_lockup:
-                    'Bu kazanç seçeneği ile paranızı sadece talep ile çekebilirsiniz.',
+                    'Bu getiri seçeneği ile paranızı sadece önden talep oluşturarak çekebilirsiniz.',
                 withdrawal: 'Çekim Tutarı',
-                earnings: 'Kazançlar',
+                earnings: 'Getiriler',
                 withdraw: {
-                    both: 'Topla ve Çek',
-                    bothRequest: 'Topla ve Talep Et',
+                    both: 'Ödülleri Al ve Çek',
+                    bothRequest: 'Ödülleri Al ve Çekim Talep Et',
                     only: 'Sadece Çek',
-                    onlyRequest: 'Talep Et',
+                    onlyRequest: 'Çekim Talep Et',
                     request: 'Çekim Talebi',
                 },
                 ten_days: '10 gün',
@@ -1803,14 +1798,14 @@ export const tr = {
             },
         },
         counter: {
-            title: 'Tahmini Kazançlar',
+            title: 'Tahmini Getiriler',
         },
         how_it_works: {
-            title: 'Kazanç Nasıl Çalışır?',
+            title: 'Yatırımlar Nasıl Çalışır?',
             subtext:
-                'Clave, paranızın kontrolünü elinizde tutarken Defi’de kazanç fırsatlarına kolay erişim sağlayan bir self-custodial cüzdandır.',
+                'Clave, paranızın kontrolünü elinizde tutarken DeFi’da getiri fırsatlarına kolay erişim sağlayan bir gözetimsiz (self-custodial) cüzdandır.',
             defi: {
-                title: 'Defi Protokollerinden Faydalanma',
+                title: 'DeFi Protokollerinden Faydalanma',
                 text: 'Paranızı kendi gözetiminizde tutarak kazanç sağlayabilirsiniz.',
             },
             withdraw: {
@@ -1819,16 +1814,16 @@ export const tr = {
             },
             apr: {
                 title: 'Dinamik APR',
-                text: 'Kazanç, altta yatan havuzun komisyonlarından gelir ve kullanım oranına bağlı olarak dinamik olarak değişir.',
+                text: 'Kazanç, kullanılan havuzların komisyonlarından gelir ve kullanım oranına bağlı olarak dinamik olarak değişir.',
             },
-            continue: 'Kazanmaya Hazır',
+            continue: 'Kazanmaya Hazırım',
         },
         insufficient: {
             balance: {
                 title: 'Yetersiz {{token}} Bakiyesi',
                 subtext:
-                    'Bu pozisyon hesabınızda {{token}} gerektirir. Tokenlarınızı {{token}} cinsine Swap ile dönüştürebilir veya doğrudan {{token}} yatırabilir ya da satın alabilirsiniz.',
-                swap: '{{token}} ile Değiştir',
+                    'Bu pozisyon hesabınızda {{token}} bulundurmayı gerektirir. Tokenlerınızı {{token}} cinsine Takas ile dönüştürebilir veya doğrudan {{token}} yatırabilir ya da satın alabilirsiniz.',
+                swap: '{{token}} Varlığına Takasla',
                 deposit: '{{token}} Yatır',
                 buy: '{{token}} Satın Al (yakında)',
             },
@@ -1837,30 +1832,30 @@ export const tr = {
             information: {
                 title: 'Nasıl Kazanırsınız?',
                 compound: {
-                    title: 'Biriken Kazanç',
-                    text: 'Bu kazanç {{token}} ödüllerinden gelir ve doğrudan yatırılan miktara eklenir.',
+                    title: 'Bileşik Getiri',
+                    text: 'Bu getiri {{token}} ödüllerinden gelir ve doğrudan yatırılan miktara eklenir.',
                 },
                 collectible: {
-                    title: 'Toplanabilir Kazanç',
-                    text: 'Bunlar altta yatan platformun sağladığı ödüllerdir ve çekim sırasında elles toplanmalıdır.',
+                    title: 'Elle Toplanabilir Kazanç',
+                    text: 'Bunlar kullanılan platformun sağladığı ödüllerdir ve çekim sırasında elle toplanmalıdır.',
                 },
-                continue: 'Kazanmaya Hazır',
+                continue: 'Kazanmaya Hazırım',
             },
         },
         lockup_invest_bottom_sheet: {
-            title: 'Çekim süresi zaman kilidine tabi',
+            title: 'Çekimlerde bekleme süresi mevcuttur',
             subtext:
-                'Bu kazanç seçeneği ile paranızı sadece talep ile çekebilirsiniz.',
+                'Bu getiri seçeneğinde paranızı sadece önden talebin ardından çekebilirsiniz.',
             text_1: 'Çekim bekleme süresi 10 gündür.',
-            text_2: 'Çekilen para miktarını değiştirirseniz, bekleme süresi yeniden başlar',
-            button: 'Devam et',
+            text_2: 'Çekilen para miktarını değiştirirseniz, bekleme süresi yeniden başlar.',
+            button: 'Devam Et',
         },
         info_bottom_sheet: {
-            title: '{{amount}} {{date}} tarihinde çekime hazır olacak',
-            title_ready: 'Bekleyen çekim talebiniz işleme hazır',
+            title: '{{amount}} {{date}} tarihinde çekime hazır olacak.',
+            title_ready: 'Bekleyen çekim talebiniz işleme hazır.',
             subtext:
-                'Bu kazanç türü ile paranızı sadece talep ile çekebilirsiniz.',
-            notice: 'Yeni bir talep oluşturursanız, önceki birleştirilecek ve 10 günlük sayaç yeniden başlayacak',
+                'Bu getiri türü ile paranızı sadece önden talep ederek çekebilirsiniz.',
+            notice: 'Yeni bir talep oluşturursanız, önceki ile birleştirilecek ve 10 günlük bekleme süresi yeniden başlatılacaktır.',
             new_withdraw: 'Yeni Çekim Talebi',
             continue: 'Kazanmaya Devam Et',
         },
@@ -1876,20 +1871,20 @@ export const tr = {
         },
         actions: {
             deposit: 'Para Yatır',
-            deposit_text: 'ZKsync Era’daki cüzdanınıza kripto ekleyin.',
-            earn: 'Kazan',
-            earn_text: 'ZKsync üzerindeki kripto ile kazanmaya başlayın.',
-            guardians: 'Koruyucuları Yönet',
-            guardians_text:
-                'Arkadaşlarınızı ve güvendiğiniz kişileri koruyucu olarak ekleyin.',
+            deposit_text: 'ZKsync Era’daki cüzdanınız ile kripto para ekleyin.',
+            earn: 'Yatırım',
+            earn_text:
+                'ZKsync üzerindeki kripto paralarınız ile getiri elde edin.',
+            guardians: 'Güvenilir Kişileri Yönet',
+            guardians_text: 'Arkadaşlarınızı güvenilir kişi olarak ekleyin.',
             browser: 'Tarayıcı',
             links: 'Ödeme Linkleri',
-            split: 'Böl',
+            split: 'Harcama Bölüştür',
             buy: 'Satın Al',
             invest: 'Yatırım Yap',
             get_started: 'Başlayın',
-            benefits: 'Clave Avantajlarınız',
-            benefits_text: 'Avantajlarınızı inceleyin.',
+            benefits: 'Clave ile Kazandıklarınız',
+            benefits_text: 'Kazanımlarınızı inceleyin.',
         },
     },
     recovery_notice: {
@@ -1908,35 +1903,35 @@ export const tr = {
         never_show: 'Bir daha gösterme',
     },
     no_backup_bottom_sheet: {
-        title: 'Yedek İçin Bir Koruyucu Ekleyin',
+        title: 'Yedekleme İçin Bir Güvenilir Kişi Ekleyin',
         subtext:
-            'Hesabınızı korumak için lütfen bir yedek koruyucu ekleyin. Bu, mevcut cihazınızı kaybederseniz erişimi geri kazanmanızı sağlar. Koruyucu olmadan hesabınıza erişemeyebilirsiniz.',
+            'Hesabınızı korumak için lütfen bir güvenilir kişi ekleyin. Bu, mevcut cihazınızı kaybederseniz hesabınıza erişimi geri kazanmanızı sağlar. Güvenilir Kişi olmadan hesabınıza erişemeyebilirsiniz.',
         approval: 'Koruyucu Ekle',
         cancel: 'Daha Sonra Hatırlat',
     },
     claim_link_bottom_sheet: {
-        badge: 'Ödemeyi Talep Et',
-        badge_loading: 'Talep Ediliyor',
+        badge: 'Ödemeyi Al',
+        badge_loading: 'Ödeme Alınıyor',
         sender: 'Gönderen',
         home: 'Ana Sayfa',
-        claim: 'Talep Etmek İçin Tıklayın',
+        claim: 'Almak için Tıklayın',
         claimed: 'Ödeme Talep Edildi',
-        already_claimed: 'Bu link\nzaten talep edildi',
-        failed_to_claim: 'Ödeme linki\n talep edilemedi',
+        already_claimed: 'Bu link\nzaten alındı',
+        failed_to_claim: 'Ödeme linki\n alınamadı',
     },
     landing: {
-        first: 'Clave\nCüzdanına Hoş Geldiniz',
+        first: "Clave'e\n Hoş Geldiniz",
         firstSubtitle:
-            'Günlük uygulamalardan beklediğiniz sadelikle kripto paranızı yönetin.',
+            'kripto paralarınızı günlük uygulamalardan beklediğiniz sadelikle yönetin.',
         second: 'Anında, Ücretsiz,\nGlobal Transferler',
         secondSubtitle:
             'Herhangi birine, herhangi bir zamanda, kullanıcı adları ve ödeme linkleriyle mesajlaşma kadar basit bir şekilde gönderin.',
         third: 'Paranızı Güvenle\nYönetin',
         thirdSubtitle:
-            'Tohum cümleleri olmadan, biyometrik verilerinizle korunan güvenli bir akıllı hesap.',
+            'Anahtar kelimeler olmadan, biyometrik verilerinizle korunan güvenli bir akıllı cüzdan.',
         fourth: 'Tek Tıkla Yatırım\nve Kazanç',
         fourthSubtitle:
-            'Kripto yatırımınızdan en iyi şekilde yararlanın; satın alma, satma ve kazanç özellikleriyle.',
+            'Kripto paralarınızdan Alış, Satış ve Yatırım özellikleriyle en iyi şekilde yararlanın.',
     },
     privacy_policy_bottom_sheet: {
         title: 'Gizlilik Politikası Güncellendi',
@@ -1946,19 +1941,19 @@ export const tr = {
         approval: 'Kabul ediyorum',
     },
     share_address_bottom_sheet: {
-        title: 'ZKsync Üzerindeki Adresiniz',
-        qrCode: 'ZKsync üzerinde token almak için bu QR kodunu kullanın.',
+        title: 'ZKsync Ağındaki Adresiniz',
+        qrCode: 'ZKsync ağında token almak için bu QR kodunu kullanın.',
         done: 'Tamam',
         share: {
-            title: 'Önemli: Sadece ZKsync Üzerinde Token Gönderin',
+            title: 'Önemli: Sadece ZKsync Ağında Token Gönderin',
             subtext:
                 'Diğer cüzdanlardan veya borsalardan token almak için adresinizi kullanın.',
         },
     },
     send_on_zksync_bottom_sheet: {
-        title: 'ZKsync Üzerinde Gönderim Yapılıyor',
+        title: 'ZKsync Ağında Gönderim Yapılıyor',
         description:
-            'Gönderdiğiniz adresin ZKsync üzerinde erişilebilir olduğundan emin olun. Aksi takdirde, fonlarınızı kaybedebilirsiniz.',
+            'Gönderdiğiniz adresin ZKsync ağında erişilebilir olduğundan emin olun. Aksi takdirde, fonlarınızı kaybedebilirsiniz.',
         accept: 'Gönderdiğim adres ZKsync’i destekliyor',
         button: 'Göndermeye Devam Et',
     },
@@ -1968,30 +1963,30 @@ export const tr = {
         },
     },
     address_book_bottom_sheet: {
-        title: 'Kullanıcıyı Arkadaşlara Ekle',
-        title_edit: 'Arkadaş Adını Düzenle',
+        title: 'Kullanıcıyı Kişilerine Ekle',
+        title_edit: 'Arkadaş adını düzenle',
         subtext:
-            'Arkadaşınızı adres defterinize ekleyerek onlara gelecekte kolayca para gönderebilirsiniz.',
+            'Arkadaşınızı kişilerinize ekleyerek onlara gelecekte kolayca para gönderebilirsiniz.',
         label: 'Özel Ad',
-        button: 'Arkadaşlara Ekle',
+        button: 'Kişilere Ekle',
         button_edit: 'Kaydet',
     },
     user_profile: {
         title: 'Profil',
         send_money: 'Para Gönder',
         request: 'Talep Et',
-        add_contact: 'Kişilere Ekle',
+        add_contact: 'Kişilerine Ekle',
         total_sent: 'Toplam Gönderilen',
         total_received: 'Toplam Alınan',
-        empty: 'Bu adresle olan işlemleriniz burada görünecek',
+        empty: 'Bu kişiyle olan geçmiş işlemleriniz burada görünecek',
         tx_title: 'İşlemler',
         tags: {
-            your_guardian: 'Sizin Koruyucunuz',
-            guardian: 'Koruyucu',
-            frequent_sender: 'Sık Gönderen',
+            your_guardian: 'Güvenilir Kişiniz',
+            guardian: 'Güvenilir Kişi',
+            frequent_sender: 'Sık Gönderilen',
         },
         modify: {
-            remove: 'Arkadaşlardan Kaldır',
+            remove: 'Kişilerinden Kaldır',
             back: 'Geri Dön',
         },
     },
