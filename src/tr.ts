@@ -490,8 +490,8 @@ export const tr: Locale = {
                 what_you_get: 'Davetlilerinizden kazandıklarınız',
                 what_they_get: 'Davetlilerinizin kazandıkları',
                 first_benefit: '*{{amount}} ödenen ücretlerden geri kazanım',
-                second_behefit:
-                    '*{{amount1}}, yatırdıkları ilk *{{amount2}} için kazanılır',
+                second_benefit:
+                    'Yatırımda değerlendirdikleri ilk *{{amount2}} karşılığında *{{amount1}} ödül',
                 third_benefit: '*{{amount}} ödenen ücretlerden geri kazanım',
                 best_way_refer: 'En iyi davet yöntemi',
                 send_them_dollar:
@@ -584,6 +584,9 @@ export const tr: Locale = {
             show_balance_subtext: 'Ana ekranınızdaki bakiyeleri gizleyin',
             theme: 'Tema',
             theme_options: 'Tema ve simgeyi özelleştir',
+            theme_dark: 'Koyu',
+            theme_light: 'Açık',
+            theme_system: 'Sistem',
             appearance: 'Görünüm',
             icon: 'Simge',
             advanced: 'Gelişmiş',
@@ -674,10 +677,13 @@ export const tr: Locale = {
                     'Slipaj, likidite değişimlerinden etkilenerek beklenen ve gerçekleşen işlem fiyatları arasında oluşan farkını ifade eder. İşlemlerinizi optimal şekilde yürütmek için slipaj toleransını dikkatlice ayarlayın.',
                 save: 'Kaydet',
             },
+        },
+        token_select: {
             title: {
-                input: 'Sat',
-                output: 'Al',
+                input: 'Satılan',
+                output: 'Alınan',
             },
+            label: 'Ara',
         },
     },
     walletconnect: {
@@ -813,6 +819,10 @@ export const tr: Locale = {
             'Sık kullanılanlara eklediğiniz sitelere hızlıca erişebilirsiniz.',
         favorites: 'Sık Kullanılanlar',
         search_placeholder: 'Ara',
+        search_results: {
+            google: "Google'da Ara",
+            browser: "{{name}}'a Git",
+        },
     },
     recover: {
         __description:
@@ -824,6 +834,7 @@ export const tr: Locale = {
         decline: 'Reddet',
         cancel: {
             home: 'Ana Sayfa',
+            action: 'Kurtarmayı İptal Et',
             title: 'Kurtarma işlemini iptal ettiniz!',
             subtext:
                 'Eğer güvenilir kişinin tekrar kurtarma işlemi başlatmasını istemiyorsanız, onları Yedekleme sayfasından kaldırabilirsiniz.',
@@ -939,7 +950,8 @@ export const tr: Locale = {
             swipe: 'Kaydırın',
             simulating: 'Güvenlik detayları kontrol ediliyor...',
             simulated_success: 'İşlem doğrulandı',
-            simulated_failure: 'İşlem kötü amaçlı olarak işaretlendi',
+            simulated_failed: 'İşlem doğrulanamadı',
+            simulated_malicious: 'İşlem kötü amaçlı olarak işaretlendi',
         },
         approve: {
             title: 'Özet',
@@ -1017,8 +1029,8 @@ export const tr: Locale = {
         no_chart_data: 'Grafik verisi yok',
         market_cap: 'Piyasa Değeri',
         volume: 'Toplam Hacim',
-        my_tokens: 'Tokenlerim',
-        my_positions: 'Yatırımlarım',
+        my_tokens: 'Tokenlar',
+        my_positions: 'Pozisyonlar',
         header: 'Portföyüm',
         add_custom_token: 'Özel Token Ekle',
         day: '1G',
@@ -1036,6 +1048,11 @@ export const tr: Locale = {
                 delegated: 'Başarıyla Clave’e delege edildi',
             },
             earn: '{{symbol}} ile %{{apr}} APR kazanabilirsiniz',
+        },
+        links: {
+            website: 'Web sitesi',
+            explorer: 'Blok gezgini',
+            coingeco: 'Coingecko',
         },
     },
     empty_state: {

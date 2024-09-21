@@ -485,7 +485,7 @@ export const en = {
                 what_you_get: 'What you get?',
                 what_they_get: 'What they get?',
                 first_benefit: '*{{amount}} Cryptoback from fees paid by them',
-                second_behefit:
+                second_benefit:
                     '*{{amount1}} for the first *{{amount2}} they deposit to Earn',
                 third_benefit: '*{{amount}} Crypto back from fees they pay',
                 best_way_refer: 'Best way to refer',
@@ -579,6 +579,9 @@ export const en = {
             show_balance_subtext: 'Hide balances in your home screen',
             theme: 'Theme',
             theme_options: 'Customize theme and icon',
+            theme_dark: 'Dark',
+            theme_light: 'Light',
+            theme_system: 'System',
             appearance: 'Appearance',
             icon: 'Icon',
             advanced: 'Advanced',
@@ -669,10 +672,13 @@ export const en = {
                     'Slippage refers to the difference between expected and executed trade prices, affected by liquidity changes. Adjust slippage tolerance cautiously for optimal trade execution.',
                 save: 'Save',
             },
+        },
+        token_select: {
             title: {
                 input: 'Swap from',
                 output: 'Swap to',
             },
+            label: 'Search',
         },
     },
     walletconnect: {
@@ -807,6 +813,10 @@ export const en = {
             'Add websites to favorites to access them quickly.',
         favorites: 'Favorites',
         search_placeholder: 'Search',
+        search_results: {
+            google: 'Search on Google',
+            browser: 'Go to {{name}}',
+        },
     },
     recover: {
         __description:
@@ -818,6 +828,7 @@ export const en = {
         decline: 'Reject',
         cancel: {
             home: 'Home',
+            action: 'Cancel Recovery',
             title: 'You’ve cancelled the recovery process!',
             subtext:
                 "If you don't want your guardian to start recovery again, you can remove them from Backup page.",
@@ -932,7 +943,8 @@ export const en = {
             swipe: 'Swipe to Proceed',
             simulating: 'Checking security details...',
             simulated_success: 'Transaction is verified by simulation',
-            simulated_failure: 'Transaction is scanned as malicious',
+            simulated_failed: 'Transaction is not verified',
+            simulated_malicious: 'Transaction is scanned as malicious',
         },
         approve: {
             title: 'Summary',
@@ -1029,6 +1041,11 @@ export const en = {
                 delegated: 'Delegated to Clave successfully',
             },
             earn: 'You can earn %{{apr}} APR with your {{symbol}}',
+        },
+        links: {
+            website: 'Website',
+            explorer: 'Explorer',
+            coingeco: 'Coingecko',
         },
     },
     empty_state: {
