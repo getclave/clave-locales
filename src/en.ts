@@ -423,6 +423,8 @@ export const en = {
             All: 'All',
             Friends: 'Friends',
             Contacts: 'Contacts',
+            invite: 'Invite',
+            add_friend: 'Add Friend',
         },
         qr_scan: {
             invalid_qr: 'Invalid QR code',

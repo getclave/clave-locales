@@ -428,6 +428,8 @@ export const tr: Locale = {
             All: 'Hepsi',
             Friends: 'Arkadaşlar',
             Contacts: 'Kişiler',
+            invite: 'Davet et',
+            add_friend: 'Arkadaş Ekle',
         },
         qr_scan: {
             invalid_qr: 'Geçersiz QR kod',
