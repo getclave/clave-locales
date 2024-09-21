@@ -692,6 +692,7 @@ export const tr: Locale = {
             subtext:
                 'Bağlı olduğunuz merkeziyetsiz uygulamalar aşağıda gösterilmektedir.',
             disconnect: 'Bağlantıyı Kes',
+            explore: 'Uygulamaları Keşfet',
         },
         empty_state: {
             title: 'Bağlı Uygulama Yok',

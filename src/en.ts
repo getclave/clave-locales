@@ -686,6 +686,7 @@ export const en = {
             title: 'Connected Dapps',
             subtext: 'Connected decentralized applications are shown below.',
             disconnect: 'Disconnect',
+            explore: 'Explore Dapps',
         },
         empty_state: {
             title: 'No Connected Dapps',
