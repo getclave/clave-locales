@@ -1563,6 +1563,7 @@ export const en = {
                     continue: 'Continue',
                     check: 'Checking KYC details...',
                     kyc_error: 'Please check your KYC details, and try again',
+                    kyc_completed: 'Your KYC process completed succesfully',
                 },
             },
             validation: {

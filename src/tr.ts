@@ -1572,6 +1572,7 @@ export const tr: Locale = {
                     check: 'KYC bilgileri kontrol ediliyor...',
                     kyc_error:
                         'Lütfen KYC bilgilerinizi kontrol edin ve tekrar deneyin',
+                    kyc_completed: 'KYC işleminiz başarıyla tamamlandı',
                 },
             },
             validation: {
