@@ -1390,7 +1390,7 @@ export const tr: Locale = {
             },
         },
         new: {
-            title: 'Yeni Para Yatırma İşlemi',
+            title: 'Kripto Para Yatır',
             option: {
                 wallets: {
                     title: 'Bir cüzdandan kripto para yatırın',

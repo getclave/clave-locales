@@ -1381,7 +1381,7 @@ export const en = {
             },
         },
         new: {
-            title: 'New Deposit',
+            title: 'Deposit Crypto',
             option: {
                 wallets: {
                     title: 'Deposit crypto from a wallet',
