@@ -1962,6 +1962,7 @@ export const tr: Locale = {
             benefits: 'Clave ile Ayrıcalıklar',
             benefits_text: 'Kazanımlarınızı inceleyin.',
             soon: '(Yakında)',
+            portfolio: 'Portföy',
         },
     },
     recovery_notice: {

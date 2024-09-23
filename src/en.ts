@@ -1952,6 +1952,7 @@ export const en = {
             benefits: 'Your Clave Benefits',
             benefits_text: 'Review your benefits.',
             soon: '(Soon)',
+            portfolio: 'Portfolio',
         },
     },
     recovery_notice: {
