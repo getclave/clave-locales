@@ -2100,4 +2100,91 @@ export const tr: Locale = {
         yesterday: 'Dün',
         today: 'Bugün',
     },
+    notification: {
+        guardian_assigned: {
+            title: '🛡️ Güvenilir Kişi Atandı',
+            body: '{{guardian}} hesabınıza güvenilir kişi olarak atandı',
+        },
+        guardian_removed: {
+            title: '⚠️ Güvenilir Kişi Kaldırıldı',
+            body: '{{guardian}} artık hesabınızı kurtarmanıza yardımcı olamaz',
+        },
+        guardian_added_self: {
+            title: '🛡️ Artık bir güvenilir kişisiniz',
+            body: '{{username}} sizi güvenilir kişi olarak atadı. Gerektiğinde kurtarma işlemine yardımcı olabilirsiniz',
+        },
+        guardian_removed_self: {
+            title: '🛡️ Artık güvenilir kişi değilsiniz',
+            body: '{{username}} sizi güvenilir kişi olarak kaldırdı. Artık hesaplarını kurtarmaya yardımcı olamazsınız',
+        },
+        transfer_sent: {
+            title: '💸 Para gönderdiniz',
+            body: '{{recipient}} adlı kişiye {{tokenAmount}} gönderdiniz',
+        },
+        transfer_received: {
+            title: '💰 Para aldınız',
+            body: '{{sender}} adlı kişiden {{tokenAmount}} aldınız',
+        },
+        join_reward: {
+            title: '🎁 Ödülünüz geldi',
+            body: "Clave'den {{tokenAmount}} aldınız",
+        },
+        layerswap_send: {
+            title: '🏦 {{tokenAmount}} tutarında para çektiniz',
+            body: 'Hesabınızdan {{tokenAmount}} tutarında para çıktı',
+        },
+        layerswap_receive: {
+            title: '🏦 {{tokenAmount}} tutarında para yatırdınız',
+            body: 'Hesabınıza {{tokenAmount}} tutarında para yattı',
+        },
+        onramp_receive: {
+            title: '🏦 {{tokenAmount}} tutarında para yatırdınız',
+            body: 'Hesabınıza {{tokenAmount}} yatırdınız',
+        },
+        recovery_initiated: {
+            title: '⏳ Kurtarma Başlatıldı',
+            body: 'Hesabınız için kurtarma işlemi başlatıldı. Sonraki adımlar için e-postanızı kontrol edin. 48 saatlik bekleme süresi başladı',
+        },
+        swap: {
+            title: '🔄 Takas Başarılı',
+            body: '{{inputAmount}} tutarını {{outputAmount}} ile başarıyla takas ettiniz',
+        },
+        send_link: {
+            title: '💸 Bağlantı Oluşturuldu',
+            body: '{{tokenAmount}} için bir bağlantı oluşturdunuz',
+        },
+        claim_link: {
+            title: '🪂 Bağlantı Alındı',
+            body_no_sender: '{{tokenAmount}} aldınız',
+            body: '{{sender}} adlı kişiden {{tokenAmount}} aldınız',
+        },
+        deposit: {
+            title: '🏦 {{token}} Pozisyonuna Yatırıldı',
+            body: '{{tokenAmount}} {{token}} kazanmaya başladı',
+        },
+        claim: {
+            title: '💰 Kazanılan Miktar Toplandı',
+            body: '{{tokenAmount}} bakiyenize eklendi',
+        },
+        withdraw: {
+            title: '💰 Kazançtan Çekildi',
+            body: '{{tokenAmount}} çekildi',
+        },
+        request_withdraw: {
+            title: '🕑 Çekim Talebi Oluşturuldu',
+            body: '{{tokenAmount}} tutarında çekim talebi oluşturuldu',
+        },
+        migrate: {
+            title: '🔀 Tokenlerinizi taşıdınız',
+            body: 'Yeni kazanç pozisyonuna başarıyla geçiş yaptınız',
+        },
+        delegate: {
+            title: '⚖️ Tokenlerinizi delege ettiniz',
+            body: 'Tokenlerinizi {{delegate}} adresine delege ettiniz',
+        },
+        referral: {
+            title: '🎉 Referans ücreti aldınız',
+            body: 'Referans ücreti olarak {{amount}} aldınız',
+        },
+    },
 };
