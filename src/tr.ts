@@ -2123,7 +2123,8 @@ export const tr: Locale = {
         },
         transfer_received: {
             title: '💰 Para aldınız',
-            body: '{{sender}} adlı kişiden {{tokenAmount}} aldınız',
+            body: '{{sender}} adlı kişiden {{tokenAmount}} aldınız: {{note}}',
+            body_no_note: '{{sender}} adlı kişiden {{tokenAmount}} aldınız',
         },
         join_reward: {
             title: '🎁 Ödülünüz geldi',

@@ -2113,7 +2113,8 @@ export const en = {
         },
         transfer_received: {
             title: "💰 You've received money",
-            body: "You've received {{tokenAmount}} from {{sender}}",
+            body: "You've received {{tokenAmount}} from {{sender}}: {{note}}",
+            body_no_note: "You've received {{tokenAmount}} from {{sender}}",
         },
         join_reward: {
             title: '🎁 Your reward has arrived',
