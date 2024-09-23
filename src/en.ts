@@ -901,6 +901,7 @@ export const en = {
         context: {
             generic: {
                 contract_interaction: 'Contract Interaction',
+                value: 'Value',
             },
             free: 'Free',
             transfer: {
@@ -948,6 +949,8 @@ export const en = {
             simulated_success: 'Transaction is verified by simulation',
             simulated_failed: 'Transaction is not verified',
             simulated_malicious: 'Transaction is scanned as malicious',
+            received: 'Tokens Received',
+            sent: 'Tokens Sent',
         },
         approve: {
             title: 'Summary',

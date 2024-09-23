@@ -908,6 +908,7 @@ export const tr: Locale = {
         context: {
             generic: {
                 contract_interaction: 'Uygulama Etkileşimi',
+                value: 'Değer',
             },
             free: 'Ücretsiz',
             transfer: {
@@ -955,6 +956,8 @@ export const tr: Locale = {
             simulated_success: 'İşlem doğrulandı',
             simulated_failed: 'İşlem doğrulanamadı',
             simulated_malicious: 'İşlem kötü amaçlı olarak işaretlendi',
+            received: 'Alınan Tokenlar',
+            sent: 'Gönderilen Tokenlar',
         },
         approve: {
             title: 'Özet',
