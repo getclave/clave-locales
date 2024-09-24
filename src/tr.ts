@@ -931,6 +931,7 @@ export const tr: Locale = {
                     'Kaldırılan güvenilir kişiler, artık hesabınızda kurtarma işlemi yapamayacaklar.',
             },
             swap: {
+                title: 'Takas',
                 sent: 'Gönderilen',
                 received: 'Alınan',
                 fee: 'Takas Ücreti',
