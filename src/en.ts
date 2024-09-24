@@ -951,6 +951,8 @@ export const en = {
             simulated_malicious: 'Transaction is scanned as malicious',
             received: 'Tokens Received',
             sent: 'Tokens Sent',
+            approve: 'Approval Given',
+            max: 'Infinite',
         },
         approve: {
             title: 'Summary',
