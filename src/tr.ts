@@ -1394,7 +1394,7 @@ export const tr: Locale = {
         },
         new: {
             title: 'Kripto Para Yatır',
-            option: {
+            options: {
                 wallets: {
                     title: 'Bir cüzdandan kripto para yatırın',
                     subtext: 'Diğer ağlardan kripto para yatırın',
@@ -1409,6 +1409,10 @@ export const tr: Locale = {
                     title: 'ZKsync Era ağında para yatırın',
                     subtext: 'Direkt Clave adresinize transfer yapın',
                 },
+            },
+            option: {
+                wallets: 'Bir cüzdandan kripto para yatırın',
+                exchanges: 'Bir borsadan kripto para yatırın',
             },
             pending: 'Bekleyen para yatırma işlemleri',
             initiate: 'Yeni Para Yatırma İşlemi Başlat',

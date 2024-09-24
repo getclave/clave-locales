@@ -1385,7 +1385,7 @@ export const en = {
         },
         new: {
             title: 'Deposit Crypto',
-            option: {
+            options: {
                 wallets: {
                     title: 'Deposit crypto from a wallet',
                     subtext: 'Get crypto from another network',
@@ -1400,6 +1400,10 @@ export const en = {
                     title: 'Deposit on ZKsync network',
                     subtext: 'Transfer to your address directly',
                 },
+            },
+            option: {
+                wallets: 'Deposit crypto from a wallet',
+                exchanges: 'Deposit from an exchange',
             },
             pending: 'Pending deposits',
             initiate: 'Initiate New Deposit',
