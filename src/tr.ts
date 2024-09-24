@@ -958,6 +958,8 @@ export const tr: Locale = {
             simulated_malicious: 'İşlem kötü amaçlı olarak işaretlendi',
             received: 'Alınan Tokenlar',
             sent: 'Gönderilen Tokenlar',
+            approve: 'Harcama İzni',
+            max: 'Sonsuz',
         },
         approve: {
             title: 'Özet',
