@@ -924,8 +924,7 @@ export const en = {
                     'Removed guardians will no longer be able to recover your account.',
             },
             swap: {
-                sent: 'Sent',
-                received: 'Received',
+                title: 'Swap',
                 fee: 'Swap Fee',
                 rate: 'Rate',
             },
