@@ -932,8 +932,6 @@ export const tr: Locale = {
             },
             swap: {
                 title: 'Takas',
-                sent: 'Gönderilen',
-                received: 'Alınan',
                 fee: 'Takas Ücreti',
                 rate: 'Oran',
             },

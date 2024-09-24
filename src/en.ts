@@ -925,8 +925,6 @@ export const en = {
             },
             swap: {
                 title: 'Swap',
-                sent: 'Sent',
-                received: 'Received',
                 fee: 'Swap Fee',
                 rate: 'Rate',
             },
