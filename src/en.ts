@@ -1491,10 +1491,10 @@ export const en = {
             title: 'Send',
             subtext:
                 'You will receive *{{toAmount}} *{{toCurrency}} at the rate of *{{rate}}.',
-            paid: 'I have paid {{symbol}}{{amount}}.',
+            paid: 'I have completed the transfer of {{symbol}}{{amount}}',
             copied: 'Copied to clipboard',
             back: 'Go Back',
-            continue: 'Continue',
+            continue: 'Check Status',
             cancel: 'Cancel',
             delete_error: 'Failed to cancel transaction, try again',
             notes: {
@@ -1511,6 +1511,10 @@ export const en = {
                 address: 'Address',
                 transferCode: 'Transfer Code',
                 virtualAccount: 'Virtual Account',
+            },
+            information: {
+                title: 'Bank Account for Transfer',
+                important: 'Important Information',
             },
         },
         exchange: {
