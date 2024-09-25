@@ -1441,6 +1441,12 @@ export const tr: Locale = {
             network: {
                 token: '{{token}} {{network}} ağında',
             },
+            fee: {
+                title: 'Token Transfer Ücretleri',
+                subtext:
+                    'Gösterilen ücretler, varlıkları güvenli bir şekilde ağlar arasında geçirmede gerekli olan masrafı yansıtır.',
+                continue: 'Anladım',
+            },
         },
         work: {
             __description:

@@ -1432,6 +1432,12 @@ export const en = {
             network: {
                 token: '{{token}} on {{network}}',
             },
+            fee: {
+                title: 'Deposit Fees',
+                subtext:
+                    'The displayed fees reflect the costs required to bridge assets securely across networks.',
+                continue: 'I understood',
+            },
         },
         work: {
             __description:
