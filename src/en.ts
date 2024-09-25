@@ -905,7 +905,7 @@ export const en = {
             },
             free: 'Free',
             transfer: {
-                sending_to: 'Sending to',
+                sending_to: 'Sending to *{{name}}',
                 creating_link: 'Creating Link',
                 estimated: 'Estimated Value',
                 first_time: 'First Time Making Payment',
@@ -914,7 +914,7 @@ export const en = {
             },
             add_guardian: {
                 title: 'Adding Guardian',
-                title_multiple: 'Adding Multiple Guardians',
+                title_multiple: 'Adding Guardians',
                 description:
                     'Guardians will be able to help you recover your account if you lose access to it.',
             },
