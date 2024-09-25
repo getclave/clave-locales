@@ -2098,4 +2098,92 @@ export const en = {
         yesterday: 'Yesterday',
         today: 'Today',
     },
+    notification: {
+        guardian_assigned: {
+            title: '🛡️ Guardian Assigned',
+            body: "You've assigned {{guardian}} as a guardian to your account",
+        },
+        guardian_removed: {
+            title: '⚠️ Guardian Removed',
+            body: '{{guardian}} can no longer assist you in recovering your account',
+        },
+        guardian_added_self: {
+            title: "🛡️ You're now a guardian",
+            body: '{{username}} has assigned you as guardian. You can assist for recovery if needed',
+        },
+        guardian_removed_self: {
+            title: "🛡️ You're no longer a guardian",
+            body: '{{username}} has removed you as guardian. You can no longer assist in recovering their account',
+        },
+        transfer_sent: {
+            title: "💸 You've sent money",
+            body: "You've sent {{tokenAmount}} to {{recipient}}",
+        },
+        transfer_received: {
+            title: "💰 You've received money",
+            body: "You've received {{tokenAmount}} from {{sender}}: {{note}}",
+            body_no_note: "You've received {{tokenAmount}} from {{sender}}",
+        },
+        join_reward: {
+            title: '🎁 Your reward has arrived',
+            body: "You've received {{tokenAmount}} from Clave",
+        },
+        layerswap_send: {
+            title: "🏦 You've bridged {{tokenAmount}} out",
+            body: "You've bridged {{tokenAmount}} from your account",
+        },
+        layerswap_receive: {
+            title: "🏦 You've bridged {{tokenAmount}} in",
+            body: "You've bridged {{tokenAmount}} to your account",
+        },
+        onramp_receive: {
+            title: "🏦 You've deposited {{tokenAmount}} in",
+            body: "You've deposited {{tokenAmount}} to your account",
+        },
+        recovery_initiated: {
+            title: '⏳ Recovery Initiated',
+            body: 'Recovery is initiated for your Account. Check your mail for next steps. 48 hours timelock has started',
+        },
+        swap: {
+            title: '🔄 Swap Successful',
+            body: "You've successfully swapped {{inputAmount}} for {{outputAmount}} ",
+        },
+        send_link: {
+            title: '💸 Link Created',
+            body: "You've created a link for {{tokenAmount}}",
+        },
+        claim_link: {
+            title: '🪂 Link Claimed',
+            body_no_sender: "You've received {{tokenAmount}}",
+            body: "You've received {{tokenAmount}} from {{sender}}",
+        },
+        deposit: {
+            title: '🏦 Deposited to {{token}} Position',
+            body: '{{tokenAmount}} {{token}} has started to earn',
+        },
+        claim: {
+            title: '💰 Earned Amount Collected',
+            body: '{{tokenAmount}} is added to your balance',
+        },
+        withdraw: {
+            title: '💰 Withdrawn from Earn',
+            body: '{{tokenAmount}} has been withdrawn',
+        },
+        request_withdraw: {
+            title: '🕑 Withdraw Requested',
+            body: '{{tokenAmount}} has been requested to withdraw',
+        },
+        migrate: {
+            title: "🔀 You've migrated your tokens",
+            body: 'You have successfully migrated to new earn position',
+        },
+        delegate: {
+            title: "⚖️ You've delegated your tokens",
+            body: "You've delegated your tokens to {{delegate}}",
+        },
+        referral: {
+            title: '🎉 You received referral fee',
+            body: 'You received {{amount}} as referral fee',
+        },
+    },
 };
