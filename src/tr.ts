@@ -1703,10 +1703,10 @@ export const tr: Locale = {
         },
         notify: {
             alert: {
-                title: 'Son Hatırlatma',
-                subtext:
-                    'Para göndermeden önce tüm uyarıları okuduğunuzu ve anladığınızı onaylıyor musunuz?',
+                title: 'Para göndermeden önce',
                 read: 'Tüm uyarıları okudum.',
+                account:
+                    'Kimlik doğrulama sürecini tamamladığım ismime kayıtlı banka hesabımdan transfer yapacağım.',
                 continue: 'Devam Et',
             },
         },

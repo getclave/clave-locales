@@ -1693,10 +1693,10 @@ export const en = {
         },
         notify: {
             alert: {
-                title: 'Last Reminder',
-                subtext:
-                    'Do you confirm that you have read and understood all alerts before sending money?',
+                title: 'Before sending money',
                 read: 'I have read all of the alerts.',
+                account:
+                    'I will transfer from a bank account registered in my name for which you have completed KYC.',
                 continue: 'Continue',
             },
         },
