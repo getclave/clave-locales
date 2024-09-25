@@ -1497,10 +1497,10 @@ export const en = {
             title: 'Send',
             subtext:
                 'You will receive *{{toAmount}} *{{toCurrency}} at the rate of *{{rate}}.',
-            paid: 'I have paid {{symbol}}{{amount}}.',
+            paid: 'I have completed the transfer of {{symbol}}{{amount}}',
             copied: 'Copied to clipboard',
             back: 'Go Back',
-            continue: 'Continue',
+            continue: 'Check Status',
             cancel: 'Cancel',
             delete_error: 'Failed to cancel transaction, try again',
             notes: {
@@ -1517,6 +1517,10 @@ export const en = {
                 address: 'Address',
                 transferCode: 'Transfer Code',
                 virtualAccount: 'Virtual Account',
+            },
+            information: {
+                title: 'Bank Account for Transfer',
+                important: 'Important Information',
             },
         },
         exchange: {
@@ -1695,10 +1699,10 @@ export const en = {
         },
         notify: {
             alert: {
-                title: 'Last Reminder',
-                subtext:
-                    'Do you confirm that you have read and understood all alerts before sending money?',
+                title: 'Before sending money',
                 read: 'I have read all of the alerts.',
+                account:
+                    'I will transfer from a bank account registered in my name for which you have completed KYC.',
                 continue: 'Continue',
             },
         },

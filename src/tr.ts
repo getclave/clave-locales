@@ -1506,10 +1506,10 @@ export const tr: Locale = {
             title: 'Gönder',
             subtext:
                 '*{{toAmount}} *{{toCurrency}} tutarı *{{rate}} oranı ile alacaksınız.',
-            paid: '{{symbol}}{{amount}} tutarlı ödemeyi yaptım.',
+            paid: '{{symbol}}{{amount}} tutarlı ödemeyi yaptım',
             copied: 'Panoya kopyalandı',
             back: 'Geri Dön',
-            continue: 'Devam Et',
+            continue: 'Durumunu Kontrol Et',
             delete_error: 'İşlem iptal edilemedi, lütfen tekrar deneyin',
             cancel: 'İptal Et',
             notes: {
@@ -1526,6 +1526,10 @@ export const tr: Locale = {
                 address: 'Adres',
                 transferCode: 'Transfer Kodu',
                 virtualAccount: 'Sanal Hesap',
+            },
+            information: {
+                title: 'Transfer için Banka Hesabı',
+                important: 'Önemli Bilgiler',
             },
         },
         exchange: {
@@ -1705,10 +1709,10 @@ export const tr: Locale = {
         },
         notify: {
             alert: {
-                title: 'Son Hatırlatma',
-                subtext:
-                    'Para göndermeden önce tüm uyarıları okuduğunuzu ve anladığınızı onaylıyor musunuz?',
+                title: 'Para göndermeden önce',
                 read: 'Tüm uyarıları okudum.',
+                account:
+                    'Kimlik doğrulama sürecini tamamladığım ismime kayıtlı banka hesabımdan transfer yapacağım.',
                 continue: 'Devam Et',
             },
         },
