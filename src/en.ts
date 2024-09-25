@@ -2088,6 +2088,7 @@ export const en = {
         modify: {
             remove: 'Remove from Friends',
             back: 'Go Back',
+            edit: 'Edit Friend Details',
         },
     },
     dates: {

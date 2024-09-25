@@ -2098,6 +2098,7 @@ export const tr: Locale = {
         modify: {
             remove: 'Kişilerinden Kaldır',
             back: 'Geri Dön',
+            edit: 'Kişiyi Düzenle',
         },
     },
     dates: {
