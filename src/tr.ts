@@ -912,7 +912,7 @@ export const tr: Locale = {
             },
             free: 'Ücretsiz',
             transfer: {
-                sending_to: 'Gönderiliyor',
+                sending_to: "*{{name}}'a Gönderiliyor",
                 creating_link: 'Bağlantı Oluşturuluyor',
                 estimated: 'Tahmini Değer',
                 first_time: 'İlk Defa Ödeme Yapılan Adres',
@@ -921,7 +921,7 @@ export const tr: Locale = {
             },
             add_guardian: {
                 title: 'Güvenilir Kişi Ekleniyor',
-                title_multiple: 'Birden Fazla Güvenilir Kişi Ekleniyor',
+                title_multiple: 'Güvenilir Kişiler Ekleniyor',
                 description:
                     'Güvenilir kişiler, hesabınıza erişiminizi kaybederseniz hesabınızı kurtarmanıza yardımcı olabilirler.',
             },
