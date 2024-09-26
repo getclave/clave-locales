@@ -1655,11 +1655,11 @@ export const tr: Locale = {
                     subtext: 'Bu işlem 2 dakikaya kadar sürebilir.',
                 },
                 purchase: {
-                    title: 'USDC Satın Alınıyor',
+                    title: 'USDC.e Satın Alınıyor',
                     subtext: 'İşleminizi doğruladık.',
                 },
                 transfer: {
-                    title: 'USDC Transfer Ediliyor',
+                    title: 'USDC.e Transfer Ediliyor',
                     subtext: 'Tahmini bekleme süresi 30 saniyedir.',
                 },
                 bank: {

@@ -1645,11 +1645,11 @@ export const en = {
                     subtext: 'This may take up to 2 minutes.',
                 },
                 purchase: {
-                    title: 'Purchasing USDC',
+                    title: 'Purchasing USDC.e',
                     subtext: 'We verified your transaction.',
                 },
                 transfer: {
-                    title: 'Transferring USDC',
+                    title: 'Transferring USDC.e',
                     subtext: 'Expected waiting time is 30 seconds.',
                 },
                 bank: {
