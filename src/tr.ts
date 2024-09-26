@@ -1483,7 +1483,7 @@ export const tr: Locale = {
         subtext: 'Cüzdanınıza para eklemek için bir yöntem seçin.',
         onramp: {
             title: 'Banka Transferi',
-            subtext: 'Banka transferleri ile USDC satın alın.',
+            subtext: 'Banka transferleri ile USDC.e satın alın.',
             example: 'Ülkeler',
         },
         deposit: {

@@ -1474,7 +1474,7 @@ export const en = {
         subtext: 'Select a way to add money into your wallet.',
         onramp: {
             title: 'Bank Transfer',
-            subtext: 'Buy USDC via bank deposits.',
+            subtext: 'Buy USDC.e via bank deposits.',
             example: 'Countries',
         },
         deposit: {
