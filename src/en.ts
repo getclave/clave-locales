@@ -1432,6 +1432,7 @@ export const en = {
             network: {
                 token: '{{token}} on {{network}}',
             },
+            fees: 'Fees',
             fee: {
                 title: 'Deposit Fees',
                 subtext:
@@ -1671,6 +1672,7 @@ export const en = {
                 label: 'Search',
                 countries: 'Countries',
                 no_option: 'Your currency options will be accessible in here',
+                soon: 'Soon',
             },
         },
         progress: {

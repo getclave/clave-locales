@@ -1441,6 +1441,7 @@ export const tr: Locale = {
             network: {
                 token: '{{token}} {{network}} ağında',
             },
+            fees: 'Ücretler',
             fee: {
                 title: 'Token Transfer Ücretleri',
                 subtext:
@@ -1681,6 +1682,7 @@ export const tr: Locale = {
                 label: 'Arama',
                 countries: 'Ülkeler',
                 no_option: 'Kur seçenekleriniz burada görüntülenecek',
+                soon: 'Yakında',
             },
         },
         progress: {
