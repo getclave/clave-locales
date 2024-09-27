@@ -92,7 +92,7 @@ export const tr: Locale = {
         social: {
             title: 'Sosyal Yedekleme',
             subtext:
-                'Clave üzerindeki arkadaşlarınız veya ZKsync Era ağındaki herhangi bir adresi güvenilir kişi olarak atayabilirsiniz.',
+                'Clave üzerindeki arkadaşlarınızı veya ZKsync Era ağındaki herhangi bir adresi güvenilir kişi olarak atayabilirsiniz.',
             'subtext-link': 'Daha fazla bilgi için dokunun.',
             'subtext-link-url':
                 'https://blog.getclave.io/recovery-for-everyone-cloud-and-guardians',
@@ -354,11 +354,11 @@ export const tr: Locale = {
             sending_to: 'Gönderiliyor',
             could_not_estimate: 'Miktar Tahmin Edilemedi',
             send: 'Gönder',
-            title: 'Miktarı Belirle',
+            title: 'Miktar Belirle',
             title_link: 'Bağlantı ile Gönderiliyor',
             sending_with_link: 'Bağlantı ile Gönderiliyor',
             create_payment_link: 'Ödeme Bağlantısı Oluştur',
-            set_amount: 'Miktarı Belirle',
+            set_amount: 'Miktar Belirle',
             add_note: 'Not Ekle',
             available: '{{amount}} {{symbol}} Mevcut',
         },
@@ -399,7 +399,7 @@ export const tr: Locale = {
             create_new_link: 'Yeni Bağlantı Oluştur',
             list_header: 'Sizin Tarafınızdan Oluşturulan Bağlantılar',
             title: 'Ödeme Bağlantıları',
-            no_links: 'Alınmamış bağlantınız yok',
+            no_links: 'Talep edilmemiş link bulunmamaktadır',
             no_link_button: 'Ana Sayfa',
             manage: 'Ödeme bağlantılarınızı yönetin: Tokenlere erişmek için paylaşın veya iptal edin.',
             tap: 'Daha fazla bilgi öğrenmek için dokunun.',
@@ -732,7 +732,7 @@ export const tr: Locale = {
             title: 'İşlem Geçmişi',
             no_transactions: 'Herhangi bir işlem bulunamadı',
             load_more_transactions: 'Daha Fazla İşlem Yükle',
-            see_all: 'Tümünü Görüntüle',
+            see_all: 'Hepsini Gör',
             preparing_transactions: 'İşlem Geçmişiniz Hazırlanıyor',
         },
         transaction: {
@@ -1028,6 +1028,7 @@ export const tr: Locale = {
         search: 'Token ara',
         add_manually: 'Elle Ekle',
         owned_tokens: 'Sahip olunan tokenler',
+        other_tokens: 'Diğer tokenlar',
     },
     portfolio: {
         __description: 'Portföy sayfası ve token detayları',
@@ -1812,6 +1813,8 @@ export const tr: Locale = {
                 lockup_pending:
                     '{{amount}}, {{date}} tarihinde çekime hazır olacak',
                 share: 'X’te Paylaş',
+                weekly_earnings: 'Haftada {{amount}} kadar kazanabilirsin',
+                total_earnings: 'Toplam Getiri',
             },
             information: {
                 collectible: {
@@ -1842,7 +1845,7 @@ export const tr: Locale = {
             insufficient: 'Yetersiz Bakiye',
             max_staking_alert: 'Adil kullanım için kalan limit: {{amount}}',
             position: 'Pozisyon detayları',
-            set_amount: 'Miktarı Ayarla',
+            set_amount: 'Miktar Ayarla',
         },
         withdraw: {
             title: 'Çek',

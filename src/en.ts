@@ -1021,6 +1021,7 @@ export const en = {
         search: 'Search token',
         add_manually: 'Add Manually',
         owned_tokens: 'Owned tokens',
+        other_tokens: 'Other tokens',
     },
     portfolio: {
         __description: 'Portfolio page and token details',
@@ -1803,6 +1804,8 @@ export const en = {
                 lockup_pending:
                     '{{amount}} will be ready to withdraw on {{date}}',
                 share: 'Share on X',
+                weekly_earnings: 'You can earn up to {{amount}}/week',
+                total_earnings: 'Total Earnings',
             },
             information: {
                 collectible: {
