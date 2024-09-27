@@ -1654,7 +1654,8 @@ export const tr: Locale = {
         transaction: {
             status: {
                 title: 'İşlem Doğrulanıyor',
-                subtext: 'Bu adımlardan sonra paranız size gönderilecektir',
+                subtext:
+                    'Transfer tamamlandığında bildirim alacaksınız ve transfer durumunu her zaman geçmişten kontrol edebilirsiniz. Bu sayfada beklemenize gerek yoktur.',
                 payment: {
                     title: 'Ödeme kabul ediliyor',
                     subtext: 'Bu işlem 2 dakikaya kadar sürebilir.',
