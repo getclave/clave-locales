@@ -1666,7 +1666,7 @@ export const tr: Locale = {
                 },
                 transfer: {
                     title: 'USDC.e Transfer Ediliyor',
-                    subtext: 'Tahmini bekleme süresi 30 saniyedir.',
+                    subtext: 'Tahmini bekleme süresi 2 dakikadır.',
                 },
                 bank: {
                     show: 'Banka Detaylarını Göster',

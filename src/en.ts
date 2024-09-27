@@ -1655,7 +1655,7 @@ export const en = {
                 },
                 transfer: {
                     title: 'Transferring USDC.e',
-                    subtext: 'Expected waiting time is 30 seconds.',
+                    subtext: 'Expected waiting time is 2 minutes.',
                 },
                 bank: {
                     show: 'Show Bank Details',
