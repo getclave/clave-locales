@@ -1635,6 +1635,10 @@ export const tr: Locale = {
                 subtext: 'İşlemi tamamlamak için telefon numaranızı girin.',
                 phone: 'Telefon numarası',
                 continue: 'Devam Et',
+                phone_number_used:
+                    'Telefon numarası zaten başka bir kullanıcı tarafından kullanılıyor',
+                try_again: 'Tekrar deneyin',
+                unexpected_error: 'Beklenmeyen bir hata oluştu.',
             },
             funds: {
                 title: 'Gelirlerinizin Ana Kaynağı',

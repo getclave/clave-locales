@@ -1625,6 +1625,9 @@ export const en = {
                 subtext: 'Enter your phone number to complete your deposit.',
                 phone: 'Phone number',
                 continue: 'Continue',
+                phone_number_used: 'Phone number already used by another user',
+                try_again: 'Try again',
+                unexpected_error: 'An unexpected error occurred.',
             },
             funds: {
                 title: 'Primary Source of Funds',
