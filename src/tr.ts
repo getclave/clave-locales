@@ -399,7 +399,7 @@ export const tr: Locale = {
             create_new_link: 'Yeni Bağlantı Oluştur',
             list_header: 'Sizin Tarafınızdan Oluşturulan Bağlantılar',
             title: 'Ödeme Bağlantıları',
-            no_links: 'Talep edilmemiş link bulunmamaktadır',
+            no_links: 'Alınmamış bağlantınız yok',
             no_link_button: 'Ana Sayfa',
             manage: 'Ödeme bağlantılarınızı yönetin: Tokenlere erişmek için paylaşın veya iptal edin.',
             tap: 'Daha fazla bilgi öğrenmek için dokunun.',
