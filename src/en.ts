@@ -1548,6 +1548,8 @@ export const en = {
             max_limit: 'Maximum limit is {{limit}} {{currency}}',
             continue: 'Continue',
             back: 'Go Back',
+            over_max_limit:
+                'Your monthly remaining onramp limit is {{limit}} {{currency}}',
         },
         history: {
             title: 'Buy History',

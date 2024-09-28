@@ -1557,6 +1557,8 @@ export const tr: Locale = {
             max_limit: 'Maksimum limit {{limit}} {{currency}}',
             continue: 'Devam Et',
             back: 'Geri Dön',
+            over_max_limit:
+                "Aylık kalan işlem limitiniz {{limit}} {{currency}}'dir",
         },
         history: {
             title: 'Satın Alma Geçmişi',
