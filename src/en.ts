@@ -1643,8 +1643,9 @@ export const en = {
         },
         transaction: {
             status: {
-                title: 'Verifying Transaction',
-                subtext: 'Your money will be sent to you after these steps',
+                title: 'Review transaction',
+                subtext:
+                    'You will be notified when the transfer is completed and you can always check the status from history. You don’t need to wait in this page.',
                 payment: {
                     title: 'Accepting payment',
                     subtext: 'This may take up to 2 minutes.',
@@ -1655,7 +1656,7 @@ export const en = {
                 },
                 transfer: {
                     title: 'Transferring USDC.e',
-                    subtext: 'Expected waiting time is 30 seconds.',
+                    subtext: 'Expected waiting time is 2 minutes.',
                 },
                 bank: {
                     show: 'Show Bank Details',
