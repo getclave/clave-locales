@@ -90,7 +90,7 @@ export const tr: Locale = {
             done: 'Tamam',
         },
         social: {
-            title: 'Sosyal Yedekleme',
+            title: 'Hesap Yedekleme',
             subtext:
                 'Clave üzerindeki arkadaşlarınızı veya ZKsync Era ağındaki herhangi bir adresi güvenilir kişi olarak atayabilirsiniz.',
             'subtext-link': 'Daha fazla bilgi için dokunun.',
@@ -130,7 +130,7 @@ export const tr: Locale = {
             empty_state: {
                 title: '',
                 subtext:
-                    'Sosyal Yedekleme için en az bir güvenilir kişi eklemelisiniz.',
+                    'Hesap Yedekleme için en az bir güvenilir kişi eklemelisiniz.',
             },
             remove_guardian_bottom_sheet: {
                 title: 'Kaldırılan Güvenilir Kişi',
@@ -179,7 +179,7 @@ export const tr: Locale = {
             step1_text1:
                 'Sadece kullanıcı adları veya bağlantılar kullanarak gönderim, talep etme ve takas işlemleri ağ ücretleri olmadan yapılır.',
             step1_text2:
-                "Ayrıca Clave ile Web3'ün tam potansiyelini keşfetmek için Merkez'i inceleyebilirsiniz!",
+                "Ayrıca Clave ile Web3'ün tam potansiyelini keşfetmek için Keşfet'i inceleyebilirsiniz!",
             step2_title: 'Kullanıcı Adınızı Belirleyin',
             step2_text1:
                 'Clave’de ihtiyacınız olan tek şey kullanıcı adlarıdır.',
@@ -412,7 +412,7 @@ export const tr: Locale = {
             label: 'Clave Kullanıcı Adı / ENS / Adres',
             continue: 'Devam Et',
             contacts: 'Kişiler',
-            address_book: 'Arkadaşlar',
+            address_book: 'Kişiler',
             clave_users: 'Clave Kullanıcıları',
             clear: 'Temizle',
             clear_history: 'Geçmişi Temizle',
@@ -426,10 +426,10 @@ export const tr: Locale = {
             allow_contacts: 'Kişilere İzin Ver',
             Recents: 'Son',
             All: 'Hepsi',
-            Friends: 'Arkadaşlar',
+            Friends: 'Kişiler',
             Contacts: 'Kişiler',
             invite: 'Davet et',
-            add_friend: 'Arkadaş Ekle',
+            add_friend: 'Kişilere Ekle',
         },
         qr_scan: {
             invalid_qr: 'Geçersiz QR kod',
@@ -437,7 +437,7 @@ export const tr: Locale = {
         send_with_link_bottomsheet: {
             title: 'Bağlantı ile Gönderiliyor',
             description:
-                'Oluşturacağınız, içinde para bulunan bağlantılar ile linke sahip kişilerin parayı almasını sağlayabilirsiniz. Oluşturduğunuz ödeme bağlantılarını ana sayfadan kontrol veya iptal edebilirsiniz.',
+                'Oluşturacağınız, içinde para bulunan bağlantılar ile bunlara sahip kişilerin parayı almasını sağlayabilirsiniz. Oluşturduğunuz ödeme bağlantılarını ana sayfadan kontrol veya iptal edebilirsiniz.',
             button: 'Anladım, devam et',
             never_show: 'Bir daha gösterme',
         },
@@ -460,7 +460,7 @@ export const tr: Locale = {
         token_amount: {
             available: 'Bakiye',
         },
-        estimated_quantity: 'Tahmini Miktar:',
+        estimated_quantity: 'Yaklaşık Miktar:',
         portfolio: {
             my_tokens: 'Tokenler',
             my_positions: 'Yatırımlar',
@@ -480,7 +480,7 @@ export const tr: Locale = {
                 title: 'Profil',
                 account_settings: 'Hesap Ayarları',
                 banner: {
-                    first_banner: 'Clave ile Ayrıcalıklar',
+                    first_banner: "Clave'deki Kazancın",
                     second_banner: 'Davet Et ve Kazan',
                 },
             },
@@ -914,7 +914,7 @@ export const tr: Locale = {
             transfer: {
                 sending_to: "*{{name}}'a Gönderiliyor",
                 creating_link: 'Bağlantı Oluşturuluyor',
-                estimated: 'Tahmini Değer',
+                estimated: 'Yaklaşık Değer',
                 first_time: 'İlk Defa Ödeme Yapılan Adres',
                 note: 'Not',
                 first_time_sending: 'Bu adrese ilk defa ödeme yapılıyor.',
@@ -947,7 +947,7 @@ export const tr: Locale = {
                 title: 'Tokenler Yatırılıyor',
                 apr: 'APR',
                 protocol_fee: 'Protokol Ücreti',
-                estimated_earnings: 'Tahmini Haftalık Getiriler',
+                estimated_earnings: 'Yaklaşık Haftalık Getiriler',
             },
             network_fee: 'Ağ Ücreti',
             swipe: 'Kaydırın',
@@ -1012,7 +1012,7 @@ export const tr: Locale = {
     },
     navbar: {
         home: 'Ana Sayfa',
-        hub: 'Merkez',
+        hub: 'Keşfet',
         profile: 'Profil',
     },
     custom_token: {
@@ -1634,8 +1634,9 @@ export const tr: Locale = {
                 open_settings: 'Ayarları Aç',
             },
             phone: {
-                title: 'Telefon Numarası',
-                subtext: 'İşlemi tamamlamak için telefon numaranızı girin.',
+                title: 'Telefon Numaranızı Girin',
+                subtext:
+                    'Banka transferine devam etmek için giriş yapın veya kolayca kaydolun.',
                 phone: 'Telefon numarası',
                 continue: 'Devam Et',
                 phone_number_used:
@@ -1751,7 +1752,7 @@ export const tr: Locale = {
             home: 'Ana Sayfa',
             deposited_amount: 'Yatırılan Tutar',
             withdraw_amount: 'Çekilen Tutar',
-            weekly_earnings: 'Tahmini Haftalık Getiri',
+            weekly_earnings: 'Yaklaşık Haftalık Getiri',
             reward_amount: 'Ödül Miktarı',
             lockup_time: 'Çekim Tarihi',
             ten_days: '10 Gün',
@@ -1767,7 +1768,7 @@ export const tr: Locale = {
             category: {
                 all: 'Tümü',
                 featured: 'Öne Çıkanlar',
-                stables: 'Stabiller',
+                stables: 'Dolar',
                 zksummer: 'ZK Summer',
             },
         },
@@ -1811,7 +1812,7 @@ export const tr: Locale = {
                     title: 'Pozisyon Detayları',
                     done: 'Tamam',
                 },
-                earnings_disclaimer: 'Tahmini ödüller $ZK token cinsindedir',
+                earnings_disclaimer: 'Yaklaşık ödüller $ZK token cinsindedir',
                 earnings_disclaimer_compounded: 'Ödüller pozisyonlara eklenir',
                 rewards_disclaimer: 'Ödüller dahil edilmiştir',
                 rewards_disclaimer_both:
@@ -1845,7 +1846,7 @@ export const tr: Locale = {
             underlying_tokens: 'Kullanılan Tokenler',
             protocol_fee: 'Protokol Ücreti',
             apr_notice: 'APR piyasa koşullarına göre değişebilir',
-            weekly_earnings: 'Tahmini Haftalık Getiri',
+            weekly_earnings: 'Yaklaşık Haftalık Getiri',
             available: '{{balance}} {{symbol}} mevcut',
             max_staking: 'Tutar limitin üstünde',
             continue: 'Devam Et',
@@ -1857,7 +1858,7 @@ export const tr: Locale = {
         withdraw: {
             title: 'Çek',
             title_lockup: 'Çekim Talebi',
-            estimate: 'Tahmini değer: {{value}}',
+            estimate: 'Yaklaşık değer: {{value}}',
             available: '{{amount}} {{symbol}} mevcut',
             continue: 'Devam Et',
         },
@@ -1914,7 +1915,7 @@ export const tr: Locale = {
             },
         },
         counter: {
-            title: 'Tahmini Getiriler',
+            title: 'Yaklaşık Getiriler',
         },
         how_it_works: {
             title: 'Yatırımlar Nasıl Çalışır?',
@@ -1926,11 +1927,11 @@ export const tr: Locale = {
             },
             withdraw: {
                 title: 'Esnek Çekim',
-                text: 'Kazançlarınızla birlikte varlıklarınızı istediğiniz zaman çekebilirsiniz.',
+                text: 'Getirilerinizle birlikte varlıklarınızı istediğiniz zaman çekebilirsiniz.',
             },
             apr: {
                 title: 'Dinamik APR',
-                text: 'Kazanç, kullanılan havuzların komisyonlarından gelir ve kullanım oranına bağlı olarak dinamik olarak değişir.',
+                text: 'Getiri, kullanılan havuzların komisyonlarından gelir ve kullanım oranına bağlı olarak dinamik olarak değişir.',
             },
             continue: 'Kazanmaya Hazırım',
         },
@@ -1952,7 +1953,7 @@ export const tr: Locale = {
                     text: 'Bu getiri {{token}} ödüllerinden gelir ve doğrudan yatırılan miktara eklenir.',
                 },
                 collectible: {
-                    title: 'Elle Toplanabilir Kazanç',
+                    title: 'Elle Toplanabilir Getiri',
                     text: 'Bunlar kullanılan platformun sağladığı ödüllerdir ve çekim sırasında elle toplanmalıdır.',
                 },
                 continue: 'Kazanmaya Hazırım',
@@ -1978,7 +1979,7 @@ export const tr: Locale = {
     },
     hub: {
         __description: 'Hub Sayfası ve Dashboard’daki Hızlı işlemler',
-        title: 'Merkez',
+        title: 'Keşfet',
         all_actions: 'Tüm İşlemler',
         start_with: 'Öne Çıkanlar',
         widget: {
@@ -1996,12 +1997,12 @@ export const tr: Locale = {
             guardians: 'Güvenilir Kişileri Yönet',
             guardians_text: 'Arkadaşlarınızı güvenilir kişi olarak ekleyin.',
             browser: 'Tarayıcı',
-            links: 'Ödeme Linkleri',
+            links: 'Ödeme Bağlantıları',
             split: 'Harcama Bölüştür',
             buy: 'Satın Al',
             invest: 'Yatırım Yap',
             get_started: 'Başlayın',
-            benefits: 'Clave ile Ayrıcalıklar',
+            benefits: "Clave'deki Kazancın",
             benefits_text: 'Kazanımlarınızı inceleyin.',
             soon: '(Yakında)',
             portfolio: 'Portföy',
@@ -2036,8 +2037,8 @@ export const tr: Locale = {
         home: 'Ana Sayfa',
         claim: 'Almak için Tıklayın',
         claimed: 'Ödeme Talep Edildi',
-        already_claimed: 'Bu link\nzaten alındı',
-        failed_to_claim: 'Ödeme linki\n alınamadı',
+        already_claimed: 'Bu bağlantı\nzaten alındı',
+        failed_to_claim: 'Ödeme bağlantısı\n alınamadı',
     },
     landing: {
         first: "Clave'e\n Hoş Geldiniz",
@@ -2045,7 +2046,7 @@ export const tr: Locale = {
             'Kripto paralarınızı günlük uygulamalardan beklediğiniz sadelikle yönetin.',
         second: 'Anında, Ücretsiz,\nGlobal Transferler',
         secondSubtitle:
-            'Herhangi birine, herhangi bir zamanda, kullanıcı adları ve ödeme linkleriyle mesajlaşma kadar basit bir şekilde gönderin.',
+            'Herhangi birine, herhangi bir zamanda, kullanıcı adları ve ödeme bağlantılarıyla mesajlaşma kadar basit bir şekilde gönderin.',
         third: 'Paranızı Güvenle\nYönetin',
         thirdSubtitle:
             'Anahtar kelimeler olmadan, biyometrik verilerinizle korunan güvenli bir akıllı cüzdan.',
@@ -2134,89 +2135,90 @@ export const tr: Locale = {
     notification: {
         guardian_assigned: {
             title: '🛡️ Güvenilir Kişi Atandı',
-            body: '{{guardian}} hesabınıza güvenilir kişi olarak atandı',
+            body: "{{guardian}}'ı hesabınıza güvenilir kişi olarak atadınız",
         },
         guardian_removed: {
-            title: '⚠️ Güvenilir Kişi Kaldırıldı',
-            body: '{{guardian}} artık hesabınızı kurtarmanıza yardımcı olamaz',
+            title: '🙅 Güvenilir Kişi Kaldırıldı',
+            body: '{{guardian}} artık güvenilir kişiniz değil',
         },
         guardian_added_self: {
-            title: '🛡️ Artık bir güvenilir kişisiniz',
-            body: '{{username}} sizi güvenilir kişi olarak atadı. Gerektiğinde kurtarma işlemine yardımcı olabilirsiniz',
+            title: '🫂 Artık Bir Güvenilir Kişisiniz',
+            body: '{{username}} sizi güvenilir kişi olarak atadı. Gerekirse hesabın kurtarılmasında yardımcı olabilirsiniz',
         },
         guardian_removed_self: {
-            title: '🛡️ Artık güvenilir kişi değilsiniz',
-            body: '{{username}} sizi güvenilir kişi olarak kaldırdı. Artık hesaplarını kurtarmaya yardımcı olamazsınız',
+            title: '🔚 Güvenilir Kişi Görevi Sona Erdi',
+            body: '{{username}} sizi güvenilir kişilerinden kaldırdı',
         },
         transfer_sent: {
-            title: '💸 Para gönderdiniz',
-            body: '{{recipient}} adlı kişiye {{tokenAmount}} gönderdiniz',
+            title: '💸 Para Gönderildi!',
+            body: '{{tokenAmount}}, {{recipient}} kişisine gönderildi',
         },
         transfer_received: {
-            title: '💰 Para aldınız',
-            body: '{{sender}} adlı kişiden {{tokenAmount}} aldınız: {{note}}',
-            body_no_note: '{{sender}} adlı kişiden {{tokenAmount}} aldınız',
+            title: '🎉 Para Alındı!',
+            body: '{{sender}} kişisinden {{tokenAmount}} aldınız. Mesaj: {{note}}',
+            body_no_note: '{{sender}} kişisinden {{tokenAmount}} aldınız',
         },
         join_reward: {
-            title: '🎁 Ödülünüz geldi',
-            body: "Clave'den {{tokenAmount}} aldınız",
+            title: '🎁 Hoşgeldin Hediyesi Geldi!',
+            body: 'Clave size hoş geldiniz ödülü olarak {{tokenAmount}} gönderdi',
         },
         layerswap_send: {
-            title: '🏦 {{tokenAmount}} tutarında para çektiniz',
-            body: 'Hesabınızdan {{tokenAmount}} tutarında para çıktı',
+            title: '🏦 Köprü İşlemi Tamamlandı!',
+            body: '{{tokenAmount}} hesabınızdan köprü yoluyla transfer edildi',
         },
         layerswap_receive: {
-            title: '🏦 {{tokenAmount}} tutarında para yatırdınız',
-            body: 'Hesabınıza {{tokenAmount}} tutarında para yattı',
+            title: '💰 Para Yatırma Tamamlandı!',
+            body: '{{tokenAmount}} hesabınıza köprü ile aktarıldı',
         },
         onramp_receive: {
-            title: '🏦 {{tokenAmount}} tutarında para yatırdınız',
-            body: 'Hesabınıza {{tokenAmount}} yatırdınız',
+            title: '🏦 Banka Transferi Tamamlandı!',
+            body: '{{tokenAmount}} hesabınıza yatırıldı',
         },
         recovery_initiated: {
-            title: '⏳ Kurtarma Başlatıldı',
-            body: 'Hesabınız için kurtarma işlemi başlatıldı. Sonraki adımlar için e-postanızı kontrol edin. 48 saatlik bekleme süresi başladı',
+            title: '🔐 Hesap Kurtarma Başladı',
+            body: '48 saatlik zaman kilidi etkinleştirildi. Sonraki adımlar için e-posta adresinizi kontrol edin',
         },
         swap: {
-            title: '🔄 Takas Başarılı',
-            body: '{{inputAmount}} tutarını {{outputAmount}} ile başarıyla takas ettiniz',
+            title: '🔄 Takas Tamamlandı!',
+            body: '{{inputAmount}} takas ederek {{outputAmount}} elde ettiniz. İyi hamle!',
         },
         send_link: {
-            title: '💸 Bağlantı Oluşturuldu',
-            body: '{{tokenAmount}} için bir bağlantı oluşturdunuz',
+            title: '🔗 Ödeme Bağlantısı Hazır!',
+            body: '{{tokenAmount}} tutarındaki ödeme bağlantınız kullanıma hazır',
         },
         claim_link: {
-            title: '🪂 Bağlantı Alındı',
-            body_no_sender: '{{tokenAmount}} aldınız',
-            body: '{{sender}} adlı kişiden {{tokenAmount}} aldınız',
+            title: '💸 Ödeme Alındı!',
+            body_no_sender:
+                '{{tokenAmount}} tutarında ödeme bağlantısı ile ödeme aldınız',
+            body: '{{sender}} kişisinden {{tokenAmount}} tutarında ödeme bağlantısı ile ödeme aldınız',
         },
         deposit: {
-            title: '🏦 {{token}} Pozisyonuna Yatırıldı',
-            body: '{{tokenAmount}} {{token}} kazanmaya başladı',
+            title: '📈 {{token}} Kazandırmaya Başladı',
+            body: '{{tokenAmount}} {{token}} kazandırmaya başladı',
         },
         claim: {
-            title: '💰 Kazanılan Miktar Toplandı',
-            body: '{{tokenAmount}} bakiyenize eklendi',
+            title: '💰 Getiriler Toplandı!',
+            body: 'Tebrikler! {{tokenAmount}} bakiyenize eklendi',
         },
         withdraw: {
-            title: '💰 Kazançtan Çekildi',
+            title: '💰 Para Çekme Tamamlandı!',
             body: '{{tokenAmount}} çekildi',
         },
         request_withdraw: {
-            title: '🕑 Çekim Talebi Oluşturuldu',
-            body: '{{tokenAmount}} tutarında çekim talebi oluşturuldu',
+            title: '⏳ Para Çekim İşlemi Yolda!',
+            body: '{{tokenAmount}} tutarındaki çekim talebiniz alındı',
         },
         migrate: {
-            title: '🔀 Tokenlerinizi taşıdınız',
-            body: 'Yeni kazanç pozisyonuna başarıyla geçiş yaptınız',
+            title: '🔀 Yatırım Pozisyonu Taşındı!',
+            body: 'Yeni yatırım pozisyonuna başarıyla taşındınız',
         },
         delegate: {
-            title: '⚖️ Tokenlerinizi delege ettiniz',
-            body: 'Tokenlerinizi {{delegate}} adresine delege ettiniz',
+            title: '👥 Tokenler Delege Edildi!',
+            body: '{{delegate}} kişisine delege edildi',
         },
         referral: {
-            title: '🎉 Referans ücreti aldınız',
-            body: 'Referans ücreti olarak {{amount}} aldınız',
+            title: '🎉 Davet Bonusu!',
+            body: '{{tokenAmount}} tutarında davet bonusu kazandınız!',
         },
     },
 };
