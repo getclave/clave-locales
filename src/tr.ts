@@ -909,6 +909,7 @@ export const tr: Locale = {
             generic: {
                 contract_interaction: 'Uygulama Etkileşimi',
                 value: 'Değer',
+                amount: 'Miktar',
             },
             free: 'Ücretsiz',
             transfer: {

@@ -902,6 +902,7 @@ export const en = {
             generic: {
                 contract_interaction: 'Contract Interaction',
                 value: 'Value',
+                amount: 'Amount',
             },
             free: 'Free',
             transfer: {
