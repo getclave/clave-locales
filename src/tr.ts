@@ -1813,7 +1813,8 @@ export const tr: Locale = {
                     title: 'Pozisyon Detayları',
                     done: 'Tamam',
                 },
-                earnings_disclaimer: 'Yaklaşık ödüller $ZK token cinsindedir',
+                earnings_disclaimer:
+                    'Yaklaşık ödüller ${{token}} token cinsindedir',
                 earnings_disclaimer_compounded: 'Ödüller pozisyonlara eklenir',
                 rewards_disclaimer: 'Ödüller dahil edilmiştir',
                 rewards_disclaimer_both:

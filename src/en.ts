@@ -1802,7 +1802,7 @@ export const en = {
                     title: 'Position Details',
                     done: 'Done',
                 },
-                earnings_disclaimer: 'Estimated rewards in $ZK tokens',
+                earnings_disclaimer: 'Estimated rewards in ${{token}} tokens',
                 earnings_disclaimer_compounded:
                     'Rewards are compounded into positions',
                 rewards_disclaimer: 'Rewards are included',
