@@ -1995,6 +1995,19 @@ export const en = {
             benefits_text: 'Review your benefits.',
             soon: '(Soon)',
             portfolio: 'Portfolio',
+            onramp: {
+                title: 'Bank Transfer',
+                detail: 'Details',
+                estimated_time: 'Estimated time',
+                details: {
+                    accepting:
+                        '{{amount}} {{symbol}} bank transfer is being verified.',
+                    purchasing:
+                        'Transfer has been confirmed. USDC.e is being prepared for sending.',
+                    sending: 'The transfer of USDC.e is being processed.',
+                    completed: 'Transfer completed',
+                },
+            },
         },
     },
     recovery_notice: {

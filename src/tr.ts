@@ -2006,6 +2006,19 @@ export const tr: Locale = {
             benefits_text: 'Kazanımlarınızı inceleyin.',
             soon: '(Yakında)',
             portfolio: 'Portföy',
+            onramp: {
+                title: 'Banka Transferi',
+                detail: 'Detaylar',
+                estimated_time: 'Tahmini Süre',
+                details: {
+                    accepting:
+                        '{{amount}} {{symbol}} banka transferi onaylanıyor.',
+                    purchasing:
+                        'Transfer onaylandı. USDC.e gönderilmeye hazırlanıyor.',
+                    sending: 'USDC.e gönderiliyor.',
+                    completed: 'Transfer tamamlandı',
+                },
+            },
         },
     },
     recovery_notice: {
