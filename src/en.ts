@@ -2162,8 +2162,8 @@ export const en = {
             body_no_note: 'You received {{tokenAmount}} from {{sender}}',
         },
         join_reward: {
-            title: '🎁 Welcome Gift Arrived!',
-            body: 'Clave sent you {{tokenAmount}} as a welcome reward',
+            title: '🎁 Gift Arrived!',
+            body: 'Clave sent you {{tokenAmount}} as a reward',
         },
         layerswap_send: {
             title: '🏦 Bridge Completed!',
