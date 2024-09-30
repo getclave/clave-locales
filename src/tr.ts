@@ -1791,6 +1791,7 @@ export const tr: Locale = {
             back: 'Geri Dön',
             current: 'Mevcut',
             new: 'Yeni Havuz',
+            no_migration: 'Taşıma Mevcut Değil',
         },
         position: {
             details: {

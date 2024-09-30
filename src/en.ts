@@ -1780,6 +1780,7 @@ export const en = {
             back: 'Back',
             current: 'Current',
             new: 'New Pool',
+            no_migration: 'No Migration Available',
         },
         position: {
             details: {
