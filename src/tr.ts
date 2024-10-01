@@ -2176,7 +2176,7 @@ export const tr: Locale = {
         },
         join_reward: {
             title: '🎁 Hoşgeldin Hediyesi Geldi!',
-            body: 'Clave ailesine hoşgeldin! Sana {{tokenAmount}} gönderdik.',
+            body: "Clave'e hoşgeldin! Sana {{tokenAmount}} gönderdik.",
         },
         onramp_reward: {
             title: '🎁 Banka Transferi Hediyesi Geldi!',
