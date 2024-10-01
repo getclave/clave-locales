@@ -2016,8 +2016,7 @@ export const tr: Locale = {
                 details: {
                     accepting:
                         '{{amount}} {{symbol}} banka transferi onaylanıyor.',
-                    purchasing:
-                        'Transfer onaylandı. USDC.e gönderilmeye hazırlanıyor.',
+                    purchasing: 'USDC.e gönderilmeye hazırlanıyor.',
                     sending: 'USDC.e gönderiliyor.',
                     completed: 'Transfer tamamlandı',
                 },
