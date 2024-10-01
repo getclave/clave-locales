@@ -2164,8 +2164,12 @@ export const en = {
             body_no_note: 'You received {{tokenAmount}} from {{sender}}',
         },
         join_reward: {
-            title: '🎁 Gift Arrived!',
-            body: 'Clave sent you {{tokenAmount}} as a reward',
+            title: '🎁 Welcome Gift Arrived!',
+            body: 'Thanks for joining Clave! Here is a {{tokenAmount}} for you.',
+        },
+        onramp_reward: {
+            title: '🎁 Bank Transfer Gift Arrived!',
+            body: 'You completed a bank transfer! Here is a {{tokenAmount}} for you.',
         },
         layerswap_send: {
             title: '🏦 Bridge Completed!',

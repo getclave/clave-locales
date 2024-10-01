@@ -2176,8 +2176,12 @@ export const tr: Locale = {
             body_no_note: '{{sender}} kişisinden {{tokenAmount}} aldınız',
         },
         join_reward: {
-            title: '🎁 Hediye Geldi!',
-            body: 'Clave size ödül olarak {{tokenAmount}} gönderdi',
+            title: '🎁 Hoşgeldin Hediyesi Geldi!',
+            body: 'Clave ailesine hoşgeldin! Sana {{tokenAmount}} gönderdik.',
+        },
+        onramp_reward: {
+            title: '🎁 Banka Transferi Hediyesi Geldi!',
+            body: 'Banka transferi yaptığınız için size {{tokenAmount}} gönderdik.',
         },
         layerswap_send: {
             title: '🏦 Köprü İşlemi Tamamlandı!',
