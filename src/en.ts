@@ -2005,8 +2005,7 @@ export const en = {
                 details: {
                     accepting:
                         '{{amount}} {{symbol}} bank transfer is being verified.',
-                    purchasing:
-                        'Transfer has been confirmed. USDC.e is being prepared for sending.',
+                    purchasing: 'USDC.e is being prepared for sending.',
                     sending: 'The transfer of USDC.e is being processed.',
                     completed: 'Transfer completed',
                 },
