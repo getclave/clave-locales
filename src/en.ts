@@ -1576,6 +1576,7 @@ export const en = {
                     male: 'Male',
                     female: 'Female',
                     continue: 'Continue',
+                    email: 'Email',
                 },
                 birthday: {
                     title: 'Complete details',

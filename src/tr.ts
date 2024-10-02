@@ -1585,6 +1585,7 @@ export const tr: Locale = {
                     male: 'Erkek',
                     female: 'Kadın',
                     continue: 'Devam Et',
+                    email: 'E-posta',
                 },
                 birthday: {
                     title: 'Bilgileri Tamamlayın',
