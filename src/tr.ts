@@ -1729,6 +1729,20 @@ export const tr: Locale = {
                 continue: 'Devam Et',
             },
         },
+        navigation: {
+            otp: {
+                title: 'Onramp Money websitesine yönlendiriliyorsunuz',
+                subtext:
+                    'Partnerimiz Onramp Money sitesine yönlendirildiğinizde telefon numaranızı doğrulamanız gerekecektir. Doğrulama tamamlandığında tarayıcıyı kapatıp Clave üzerinden devam edebilirsiniz.',
+            },
+            support: {
+                title: 'Onramp Money websitesine yönlendiriliyorsunuz',
+                subtext:
+                    'Partnerimiz Onramp Money sitesine yönlendirildiğinizde, bu website üzerinden destek talebi açabilirsiniz.',
+            },
+            continue: 'Devam Et',
+            close: 'Kapat',
+        },
     },
     invest: {
         __description: 'Kazanç sayfası ile ilgili çeviriler',

@@ -1718,6 +1718,20 @@ export const en = {
                 continue: 'Continue',
             },
         },
+        navigation: {
+            otp: {
+                title: 'Navigating you to Onramp Money',
+                subtext:
+                    'You will be directed to our partner website for phone verification. After that you can close the browser and continue on Clave.',
+            },
+            support: {
+                title: 'Navigating you to Onramp Money',
+                subtext:
+                    'You will be directed to our partner website. After that you can open ticket to support.',
+            },
+            continue: 'Continue',
+            close: 'Close',
+        },
     },
     invest: {
         __description: 'Earn page related translations',
