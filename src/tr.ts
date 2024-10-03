@@ -309,6 +309,13 @@ export const tr: Locale = {
                 button: 'Yeni Hesap Oluştur',
                 recover: 'Hesabınızı Kurtarın',
                 login: 'Giriş Yap',
+                privacy_text: {
+                    first: 'Hesap oluşturarak',
+                    second: 'Kullanım Sözleşmesi’ni',
+                    third: 've',
+                    fourth: 'Gizlilik Politikası’nı',
+                    fifth: 'kabul etmiş olursunuz.',
+                },
             },
             intro: {
                 title: 'Clave’ye Hoş Geldiniz',

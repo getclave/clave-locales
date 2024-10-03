@@ -305,6 +305,13 @@ export const en = {
                 button: 'Create New Account',
                 recover: 'Recover Your Account',
                 login: 'Log in',
+                privacy_text: {
+                    first: 'By creating account you agree with',
+                    second: 'Terms & Conditions',
+                    third: 'and',
+                    fourth: 'Privacy Policy',
+                    fifth: '',
+                },
             },
             intro: {
                 title: 'Welcome to Clave',
