@@ -1660,15 +1660,15 @@ export const en = {
                     'You will be notified when the transfer is completed and you can always check the status from history. You don’t need to wait in this page.',
                 payment: {
                     title: 'Accepting payment',
-                    subtext: 'This may take up to 2 minutes.',
+                    subtext: 'Payment is being verified.',
                 },
                 purchase: {
                     title: 'Purchasing USDC.e',
-                    subtext: 'We verified your transaction.',
+                    subtext: 'The payment has been confirmed.',
                 },
                 transfer: {
                     title: 'Transferring USDC.e',
-                    subtext: 'Expected waiting time is 2 minutes.',
+                    subtext: 'USDC.e transfer has been initiated.',
                 },
                 bank: {
                     show: 'Show Bank Details',

@@ -1671,15 +1671,15 @@ export const tr: Locale = {
                     'Transfer tamamlandığında bildirim alacaksınız ve transfer durumunu her zaman geçmişten kontrol edebilirsiniz. Bu sayfada beklemenize gerek yoktur.',
                 payment: {
                     title: 'Ödeme kabul ediliyor',
-                    subtext: 'Bu işlem 2 dakikaya kadar sürebilir.',
+                    subtext: 'Ödemeniz doğrulanıyor.',
                 },
                 purchase: {
                     title: 'USDC.e Satın Alınıyor',
-                    subtext: 'İşleminizi doğruladık.',
+                    subtext: 'Ödemeniz doğrulandı.',
                 },
                 transfer: {
                     title: 'USDC.e Transfer Ediliyor',
-                    subtext: 'Tahmini bekleme süresi 2 dakikadır.',
+                    subtext: 'USDC.e transferi başlatıldı.',
                 },
                 bank: {
                     show: 'Banka Detaylarını Göster',
