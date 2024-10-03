@@ -1830,7 +1830,7 @@ export const en = {
                     '{{amount}} will be ready to withdraw on {{date}}',
                 share: 'Share on X',
                 weekly_earnings: 'You can earn up to {{amount}}/week',
-                total_earnings: 'Total Earnings',
+                total_earning: 'Total Earnings',
             },
             information: {
                 collectible: {

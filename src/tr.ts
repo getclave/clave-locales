@@ -1841,7 +1841,7 @@ export const tr: Locale = {
                     '{{amount}}, {{date}} tarihinde çekime hazır olacak',
                 share: 'X’te Paylaş',
                 weekly_earnings: 'Haftada {{amount}} kadar kazanabilirsin',
-                total_earnings: 'Toplam Getiri',
+                total_earning: 'Toplam Getiri',
             },
             information: {
                 collectible: {
