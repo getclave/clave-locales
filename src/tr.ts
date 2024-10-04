@@ -1593,6 +1593,7 @@ export const tr: Locale = {
                     female: 'Kadın',
                     continue: 'Devam Et',
                     email: 'E-posta',
+                    identity: 'Kimlik Numarası',
                 },
                 birthday: {
                     title: 'Bilgileri Tamamlayın',
@@ -1605,7 +1606,6 @@ export const tr: Locale = {
                     title: 'Bilgileri Tamamlayın',
                     subtext:
                         'Banka transferi işlemine başlamak için KYC bilgilerini doldurun',
-                    identity: 'Kimlik Numarası',
                     occupation: 'Meslek',
                     occupation_example: 'Mühendis, öğretmen',
                     address: 'Adres',
@@ -2043,6 +2043,7 @@ export const tr: Locale = {
                     sending: 'USDC.e gönderiliyor.',
                     completed: 'Transfer tamamlandı',
                 },
+                support: 'Support',
             },
         },
     },

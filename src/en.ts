@@ -1584,6 +1584,7 @@ export const en = {
                     female: 'Female',
                     continue: 'Continue',
                     email: 'Email',
+                    identity: 'Identity Number',
                 },
                 birthday: {
                     title: 'Complete details',
@@ -1597,7 +1598,6 @@ export const en = {
                     title: 'Complete details',
                     subtext:
                         'Complete the KYC information to start the onramp process',
-                    identity: 'Identity Number',
                     occupation: 'Occupation',
                     occupation_example: 'Engineer, teacher',
                     address: 'Address',
@@ -2031,6 +2031,7 @@ export const en = {
                     sending: 'The transfer of USDC.e is being processed.',
                     completed: 'Transfer completed',
                 },
+                support: 'Support',
             },
         },
     },
