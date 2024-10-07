@@ -1730,9 +1730,21 @@ export const tr: Locale = {
         notify: {
             alert: {
                 title: 'Para göndermeden önce',
-                read: 'Tüm uyarıları okudum.',
-                account:
-                    'Kimlik doğrulama sürecini tamamladığım ismime kayıtlı banka hesabımdan transfer yapacağım.',
+                account: {
+                    title: 'Kendi banka hesabınızı kullanın',
+                    details:
+                        'Kendi adıma ait banka hesabınızdan transfer yapacağım.',
+                },
+                amount: {
+                    title: 'Tam olarak *{{amount}} *{{symbol}} transfer edin',
+                    details:
+                        'Tam olarak {{amount}} {{symbol}} transfer edeceğim. Herhangi bir farklı miktar gönderilirse transfer başarısız olacaktır.',
+                },
+                dijital_bank: {
+                    title: 'Papara veya Nays hesaplarından göndermeyin',
+                    details:
+                        'Papara veya Nays gibi elektronik para hesaplarından transfer yapmayacağım.',
+                },
                 continue: 'Devam Et',
             },
         },

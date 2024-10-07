@@ -1718,9 +1718,21 @@ export const en = {
         notify: {
             alert: {
                 title: 'Before sending money',
-                read: 'I have read all of the alerts.',
-                account:
-                    'I will transfer from a bank account registered in my name for which you have completed KYC.',
+                account: {
+                    title: 'Use your own bank account',
+                    details:
+                        'I will transfer funds from a bank account registered in my name.',
+                },
+                amount: {
+                    title: 'Transfer exactly *{{amount}} *{{symbol}}',
+                    details:
+                        'I will transfer exactly {{amount}} {{symbol}}. Sending any other amount will fail the transfer.',
+                },
+                dijital_bank: {
+                    title: 'Do not send from Papara or Nays',
+                    details:
+                        'I will not use Papara, Nays, or any other e-money accounts.',
+                },
                 continue: 'Continue',
             },
         },
