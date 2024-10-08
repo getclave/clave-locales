@@ -1337,7 +1337,7 @@ export const ru: Locale = {
             add: 'Новый ввод средств',
             back: 'Мне нужна помощь',
             item: {
-                title: '{{amount}} {{symbol}} в сети {{network}}',
+                title: '{{symbol}} в сети {{network}}',
                 completed: 'Завершено',
                 pending: {
                     layerswap: 'Ожидание перевода из моста',
