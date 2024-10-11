@@ -2235,7 +2235,7 @@ export const en = {
         },
         deposit: {
             title: '📈 {{token}} Started Earning',
-            body: '{{tokenAmount}} {{token}} has started to earn',
+            body: '{{tokenAmount}} has started to earn',
         },
         claim: {
             title: '💰 Earnings Collected!',

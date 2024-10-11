@@ -2252,7 +2252,7 @@ export const ru: Locale = {
         },
         deposit: {
             title: '📈 {{token}} начал приносить доход',
-            body: '{{tokenAmount}} {{token}} начал приносить доход',
+            body: '{{tokenAmount}} начал приносить доход',
         },
         claim: {
             title: '💰 Доход собран!',

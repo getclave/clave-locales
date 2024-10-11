@@ -2249,7 +2249,7 @@ export const tr: Locale = {
         },
         deposit: {
             title: '📈 {{token}} Kazandırmaya Başladı',
-            body: '{{tokenAmount}} {{token}} kazandırmaya başladı',
+            body: '{{tokenAmount}} kazandırmaya başladı',
         },
         claim: {
             title: '💰 Getiriler Toplandı!',
