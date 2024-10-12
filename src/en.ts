@@ -205,8 +205,7 @@ export const en = {
             referral_input_label: 'Referral Code',
             referral_activated: 'View your perks',
             referred_by: 'Referred by *{{username}}',
-            referral_item_1:
-                '*{{reward_amount}} for the first *{{deposit_amount}} you deposit to Earn',
+            referral_item_1: 'High APRs in the Earn',
             referral_item_2: '*{{reward_amount}} cryptoback on fees you pay',
             user_not_registered: 'User has not completed registration',
             referral_valid: 'Referral code is valid',
@@ -493,8 +492,7 @@ export const en = {
                 what_you_get: 'What you get?',
                 what_they_get: 'What they get?',
                 first_benefit: '*{{amount}} Cryptoback from fees paid by them',
-                second_benefit:
-                    '*{{amount1}} for the first *{{amount2}} they deposit to Earn',
+                second_benefit: 'High APRs in the Earn',
                 third_benefit: '*{{amount}} Crypto back from fees they pay',
                 best_way_refer: 'Best way to refer',
                 send_them_dollar:

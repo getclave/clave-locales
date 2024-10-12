@@ -209,8 +209,7 @@ export const ru: Locale = {
             referral_input_label: 'Реферальный код',
             referral_activated: 'Изучите ваши привилегии',
             referred_by: 'Приглашён *{{username}}',
-            referral_item_1:
-                '*{{reward_amount}} за первые *{{deposit_amount}} на накопительном счёте',
+            referral_item_1: 'Высокая годовая доходность',
             referral_item_2: '*{{reward_amount}} крипто-кэшбэка с комиссий',
             user_not_registered: 'Пользователь не завершил регистрацию',
             referral_valid: 'Реферальный код действителен',
@@ -501,8 +500,7 @@ export const ru: Locale = {
                 what_they_get: 'Что получит друг?',
                 first_benefit:
                     'До *{{amount}} крипто-кэшбэка от оплаченных ими комиссий',
-                second_benefit:
-                    '*{{amount1}} за первые *{{amount2}} на их накопительном счёте',
+                second_benefit: 'Высокая годовая доходность',
                 third_benefit: 'До *{{amount}} возврата комиссий',
                 best_way_refer: 'Лучший способ пригласить',
                 send_them_dollar:

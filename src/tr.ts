@@ -209,8 +209,7 @@ export const tr: Locale = {
             referral_input_label: 'Davet Kodu',
             referral_activated: 'Avantajlarınızı Görüntüleyin',
             referred_by: '*{{username}} tarafından davet edildi',
-            referral_item_1:
-                '*{{deposit_amount}} yatırdığınızda ilk *{{reward_amount}} kazanın',
+            referral_item_1: 'Yatırım ile yüksek getiri oranlarına erişim',
             referral_item_2:
                 'Ödediğiniz ücretler üzerinden *{{reward_amount}} geri ödeme',
             user_not_registered: 'Kullanıcı kaydını tamamladı',
@@ -499,8 +498,7 @@ export const tr: Locale = {
                 what_you_get: 'Davetlilerinizden kazandıklarınız',
                 what_they_get: 'Davetlilerinizin kazandıkları',
                 first_benefit: '*{{amount}} ödenen ücretlerden geri kazanım',
-                second_benefit:
-                    'Yatırımda değerlendirdikleri ilk *{{amount2}} karşılığında *{{amount1}} ödül',
+                second_benefit: 'Yatırım ile yüksek getiri oranlarına erişim',
                 third_benefit: '*{{amount}} ödenen ücretlerden geri kazanım',
                 best_way_refer: 'En iyi davet yöntemi',
                 send_them_dollar:
