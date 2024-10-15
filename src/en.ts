@@ -137,6 +137,16 @@ export const en = {
                 cancel: 'Cancel',
             },
         },
+        tile: {
+            email: {
+                header: 'Your Email Guardian',
+                title: 'Add email guardian',
+            },
+            social: {
+                header: 'Your Social Guardians',
+                title: 'Add social guardian',
+            },
+        },
     },
     email: {
         title: 'Enter Your Email',

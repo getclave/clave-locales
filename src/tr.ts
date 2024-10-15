@@ -140,6 +140,16 @@ export const tr: Locale = {
                 cancel: 'İptal',
             },
         },
+        tile: {
+            email: {
+                header: 'Email Yedekleme',
+                title: 'Email yedekleme ekle',
+            },
+            social: {
+                header: 'Güvenilir Kişileriniz',
+                title: 'Güvenilir kişi ekle',
+            },
+        },
     },
     email: {
         title: 'Email Adresinizi Girin',
