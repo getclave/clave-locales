@@ -254,6 +254,14 @@ export const en = {
                 forgot_username: 'Forgot Your Username?',
                 continue: 'Continue',
             },
+            enter_username: {
+                title: 'Recover Your Account',
+                subtext:
+                    'Type Clave username or address to recover your account.',
+                label: 'Clave Username or Address',
+                forgot_username: 'Forgot Your Username?',
+                continue: 'Continue',
+            },
             not_exist: {
                 title: "This wallet doesn't have any recovery options",
                 subtext:

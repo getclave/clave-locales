@@ -260,6 +260,14 @@ export const ru: Locale = {
                 forgot_username: 'Забыли имя?',
                 continue: 'Дальше',
             },
+            enter_username: {
+                title: 'Восстановление аккаунта',
+                subtext:
+                    'Введите имя Clave или адрес сети для восстановления аккаунта.',
+                label: 'Имя Clave или адрес сети',
+                forgot_username: 'Забыли имя?',
+                continue: 'Дальше',
+            },
             not_exist: {
                 title: 'У этого кошелька нет настроенных способов восстановления',
                 subtext:

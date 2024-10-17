@@ -259,6 +259,14 @@ export const tr: Locale = {
                 forgot_username: 'Kullanıcı Adınızı mı Unuttunuz?',
                 continue: 'Devam Et',
             },
+            enter_username: {
+                title: 'Hesabınızı Kurtarın',
+                subtext:
+                    'Hesabınızı kurtarmak için Clave kullanıcı adınızı veya adresinizi girin.',
+                label: 'Clave Kullanıcı Adı veya Adres',
+                forgot_username: 'Kullanıcı Adınızı mı Unuttunuz?',
+                continue: 'Devam Et',
+            },
             not_exist: {
                 title: 'Bu cüzdanın kurtarma seçenekleri yok',
                 subtext:
