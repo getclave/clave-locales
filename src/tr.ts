@@ -319,6 +319,15 @@ export const tr: Locale = {
                 },
                 resolved: 'Adres: {{address}}',
             },
+            notice: {
+                __description:
+                    'Kullanıcı kurtarma işlemini başlatmaya çalıştığında açılan bilgi alt tabakası',
+                title: 'Önemli Uyarı',
+                subtext:
+                    'Bu işlem yeni bir passkey oluşturacaktır. Hesabınızı kurtarmaya ihtiyacınız yoksa bunu yapmayın.',
+                approval: 'Anladım, kurtar',
+                back: 'Geri Dön',
+            },
         },
         landing: {
             __description: 'Uygulamanın ilk sayfası',
@@ -2074,14 +2083,6 @@ export const tr: Locale = {
                 support: 'Support',
             },
         },
-    },
-    recovery_notice: {
-        __description:
-            'Kullanıcı kurtarma işlemini başlatmaya çalıştığında açılan bilgi alt tabakası',
-        title: 'Sosyal Kurtarma',
-        subtext:
-            'Bu cihazda hesabınıza erişiminiz varsa, bu adımdan sonra kaybedersiniz.',
-        approval: 'Anladım',
     },
     zksync_notice_bottom_sheet: {
         title: 'ZKsync Era {{network}}',

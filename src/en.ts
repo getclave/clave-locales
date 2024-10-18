@@ -314,6 +314,15 @@ export const en = {
                 },
                 resolved: 'Address: {{address}}',
             },
+            notice: {
+                __description:
+                    'The info bottom sheet when user tries to start recovery',
+                title: 'Important Warning',
+                subtext:
+                    'This process will create a new passkey. Do not proceed if you don’t need to recover your account.',
+                approval: 'I understand, recover',
+                back: 'Back',
+            },
         },
         landing: {
             __description: 'The first page of the application',
@@ -2061,14 +2070,6 @@ export const en = {
                 support: 'Support',
             },
         },
-    },
-    recovery_notice: {
-        __description:
-            'The info bottom sheet when user tries to start recovery',
-        title: 'Social Recovery',
-        subtext:
-            'If you have access to your account in this device, you will lose it after this step.',
-        approval: 'I understand',
     },
     zksync_notice_bottom_sheet: {
         title: 'ZKsync Era {{network}}',
