@@ -172,29 +172,6 @@ export const en = {
         },
     },
     onboarding: {
-        tour: {
-            skip: 'Skip',
-            deposit: 'Deposit',
-            back: 'Back',
-            save: 'Save',
-            step0_title: 'Introduction to Passkeys',
-            step0_text1:
-                'With Passkeys, logging into your account is seamless using biometric authentication.',
-            step0_text2:
-                'You don’t need to set up or remember any passwords to login.',
-            step1_title: 'Enjoy Zero Fees!',
-            step1_text1:
-                'Sending, requesting, and swapping are streamlined using just usernames or links, all without network fees.',
-            step1_text2:
-                'You can also explore the Hub to unlock the full potential of Web3 with Clave!',
-            step2_title: 'Set Your Username',
-            step2_text1: 'Usernames are all you need in Clave.',
-            step3_title: 'Fund Your Wallet',
-            step3_text1:
-                'The simplest way is transferring crypto from another wallet or an exchange on ZKsync Era. You can copy your account address in the Profile.',
-            step3_text2:
-                "For crypto on other chains, tap to 'Deposit' to quickly transfer assets to your account.",
-        },
         tourv2: {
             skip: 'Skip',
             back: 'Back',
@@ -219,6 +196,7 @@ export const en = {
             referral_item_2: '*{{reward_amount}} cryptoback on fees you pay',
             user_not_registered: 'User has not completed registration',
             referral_valid: 'Referral code is valid',
+            suggestion: '3-21 length of alphanumerics',
         },
         creation: {
             account_creation_done: {
@@ -906,11 +884,11 @@ export const en = {
     set_username: {
         __description: 'Page to set username from profile or from onboarding',
         title: 'Set Username',
-        subtext: 'Usernames are all you need in Clave.',
+        subtext: 'Begin by setting your Clave username on ZKsync Era.',
         placeholder: 'Enter Username',
         label: 'Username',
-        continue: 'Set Username',
-        later: 'Remind me later',
+        save: 'Save',
+        suggestion: '3-21 length of alphanumerics',
     },
     token_selection: {
         __description: 'Page to select token on send & request',

@@ -175,30 +175,6 @@ export const tr: Locale = {
         },
     },
     onboarding: {
-        tour: {
-            skip: 'Atla',
-            deposit: 'Yatır',
-            back: 'Geri Dön',
-            save: 'Kaydet',
-            step0_title: 'Passkeylere Giriş',
-            step0_text1:
-                'Passkeyler ile hesabınıza biyometrik kimlik doğrulama kullanarak sorunsuz bir şekilde giriş yapabilirsiniz.',
-            step0_text2:
-                'Giriş yapmak için herhangi bir şifre ayarlamanız veya hatırlamanız gerekmez.',
-            step1_title: 'Ücretsiz İşlemlerin Keyfini Çıkarın!',
-            step1_text1:
-                'Sadece kullanıcı adları veya bağlantılar kullanarak gönderim, talep etme ve takas işlemleri ağ ücretleri olmadan yapılır.',
-            step1_text2:
-                "Ayrıca Clave ile Web3'ün tam potansiyelini keşfetmek için Keşfet'i inceleyebilirsiniz!",
-            step2_title: 'Kullanıcı Adınızı Belirleyin',
-            step2_text1:
-                'Clave’de ihtiyacınız olan tek şey kullanıcı adlarıdır.',
-            step3_title: 'Cüzdanınıza Fon Ekleyin',
-            step3_text1:
-                "En basit yol, ZKsync Era ağında başka bir cüzdandan veya borsadan kripto transferi yapmaktır. Hesap adresinizi Profil'den kopyalayabilirsiniz.",
-            step3_text2:
-                "Diğer zincirlerdeki kripto paralarınız için 'Yatır' düğmesine dokunarak varlıkları hızlıca hesabınıza aktarabilirsiniz.",
-        },
         tourv2: {
             skip: 'Atla',
             back: 'Geri Dön',
@@ -224,6 +200,7 @@ export const tr: Locale = {
                 'Ödediğiniz ücretler üzerinden *{{reward_amount}} geri ödeme',
             user_not_registered: 'Kullanıcı kaydını tamamladı',
             referral_valid: 'Davet kodu geçerli',
+            suggestion: '3-21 uzunluğunda alfabetik-sayısal karakterler',
         },
         creation: {
             account_creation_done: {
@@ -914,11 +891,11 @@ export const tr: Locale = {
         __description:
             'Profil veya kurulum aşamasında kullanıcı adı belirleme sayfası',
         title: 'Kullanıcı Adı Belirle',
-        subtext: 'Clave’de ihtiyacınız olan tek şey kullanıcı adınızdır.',
+        subtext: 'Clave kullanıcı adınızı ZKsync Era üzerinde belirleyin.',
         placeholder: 'Kullanıcı Adı Yazın',
         label: 'Kullanıcı Adı',
-        continue: 'Kullanıcı Adı Belirle',
-        later: 'Bana sonra hatırlat',
+        save: 'Kaydet',
+        suggestion: '3-21 uzunluğunda alfabetik-sayısal karakterler',
     },
     token_selection: {
         __description:
