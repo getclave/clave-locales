@@ -90,7 +90,7 @@ export const ru: Locale = {
             done: 'Готово',
         },
         social: {
-            title: 'Социальное восстановление',
+            title: 'Соц. восстановление',
             subtext:
                 'Вы можете добавить ваших близких с аккаунтом Clave или ZKsync Era в качестве доверенных лиц',
             'subtext-link': 'Нажмите, чтобы узнать больше',
@@ -519,7 +519,7 @@ export const ru: Locale = {
                     'Отправьте им платёжную ссылку со своим реферальным кодом',
             },
             saved_with_clave: {
-                title: 'Спасибо за то, что вы с Clave, user{{name}}',
+                title: 'Спасибо за то, что вы с Clave{{name}}',
                 tx_title: 'Транзакций',
                 tx_text: 'Clave оплатил {{txCount}} ваших транзакций.',
                 earn_title: 'Накопительный счёт',
@@ -544,7 +544,7 @@ export const ru: Locale = {
                 subtext: '',
             },
             backup: {
-                title: 'Социальное восстановление',
+                title: 'Соц. восстановление',
                 subtext: 'Настраивайте своих доверенных лиц',
             },
             connected_dapps: {
@@ -675,7 +675,7 @@ export const ru: Locale = {
         },
         swap_box: {
             insufficient: 'Недостаточно средств',
-            max: 'Максимально',
+            max: 'Макс',
             balance: 'Баланс: ',
             select_token: 'Выберите монету',
         },
@@ -728,15 +728,15 @@ export const ru: Locale = {
         see_activity: 'Видеть ваш баланс и транзакции',
         send_transaction: 'Отправлять транзакции с вашего кошелька',
         signature_request: 'Запрашивать цифровые подписи',
-        accept: 'Проведите пальцем для подключения',
+        accept: 'Проведите пальцем',
         reject: 'Отмена',
         no_camera_title: 'Нет разрешения на использование камеры',
         no_camera_subtitle:
             'Пожалуйста, разрешите использование камеры для сканирования QR-кодов',
         no_camera_button: 'Открыть настройки',
-        swipe: 'Проведите пальцем, чтобы продолжить',
+        swipe: 'Проведите пальцем',
         release: 'Отпустите',
-        proceed: 'Проведите пальцем, чтобы продолжить',
+        proceed: 'Проведите пальцем',
         invalid_qr_code: 'Недействительный QR-код',
         mismatch: 'Несовпадение доменных имён',
         mismatch_subtext:
@@ -968,7 +968,7 @@ export const ru: Locale = {
                 estimated_earnings: 'Примерный еженедельный доход',
             },
             network_fee: 'Комиссия сети',
-            swipe: 'Проведите пальцем для подтверждения',
+            swipe: 'Проведите пальцем',
             simulating: 'Проверка безопасности...',
             simulated_success: 'Транзакция успешно изучена',
             simulated_failed: 'Транзакция не прошла проверку',
@@ -992,7 +992,7 @@ export const ru: Locale = {
             estimated_gas_fee: 'Комиссия сети',
             amount: 'Сумма',
             contract_address: 'Адрес смарт-контракта',
-            swipe: 'Проведите пальцем для подтверждения',
+            swipe: 'Проведите пальцем',
             insufficient_balance: 'Недостаточно средств',
             free: 'Бесплатно',
             approve_token: 'Разрешить трату ваших монет',
