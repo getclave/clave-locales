@@ -413,6 +413,12 @@ export const tr: Locale = {
             no_link_button: 'Ana Sayfa',
             manage: 'Ödeme bağlantılarınızı yönetin: Tokenlere erişmek için paylaşın veya iptal edin.',
             tap: 'Daha fazla bilgi öğrenmek için dokunun.',
+            bottom_sheet: {
+                title: 'Ödeme Bağlantılarını Yönetme',
+                subtext:
+                    'Ödeme bağlantıları maksimum güvenlik sağlamak ve yetkisiz alımları önlemek amacıyla yalnızca cihazınızda saklanır. Clave uygulamasını silmek, kullanılmayan bağlantılara erişilememesini sağlayabilir. Lütfen uygulamayı silmeden önce tüm ödeme bağlantılarındaki paranızı geri alın.',
+                close: 'Anladım, devam et',
+            },
         },
         enter_address: {
             title: 'Alıcıyı Girin',
