@@ -430,6 +430,12 @@ export const en = {
             no_link_button: 'Home',
             manage: 'Manage your payment links: share or cancel to access funds.',
             tap: 'Tap to learn more.',
+            bottom_sheet: {
+                title: 'Managing Payment Links',
+                subtext:
+                    'Payment links are stored on your device for maximum security, preventing unauthorized fund claims. Deleting the Clave app may make unused links inaccessible. Please claim all payment links and retrieve your funds before deleting the app.',
+                close: 'I understand, continue',
+            },
         },
         enter_address: {
             title: 'Enter Recipient',
