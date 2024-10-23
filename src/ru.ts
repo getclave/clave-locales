@@ -510,10 +510,14 @@ export const ru: Locale = {
                 ref_code: 'Ваш реферальный код',
                 what_you_get: 'Что вы получите?',
                 what_they_get: 'Что получит друг?',
-                first_benefit:
-                    'До *{{amount}} крипто-кэшбэка от оплаченных ими комиссий',
-                second_benefit: 'Высокая годовая доходность',
-                third_benefit: 'До *{{amount}} возврата комиссий',
+                benefits: {
+                    your: {
+                        first: 'До *{{amount}} крипто-кэшбэка от оплаченных ими комиссий',
+                    },
+                    their: {
+                        first: 'До *{{amount}} возврата комиссий',
+                    },
+                },
                 best_way_refer: 'Лучший способ пригласить',
                 send_them_dollar:
                     'Отправьте им платёжную ссылку со своим реферальным кодом',

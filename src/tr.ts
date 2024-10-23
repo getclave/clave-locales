@@ -507,9 +507,14 @@ export const tr: Locale = {
                 ref_code: 'Davet Kodunuz',
                 what_you_get: 'Davetlilerinizden kazandıklarınız',
                 what_they_get: 'Davetlilerinizin kazandıkları',
-                first_benefit: '*{{amount}} ödenen ücretlerden geri kazanım',
-                second_benefit: 'Yatırım ile yüksek getiri oranlarına erişim',
-                third_benefit: '*{{amount}} ödenen ücretlerden geri kazanım',
+                benefits: {
+                    your: {
+                        first: '*{{amount}} ödenen ücretlerden geri kazanım',
+                    },
+                    their: {
+                        first: '*{{amount}} ödenen ücretlerden geri kazanım',
+                    },
+                },
                 best_way_refer: 'En iyi davet yöntemi',
                 send_them_dollar:
                     'Davet kodunuzu içeren bir ödeme bağlantısı gönderin',

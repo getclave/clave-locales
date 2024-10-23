@@ -502,12 +502,17 @@ export const en = {
                 ref_code: 'Your Referral Code',
                 what_you_get: 'What you get?',
                 what_they_get: 'What they get?',
-                first_benefit: '*{{amount}} Cryptoback from fees paid by them',
-                second_benefit: 'High APRs in the Earn',
-                third_benefit: '*{{amount}} Crypto back from fees they pay',
                 best_way_refer: 'Best way to refer',
                 send_them_dollar:
                     'Send them a payment link containing your invite code',
+                benefits: {
+                    your: {
+                        first: '*25% Crypto back from fees paid by them',
+                    },
+                    their: {
+                        first: '*25% Crypto back from fees they pay',
+                    },
+                },
             },
             saved_with_clave: {
                 title: 'Thanks for being a Clave user{{name}}',
