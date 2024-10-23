@@ -512,10 +512,15 @@ export const ru: Locale = {
                 what_they_get: 'Что получит друг?',
                 benefits: {
                     your: {
-                        first: 'До *{{amount}} крипто-кэшбэка от оплаченных ими комиссий',
+                        crypto_back:
+                            'До *{{amount}} крипто-кэшбэка от оплаченных ими комиссий',
+                        referral_benefit:
+                            '*50$ за первые *1000$ средств, которые они пополнят в Earn',
                     },
                     their: {
-                        first: 'До *{{amount}} возврата комиссий',
+                        crypto_back: 'До *{{amount}} возврата комиссий',
+                        referral_benefit:
+                            '*50$ за первые *1000$ средств, которые вы пополните в Earn',
                     },
                 },
                 best_way_refer: 'Лучший способ пригласить',

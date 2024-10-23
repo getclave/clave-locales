@@ -505,12 +505,18 @@ export const en = {
                 best_way_refer: 'Best way to refer',
                 send_them_dollar:
                     'Send them a payment link containing your invite code',
+                your_invitee: 'Your invitees',
+                you_are_invited: 'You are invited by',
                 benefits: {
                     your: {
-                        first: '*25% Crypto back from fees paid by them',
+                        crypto_back: '*25% Crypto back from fees paid by them',
+                        referral_benefit:
+                            '*50$ for the first *1000$ they deposit to Earn',
                     },
                     their: {
-                        first: '*25% Crypto back from fees they pay',
+                        crypto_back: '*25% Crypto back from fees they pay',
+                        referral_benefit:
+                            '*50$ for the first *1000$ you deposit to Earn',
                     },
                 },
             },

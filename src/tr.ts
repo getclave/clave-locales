@@ -509,10 +509,16 @@ export const tr: Locale = {
                 what_they_get: 'Davetlilerinizin kazandıkları',
                 benefits: {
                     your: {
-                        first: '*{{amount}} ödenen ücretlerden geri kazanım',
+                        crypto_back:
+                            '*{{amount}} ödenen ücretlerden geri kazanım',
+                        referral_benefit:
+                            'İlk *1000$ yatırım için *50$ geri kazanım',
                     },
                     their: {
-                        first: '*{{amount}} ödenen ücretlerden geri kazanım',
+                        crypto_back:
+                            '*{{amount}} ödenen ücretlerden geri kazanım',
+                        referral_benefit:
+                            'İlk *1000$ için yatırımınızdan *50$ geri kazanım',
                     },
                 },
                 best_way_refer: 'En iyi davet yöntemi',
