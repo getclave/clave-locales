@@ -534,6 +534,28 @@ export const en = {
                     hold_period: 'Hold Period',
                     claimed: 'Claimed',
                 },
+                referral_bottom_sheet: {
+                    title: 'Referral Program Guides',
+                    back: 'Back',
+                    title1: 'Fair Play Policy',
+                    description1:
+                        'Keep it real! One account per person only. Our security system monitors for duplicate accounts. Any detected violations will result in forfeited rewards.',
+                    title2: 'How to Earn $50 USD',
+                    description2: `Your need to:
+
+- Deposit $1000 in ETH, USDC, USDT, or ZK to Clave Earn
+- Maintain the deposit for 3 days
+- Complete their first deposit within 3 days of signup
+
+Both you and your referral will receive rewards after these conditions are met.`,
+                    title3: 'Program Details',
+                    description3: `- Early Bird Offer: Limited to first 100 new referred users
+- Rewards are processed automatically after conditions are met
+- Clave reserves the right to modify program terms`,
+                    title4: 'Join Our Growing Community!',
+                    description4:
+                        "Thanks for being an amazing member of Clave. Every friend you bring makes our community stronger. Together, we're building something special!",
+                },
             },
             saved_with_clave: {
                 title: 'Thanks for being a Clave user{{name}}',

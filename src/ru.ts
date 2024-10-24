@@ -543,6 +543,18 @@ export const ru: Locale = {
                     hold_period: '__CLAVE',
                     claimed: '__CLAVE',
                 },
+                referral_bottom_sheet: {
+                    title: '__СLAVE',
+                    back: '__СLAVE',
+                    title1: '__СLAVE',
+                    description1: '__СLAVE',
+                    title2: '__СLAVE',
+                    description2: `__СLAVE`,
+                    title3: '__СLAVE',
+                    description3: `__СLAVE`,
+                    title4: '__СLAVE',
+                    description4: '__СLAVE',
+                },
             },
             saved_with_clave: {
                 title: 'Спасибо за то, что вы с Clave{{name}}',
