@@ -504,10 +504,10 @@ export const en = {
                 what_they_get: 'What they get?',
                 your_invitee: 'Your invitees',
                 you_are_invited: 'You are invited by',
-                invited_by_best_user: '__CLAVE',
-                deposit_before: '__CLAVE',
-                hold_period: '__CLAVE',
-                claim_ready: '__CLAVE',
+                invited_by_best_user: 'need to translate',
+                deposit_before: 'need to translate',
+                hold_period: 'need to translate',
+                claim_ready: 'need to translate',
                 claim_rewards: 'Claim Rewards',
                 benefits: {
                     your: {
