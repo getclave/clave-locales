@@ -510,6 +510,13 @@ export const ru: Locale = {
                 ref_code: 'Ваш реферальный код',
                 what_you_get: 'Что вы получите?',
                 what_they_get: 'Что получит друг?',
+                your_invitee: 'Ваши приглашенные',
+                you_are_invited: 'Вас пригласили',
+                invited_by_best_user: '__CLAVE',
+                deposit_before: '__CLAVE',
+                hold_period: '__CLAVE',
+                claim_ready: '__CLAVE',
+                claim_rewards: 'Забрать награды',
                 benefits: {
                     your: {
                         crypto_back:

@@ -502,11 +502,13 @@ export const en = {
                 ref_code: 'Your Referral Code',
                 what_you_get: 'What you get?',
                 what_they_get: 'What they get?',
-                best_way_refer: 'Best way to refer',
-                send_them_dollar:
-                    'Send them a payment link containing your invite code',
                 your_invitee: 'Your invitees',
                 you_are_invited: 'You are invited by',
+                invited_by_best_user: '__CLAVE',
+                deposit_before: '__CLAVE',
+                hold_period: '__CLAVE',
+                claim_ready: '__CLAVE',
+                claim_rewards: 'Claim Rewards',
                 benefits: {
                     your: {
                         crypto_back: '*25% Crypto back from fees paid by them',
@@ -519,6 +521,9 @@ export const en = {
                             '*50$ for the first *1000$ you deposit to Earn',
                     },
                 },
+                best_way_refer: 'Best way to refer',
+                send_them_dollar:
+                    'Send them a payment link containing your invite code',
             },
             saved_with_clave: {
                 title: 'Thanks for being a Clave user{{name}}',

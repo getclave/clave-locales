@@ -507,6 +507,13 @@ export const tr: Locale = {
                 ref_code: 'Davet Kodunuz',
                 what_you_get: 'Davetlilerinizden kazandıklarınız',
                 what_they_get: 'Davetlilerinizin kazandıkları',
+                your_invitee: 'Davetlileriniz',
+                you_are_invited: 'Davet Edildiniz',
+                invited_by_best_user: '__CLAVE',
+                deposit_before: '__CLAVE',
+                hold_period: '__CLAVE',
+                claim_ready: '__CLAVE',
+                claim_rewards: 'Ödülleri Al',
                 benefits: {
                     your: {
                         crypto_back:
