@@ -533,6 +533,16 @@ export const ru: Locale = {
                 best_way_refer: 'Лучший способ пригласить',
                 send_them_dollar:
                     'Отправьте им платёжную ссылку со своим реферальным кодом',
+                status: {
+                    not_eligible: '__CLAVE',
+                    accepted_invite: '__CLAVE',
+                    deposit_pending: '__CLAVE',
+                    deposit_active: '__CLAVE',
+                    deposited_to_earn: '__CLAVE',
+                    ready_to_claim: '__CLAVE',
+                    hold_period: '__CLAVE',
+                    claimed: '__CLAVE',
+                },
             },
             saved_with_clave: {
                 title: 'Спасибо за то, что вы с Clave{{name}}',

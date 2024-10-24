@@ -531,6 +531,16 @@ export const tr: Locale = {
                 best_way_refer: 'En iyi davet yöntemi',
                 send_them_dollar:
                     'Davet kodunuzu içeren bir ödeme bağlantısı gönderin',
+                status: {
+                    not_eligible: '__CLAVE',
+                    accepted_invite: '__CLAVE',
+                    deposit_pending: '__CLAVE',
+                    deposit_active: '__CLAVE',
+                    deposited_to_earn: '__CLAVE',
+                    ready_to_claim: '__CLAVE',
+                    hold_period: '__CLAVE',
+                    claimed: '__CLAVE',
+                },
             },
             saved_with_clave: {
                 title: 'Clave kullanıcısı olduğunuz için teşekkürler{{name}}',
