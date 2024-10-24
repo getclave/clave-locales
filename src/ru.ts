@@ -542,6 +542,7 @@ export const ru: Locale = {
                     ready_to_claim: '__CLAVE',
                     hold_period: '__CLAVE',
                     claimed: '__CLAVE',
+                    ready_to_claim_active: '__CLAVE',
                 },
                 referral_bottom_sheet: {
                     title: '__СLAVE',

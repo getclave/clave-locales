@@ -527,12 +527,14 @@ export const en = {
                 status: {
                     not_eligible: 'Not Eligible',
                     accepted_invite: 'Accepted Invite',
-                    deposit_pending: 'Deposit Pending',
+                    deposit_pending: 'Deposit Required',
                     deposit_active: 'Deposit Active',
                     deposited_to_earn: 'Deposited $1000 to Earn',
                     ready_to_claim: 'Ready to Claim',
                     hold_period: 'Hold Period',
                     claimed: 'Claimed',
+                    ready_to_claim_active:
+                        '$50 welcome reward is waiting for you',
                 },
                 referral_bottom_sheet: {
                     title: 'Referral Program Guides',
