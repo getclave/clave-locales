@@ -536,7 +536,7 @@ export const en = {
                     deposited_to_earn: 'Deposited $1000 to Earn',
                     ready_to_claim: 'Ready to Claim',
                     hold_period: 'Hold Period',
-                    claimed: 'Claimed',
+                    claimed: 'Rewards Claimed',
                     ready_to_claim_active:
                         '$50 welcome reward is waiting for you',
                 },
