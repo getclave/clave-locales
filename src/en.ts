@@ -504,10 +504,14 @@ export const en = {
                 what_they_get: 'What they get?',
                 your_invitee: 'Your invitees',
                 you_are_invited: 'You are invited by',
-                invited_by_best_user: 'need to translate',
-                deposit_before: 'need to translate',
-                hold_period: 'need to translate',
-                claim_ready: 'need to translate',
+                invited_by_best_user:
+                    'One of our best users, unlocked boosted rewards for you!',
+                deposit_before: 'Deposit before {{date}} to qualify',
+                hold_period:
+                    'Keep funds in Earn for 72 hours to qualify for referral rewards',
+                hold_period_active:
+                    'Keep funds in Earn till {{date}} to qualify for referral rewards',
+                claim_ready: '$50 bonus is waiting for you',
                 claim_rewards: 'Claim Rewards',
                 benefits: {
                     your: {

@@ -515,6 +515,7 @@ export const ru: Locale = {
                 invited_by_best_user: 'need to translate',
                 deposit_before: 'need to translate',
                 hold_period: 'need to translate',
+                hold_period_active: 'need to translate',
                 claim_ready: 'need to translate',
                 claim_rewards: 'Забрать награды',
                 benefits: {
