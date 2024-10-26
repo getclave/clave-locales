@@ -552,6 +552,7 @@ export const ru: Locale = {
                     description1: 'need to translate',
                     title2: 'need to translate',
                     description2: `need to translate`,
+                    description2_referree: `need to translate`,
                     title3: 'need to translate',
                     description3: `need to translate`,
                     title4: 'need to translate',

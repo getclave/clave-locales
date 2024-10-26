@@ -550,14 +550,22 @@ export const en = {
                     description2: `Your need to:
 
 - Deposit $1000 in ETH, USDC, USDT, or ZK to Clave Earn
-- Maintain the deposit for 3 days
 - Complete their first deposit within 3 days of signup
+- Maintain the deposit for 3 days
+
+Both you and your referral will receive rewards after these conditions are met.`,
+                    description2_referree: `Your friend needs to:
+
+- Deposit $1000 in ETH, USDC, USDT, or ZK to Clave Earn
+- Complete their first deposit within 3 days of signup
+- Maintain the deposit for 3 days
 
 Both you and your referral will receive rewards after these conditions are met.`,
                     title3: 'Program Details',
                     description3: `- Early Bird Offer: Limited to first 100 new referred users
 - Rewards are processed automatically after conditions are met
 - Clave reserves the right to modify program terms`,
+
                     title4: 'Join Our Growing Community!',
                     description4:
                         "Thanks for being an amazing member of Clave. Every friend you bring makes our community stronger. Together, we're building something special!",
